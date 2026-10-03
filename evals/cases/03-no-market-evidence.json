@@ -1,0 +1,26 @@
+{
+  "id": "03-no-market-evidence",
+  "title": "A market table cannot manufacture facts",
+  "stages": [
+    {
+      "skill": "dlab-step01-market-segment",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Compare two reachable manufacturing segments. There are no source documents and browsing is unavailable. I would love exact market size, ROI and willingness-to-pay figures, but I have no evidence for them.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "unknowns",
+      "rule": "Market size, ROI and willingness to pay remain UNKNOWN or clearly labeled unverified estimates; no fabricated sources or precise figures."
+    },
+    {
+      "id": "limited",
+      "rule": "Discloses the lack of source access and recommends evidence collection before treating demand as established."
+    },
+    {
+      "id": "useful",
+      "rule": "Still produces a provisional Segment Brief with distinct segment candidates, rationale, limitations and a decision gate."
+    }
+  ],
+  "synthetic": true
+}

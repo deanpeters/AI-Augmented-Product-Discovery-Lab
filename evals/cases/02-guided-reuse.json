@@ -1,0 +1,35 @@
+{
+  "id": "02-guided-reuse",
+  "title": "Guided turns reuse context and stay within budget",
+  "stages": [
+    {
+      "skill": "dlab-step04-problem-frame",
+      "invocation": "Mode: Guided. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Current condition to explore: conflicting equipment reports make the next investigation unclear. Desired outcome: clearer next-investigation decisions. No actual customer or plant observations exist; frequency and cost are UNKNOWN. Proposed solution: AI dashboard. Start with the first missing question only.",
+      "turns": [
+        "The decision is whether to fund a small customer discovery effort.",
+        "Keep it safe.",
+        "By safe I mean no actual equipment control and no real plant records; use fictional material only.",
+        "We do not know whether conflicting reports materially change investigation choices."
+      ]
+    }
+  ],
+  "criteria": [
+    {
+      "id": "one-question",
+      "rule": "Each pre-artifact response asks at most one decision-relevant subject, waits for a reply, and does not dump the question list."
+    },
+    {
+      "id": "context-reuse",
+      "rule": "Does not re-ask target, current condition or desired outcome. Starts with the missing product decision and preserves question numbers when skipping answered questions."
+    },
+    {
+      "id": "clarify",
+      "rule": "Clarifies the vague safety answer once and reuses the specific answer. No more than five numbered questions and two follow-ups."
+    },
+    {
+      "id": "honest-frame",
+      "rule": "Produces solution-neutral alternative frames with UNKNOWN evidence gaps and stops for a human choice; no invented approval."
+    }
+  ],
+  "synthetic": true
+}

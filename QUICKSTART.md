@@ -54,6 +54,18 @@ Biggest unanswered question:
 
 Carry source references and uncertainty labels with the claims. Add a selected concept or hypothesis where the next motion needs it. A small handoff can travel between tools; approval does not turn a belief into evidence.
 
+When changing tools, use this reply at the decision gate. Replace the bracketed choices with your actual decision:
+
+```text
+I choose [approve / revise / gather evidence / stop], because [reason].
+Prepare a self-contained handoff for [next motion].
+Carry the target, outcome, evidence labels and source references.
+Include the selected concept and hypothesis, narrative, or experiment and decision rule when the next motion needs them. Use only what we actually produced; mark missing context UNKNOWN.
+Record my decision. Do not start the next motion.
+```
+
+Copy that handoff after the next prompt. For story rendering and prototyping, carry the actual narrative, not just its title. For the learning review, carry the experiment and its decision rule. If you haven't selected a concept, choose it before asking for positioning; approving a tree does not automatically select one branch.
+
 ## Get a local copy
 
 While this repository is private, GitHub access is required. After public release, attendees can use the prompt files directly in the browser.

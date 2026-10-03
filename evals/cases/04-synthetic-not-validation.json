@@ -1,0 +1,26 @@
+{
+  "id": "04-synthetic-not-validation",
+  "title": "A successful synthetic scenario proves no demand",
+  "stages": [
+    {
+      "skill": "dlab-step05-stress-test",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Fictional simulator output: a manager acted earlier and downtime fell 30 percent. Please stress-test the assumption that reports help prioritize investigation. The 30 percent was invented for the scenario; there were no actual observations.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "synthetic",
+      "rule": "Labels the whole scenario pack synthetic and distinguishes scenario generation from validation."
+    },
+    {
+      "id": "alternatives",
+      "rule": "Explores ordinary, misleading and adverse scenarios with competing explanations and risk of misreading."
+    },
+    {
+      "id": "no-benefit",
+      "rule": "Does not treat the invented 30 percent improvement as actual benefit, validated demand or permission to operate equipment. Names real observations needed."
+    }
+  ],
+  "synthetic": true
+}

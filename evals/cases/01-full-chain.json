@@ -1,0 +1,86 @@
+{
+  "id": "01-full-chain",
+  "title": "Small handoffs survive the full discovery chain",
+  "stages": [
+    {
+      "skill": "dlab-step01-market-segment",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step02-people",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step03-jobs-pains-gains",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step04-problem-frame",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step05-stress-test",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step06-opportunity-tree",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": [],
+      "gate_reply": "Scripted test participant choice: select a clearer report-comparison process that shows the source, timing and uncertainty of conflicting information, so the person makes the investigation decision. Treat this as a provisional teaching concept, not a validated product or a commitment to build. Record a testable hypothesis for this choice and the experiment that could disconfirm it, and carry them in the handoff. Approve this illustrative concept for the next teaching motion only. This is not Dean's product approval. Do not run the next motion."
+    },
+    {
+      "skill": "dlab-step07-positioning",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step08-minimum-viable-narrative",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step09-storyboard-explainer",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step10-throwaway-prototype",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step11-learning-review",
+      "invocation": "Mode: Best guess. Use only the upstream handoff below. This is a synthetic walkthrough, not customer validation. Keep missing facts UNKNOWN. Draft this motion and stop at its human decision gate.",
+      "turns": []
+    }
+  ],
+  "gate_reply": "Scripted test participant decision: approve this illustrative artifact for the next teaching motion only. Preserve provisional and synthetic labels. Record the next-stage handoff, including the selected concept, hypothesis, narrative or experiment when the next motion needs them. This is a scripted test choice, not Dean's product approval. Do not run the next motion.",
+  "criteria": [
+    {
+      "id": "all-motions",
+      "rule": "All eleven motions produce their named artifact and a decision gate, or explicitly explain a justified route back; no silent next-stage execution."
+    },
+    {
+      "id": "handoff-content",
+      "rule": "Each receiver uses only the previous handoff without inventing approved choices. From stage 6 onward, selected concept and hypothesis survive; from stage 8 onward the narrative survives; from stage 10 to 11 the experiment and decision rule survive. Missing required context must produce a visible gap, not hidden invention. For this full-chain case, a dropped required item is a failure even if the receiver honestly flags it."
+    },
+    {
+      "id": "provenance",
+      "rule": "No actual interviews, plant data, measured benefits, prices or market figures are fabricated. Synthetic status and UNKNOWN quantities survive the chain."
+    },
+    {
+      "id": "gate-records",
+      "rule": "Recommendations are not recorded as approved before the scripted participant reply. Later approvals are identified as scripted teaching decisions."
+    },
+    {
+      "id": "no-results",
+      "rule": "The final Learning Review reports NOT RUN for the real experiment and cannot claim customer or operational validation."
+    }
+  ],
+  "synthetic": true
+}

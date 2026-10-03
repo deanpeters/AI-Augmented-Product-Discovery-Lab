@@ -32,6 +32,8 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 4. Which constraints are actually fixed?
 5. What unknown could overturn this frame?
 
+For this frame, a concrete actor, current condition and desired outcome already supplied satisfy those questions. Missing frequency, cost, baseline or target measurements stay UNKNOWN; they do not justify asking the person to restate the condition or outcome. Ask a narrower follow-up only when a contradiction or ambiguous boundary would change the frame. A discovery-direction decision does not require measured success criteria before framing.
+
 ## Numbered work
 
 Run these steps visibly. In Guided mode, keep draft sections editable as answers arrive. Do not hide the reasoning inside one final canvas dump.

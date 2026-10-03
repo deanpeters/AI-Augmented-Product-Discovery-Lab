@@ -17,7 +17,9 @@ Market → People → Jobs / Pains / Gains → Problem Frame
        → Positioning → Narrative → Story → Prototype → Learning
 ```
 
-The repo starts privately while we prepare Monday's attendee release. The chain interface is defined; an autonomous runner is not implemented. Mechanical checks pass; model behavior and full live rehearsal remain to be evaluated. See [readiness](docs/READINESS.md), [chain behavior](docs/CHAIN.md) and [provenance](docs/PROVENANCE.md).
+The repo starts privately while we prepare Monday's attendee release. The chain interface is defined; an autonomous runner is not implemented. Mechanical checks pass; the synthetic use-case results are [recorded](evals/RESULTS.md). Human usability and full live rehearsal remain to be evaluated. See [readiness](docs/READINESS.md), [chain behavior](docs/CHAIN.md) and [provenance](docs/PROVENANCE.md).
+
+Keep the motions honest with [seven runnable use-case tests](evals/README.md). Run `./scripts/test-library.sh` for mechanical checks, or run a case through Claude to test actual behavior and handoffs.
 
 The sections below preserve the original show brief. Agent strategy and broader economics are optional teaching ideas there; the current runnable catalog follows the SHOWRUN arc, with economics and hypothesis work inside the opportunity motion.
 
