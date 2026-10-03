@@ -172,7 +172,7 @@ function handoffCard(s, values, x, y, w, h) {
     T(s, who, { x: 1.6, y: y + 0.17, w: 4.2, h: 0.45, fontFace: F.head, fontSize: 20, color: WHITE, valign: "middle", objectName: `Case name ${i + 1}` });
     T(s, lesson, { x: 5.85, y: y + 0.17, w: 6.85, h: 0.45, fontSize: 17, color: MUTED, valign: "middle", objectName: `Case lesson ${i + 1}` });
   });
-  s.addNotes("Spoken opening. Five cases, one line each, then leave the slide. Do not research cases on stage. Sources are in notebook/hall-of-shame-sources.md. Facts: Relay.app shut down in 2026 (relay.app). Humane AI Pin discontinued Feb 2025 after HP bought assets for $116M (TechCrunch, Feb 18 2025). Google paused Gemini image generation of people, Feb 23 2024 (blog.google). Air Canada held liable for its chatbot, Moffatt v. Air Canada, 2024 BCCRT 149. Zillow wound down Zillow Offers, Q3 2021 shareholder letter, Nov 2 2021. The one-line lessons are Dean's interpretation (INFERRED), not claims the sources make.");
+  s.addNotes("Spoken opening. Five cases, one line each, then leave the slide. Do not research cases on stage. Sources are in notebook/hall-of-shame-sources.md. Facts: Relay.app shut down in 2026 (relay.app). Humane AI Pin discontinued Feb 2025 after HP bought assets for $116M (TechCrunch, Feb 18 2025). Google paused Gemini image generation of people, Feb 23 2024 (blog.google). Air Canada held liable for its chatbot, Moffatt v. Air Canada, 2024 BCCRT 149, issued Feb 14 2024, $812.02 ordered. Zillow wound down Zillow Offers, Q3 2021 shareholder letter, Nov 2 2021. The one-line lessons are Dean's interpretation (INFERRED), not claims the sources make.");
 }
 
 // ---------- 2. Starting request ----------
