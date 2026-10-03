@@ -8,31 +8,35 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
+## Solution summary
+
+[One or two sentences about the chosen or provisional solution and expected outcome; label untested benefits. No concept choice is implied.]
+
 ## Persona, hypothesis and reaction question
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 1: context
+## Frame 1: who has the problem
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 2: trigger
+## Frame 2: what is the problem
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 3: action
+## Frame 3: the oh crap moment
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 4: response
+## Frame 4: the solution arrives
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 5: new action
+## Frame 5: the person uses the solution
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 6: consequence
+## Frame 6: the person helps others enjoy the same success
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 

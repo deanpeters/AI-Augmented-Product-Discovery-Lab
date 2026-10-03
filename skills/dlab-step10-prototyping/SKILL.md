@@ -1,9 +1,9 @@
 ---
 name: dlab-step10-prototyping
-description: "Choose the cheapest fidelity that tests an approved narrative and hypothesis, then create a bounded prototype brief. Build only after an explicit human request."
+description: "Choose the smallest, cheapest test that can reveal the most brutal truth about the riskiest assumption. Create a bounded experiment brief; build only after an explicit human request."
 metadata:
   author: "Dean Peters"
-  version: "0.2.0"
+  version: "0.3.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "10"
@@ -11,9 +11,9 @@ metadata:
   intent: "Prototype to learn, and stop when a cheaper method answers the question. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence."
   audience: "Product Managers; founders; product teams"
   operating-level: "product-team; initiative"
-  argument-hint: "Approved Minimum Viable Narrative, persona, hypothesis, task, prior decision rule and boundaries. A standalone brief is allowed if equivalent context is supplied."
-  best-for: "Choose the cheapest fidelity that tests an approved narrative and hypothesis, then create a bounded prototype brief. Build only after an explicit human request."
-  evidence-required: "Approved Minimum Viable Narrative, persona, hypothesis, task, prior decision rule and boundaries. A standalone brief is allowed if equivalent context is supplied."
+  argument-hint: "Direct concept/story notes or an optional MVN, actor, learning question and boundaries. Draft missing task or rule provisionally; approval to build remains a separate human decision."
+  best-for: "Choose the smallest, cheapest test that can reveal the most brutal truth about the riskiest assumption. Create a bounded experiment brief; build only after an explicit human request."
+  evidence-required: "Direct concept/story notes or an optional MVN, actor, learning question and boundaries. Draft missing task or rule provisionally; approval to build remains a separate human decision."
   produces: "Prototype Experiment Brief; claim ledger; human decision; small handoff"
   estimated-time: "15-30 minutes for a working session; planning estimate, not demo timing"
   group-size: "1-8; planning guidance"
@@ -37,17 +37,19 @@ metadata:
 
 Prototype to learn, and stop when a cheaper method answers the question. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence.
 
-Input: Approved Minimum Viable Narrative, persona, hypothesis, task, prior decision rule and boundaries. A standalone brief is allowed if equivalent context is supplied.
+Input: Direct concept/story notes or an optional MVN, actor, learning question and boundaries. Draft missing task or rule provisionally; approval to build remains a separate human decision.
 
 Example invocation: `Use $dlab-step10-prototyping with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -57,9 +59,9 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 
 ## Guided questions
 
-1. What can interaction teach us that a cheaper artifact cannot?
+1. What is the most brutal truth that could make us stop or change this idea?
 2. What task should the person attempt?
-3. What is the smallest interaction worth testing?
+3. What is the smallest, cheapest test that could expose that truth?
 4. What data and action boundaries are fixed?
 5. What observations will support revise, stop or another test?
 
@@ -67,15 +69,15 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 ## Numbered work
 
-1. Compare interview, paper, storyboard and interactive fidelity against the specific learning question. Recommend the cheaper option when interaction adds no information.
+1. Ask: "What is the smallest, cheapest test we can run to learn the most brutal truth?" Name the riskiest assumption and the observation that would make us stop or change direction. Compare a recent-decision conversation, storyboard or wireframe task, concierge test, bounded interaction or technical probe according to the truth each could expose, cost and access. Tiniest act of discovery wins. Lo-fi wins on the fidelity ladder when it can discriminate the assumption. Do not select a method merely because it is cheap: a pleasant reaction or comprehension check cannot establish adoption, willingness to pay or technical feasibility.
 2. Define participant context, one task, expected and disconfirming observations and the rule before testing. Preserve the upstream hypothesis and rule or explicitly propose a revision for human approval.
-3. Generate a portable builder prompt carrying the actual narrative, positioning, hypothesis and boundaries. Use fictional data and disposable local HTML/CSS/JS where sufficient; no automatic external actions or plant access.
+3. Generate a portable builder prompt carrying the actual narrative, positioning, hypothesis and boundaries. When an MVN is supplied, preserve its internal 3-6 numbered human action/system response transactions, continuations and exit condition; do not flatten them into a single exchange. Use fictional data and disposable local HTML/CSS/JS where sufficient; no automatic external actions or plant access.
 4. Produce the brief and stop for the human fidelity/build choice. Mark NOT BUILT until an actual build is requested and completed. If building is authorized, report the actual files and implementation checks without claiming production readiness.
 5. Record experiment status separately: NOT RUN without participant observations. If an experiment actually runs, compare recorded observations with the prewritten rule and recommend revise, stop or another test. Close with an evidence task; there is no added eleventh learning-review skill.
 
 ## Output: Prototype Experiment Brief
 
-- Hypothesis and learning question
+- Hypothesis, riskiest assumption and brutal truth to expose
 - Narrative carried forward
 - Fidelity comparison and choice
 - Participant task and context
@@ -87,7 +89,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:

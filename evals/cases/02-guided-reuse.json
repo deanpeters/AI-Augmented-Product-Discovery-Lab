@@ -30,6 +30,10 @@
     {
       "id": "honest-persona",
       "rule": "Produces a situational Persona with jobs/pains/gains, workaround, stakes/constraints and evidence limits. No decorative demographics, invented observations or approval. Stops at a human gate."
+    },
+    {
+      "id": "persona-canvas-fields",
+      "rule": "Preserves Name, Portrait, Bio & Demographics, Quotes, Desired Outcomes / Goals and Needs / Pains fields. No decorative demographics or fabricated customer quotation; unknown/placeholder values allowed."
     }
   ]
 }

@@ -43,11 +43,13 @@ Example invocation: `Use $dlab-step01-market-intel with my context. Stop at the 
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -71,7 +73,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 2. Map plausible demand contexts, incumbents, substitutes, workarounds, buyer relationships and shifts. Keep distinct market signals separate rather than forcing a winning segment.
 3. When research is requested and available, collect primary sources with direct URLs, publication dates and accessed dates. Record conflicts and collapse repeated same-origin claims; source volume is not corroboration.
 4. Separate sourced observations from interpretation and estimates. Never fill market size, growth, price or willingness-to-pay cells by invention. Without source access, disclose the limitation and produce a research plan plus provisional landscape.
-5. Summarize candidate segment dimensions and evidence gaps for Segment. Recommend whether to investigate further; do not silently select the target segment.
+5. Summarize candidate segment dimensions and evidence gaps for Segment. Carry any actual population counts with counting unit, geography, reference year and source/table IDs, industry intersections/service filters, and competitive disclosures with their limitations; mark absent inputs UNKNOWN. Recommend whether to investigate further; do not silently select the target segment.
 
 ## Output: Market Intelligence Brief
 
@@ -80,12 +82,13 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Signals and shifts
 - Candidate segment dimensions
 - Source register
+- Sizing inputs for Segment: population/unit/scope, industry filters and competitive evidence, with actual source IDs or UNKNOWN gaps
 - Conflicting evidence and gaps
 - Research recommendation
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:

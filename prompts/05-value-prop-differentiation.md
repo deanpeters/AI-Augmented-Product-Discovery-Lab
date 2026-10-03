@@ -6,21 +6,27 @@ Instructions, template and examples are included. No repository access or skill 
 ````text
 # Value Prop vs. Differentiation 2x2
 
+## Supplied canvas relationship
+
+The Productside positioning canvas combines a competitive matrix with statement clauses. Here they remain two independently callable motions. Its general matrix allows benefit-defined axes; Dean's lab uses customer value versus meaningful differentiation for the bake-off. Preserve this shared frame unless the person explicitly chooses different axes. Include direct and indirect alternatives where relevant; never assume our product is best on both axes.
+
 ## Purpose and input
 
 Compare two independent questions: does this proposed value matter to the persona, and is the concept meaningfully different from the real alternative? A quadrant is a discussion aid, not proof or a moat claim.
 
-Input: Human-selected opportunity and concept, persona, desired outcome, alternatives and evidence. If no concept was chosen, pause for selection.
+Input: Solution candidates from an OST or direct notes; audience, desired outcome, competitor offerings, current workaround and available evidence. No OST file or prior winner is required.
 
 Example invocation: `Use $dlab-step05-value-prop-differentiation with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -30,7 +36,7 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 
 ## Guided questions
 
-1. Which selected concept and persona are we comparing?
+1. Which solution candidates or competitor offerings should we compare for which audience?
 2. What progress would make the proposed value matter?
 3. Which real alternative or workaround is the comparison against?
 4. What evidence supports value and meaningful difference separately?
@@ -40,26 +46,24 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 ## Numbered work
 
-1. Define horizontal axis as proposed customer value (low to high) and vertical axis as meaningful differentiation versus the named alternative (low to high). Define what low/high mean in this case before placing concepts.
-2. Compare the selected concept with alternatives using separate evidence for value and differentiation. Novel technology is not inherently differentiation; a distinct mechanism can still be irrelevant.
-3. Populate the four quadrants: low value/low difference; high value/low difference; low value/high difference; high value/high difference. Mark positions provisional when evidence is absent; UNKNOWN does not become low.
-4. Explain confidence, tradeoffs and the evidence needed to move a candidate. Do not assign numerical scores, validated willingness to pay or defensibility without support.
-5. Recommend retain, revise, gather evidence or stop. Carry the selected concept, proposed value, proposed difference, comparator and unresolved proof into the Positioning Statement.
+1. Reuse available OST solutions and their opportunity/experiment links, or collect candidates from direct notes. Give each a stable ID: S for proposed solutions, C for competitor offerings, B for the current workaround. Preserve provenance; newly proposed candidates are explicitly provisional. Compare related solutions together; separate maps for unrelated audiences or outcomes. No completed tree, artifact schema or prior concept selection is required.
+2. Fix one audience, outcome and common comparator before mapping. Horizontal axis: proposed customer value, low to high, defined by progress toward that outcome. Vertical axis: meaningful differentiation from the same named baseline, low to high, defined by a relevant capability or mechanism. Use the status quo as the baseline when useful. Do not change the baseline per candidate or compare a rival against itself. The baseline has no difference from itself by definition, but its value still needs assessment.
+3. Map candidate solutions AND competitor offerings on the same four quadrants. Compare specific offerings for the same job, not company logos. Keep value and differentiation evidence separate for each point. Preserve supplied rival sources, dates and gaps; research only material gaps when browsing is available and appropriate. Do not invent competitor capabilities. Mark qualitative positions conditional when assumed; leave UNKNOWN axes unplaced or show a range. UNKNOWN is not low. Not every quadrant needs a point.
+4. Explain tradeoffs, uncertainty and the cheapest observation that could change each placement. Novel technology is not inherently meaningful differentiation. Do not fabricate coordinates, measured value, willingness to pay or defensibility. High/high is a hypothesis worth testing, not an automatic winner or moat.
+5. Recommend a shortlist, revision, evidence task or stop, with reasons. Wait for the human to choose; the shortlist may contain several concepts. If positioning is next, offer the chosen candidate descriptions, value/difference assessments, common comparator and proof gaps as useful context. A matrix does not record an approval by itself.
 
 ## Output: Value Prop vs. Differentiation 2x2
 
-- Concept, persona and comparator
-- Axis definitions
-- Low value / low differentiation
-- High value / low differentiation
-- Low value / high differentiation
-- High value / high differentiation
-- Evidence and confidence
-- Decision and next evidence
+- Audience, outcome and common comparator
+- Candidate inventory: solution / competitor offering / workaround, ID, source, opportunity link if available
+- Axis definitions and four-quadrant map with conditional or unplaced points
+- Per-candidate value evidence, differentiation evidence and confidence
+- Bake-off tradeoffs and provisional shortlist
+- Human choice and next evidence task
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
@@ -88,7 +92,7 @@ Use the [artifact template](#artifact-template) when drafting. Consult the [synt
 
 # Value Prop vs. Differentiation 2x2
 
-Lab adaptation, not an authoritative Productside canvas.
+Lab adaptation, not an authoritative Productside canvas. OST outputs are optional; direct notes are sufficient to start.
 
 - Date:
 - Built from:
@@ -96,46 +100,40 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
-## Concept, persona and comparator
+## Audience, outcome and common comparator
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+- Audience and situation:
+- Desired progress:
+- Shared baseline/workaround:
+- Low/high value definitions:
+- Low/high meaningful difference definitions against that baseline:
 
-## Axis definitions
+## Candidate inventory
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| ID | Solution / competitor offering / workaround | Description | Opportunity link, if available | Source or assumption |
+|---|---|---|---|---|
+| S1 | Solution | | Optional | |
+| C1 | Competitor offering | | Optional | |
+| B0 | Workaround / shared baseline | | Optional | |
 
 ## The 2x2
 
-| Meaningful differentiation against the named alternative | Low proposed customer value | High proposed customer value |
+| Difference versus the shared baseline | Low proposed customer value | High proposed customer value |
 |---|---|---|
-| High | [Distinct but weak value; supply evidence and confidence] | [Potentially useful and distinct; both axes need evidence] |
-| Low | [Neither value nor difference supported; do not confuse UNKNOWN with low] | [Potentially useful but similar to the alternative] |
+| High | Distinct but weak value: [IDs, basis] | Potentially useful and distinct: [IDs, basis] |
+| Low | Weak on both axes: [IDs, basis] | Useful but similar: [IDs, basis] |
 
-Use UNKNOWN or conditional placement when evidence is missing. The matrix does not establish a moat.
+Unplaced or conditional candidates: [IDs and missing axis evidence]. Empty quadrants are allowed. UNKNOWN does not mean low. Do not imply measured coordinates or a moat.
 
-## Low value / low differentiation
+## Evidence and bake-off
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| ID | Value assessment and evidence | Difference assessment and evidence | Confidence / limitation | Cheapest placement-changing test |
+|---|---|---|---|---|
+| | | | | |
 
-## High value / low differentiation
+## Provisional shortlist and tradeoffs
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## Low value / high differentiation
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## High value / high differentiation
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## Evidence and confidence
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## Decision and next evidence
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Recommend compare/test/revise/stop; multiple candidates can remain. Explain why and what could overturn the recommendation.]
 
 ## Claim ledger
 
@@ -146,12 +144,12 @@ Use UNKNOWN or conditional placement when evidence is missing. The matrix does n
 ## Human decision
 
 - Recommendation and tradeoff:
-- Selected option: not recorded
+- Selected option or shortlist: not recorded
 - Reason:
 - Unresolved disagreement:
 - Next motion or evidence task:
 
-## Small handoff
+## Optional small handoff
 
 ```text
 Target:
@@ -162,109 +160,87 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
-Carry the actual downstream-required content, not just its title.
+Include useful candidate descriptions, comparator and evidence gaps. These fields help carry context; they are not prerequisites for another skill.
 
 # Worked example
 
-# Value Prop vs. Differentiation 2x2
+# Worked example: bake off solutions and a competitor offering
 
-Lab adaptation, not an authoritative Productside canvas.
+SYNTHETIC teaching fixture. All offerings, evidence and placements below are fictional assumptions, not observations or market research. Status DRAFT; decider not recorded. Built from fixture F1, authored for this example; date: teaching session.
 
-- Date: 2026-10-02
-- Built from: authored fictional manufacturing fixture
-- Status: DRAFT
-- Decider: not recorded
-- Synthetic status: SYNTHETIC; no observed customer or plant evidence
+## Audience, outcome and common comparator
 
-## Concept, persona and comparator
+Maintenance managers deciding the next investigation when equipment reports conflict. Outcome: explain the next investigation with less avoidable uncertainty. Common baseline B0: technician discussion and manual log review.
 
-SYNTHETIC report comparison for a maintenance manager versus log review and technician discussion; actual adoption UNKNOWN.
+Horizontal value: high means plausibly improves that decision; low means little progress on this particular job. Vertical difference: high means a meaningfully different way to resolve uncertainty from B0; low means largely the same mechanism. Both are qualitative hypotheses.
 
-## Axis definitions
+## Candidate inventory
 
-Horizontal: relevance to a clearer next-investigation decision. Vertical: meaningful difference from the named workaround. Both judged qualitatively with basis stated.
+| ID | Type | Description | Optional opportunity link | Basis |
+|---|---|---|---|---|
+| S1 | Proposed solution | Paper report comparison with source, recency and uncertainty | O1 understand conflicting reports | F1 fictional OST candidate |
+| S2 | Proposed solution | Digital report comparison exposing the same context | O1 | F1 fictional OST candidate |
+| S3 | Proposed solution | Investigation permission/handoff checklist | O2 reduce coordination ambiguity | F1 fictional OST candidate |
+| C1 | Fictional competitor offering | Rival Compare: linked report sources with recency context | Same decision job; no actual competitor claim | F1 fictional rival description |
+| B0 | Current workaround / baseline | Technician discussion and manual log review | Same decision job | F1 fictional practice |
 
 ## The 2x2
 
-SYNTHETIC comparison. These cells illustrate conditional reasoning; the selected concept is not proven to occupy a winning quadrant.
-
-| Meaningful differentiation against log review and technician discussion | Low proposed customer value | High proposed customer value |
+| Difference versus B0 | Low proposed value | High proposed value |
 |---|---|---|
-| High | Fictional novel visual treatment with no decision effect | Source/recency comparison ONLY IF useful and absent from current practice; both UNKNOWN |
-| Low | No candidate established; evidence gaps do not demonstrate low value | Possible useful worksheet IF it helps, but duplicates current practice; untested |
+| High | No supported placement | S2, C1 conditional: source-link mechanism may help |
+| Low | No supported placement | S1 conditional: useful structured comparison with modest difference |
 
-## Low value / low differentiation
+S3 is unplaced: if coordination is the actual obstacle, it could outperform the report concepts. B0 has low difference from itself by definition; value UNKNOWN. S2 and C1 sharing a conditional quadrant shows no established advantage for S2 over C1. Rival-relative superiority needs a separate comparison; this map cannot establish it.
 
-No candidate established here; UNKNOWN evidence is not proof of low value.
+## Evidence and bake-off
 
-## High value / low differentiation
+| ID | Proposed value | Proposed difference | Confidence / limitation | Cheapest test |
+|---|---|---|---|---|
+| S1 | May clarify conflicting reports | Modest change to existing discussion | ESTIMATE / BEST GUESS; no observed benefit | Storyboard task comparison with real practitioners |
+| S2 | May clarify conflicting reports | Linked sources may change investigation explanation | ESTIMATE / BEST GUESS; digital fidelity may add no value | Compare storyboard S1 with a low-fidelity S2 story |
+| S3 | May resolve permission delays instead | UNKNOWN relevance to this outcome | UNKNOWN root cause | Examine a recent decision for permission barriers |
+| C1 | Claimed source/recency support | Similar hypothesized mechanism to S2 | F1 fictional description, not competitor proof | In a real run inspect the specific rival offering |
+| B0 | UNKNOWN effectiveness | None against itself by definition | Fictional practice only | Observe current decision process |
 
-Possible comparison worksheet if useful but similar to current practice; placement provisional.
+## Provisional shortlist and tradeoffs
 
-## Low value / high differentiation
-
-Novel automated visual treatment that does not change the decision; fictional contrast, not a researched competitor.
-
-## High value / high differentiation
-
-Candidate source/recency comparison only IF useful and materially absent from current alternatives. Both conditions untested.
-
-## Evidence and confidence
-
-No customer or competitor sources. Selected concept remains unplaced or conditionally placed, not a proven winner.
-
-## Decision and next evidence
-
-DRAFT: investigate value and difference separately before claiming an advantage.
+Recommend testing S1 and S3 before investing in S2: cheap report-uncertainty and coordination probes discriminate competing explanations. C1 challenges a uniqueness claim but provides no validated evidence. No automatic winner.
 
 ## Claim ledger
 
-| Claim | Evidence label | Source or basis | Date | Limitation |
+| Claim | Label | Basis | Date | Limitation |
 |---|---|---|---|---|
-| Making source, timing and uncertainty visible could matter, but advantage over current practice is UNKNOWN. | ESTIMATE / BEST GUESS | Authored fictional fixture | 2026-10-02 | Not observed or validated |
-| Commercial value and operational benefit | UNKNOWN | No evidence supplied | 2026-10-02 | No measured baseline, pricing or experiment results |
+| Source/recency context could help explain an investigation | ESTIMATE / BEST GUESS | F1 | Teaching session | No actual users or observed result |
+| Coordination could be the barrier | ESTIMATE / BEST GUESS | F1 | Teaching session | Competing hypothesis |
+| Rival Compare exposes source context | ESTIMATE / BEST GUESS | F1 fictional offering | Teaching session | Not a claim about a real company |
 
 ## Human decision
 
-Recommendation: review this illustrative artifact, then choose revise, gather evidence, approve a bounded next motion or stop. Selected option and decider: not recorded. No approval inferred.
+Recommendation: compare S1 and S3 cheaply. Selected option: not recorded. Decider: not recorded. Next task: ask the person to select a shortlist or evidence task; participant experiment NOT RUN.
 
-## Small handoff
+## Optional small handoff
 
-Target: maintenance managers in mid-sized manufacturing plants; SYNTHETIC provisional target.
-What we believe: Making source, timing and uncertainty visible could matter, but advantage over current practice is UNKNOWN. (ESTIMATE / BEST GUESS).
-Evidence: none; fictional fixture only.
-What is inferred: a possible discovery direction, not validated demand.
-Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
-Biggest unanswered question: Does the comparison change a decision, and is that value missing from existing workarounds?
-
-## Content to carry with this handoff
-
-- **Concept, persona and comparator:** SYNTHETIC report comparison for a maintenance manager versus log review and technician discussion; actual adoption UNKNOWN.
-- **Axis definitions:** Horizontal: relevance to a clearer next-investigation decision. Vertical: meaningful difference from the named workaround. Both judged qualitatively with basis stated.
-- **Low value / low differentiation:** No candidate established here; UNKNOWN evidence is not proof of low value.
-- **High value / low differentiation:** Possible comparison worksheet if useful but similar to current practice; placement provisional.
-- **Low value / high differentiation:** Novel automated visual treatment that does not change the decision; fictional contrast, not a researched competitor.
-- **High value / high differentiation:** Candidate source/recency comparison only IF useful and materially absent from current alternatives. Both conditions untested.
-- **Evidence and confidence:** No customer or competitor sources. Selected concept remains unplaced or conditionally placed, not a proven winner.
-- **Decision and next evidence:** DRAFT: investigate value and difference separately before claiming an advantage.
+```text
+Target: Maintenance managers facing conflicting reports, fictional context.
+What we believe: S1 storyboard comparison and S3 coordination checklist merit cheap contrasting tests; neither selected yet.
+Evidence: No actual customer or competitor evidence; fixture F1 only.
+What is inferred: Report uncertainty or coordination may explain the difficulty; S2 has no established advantage over fictional C1.
+Desired outcome: Explain the next investigation with less avoidable uncertainty.
+Biggest unanswered question: Which obstacle dominates actual decisions?
+```
 
 # Weak example
 
-# Weak Value Prop vs. Differentiation 2x2 example and repair
+# Weak example and repair
 
-SYNTHETIC teaching anti-example. Do not imitate this output.
+SYNTHETIC illustration, not a completed evaluation.
 
-> We use AI, so we are high value, high differentiation and have a moat.
+Weak: “Pick one OST solution first. Our AI dashboard is 9.8/10 on both axes. CompetitorCo is low value because it lacks our AI. The matrix proves a moat.”
 
-## Why it fails
+Failures: excludes the portfolio before the bake-off; ranks a company rather than an offering; invents a rival capability and numerical certainty; equates novelty with value; changes comparison standards; treats placement as approval.
 
-Technology substitutes for customer value, comparison evidence and defensibility.
-
-## Repair
-
-Name the alternative, judge the axes separately, and mark unsupported placement conditional or UNKNOWN.
-
-Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+Repair: accept S1/S2/S3 from the OST or plain notes without a prior winner. Name one audience, outcome and baseline. Include the specific C1 offering and B0 workaround. Assess both axes independently with source/basis labels. Keep missing capabilities or outcomes UNKNOWN and unplaced. A conditional high/high point is a hypothesis, not a winner. Offer a shortlist and wait for the person's choice.
 
 Begin this motion now using the context I provide.
 ````

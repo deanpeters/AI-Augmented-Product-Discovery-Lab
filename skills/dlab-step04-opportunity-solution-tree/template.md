@@ -28,7 +28,7 @@ Lab adaptation, not an authoritative Productside canvas.
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Branch choice
+## Portfolio choice
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 

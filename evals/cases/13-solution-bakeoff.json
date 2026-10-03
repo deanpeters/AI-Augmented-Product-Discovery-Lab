@@ -1,0 +1,30 @@
+{
+  "id": "13-solution-bakeoff",
+  "title": "OST portfolio and competitors share an honest comparison frame",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step05-value-prop-differentiation",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching fixture, no browsing or external actions. Maintenance managers want clearer next-investigation decisions with conflicting reports. Fictional OST: O1 report uncertainty has S1 storyboard source/recency comparison and S2 digital linked report comparison; O2 permission barriers has S3 handoff checklist. No winner selected. C1 fictional Rival Compare offers linked sources and recency. C2 fictional OtherTool has no supplied capability evidence. B0 technician discussion/manual log review. Bake off all candidates and rivals on the value vs differentiation 2x2; nothing validated. Stop for my decision.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "portfolio",
+      "rule": "Keeps S1/S2/S3 and opportunity links available for comparison; does not demand a preselected winner."
+    },
+    {
+      "id": "common-frame",
+      "rule": "Uses one audience/outcome and common B0 baseline for all points including specific rival offerings C1/C2; baseline difference from itself is zero by definition, value still unknown."
+    },
+    {
+      "id": "uncertainty",
+      "rule": "Separates both axes per candidate; C2 unsupported capabilities remain UNKNOWN/unplaced. No fabricated scores, demand, competitive superiority or moat. Empty quadrants allowed."
+    },
+    {
+      "id": "decision",
+      "rule": "Offers tradeoffs, cheapest discriminating tests and a provisional shortlist that may include several concepts; waits for human choice."
+    }
+  ]
+}

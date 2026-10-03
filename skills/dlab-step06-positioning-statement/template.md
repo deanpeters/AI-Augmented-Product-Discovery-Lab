@@ -1,6 +1,6 @@
 # Positioning Statement
 
-Lab adaptation, not an authoritative Productside canvas.
+Text adaptation aligned with the supplied Productside Competitive Matrix / Positioning Statement canvas; supporting evidence sections extend the reference.
 
 - Date:
 - Built from:
@@ -18,7 +18,15 @@ Lab adaptation, not an authoritative Productside canvas.
 
 ## Statement
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+- **For:** [Target customer.]
+- **Who:** [Statement of opportunity / unmet need.]
+- **The:** [Product name, provisional if unnamed.]
+- **Is a:** [Product category.]
+- **That:** [Key benefit the persona cares about.]
+- **Unlike:** [Primary direct/indirect competitive alternative or workaround.]
+- **Our product gives:** [Primary meaningful differentiation.]
+
+Keep benefits distinct from features. Unsupported superiority remains unproven. A supplied 2x2 can inform these clauses; direct notes are sufficient.
 
 ## Alternative and proposed difference
 

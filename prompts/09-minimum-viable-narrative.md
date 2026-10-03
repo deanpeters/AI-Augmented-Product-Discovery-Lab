@@ -8,19 +8,21 @@ Instructions, template and examples are included. No repository access or skill 
 
 ## Purpose and input
 
-Turn the selected storyboard into the smallest coherent narrative worth testing. Preserve the six-part action → response → new action loop and prepare portable descriptive context for prototyping.
+Describe the smallest story worth testing: Setup, Encounter, an internal loop of 3-6 human action/system response transactions, then Resolution. Preserve the loop in the portable prototype prompt.
 
-Input: Actual selected six-frame storyboard, persona, solution hypothesis, positioning and learning question. A storyboard title alone is insufficient.
+Input: Story context, actor and learning question; a storyboard, hypothesis or positioning may be supplied but is optional. Preserve supplied frames or draft a newly provisional narrative from direct notes.
 
 Example invocation: `Use $dlab-step09-minimum-viable-narrative with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -30,9 +32,9 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 
 ## Guided questions
 
-1. Which approved storyboard and hypothesis should this narrative preserve?
+1. What supplied story or direct context and learning question should this narrative preserve?
 2. Who is the audience for the story and what should they understand?
-3. What action-response-new-action loop is essential?
+3. Which 3-6 human action/system response transactions are essential, and how does each response prompt the next action?
 4. What can be removed without losing the learning question?
 5. What must the prototype preserve and never imply?
 
@@ -40,27 +42,29 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 ## Numbered work
 
-1. Read the actual storyboard and hypothesis. Identify continuity gaps rather than inventing a new concept or pretending missing frames exist.
-2. Write Setup, Encounter, Action, Response, New Action and Resolution using the selected frames. State information exchanged, motivation and consequence with fictional outcomes visibly labeled.
+1. Carry in a supplied prototype hypothesis unchanged unless the person requests revision; do not silently change the bet while writing the narrative. Reuse supplied storyboard or hypothesis content when available. Otherwise draft provisional beats from direct context, labeling new assumptions; never pretend absent frames were supplied.
+2. Write four narrative sections: Setup → Encounter → Action–Response Loop → Resolution. Setup names the person, situation and need; Encounter describes what the system initially shows. Inside the loop, enumerate about 3-6 transactions. Each transaction pairs a human action or input with the system's response and explains how that response prompts the next human action. State information exchanged, motivation and uncertainty. A transaction is a pair, not two separate top-level story stages. Do not flatten the loop into one Action, one Response and one New Action. Use the smallest coherent sequence; explain any justified departure from 3-6 instead of padding with cosmetic clicks. End the loop with a clear exit condition and observable behavior leading to Resolution.
+
+   The six-frame storyboard and the MVN serve different jobs. Preserve the supplied story's person, problem, oh crap stakes, solution arrival/use and shared-success ending when relevant. Do not map six storyboard frames one-to-one to transactions or invent new solution capabilities to reach a count. Newly proposed interactions remain provisional; depicted success is fictional until observed.
+
 3. Remove ornamental features and implementation detail that do not help test the hypothesis. The MVN is not a PRD, backlog or production design.
-4. Prepare a self-contained descriptive prototype prompt carrying the narrative, persona, hypothesis, task, constraints and decision rule. Let builders propose visual treatment within those boundaries.
+4. Prepare a self-contained No/Lo-Code Prompt carrying the prototype hypothesis, target audience, Setup, Encounter, every numbered action/response pair with its continuation, loop exit, Resolution, task, constraints and decision rule. Do not summarize away the internal loop. Let builders propose visual treatment within those boundaries.
 5. Critique whether the smallest story could be tested more cheaply than interaction. Stop for narrative approval and carry the full narrative plus protocol into Prototyping.
 
 ## Output: Minimum Viable Narrative
 
-- Audience and learning question
+- Prototype hypothesis and learning question
+- Target audience
 - Setup
 - Encounter
-- Action
-- Response
-- New Action
+- Action–Response Loop: 3-6 numbered transactions, continuation and exit condition
 - Resolution
-- Prototype prompt and boundaries
+- No/Lo-Code Prompt and boundaries
 - Narrative critique and decision
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
@@ -79,7 +83,7 @@ Save to a user-named folder when requested and available; otherwise provide copy
 
 ## Common failure and repair
 
-Implementation specification replaces the story and adds unselected capabilities. Retain the approved storyboard's action-response loop, hypothesis and descriptive prompt; drop unrelated features.
+A single Action/Response/New Action flattens the internal loop, or implementation details replace the story. Enumerate 3-6 human/system pairs with each response motivating the next action; preserve them in the No/Lo-Code Prompt. Drop unrelated features and never treat scripted success as evidence.
 
 ## Assets and Examples
 
@@ -89,7 +93,7 @@ Use the [artifact template](#artifact-template) when drafting. Consult the [synt
 
 # Minimum Viable Narrative
 
-Lab adaptation, not an authoritative Productside canvas.
+Use supplied context or a labeled provisional draft. This follows the narrative structure in Dean's supplied canvas; it does not require a completed upstream artifact.
 
 - Date:
 - Built from:
@@ -97,41 +101,49 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
-## Audience and learning question
+## Prototype hypothesis and learning question
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[What must be true? What behavior do we want to observe? What brutal truth could change the idea?]
+
+## Target audience
+
+[Who will view or use this prototype? Distinguish the testing audience from the actor if different.]
 
 ## Setup
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Who is this person, where are they, and what do they need?]
 
 ## Encounter
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[What do they see on arrival? What does the system show them?]
 
-## Action
+## Action–Response Loop
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+About 3-6 transactions live INSIDE this section. Each response creates the reason for the next human action. A transaction is one human action plus one system response, not a new top-level story section.
 
-## Response
+| Transaction | Human action / choice / input | System response / information returned | Why the human acts next |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+Add transactions 4-6 only when needed to observe the behavior. Do not pad with clicks. Label newly proposed interactions as assumptions.
 
-## New Action
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+- Loop exit condition:
+- Behavior to observe:
+- Any justified departure from 3-6 transactions:
 
 ## Resolution
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[How does it end? What does success look and feel like in the story? Preserve a supplied shared-success ending where relevant. Depicted success is not observed evidence.]
 
-## Prototype prompt and boundaries
+## No/Lo-Code Prompt and boundaries
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Copy-ready descriptive prompt: hypothesis, target audience, Setup, Encounter, ALL numbered human/system transactions and their continuations, loop exit, Resolution, task, decision rule and boundaries. Keep the internal loop intact. No architecture or pixel specification.]
 
 ## Narrative critique and decision
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Does each response enable the next action? Is the loop sufficient to expose the riskiest assumption? Could a smaller act of discovery do so?]
 
 ## Claim ledger
 
@@ -147,7 +159,7 @@ Lab adaptation, not an authoritative Productside canvas.
 - Unresolved disagreement:
 - Next motion or evidence task:
 
-## Small handoff
+## Optional context summary
 
 ```text
 Target:
@@ -158,105 +170,102 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
-Carry the actual downstream-required content, not just its title.
+When passing this narrative onward, include the actual numbered transactions, continuations and exit condition; a title or "repeat the loop" is insufficient to preserve supplied content.
 
 # Worked example
 
-# Minimum Viable Narrative
+# Minimum Viable Narrative: conflicting maintenance reports
 
-Lab adaptation, not an authoritative Productside canvas.
+SYNTHETIC teaching fixture. All people, reports, responses and success are fictional; no customer or plant evidence. Date: teaching session. Built from authored manufacturing story. Status DRAFT; decider not recorded.
 
-- Date: 2026-10-02
-- Built from: authored fictional manufacturing fixture
-- Status: DRAFT
-- Decider: not recorded
-- Synthetic status: SYNTHETIC; no observed customer or plant evidence
+## Prototype hypothesis and learning question
 
-## Audience and learning question
+Making source, recency and uncertainty visible may help a maintenance manager explain the next investigation. Brutal truth: information may already be sufficient while permission or scheduling is the real barrier.
 
-SYNTHETIC maintenance practitioner: can the proposed comparison support an explainable next investigation?
+## Target audience
+
+Maintenance practitioners reviewing a fictional investigation scenario. The actor is a maintenance manager before a shift handover.
 
 ## Setup
 
-Manager has a fictional investigation decision to make.
+The manager needs to explain which concern deserves investigation before handing over to the next shift.
 
 ## Encounter
 
-Two reports disagree and their bases are unclear.
+The comparison aid shows two conflicting reports with incomplete source context. It invites investigation reasoning, not equipment control.
 
-## Action
+## Action–Response Loop
 
-Manager compares source, timing and uncertainty.
+These four transactions are internal to one narrative section. They are proposed story interactions, not observed behavior.
 
-## Response
+| Transaction | Human action / choice / input | System response / information returned | Why the human acts next |
+|---|---|---|---|
+| 1 | Select the two fictional reports to compare. | Show their sources, timestamps and uncertainty side by side. | One item appears stale, prompting inspection of its basis. |
+| 2 | Inspect the stale report's source and timestamp. | Reveal its earlier observation date and flag a conflicting claim with a missing basis. | The unresolved claim prompts the manager to mark what is missing. |
+| 3 | Mark the missing basis and state what additional information is needed. | Keep that uncertainty visible alongside the available evidence; offer no automatic verdict. | The manager must choose a bounded next action despite the gap. |
+| 4 | Choose a next investigation or request clarification and explain why. | Reflect the manager's reasoning, unresolved gap and chosen next action for review. | The manager can review the explanation and end the comparison. |
 
-The comparison reveals a stale item and an unresolved claim; fictional story conditions.
-
-## New Action
-
-Manager chooses a next investigation or requests missing information and explains why.
+Loop exit: the person states a next action with a rationale and an explicit unresolved uncertainty. Behavior to observe: whether their rationale uses source context, or whether permission/coordination still blocks the choice. No number of clicks or favorable reaction proves value.
 
 ## Resolution
 
-The story ends with a stated next action, not verified plant improvement.
+In the fictional story, the manager walks the next-shift lead through the reasoning so they can explain their own investigation choice. Shared success is hypothesized; actual benefit, adoption and advocacy are UNKNOWN.
 
-## Prototype prompt and boundaries
+## No/Lo-Code Prompt and boundaries
 
-Test this loop using fictional report pairs, no real data or equipment commands. Preserve uncertainty and the agreed rule; choose paper before interaction if sufficient.
+```text
+Create a disposable low-fidelity prototype of this SYNTHETIC narrative for maintenance practitioners. Hypothesis: source/recency context may help explain the next investigation; coordination may instead be the barrier.
+Setup: a maintenance manager needs an explainable investigation choice before shift handover.
+Encounter: show two conflicting fictional reports and incomplete source context.
+Keep this internal action-response loop explicit:
+1. Human selects two reports. System shows source, timestamp and uncertainty side by side. A stale item prompts inspection.
+2. Human inspects the stale report's basis. System reveals its earlier date and a conflicting claim with a missing basis. That gap prompts annotation.
+3. Human marks the missing basis and needed information. System preserves the gap next to available evidence without deciding. The person must choose a next action.
+4. Human chooses an investigation or clarification and gives a reason. System reflects their rationale, uncertainty and next action for review.
+Exit when the person can state their next action, rationale and unresolved uncertainty.
+Resolution: the fictional manager explains the reasoning to the next-shift lead; do not present this as observed success.
+Task: compare the reports and explain the next action and what is still unknown.
+Decision rule: revise if source context confuses; investigate coordination if authority/scheduling dominates; otherwise propose another bounded test. Experiment NOT RUN.
+Use fictional data only. No real equipment control, integrations or publishing. Describe behavior before layout. Draft only; this prompt is not build authorization.
+```
 
 ## Narrative critique and decision
 
-DRAFT: mechanism may be inspectable on paper. No customer reaction or approval recorded.
+Four pairs expose information-to-decision continuity without adding an autonomous verdict. Recommend a storyboard or wireframe task to examine it; selection not recorded. A real recent-decision conversation is still needed to investigate the competing coordination explanation. NOT BUILT; participant experiment NOT RUN.
 
 ## Claim ledger
 
-| Claim | Evidence label | Source or basis | Date | Limitation |
+| Claim | Label | Basis | Date | Limitation |
 |---|---|---|---|---|
-| The minimal narrative makes the proposed reasoning loop explicit without proving it works. | ESTIMATE / BEST GUESS | Authored fictional fixture | 2026-10-02 | Not observed or validated |
-| Commercial value and operational benefit | UNKNOWN | No evidence supplied | 2026-10-02 | No measured baseline, pricing or experiment results |
+| Source/recency context may support investigation reasoning | ESTIMATE / BEST GUESS | Authored fixture | Teaching session | No observed benefit |
+| Coordination may dominate information uncertainty | ESTIMATE / BEST GUESS | Competing fixture hypothesis | Teaching session | Requires real evidence |
 
 ## Human decision
 
-Recommendation: review this illustrative artifact, then choose revise, gather evidence, approve a bounded next motion or stop. Selected option and decider: not recorded. No approval inferred.
+Recommendation: review the four-transaction story and choose revise, a bounded evidence task, or stop. Selected option and decider not recorded.
 
-## Small handoff
+## Optional context summary
 
-Target: maintenance managers in mid-sized manufacturing plants; SYNTHETIC provisional target.
-What we believe: The minimal narrative makes the proposed reasoning loop explicit without proving it works. (ESTIMATE / BEST GUESS).
-Evidence: none; fictional fixture only.
-What is inferred: a possible discovery direction, not validated demand.
-Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
-Biggest unanswered question: Can a person explain this loop and identify missing information without a built interface?
+Target: maintenance practitioners, fictional situation.
+What we believe: source context could support investigation reasoning.
+Evidence: authored fixture only.
+What is inferred: information uncertainty or coordination may explain the difficulty.
+Desired outcome: explainable next-investigation decisions.
+Biggest unanswered question: Which barrier dominates actual decisions?
 
-## Content to carry with this handoff
-
-- **Audience and learning question:** SYNTHETIC maintenance practitioner: can the proposed comparison support an explainable next investigation?
-- **Setup:** Manager has a fictional investigation decision to make.
-- **Encounter:** Two reports disagree and their bases are unclear.
-- **Action:** Manager compares source, timing and uncertainty.
-- **Response:** The comparison reveals a stale item and an unresolved claim; fictional story conditions.
-- **New Action:** Manager chooses a next investigation or requests missing information and explains why.
-- **Resolution:** The story ends with a stated next action, not verified plant improvement.
-- **Prototype prompt and boundaries:** Test this loop using fictional report pairs, no real data or equipment commands. Preserve uncertainty and the agreed rule; choose paper before interaction if sufficient.
-- **Narrative critique and decision:** DRAFT: mechanism may be inspectable on paper. No customer reaction or approval recorded.
+If this example is carried forward, include Setup, Encounter, all four transaction rows, their continuations, loop exit, Resolution and the test rule above. Do not replace them with a title.
 
 # Weak example
 
-# Weak Minimum Viable Narrative example and repair
+# Weak Minimum Viable Narrative and repair
 
-SYNTHETIC teaching anti-example. Do not imitate this output.
+SYNTHETIC anti-example.
 
-> Our MVN is a React dashboard with widgets, authentication, database schema and autonomous alerts.
+> Setup: manager at work. Encounter: conflicting reports. Action: compare. Response: system recommends an investigation. New Action: accept it. Resolution: everyone succeeds.
 
-## Why it fails
+This flattens a repeated human/system loop into a single exchange, removes the person's reasoning and invents both an autonomous verdict and success. Adding React, widgets or a database would not repair the narrative.
 
-Implementation specification replaces the story and adds unselected capabilities.
-
-## Repair
-
-Retain the approved storyboard's action-response loop, hypothesis and descriptive prompt; drop unrelated features.
-
-Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+Repair: keep Setup and Encounter, enumerate about 3-6 internal transactions, then Resolution. In each pair, show the human's choice/input, the system's response and why that response motivates the next action. Include a loop exit and observable behavior. Preserve the pairs in the No/Lo-Code Prompt. Do not pad with clicks, map storyboard frames one-to-one, or fabricate customer validation. See the [four-transaction worked example](#worked-example).
 
 Begin this motion now using the context I provide.
 ````

@@ -10,7 +10,7 @@
     },
     {
       "skill": "dlab-step09-minimum-viable-narrative",
-      "invocation": "Mode: Best guess. SYNTHETIC. Use only the actual storyboard handoff to write the six-part MVN and prototype-ready descriptive prompt. Preserve hypothesis, task and rule. Do not render, build or invent missing frames. Stop at the human gate.",
+      "invocation": "Mode: Best guess. SYNTHETIC. Use only the actual storyboard handoff to write the MVN with Setup, Encounter, an internal loop of 3-6 human action/system response transactions and Resolution and prototype-ready descriptive prompt. Preserve hypothesis, task and rule. Do not render, build or invent missing frames. Stop at the human gate.",
       "turns": []
     }
   ],
@@ -27,6 +27,14 @@
     {
       "id": "status",
       "rule": "Both artifacts are fictional drafts, with NOT RENDERED/NOT RUN as appropriate, and human gates. No measured resolution, build or production claim."
+    },
+    {
+      "id": "story-arc",
+      "rule": "Frames follow who has the problem, problem, oh crap escalation, solution arrival, person using solution, person helping others enjoy the same success. Frame 6 is not merely personal celebration. Depicted success/advocacy remains fictional, not measured validation."
+    },
+    {
+      "id": "internal-loop",
+      "rule": "MVN enumerates about 3-6 human action/system response pairs within one internal loop, each response prompting the next action, with an exit condition. No one-to-one mapping from six storyboard frames. Portable prototype prompt retains every transaction and its continuation; no lone Action/Response/New Action flattening."
     }
   ]
 }

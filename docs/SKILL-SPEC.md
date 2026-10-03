@@ -12,4 +12,4 @@ Each body has three capture modes, up to five numbered questions and two clarifi
 
 Prompt export embeds the body, template, worked example and weak example with local asset links converted to internal anchors. A pasted prompt requires no repository access. Asset edits must be re-exported and make prior eval receipts stale.
 
-Prototyping closes with experiment status, actual observations when available and the next evidence task. There is no separate learning-review stage or agent-strategy canvas in this chain. Storyboard consumes Solution Hypothesis; Minimum Viable Narrative consumes the actual storyboard.
+Prototyping closes with experiment status, actual observations when available and the next evidence task. There is no separate learning-review stage or agent-strategy canvas in this chain. Storyboard can reuse a Solution Hypothesis; Minimum Viable Narrative can reuse a storyboard. Both also accept standalone notes and label newly drafted assumptions.

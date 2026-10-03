@@ -1,6 +1,6 @@
 # Value Prop vs. Differentiation 2x2
 
-Lab adaptation, not an authoritative Productside canvas.
+Lab adaptation, not an authoritative Productside canvas. OST outputs are optional; direct notes are sufficient to start.
 
 - Date:
 - Built from:
@@ -8,46 +8,40 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
-## Concept, persona and comparator
+## Audience, outcome and common comparator
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+- Audience and situation:
+- Desired progress:
+- Shared baseline/workaround:
+- Low/high value definitions:
+- Low/high meaningful difference definitions against that baseline:
 
-## Axis definitions
+## Candidate inventory
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| ID | Solution / competitor offering / workaround | Description | Opportunity link, if available | Source or assumption |
+|---|---|---|---|---|
+| S1 | Solution | | Optional | |
+| C1 | Competitor offering | | Optional | |
+| B0 | Workaround / shared baseline | | Optional | |
 
 ## The 2x2
 
-| Meaningful differentiation against the named alternative | Low proposed customer value | High proposed customer value |
+| Difference versus the shared baseline | Low proposed customer value | High proposed customer value |
 |---|---|---|
-| High | [Distinct but weak value; supply evidence and confidence] | [Potentially useful and distinct; both axes need evidence] |
-| Low | [Neither value nor difference supported; do not confuse UNKNOWN with low] | [Potentially useful but similar to the alternative] |
+| High | Distinct but weak value: [IDs, basis] | Potentially useful and distinct: [IDs, basis] |
+| Low | Weak on both axes: [IDs, basis] | Useful but similar: [IDs, basis] |
 
-Use UNKNOWN or conditional placement when evidence is missing. The matrix does not establish a moat.
+Unplaced or conditional candidates: [IDs and missing axis evidence]. Empty quadrants are allowed. UNKNOWN does not mean low. Do not imply measured coordinates or a moat.
 
-## Low value / low differentiation
+## Evidence and bake-off
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| ID | Value assessment and evidence | Difference assessment and evidence | Confidence / limitation | Cheapest placement-changing test |
+|---|---|---|---|---|
+| | | | | |
 
-## High value / low differentiation
+## Provisional shortlist and tradeoffs
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## Low value / high differentiation
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## High value / high differentiation
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## Evidence and confidence
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
-
-## Decision and next evidence
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Recommend compare/test/revise/stop; multiple candidates can remain. Explain why and what could overturn the recommendation.]
 
 ## Claim ledger
 
@@ -58,12 +52,12 @@ Use UNKNOWN or conditional placement when evidence is missing. The matrix does n
 ## Human decision
 
 - Recommendation and tradeoff:
-- Selected option: not recorded
+- Selected option or shortlist: not recorded
 - Reason:
 - Unresolved disagreement:
 - Next motion or evidence task:
 
-## Small handoff
+## Optional small handoff
 
 ```text
 Target:
@@ -74,4 +68,4 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
-Carry the actual downstream-required content, not just its title.
+Include useful candidate descriptions, comparator and evidence gaps. These fields help carry context; they are not prerequisites for another skill.

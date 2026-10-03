@@ -1,56 +1,101 @@
 # Segment Selection Brief
 
-Lab adaptation, not an authoritative Productside canvas.
+Lab adaptation, not an authoritative Productside canvas. Sizing is an estimate, not product validation.
 
-- Date:
-- Built from:
-- Status: DRAFT
-- Decider: not recorded
+- Date and built from:
+- Status: DRAFT; decider not recorded
 - Synthetic status:
+- Decision and desired outcome:
+- Counting unit / paying unit (explain any conversion):
+- Geography / reference year / currency if relevant:
+- SOM horizon:
 
-## Decision and comparison criteria
+## 1. Reuse the market intel before researching
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| Input | Already supplied source/value | Reuse / conflict / stale / missing | Gap to fill and next source route |
+|---|---|---|---|
+| Relevant population | | | |
+| Industry/service filters | | | |
+| Competitive alternatives and coverage | | | |
+| Reach, win assumptions and delivery capacity | | | |
+| Optional price or relevant spend | | | |
 
-## Candidate segments
+## 2. Source register and limitations
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| ID | Actual document/table and direct URL | Publisher / publication date / reference year | Page/row and extracted value | Unit / geography / coverage | Limitation / conflicting source |
+|---|---|---|---|---|---|
+| | | | | | |
 
-## Comparison and evidence
+Separate sourced observations, user-reported values, assumed inputs and fictional fixtures. An unvisited source homepage is a research route, not a numeric citation.
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+## 3. TAM: relevant population
 
-## Provisional segment boundary
+- Population and addressable job/outcome boundary:
+- Eligible count and formula (including any incidence assumption):
+- Source or assumption for each input:
+- What is excluded and why:
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+## 4. SAM: industry/trade filter waterfall
 
-## Inclusions and exclusions
+| Filter / intersection | Starting denominator | Count retained / conditional share | Source or assumption | Overlap and representativeness check |
+|---|---|---|---|---|
+| | | | | |
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+Prefer observed intersections to multiplied marginal shares. Keep serviceability separate from likelihood of winning.
 
-## Selection and tradeoff
+## 5. SOM: competition, reach and capacity over a named horizon
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+- Named alternatives, incumbent coverage and switching/procurement constraints:
+- Distinct qualified units realistically reachable within the horizon:
+- Assumed win rate and competitive rationale:
+- Acquisition capacity / onboarding or service capacity in the same units:
+- Formula: min(SAM units, reachable qualified units × win rate, acquisition capacity, onboarding/service capacity), where inputs exist.
+- Missing inputs: conditional scenario, symbolic expression or UNKNOWN:
+- Why competitor disclosures do or do not match this denominator:
 
-## Disconfirming evidence
+## 6. Explicit scenario inputs
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| Input | Low | Base | High | Source or assumption ID / rationale |
+|---|---|---|---|---|
+| Broad relevant population | | | | |
+| Industry-qualified population | | | | |
+| Service/need fit within that population | | | | |
+| Distinct qualified reachable units | | | | |
+| Competitive win rate | | | | |
+| Acquisition capacity | | | | |
+| Onboarding/service capacity | | | | |
+| Optional annual price/spend per same unit | | | | |
 
-## Claim ledger
+## 7. TAM/SAM/SOM results
 
-| Claim | Evidence label | Source or basis | Date | Limitation |
+| Tier | Formula | Low units | Base units | High units | Evidence state / confidence |
+|---|---|---|---|---|---|
+| TAM | | | | | |
+| SAM | | | | | |
+| SOM over stated horizon | | | | | |
+
+Optional annual value scenario: units × price/relevant spend for the same unit and currency. Assumed prices are not verified willingness to pay. SOM endpoint annualized value is not automatically recognized revenue during the horizon.
+
+Check SOM ≤ SAM ≤ TAM, matching units/periods, filter overlap, and price versus total industry revenue. Explain which input changes the recommendation most; do not present a range as a statistical confidence interval without a basis.
+
+## 8. Compare candidate segments and decide
+
+| Candidate boundary | Need and stakes | Access/buying path | Sizing basis and confidence | Key tradeoff / disconfirming evidence |
+|---|---|---|---|---|
+| | | | | |
+
+- Recommendation and reason:
+- Selected option / decider: not recorded
+- Largest unresolved assumption:
+- Evidence to gather / unresolved disagreement:
+
+## 9. Claim ledger
+
+| Claim/input/derived result | Evidence label | Source or assumption basis | Date | Limitation |
 |---|---|---|---|---|
 | | ACTUAL DATA / INFERRED / ESTIMATE / BEST GUESS / UNKNOWN | | | |
 
-## Human decision
-
-- Recommendation and tradeoff:
-- Selected option: not recorded
-- Reason:
-- Unresolved disagreement:
-- Next motion or evidence task:
-
-## Small handoff
+## 10. Small handoff for Persona
 
 ```text
 Target:
@@ -61,4 +106,4 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
-Carry the actual downstream-required content, not just its title.
+Also carry the actual segment boundary, counted/buying unit, geography, size scenarios, SOM horizon, source/assumption IDs and largest uncertainty. No customer, demand or human approval is invented.

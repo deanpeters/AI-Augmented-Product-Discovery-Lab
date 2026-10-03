@@ -18,7 +18,7 @@ O1 understand source and recency of conflicting information; O2 clarify who can 
 
 ## Solution candidates
 
-Under O1: paper report comparison or annotated digital comparison. Under O2: explicit permission and scheduling process.
+Under O1: S1 storyboard report comparison and S2 annotated digital comparison. Under O2: S3 explicit permission and scheduling process.
 
 ## Experiments and disconfirmation
 
@@ -26,15 +26,15 @@ Discuss a recent decision and use fictional report pairs. If information is unde
 
 ## Value and feasibility assumptions
 
-Time saved, commercial value and integration feasibility UNKNOWN. A paper test may answer the first question.
+Time saved, commercial value and integration feasibility UNKNOWN. A lo-fi discovery test may answer the first question.
 
-## Branch choice
+## Portfolio choice
 
-DRAFT candidate: report-comparison process; no human concept selection recorded.
+DRAFT portfolio: S1 storyboard report comparison and S2 annotated digital comparison under O1; S3 permission/handoff process under O2. No winner selected.
 
 ## Next handoff
 
-Carry the chosen opportunity and concept only after a recorded choice, along with the alternative coordination explanation.
+Offer S1/S2/S3 with opportunity links, experiment ideas and the coordination alternative for a bake-off. Comparing a portfolio does not require choosing a winner first.
 
 ## Claim ledger
 
@@ -60,8 +60,8 @@ Biggest unanswered question: Is information uncertainty the obstacle, and which 
 
 - **Outcome and persona:** SYNTHETIC maintenance manager: clearer next-investigation decisions; baseline and target UNKNOWN.
 - **Opportunities:** O1 understand source and recency of conflicting information; O2 clarify who can authorize investigation. Both hypotheses, not verified needs.
-- **Solution candidates:** Under O1: paper report comparison or annotated digital comparison. Under O2: explicit permission and scheduling process.
+- **Solution candidates:** Under O1: S1 storyboard report comparison and S2 annotated digital comparison. Under O2: S3 explicit permission and scheduling process.
 - **Experiments and disconfirmation:** Discuss a recent decision and use fictional report pairs. If information is understood but permission blocks action, revise toward O2.
-- **Value and feasibility assumptions:** Time saved, commercial value and integration feasibility UNKNOWN. A paper test may answer the first question.
-- **Branch choice:** DRAFT candidate: report-comparison process; no human concept selection recorded.
-- **Next handoff:** Carry the chosen opportunity and concept only after a recorded choice, along with the alternative coordination explanation.
+- **Value and feasibility assumptions:** Time saved, commercial value and integration feasibility UNKNOWN. A lo-fi discovery test may answer the first question.
+- **Portfolio choice:** DRAFT portfolio: S1 storyboard report comparison and S2 annotated digital comparison under O1; S3 permission/handoff process under O2. No winner selected.
+- **Next handoff:** Offer S1/S2/S3 with opportunity links, experiment ideas and the coordination alternative for a bake-off. Comparing a portfolio does not require choosing a winner first.

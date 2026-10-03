@@ -1,0 +1,30 @@
+{
+  "id": "12-segment-denominator-traps",
+  "title": "Repair mixed populations, overlap and free-share capture",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step02-segment",
+      "invocation": "Mode: Context dump. SYNTHETIC teaching case. We need a provisional manufacturing segment for clearer investigation choices. Existing fictional notes say 10,000 firms and 25,000 plants; a trade sample has 500 members and 40% report the condition; a joint 8,000-plant table already filters mid-size and discrete manufacturing. A sponsor wants to multiply that joint count by another 50% mid-size and 60% discrete share, multiply by the sector's total $1T revenue, add two competitors' partly overlapping 20% shares and take 5% of the remaining market as our year-one SOM. No paying-unit mapping, matched competitor denominator or sales/onboarding capacity exists. No browsing/tools. Correct the denominator and capture logic, retaining any useful supplied material as fictional. Stop at human gate.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "unit-repair",
+      "rule": "Separates firms, establishments and member sample; asks for or marks paying-unit conversion UNKNOWN. Trade sample percentage not automatically generalized to all plants."
+    },
+    {
+      "id": "filter-overlap",
+      "rule": "Flags size/subsector double filtering on the joint intersection; prefers the supplied matched intersection or a correctly conditional waterfall."
+    },
+    {
+      "id": "competitive-repair",
+      "rule": "Rejects additive partly overlapping shares and free 5% capture. SOM is conditional on matched competitive evidence, reach, horizon and capacity or stays symbolic/UNKNOWN."
+    },
+    {
+      "id": "value-repair",
+      "rule": "Rejects population \u00d7 total sector revenue; uses only relevant per-unit spend/price if supported or explicitly assumed. Does not claim demand or revenue validation; waits for human choice."
+    }
+  ]
+}

@@ -3,7 +3,7 @@ name: dlab-step07-solution-hypothesis
 description: "Turn a positioned concept into an if/then hypothesis with small tests, observable criteria and a prewritten decision rule. Use before storyboarding or prototyping."
 metadata:
   author: "Dean Peters"
-  version: "0.2.0"
+  version: "0.3.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "7"
@@ -11,15 +11,15 @@ metadata:
   intent: "Make the selected concept falsifiable. State what we think will change for the persona, which assumptions must hold, and what observations would support revising, stopping or another test."
   audience: "Product Managers; founders; product teams"
   operating-level: "product-team; initiative"
-  argument-hint: "Selected positioning statement, persona, concept, outcome, evidence gaps and constraints. An actual prototype or customer result is not required."
+  argument-hint: "Concept, actor, outcome, evidence gaps and constraints from direct notes or optional positioning. Draft a provisional hypothesis if context is partial; no prior artifact or customer result is required."
   best-for: "Turn a positioned concept into an if/then hypothesis with small tests, observable criteria and a prewritten decision rule. Use before storyboarding or prototyping."
-  evidence-required: "Selected positioning statement, persona, concept, outcome, evidence gaps and constraints. An actual prototype or customer result is not required."
+  evidence-required: "Concept, actor, outcome, evidence gaps and constraints from direct notes or optional positioning. Draft a provisional hypothesis if context is partial; no prior artifact or customer result is required."
   produces: "Solution Hypothesis; claim ledger; human decision; small handoff"
   estimated-time: "15-30 minutes for a working session; planning estimate, not demo timing"
   group-size: "1-8; planning guidance"
   depends-on: "none; standalone entry supported"
   combine-with: "dlab-step08-storyboard"
-  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns"
+  source-basis: "Dean Peters' corrected ten-motion discovery sequence; supplied Productside canvas PDFs inspected October 3, 2026; ADLC and Precedents Thinking packaging patterns; see reference/supplied-canvases.md"
   template: "template.md"
   worked-example: "examples/worked-example.md"
   weak-example: "examples/weak-example.md"
@@ -37,17 +37,19 @@ metadata:
 
 Make the selected concept falsifiable. State what we think will change for the persona, which assumptions must hold, and what observations would support revising, stopping or another test.
 
-Input: Selected positioning statement, persona, concept, outcome, evidence gaps and constraints. An actual prototype or customer result is not required.
+Input: Concept, actor, outcome, evidence gaps and constraints from direct notes or optional positioning. Draft a provisional hypothesis if context is partial; no prior artifact or customer result is required.
 
 Example invocation: `Use $dlab-step07-solution-hypothesis with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -69,8 +71,8 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 1. Write: If we [provide the selected concept] for [persona in situation], then [observable progress] because [mechanism assumed]. Mark the causal mechanism as a hypothesis.
 2. Separate desirability, differentiation, usability and feasibility assumptions. Choose the riskiest assumption rather than testing every dimension at once.
-3. Design one or two tiny acts of discovery. Name participants, context, task, expected and disconfirming observations, and what requires access or consent.
-4. Write the decision rule before observations: what leads to revise, stop or another test. Any timeframe or sample plan invented for planning is a proposed protocol, not a measured baseline or statistical validation threshold.
+3. Design two tiny acts of discovery, following the supplied hypothesis canvas; justify a smaller set if one discriminating test is enough. Name participants, context, task, expected and disconfirming observations, and what requires access or consent.
+4. Specify at least one quantitative measure and one qualitative measure, each tied to the desired outcome and named experiment, with a timeframe. Distinguish proposed target/threshold from observed baseline and result; unsupported baselines remain UNKNOWN. Add an assembled final hypothesis: If we / for / Then we will; We will test our assumption by [experiments]; Within [timeframe] we expect to observe [quantitative and qualitative criteria]. Keep a causal because clause as a separate, optional mechanism hypothesis. Write the decision rule before observations: what leads to revise, stop or another test. Any timeframe or sample plan invented for planning is a proposed protocol, not a measured baseline or statistical validation threshold.
 5. Mark experiment NOT RUN when observations are absent. Wait for the human to select the hypothesis and protocol, then hand them into Storyboard. Do not claim the idea is valid because the sentence is complete.
 
 ## Output: Solution Hypothesis
@@ -79,6 +81,8 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - If / for / then / because
 - Riskiest assumption
 - Tiny acts of discovery
+- One quantitative and one qualitative measure, timeframe and proposed criteria
+- Final solution hypothesis statement
 - Expected and disconfirming observations
 - Protocol and decision rule
 - Experiment status
@@ -86,7 +90,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:

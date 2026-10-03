@@ -28,6 +28,10 @@ Plant size, operating environment, maintenance decision frequency and coordinati
 
 No sources supplied; no browsing run. URLs, dates and independent corroboration UNKNOWN.
 
+## Sizing inputs to carry into Segment
+
+Relevant population, industry intersections, competitor coverage and capture capacity: UNKNOWN. No source tables were supplied. A later fictional sizing fixture must be explicitly introduced; it cannot be attributed to this Market Intel run.
+
 ## Conflicting evidence and gaps
 
 UNKNOWN market demand, purchasing authority, downtime costs and willingness to pay.

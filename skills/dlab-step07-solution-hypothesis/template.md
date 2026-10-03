@@ -22,7 +22,26 @@ Lab adaptation, not an authoritative Productside canvas.
 
 ## Tiny acts of discovery
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+We will test our assumption by:
+1. [Small experiment, risk tested, participant/task/access needs.]
+2. [Small experiment, risk tested, participant/task/access needs.]
+
+If one test is enough, explain why instead of adding activity.
+
+## One quantitative and one qualitative measure
+
+| Type | Measure and associated experiment | Baseline | Proposed criterion | Timeframe | Status |
+|---|---|---|---|---|---|
+| Quantitative | | UNKNOWN unless supplied | Proposed, not observed | | NOT RUN |
+| Qualitative | | UNKNOWN unless supplied | Observable signal, not a flattering reaction | | NOT RUN |
+
+## Final solution hypothesis statement
+
+If we [action or solution] for [target persona], Then we will [desired outcome or job-to-be-done].
+We will test our assumption by [two tiny acts of discovery or a justified smaller set].
+Within [proposed timeframe], we expect to observe [quantitative criterion] and [qualitative criterion].
+
+These are criteria to test, not evidence that the hypothesis is valid. Optional mechanism hypothesis: Because [assumption].
 
 ## Expected and disconfirming observations
 

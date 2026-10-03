@@ -10,17 +10,19 @@ Instructions, template and examples are included. No repository access or skill 
 
 Make the hypothesis visible as six descriptive frames. Storyboard precedes Minimum Viable Narrative in this lab; it consumes the solution hypothesis, not a previously completed narrative.
 
-Input: Human-selected solution hypothesis, persona, situation, concept, test question and decision rule. Supplied brand assets govern visual treatment; otherwise use an explicit placeholder.
+Input: Actor, situation, concept and learning question from direct notes or an optional hypothesis. Draft missing story/test context provisionally. Supplied brand assets govern visual treatment; otherwise use an explicit placeholder.
 
 Example invocation: `Use $dlab-step08-storyboard with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -33,7 +35,7 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 1. Which persona and hypothesis should the story show?
 2. What situation and trigger start the story?
 3. What action, response and new action make the mechanism visible?
-4. Which six-frame representation is sufficient for learning?
+4. How could the person help others enjoy the same success, as a story hypothesis?
 5. What reaction would challenge the story or hypothesis?
 
 Reuse supplied answers, including a concrete actor, current condition and desired outcome. Unknown measurements do not justify re-asking those questions. Ask a narrower follow-up only when ambiguity would change the decision.
@@ -41,26 +43,27 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 ## Numbered work
 
 1. Reuse the selected hypothesis, actor and outcome. If missing, ask for them or provide a marked provisional draft and stop before rendering.
-2. Draft six frames: context, trigger, action, response, new action, consequence. For each frame describe actor, motivation, information exchanged and what remains uncertain. This is descriptive product work, not a pixel specification.
+2. Draft exactly this six-frame story arc: (1) who has the problem, (2) what the problem is, (3) the oh crap moment when it comes to a head, (4) the solution arrives, (5) the person uses the solution, (6) that person helps others enjoy the same success. For each frame describe actor, motivation, information exchanged and what remains uncertain. Keep the same protagonist through the arc. Frame 3 makes the stakes concrete; frame 4 introduces the chosen or provisional solution without a magical rescue; frame 5 shows the person acting; frame 6 shows them helping another person, not merely celebrating. Any success, adoption or advocacy depicted is a fictional story hypothesis until observed. This is descriptive product work, not a pixel specification.
 3. Inspect continuity and actor agency. The person retains the investigation decision; do not silently introduce autonomous diagnosis, plant control or a different solution.
 4. Include a reaction question tied to the hypothesis and disconfirming observation. A fictional consequence is not a measured customer result.
 5. Provide a portable renderer prompt if useful. Render only when requested with an available tool; otherwise mark NOT RENDERED. Pass the actual six frames and hypothesis into Minimum Viable Narrative.
 
 ## Output: Storyboard
 
+- Solution summary with expected outcome labeled as a hypothesis
 - Persona, hypothesis and reaction question
-- Frame 1: context
-- Frame 2: trigger
-- Frame 3: action
-- Frame 4: response
-- Frame 5: new action
-- Frame 6: consequence
+- Frame 1: who has the problem
+- Frame 2: what is the problem
+- Frame 3: the oh crap moment
+- Frame 4: the solution arrives
+- Frame 5: the person uses the solution
+- Frame 6: the person helps others enjoy the same success
 - Renderer prompt and constraints
 - Status and critique
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
@@ -79,7 +82,7 @@ Save to a user-named folder when requested and available; otherwise provide copy
 
 ## Common failure and repair
 
-No person's action loop; introduces equipment control and invented proof. Show context, trigger, person's action, response, new action and fictional consequence; retain hypothesis status.
+No person's action loop; introduces equipment control and invented proof. Show the person, problem, oh crap moment, solution arrival, solution use and success shared with others. Retain fictional status; do not invent observed success.
 
 ## Assets and Examples
 
@@ -97,31 +100,35 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
+## Solution summary
+
+[One or two sentences about the chosen or provisional solution and expected outcome; label untested benefits. No concept choice is implied.]
+
 ## Persona, hypothesis and reaction question
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 1: context
+## Frame 1: who has the problem
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 2: trigger
+## Frame 2: what is the problem
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 3: action
+## Frame 3: the oh crap moment
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 4: response
+## Frame 4: the solution arrives
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 5: new action
+## Frame 5: the person uses the solution
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Frame 6: consequence
+## Frame 6: the person helps others enjoy the same success
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
@@ -172,33 +179,37 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status: SYNTHETIC; no observed customer or plant evidence
 
+## Solution summary
+
+A provisional report-comparison aid makes source, recency and uncertainty visible. More explainable investigation choices are an expected fictional outcome, not observed benefit.
+
 ## Persona, hypothesis and reaction question
 
 SYNTHETIC maintenance manager; can source/recency context help explain a next investigation?
 
-## Frame 1: context
+## Frame 1: who has the problem
 
-Manager reviews fictional reports before selecting an investigation. No real plant records.
+A maintenance manager must explain the next investigation before a shift handover. This is a fictional person and situation, not a real plant record.
 
-## Frame 2: trigger
+## Frame 2: what is the problem
 
-Two reports disagree. Their sources and timestamps are unclear.
+Conflicting equipment reports have unclear sources and timestamps, leaving the manager unable to explain which concern deserves attention.
 
-## Frame 3: action
+## Frame 3: the oh crap moment
 
-The person compares source, timing and uncertainty for each report.
+The handover is about to start. A technician asks which concern to investigate first, and the manager cannot defend a choice from the conflicting reports. This fictional pressure point makes the problem unavoidable.
 
-## Frame 4: response
+## Frame 4: the solution arrives
 
-The comparison exposes one stale item and another unresolved claim; these are invented story conditions.
+A report-comparison aid arrives, exposing source, timing and uncertainty side by side. It offers context, not an autonomous equipment command or guaranteed answer.
 
-## Frame 5: new action
+## Frame 5: the person uses the solution
 
-The person names what to investigate or requests more information, explaining the basis.
+The manager compares the fictional reports, notices a stale item and an unresolved claim, then explains the next investigation or requests missing information. These are invented story conditions, not measured results.
 
-## Frame 6: consequence
+## Frame 6: the person helps others enjoy the same success
 
-The next investigation is explainable in the story; operational benefit remains untested.
+The manager walks the next-shift lead through the comparison so they can explain their own investigation choice. Shared success is a fictional narrative hypothesis; operational benefit, adoption and advocacy remain untested.
 
 ## Renderer prompt and constraints
 
@@ -231,12 +242,12 @@ Biggest unanswered question: Does the actor's changed action follow from informa
 ## Content to carry with this handoff
 
 - **Persona, hypothesis and reaction question:** SYNTHETIC maintenance manager; can source/recency context help explain a next investigation?
-- **Frame 1: context:** Manager reviews fictional reports before selecting an investigation. No real plant records.
-- **Frame 2: trigger:** Two reports disagree. Their sources and timestamps are unclear.
-- **Frame 3: action:** The person compares source, timing and uncertainty for each report.
-- **Frame 4: response:** The comparison exposes one stale item and another unresolved claim; these are invented story conditions.
-- **Frame 5: new action:** The person names what to investigate or requests more information, explaining the basis.
-- **Frame 6: consequence:** The next investigation is explainable in the story; operational benefit remains untested.
+- **Frame 1: who has the problem:** A maintenance manager must explain the next investigation before a shift handover. This is a fictional person and situation, not a real plant record.
+- **Frame 2: what is the problem:** Conflicting equipment reports have unclear sources and timestamps, leaving the manager unable to explain which concern deserves attention.
+- **Frame 3: the oh crap moment:** The handover is about to start. A technician asks which concern to investigate first, and the manager cannot defend a choice from the conflicting reports. This fictional pressure point makes the problem unavoidable.
+- **Frame 4: the solution arrives:** A report-comparison aid arrives, exposing source, timing and uncertainty side by side. It offers context, not an autonomous equipment command or guaranteed answer.
+- **Frame 5: the person uses the solution:** The manager compares the fictional reports, notices a stale item and an unresolved claim, then explains the next investigation or requests missing information. These are invented story conditions, not measured results.
+- **Frame 6: the person helps others enjoy the same success:** The manager walks the next-shift lead through the comparison so they can explain their own investigation choice. Shared success is a fictional narrative hypothesis; operational benefit, adoption and advocacy remain untested.
 - **Renderer prompt and constraints:** Render these six beats with a visible SYNTHETIC label, consistent actor and readable source context. Visual style is a reversible placeholder; do not invent performance claims.
 - **Status and critique:** NOT RENDERED. Inspect whether information-to-decision continuity is clear before visual polish.
 
@@ -254,7 +265,7 @@ No person's action loop; introduces equipment control and invented proof.
 
 ## Repair
 
-Show context, trigger, person's action, response, new action and fictional consequence; retain hypothesis status.
+Show who has the problem, the problem, the oh crap moment, the solution arriving, the person using it, and the person helping others enjoy the same success. Do not collapse frames 2 and 3 or omit frame 6. Retain fictional status for the success shown.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
 

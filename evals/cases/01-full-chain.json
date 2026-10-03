@@ -10,9 +10,9 @@
     },
     {
       "skill": "dlab-step02-segment",
-      "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate.",
+      "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate. Audit existing population, industry and competitive inputs; show TAM/SAM/SOM formulas, assumptions and gaps. Browsing remains unavailable; use UNKNOWN or a clearly conditional scenario, not fabricated source facts.",
       "turns": [],
-      "gate_reply": "Scripted teaching participant choice: select mid-sized manufacturing plants where maintenance managers decide the next investigation. This is provisional, not verified attractiveness. Record segment boundaries, evidence limits and persona context; prepare the actual handoff. Do not run the next motion."
+      "gate_reply": "Scripted teaching participant choice: select mid-sized manufacturing plants where maintenance managers decide the next investigation. This is provisional, not verified attractiveness. Record segment boundaries, counted unit, sizing scenario/formula, capture horizon, source/assumption trail, evidence limits and persona context; prepare the actual handoff. Do not run the next motion."
     },
     {
       "skill": "dlab-step03-persona",
@@ -24,12 +24,13 @@
       "skill": "dlab-step04-opportunity-solution-tree",
       "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate.",
       "turns": [],
-      "gate_reply": "Scripted teaching participant choice: select the provisional report-comparison process that makes source, timing and uncertainty visible while the person makes the investigation decision. Carry this actual opportunity and concept, the coordination alternative and experiment idea into the 2x2. This is not validation or a build commitment. Do not run the next motion."
+      "gate_reply": "Scripted teaching participant choice: compare a portfolio before choosing a winner. Carry storyboard report comparison, digital source/recency comparison and a permission/handoff checklist with opportunity links and experiments; mark any newly proposed candidates as new fictional assumptions. No validation or build commitment. Do not run the next motion."
     },
     {
       "skill": "dlab-step05-value-prop-differentiation",
-      "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate.",
-      "turns": []
+      "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate. Compare the supplied portfolio using one audience/outcome/baseline. Include fictional C1 Rival Compare, a newly supplied teaching rival with linked source/recency context, and B0 technician discussion/log review. No actual competitor research. Keep unknown placements unplaced or conditional.",
+      "turns": [],
+      "gate_reply": "Scripted teaching participant choice: retain report comparison for provisional positioning after the bake-off, without claiming it won on validated evidence. Carry its description, common baseline, both axis assessments and proof gaps. Do not run the next motion."
     },
     {
       "skill": "dlab-step06-positioning-statement",
@@ -50,7 +51,7 @@
     },
     {
       "skill": "dlab-step09-minimum-viable-narrative",
-      "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate.",
+      "invocation": "Mode: Best guess. Use only the actual upstream handoff. SYNTHETIC teaching case; no external actions. Preserve evidence limits. Produce this motion's named artifact and stop at its human decision gate. Keep about 3-6 numbered human/system transactions inside the Action-Response Loop with continuations and an exit. Preserve all pairs in the prototype prompt and downstream context.",
       "turns": []
     },
     {
@@ -67,7 +68,7 @@
     },
     {
       "id": "handoff-content",
-      "rule": "Only actual prior handoff content crosses stages. Selected segment survives into Persona; actual persona into the tree; actual selected opportunity and concept into 2x2; separate proposed value/difference and comparator into Positioning; selected statement into Hypothesis; actual hypothesis and prewritten rule into Storyboard; actual six frames into MVN; full narrative and rule into Prototyping. Any dropped required artifact is a chain failure even if honestly flagged. Missing context cannot be invented."
+      "rule": "Only actual prior handoff content crosses stages. Selected segment, unit, sizing scenario/formula, capture horizon and evidence limits survive into Persona; actual persona into the tree; actual solution portfolio and opportunity links into 2x2, then chosen concept and comparison into Positioning; separate proposed value/difference and comparator into Positioning; selected statement into Hypothesis; actual hypothesis and prewritten rule into Storyboard; actual six frames into MVN; full narrative and rule into Prototyping. Any dropped required artifact is a chain failure even if honestly flagged. Missing context cannot be invented. This case tests one scripted transport route; the named upstream artifacts are not universal prerequisites for standalone skills."
     },
     {
       "id": "provenance",
@@ -80,6 +81,18 @@
     {
       "id": "no-results",
       "rule": "Prototyping reports NOT BUILT and participant experiment NOT RUN. It compares cheaper methods and cannot claim product or operational validation."
+    },
+    {
+      "id": "mvn-loop-continuity",
+      "rule": "MVN contains a numbered internal loop of about 3-6 human action/system response pairs, and the prototype prompt and Prototyping preserve those pairs, continuations and exit instead of flattening them."
+    },
+    {
+      "id": "canvas-hypothesis-measures",
+      "rule": "Solution Hypothesis includes two tiny acts of discovery or a justified smaller set, a quantitative measure, a qualitative measure, a timeframe and assembled IF/for/THEN statement. Thresholds are proposed, absent baseline/results remain UNKNOWN/NOT RUN, and no synthetic validation claimed."
+    },
+    {
+      "id": "positioning-canvas-clauses",
+      "rule": "Positioning uses For / Who / The / Is a / That / Unlike / Our product gives, choosing a meaningful alternative and persona-relevant benefit without claiming validated superiority. The prior matrix is helpful context, not a universal prerequisite."
     }
   ]
 }

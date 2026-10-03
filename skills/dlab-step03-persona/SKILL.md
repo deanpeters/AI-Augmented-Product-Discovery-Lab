@@ -3,7 +3,7 @@ name: dlab-step03-persona
 description: "Create an evidence-aware situational persona for a selected segment, including jobs, pains, gains, stakes and workarounds. Use before building an opportunity solution tree."
 metadata:
   author: "Dean Peters"
-  version: "0.2.0"
+  version: "0.3.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "3"
@@ -19,7 +19,7 @@ metadata:
   group-size: "1-8; planning guidance"
   depends-on: "none; standalone entry supported"
   combine-with: "dlab-step04-opportunity-solution-tree"
-  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns"
+  source-basis: "Dean Peters' corrected ten-motion discovery sequence; supplied Productside canvas PDFs inspected October 3, 2026; ADLC and Precedents Thinking packaging patterns; see reference/supplied-canvases.md"
   template: "template.md"
   worked-example: "examples/worked-example.md"
   weak-example: "examples/weak-example.md"
@@ -43,11 +43,13 @@ Example invocation: `Use $dlab-step03-persona with my context. Stop at the human
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -68,26 +70,28 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 ## Numbered work
 
 1. State the focal role and selected segment. If several materially different people emerge, show candidates and ask which persona to develop rather than blending them.
-2. Describe situation, trigger, functional job and relevant social or emotional jobs. Preserve reported language when sourced; do not invent interview quotes or decorative demographics.
+2. Preserve the supplied proto-persona canvas fields: Name; Portrait; Bio & Demographics; Quotes; Desired Outcomes / Goals; Needs / Pains. A name can be a role label or clearly fictional teaching name; portrait may remain a placeholder. Bio describes relevant working context; demographics stay UNKNOWN unless supported and relevant. Quotes must be sourced quotations, explicitly synthetic voice lines, or UNKNOWN; never disguise invented voice as an interview. Describe situation, trigger, functional job and relevant social or emotional jobs. Preserve reported language when sourced; do not invent interview quotes or decorative demographics.
 3. Map pains, desired gains, current workaround, incentives, constraints and decision relationships. Keep user, buyer and beneficiary distinct but do not replace the persona with a stakeholder map.
-4. Write a bounded problem statement from the person's perspective. Removing AI or a dashboard must leave the job and current condition intact. Baseline, frequency and cost stay UNKNOWN if absent.
+4. Identify the top job-to-be-done, top pain and top desired gain from the lists, with the basis and uncertainty for each. Treat this as a provisional recommendation until the person chooses. Use the supplied framing pattern: I am [role/context]; I am trying to [job]; But [obstacle]; Because [cause or explicit cause hypothesis]; Which makes me feel [reported feeling or labeled assumption/UNKNOWN]. Do not fabricate an emotional quote or declare a root cause from a canvas. Write a bounded problem statement from the person's perspective. Removing AI or a dashboard must leave the job and current condition intact. Baseline, frequency and cost stay UNKNOWN if absent.
 5. Attach an evidence ledger and the most dangerous assumption. Pass the persona and candidate needs into the Opportunity Solution Tree; do not select a solution.
 
 ## Output: Situational Persona
 
 - Persona identity and evidence status
+- Canvas fields: Name, Portrait, Bio & Demographics, Quotes, Desired Outcomes / Goals, Needs / Pains
 - Situation and trigger
 - Jobs to be done
 - Pains and desired gains
 - Current workaround
 - Stakes, incentives and constraints
 - Decision relationships
+- Top job, top pain and top gain
 - Problem statement and risky assumption
 - Research needed
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:

@@ -21,23 +21,23 @@ Market Intel → Segment → Persona → Opportunity Solution Tree → Value Pro
 | Motion | Question / teaching purpose | Live output |
 |---|---|---|
 | 01 Market Intel | Build an evidence-aware view of the market before narrowing to a segment. Market intel discovers the landscape; segment selection is the next, separate decision. | Market Intelligence Brief |
-| 02 Segment | Turn market intelligence into a deliberate target segment. Keep the unit of segmentation clear: organizations, operating contexts or buying situations are not interchangeable with the persona. | Segment Selection Brief |
+| 02 Segment | Reuse market intel; population → TAM, trade/industry → SAM, competition plus reach/capacity → SOM. Label source facts and speculative assumptions before choosing the segment. | Segment Selection Brief |
 | 03 Persona | Produce an explicit persona: a person in a situation, trying to make progress. Capture jobs, pains and gains inside the persona so the opportunity tree starts from human needs rather than features. | Situational Persona |
-| 04 Opportunity Solution Tree | Place opportunities in the Opportunity Solution Tree. Connect Outcome → Opportunities → Solutions → Experiments and require a human choice before a solution travels downstream. | Opportunity Solution Tree |
-| 05 Value Prop vs. Differentiation 2x2 | Compare two independent questions: does this proposed value matter to the persona, and is the concept meaningfully different from the real alternative? A quadrant is a discussion aid, not proof or a moat claim. | Value Prop vs. Differentiation 2x2 |
+| 04 Opportunity Solution Tree | Place opportunities in the Opportunity Solution Tree. Connect Outcome → Opportunities → Solutions → Experiments and offer a solution portfolio for comparison without requiring a winner first. | Opportunity Solution Tree |
+| 05 Value Prop vs. Differentiation 2x2 | Bake off solution candidates, competitor offerings and the status quo against one audience, outcome and shared baseline. Both axes need separate evidence. | Value Prop vs. Differentiation 2x2 |
 | 06 Positioning Statement | Make the selected concept's target, need, category, benefit, alternative and difference explicit. Positioning expresses a proposition to test; it does not manufacture a reason to believe. | Positioning Statement |
 | 07 Solution Hypothesis | Make the selected concept falsifiable. State what we think will change for the persona, which assumptions must hold, and what observations would support revising, stopping or another test. | Solution Hypothesis |
 | 08 Storyboard | Make the hypothesis visible as six descriptive frames. Storyboard precedes Minimum Viable Narrative in this lab; it consumes the solution hypothesis, not a previously completed narrative. | Storyboard |
-| 09 Minimum Viable Narrative | Turn the selected storyboard into the smallest coherent narrative worth testing. Preserve the six-part action → response → new action loop and prepare portable descriptive context for prototyping. | Minimum Viable Narrative |
+| 09 Minimum Viable Narrative | Turn the selected storyboard into the smallest coherent narrative worth testing. Preserve an internal loop of 3-6 human action/system response transactions between Encounter and Resolution and prepare portable descriptive context for prototyping. | Minimum Viable Narrative |
 | 10 Prototyping | Prototype to learn, and stop when a cheaper method answers the question. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence. | Prototype Experiment Brief |
 
 Open with the cost of committing before understanding the market, person and outcome. Use a prepared Hall of Shame slide only when its claims and sources have been checked; do not research cases on stage.
 
-Pre-run source-heavy Market Intel. Keep Segment separate. Give Persona a longer Guided exchange so the audience sees a conversational canvas, including jobs/pains/gains and current workaround. Do not replace it with an actor map.
+Pre-run source-heavy Market Intel. Keep Segment separate and make its three sizing estimates visible. Pre-run gap research; show the source/assumption trail, units, horizon and bottleneck rather than spend stage time searching. Give Persona a longer Guided exchange so the audience sees a conversational canvas, including jobs/pains/gains and current workaround. Do not replace it with an actor map.
 
-Use the Opportunity Solution Tree for needs, candidate solutions and experiments. Select an actual concept at its gate. The 2x2 compares value with differentiation against a named alternative; it does not declare a moat. Positioning precedes the falsifiable Solution Hypothesis.
+Use the Opportunity Solution Tree for needs, candidate solutions and experiments. Keep several candidate solutions for a 2x2 bake-off with competitor offerings and the status quo. Use one audience, outcome and shared baseline; shortlist after comparison. The matrix does not declare a moat. Positioning precedes the falsifiable Solution Hypothesis.
 
-Storyboard consumes the selected hypothesis. Minimum Viable Narrative then tightens the story into Setup, Encounter, Action, Response, New Action and Resolution. Prototyping must justify fidelity against cheaper tests and end with honest build and experiment status.
+Storyboard follows who has the problem → the problem → the oh crap moment → solution arrives → person uses it → person helps others enjoy the same success. It may reuse a hypothesis or start from direct notes. Minimum Viable Narrative then tightens the story into Setup, Encounter, an internal loop of 3-6 human action/system response transactions, and Resolution. Prototyping asks for the smallest, cheapest test that can expose the most brutal truth about the riskiest assumption and end with honest build and experiment status.
 
 There is no agent-strategy canvas or map in this performance. A short explanation of prompt, skill, agent and plugin can follow the demo; it does not add a discovery stage or implemented operator.
 
@@ -47,7 +47,7 @@ Each significant motion needs a live attempt, actual saved fallback artifact and
 
 For actual saved outputs: “AI demos obey Murphy's Law, so I brought receipts.” For seeds: “This is a synthetic illustration of the motion. It is not customer evidence.” Try one reasonable recovery and move on. Preserve a human choice and an actual small handoff even when the live tool fails.
 
-Carry target, belief, evidence, inference, outcome and biggest unanswered question. Add the actual selected artifacts required by the [next boundary](docs/CHAIN.md). Missing data stays UNKNOWN. Do not make one failed tool break the entire show.
+Carry target, belief, evidence, inference, outcome and biggest unanswered question. Add useful candidate or story context from the [suggested transitions](docs/CHAIN.md), when available. Notes and partial context can start any motion. Missing data stays UNKNOWN. Do not make one failed tool break the entire show.
 
 ## Rehearsal before showtime
 
@@ -56,3 +56,5 @@ Run at least one full rehearsal in the actual tools. Capture exact prompts, inpu
 Actual canvas and brand files govern their structure and visual treatment. Until supplied, all outlines are labeled lab adaptations and style remains a reversible placeholder.
 
 A complete script, mechanical checks or historical model reviews do not establish live usability. Finish with the question: what actual evidence earns the next investment?
+
+Tiniest act of discovery wins. Lo-fi wins. Jeff Patton: “The most expensive way to test your idea is to build production quality software.” Use this on the fidelity ladder before deciding what to build. [Source: Dual Track Development is not Duel Track](https://jpattonassociates.com/dual-track-development/).

@@ -26,7 +26,7 @@ flowchart TB
 
 1. Choose a motion from the [launchpad](DEMO.md).
 2. Copy everything inside its large block into your AI chat. It includes the instructions, template and worked/weak examples.
-3. Add your context and choose Guided, Context dump or Best guess.
+3. Add direct notes or any useful earlier context and choose Guided, Context dump or Best guess. No previous skill run or formal handoff is required.
 4. Edit the draft. Choose approve a bounded next motion, revise, gather evidence or stop.
 
 For a first swing, try the [Persona prompt](prompts/03-persona.md). Append:

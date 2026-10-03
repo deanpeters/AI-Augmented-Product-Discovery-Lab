@@ -3,7 +3,7 @@ name: dlab-step06-positioning-statement
 description: "Write a provisional positioning statement from a chosen persona, concept and value-versus-difference comparison. Use before formalizing a solution hypothesis."
 metadata:
   author: "Dean Peters"
-  version: "0.2.0"
+  version: "0.3.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "6"
@@ -11,9 +11,9 @@ metadata:
   intent: "Make the selected concept's target, need, category, benefit, alternative and difference explicit. Positioning expresses a proposition to test; it does not manufacture a reason to believe."
   audience: "Product Managers; founders; product teams"
   operating-level: "product-team; initiative"
-  argument-hint: "Persona, human-selected concept, 2x2 comparison, current alternative and evidence for value and difference. Stop for a missing concept choice."
+  argument-hint: "Audience, concept or shortlist, current alternative and available evidence for value and difference. A 2x2 is optional; draft provisional variants if no concept is selected."
   best-for: "Write a provisional positioning statement from a chosen persona, concept and value-versus-difference comparison. Use before formalizing a solution hypothesis."
-  evidence-required: "Persona, human-selected concept, 2x2 comparison, current alternative and evidence for value and difference. Stop for a missing concept choice."
+  evidence-required: "Audience, concept or shortlist, current alternative and available evidence for value and difference. A 2x2 is optional; draft provisional variants if no concept is selected."
   produces: "Positioning Statement; claim ledger; human decision; small handoff"
   estimated-time: "15-30 minutes for a working session; planning estimate, not demo timing"
   group-size: "1-8; planning guidance"
@@ -37,17 +37,19 @@ metadata:
 
 Make the selected concept's target, need, category, benefit, alternative and difference explicit. Positioning expresses a proposition to test; it does not manufacture a reason to believe.
 
-Input: Persona, human-selected concept, 2x2 comparison, current alternative and evidence for value and difference. Stop for a missing concept choice.
+Input: Audience, concept or shortlist, current alternative and available evidence for value and difference. A 2x2 is optional; draft provisional variants if no concept is selected.
 
 Example invocation: `Use $dlab-step06-positioning-statement with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -68,7 +70,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 ## Numbered work
 
 1. Reuse the persona, selected opportunity and concept. Preserve the distinction between user, buyer and beneficiary.
-2. Draft a clear Geoffrey Moore-style statement: For [target] who [need], [concept] is a [category] that [benefit]. Unlike [alternative], it [difference]. Use provisional category language when needed.
+2. Use the supplied canvas clauses: For [target customer], Who [statement of opportunity], The [product name], Is a [product category], That [key benefit], Unlike [primary competitive alternative], Our product gives [primary differentiation]. State benefits the persona cares about, not a feature list. The primary alternative can be direct, indirect or the current workaround; use the one the persona would most likely compare. Reuse an optional matrix or direct notes without requiring one. Use provisional category language when needed.
 3. Test each clause against the supplied evidence. Avoid unsupported superlatives, measured savings and customer quotes. Keep an unsupported reason to believe explicitly UNKNOWN.
 4. Offer meaningful wording or boundary alternatives without inventing a new concept. Recommend a statement and wait for a human choice.
 5. Pass the actual selected statement, persona, concept, proposed benefit, alternative and proof gaps into Solution Hypothesis.
@@ -85,7 +87,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:

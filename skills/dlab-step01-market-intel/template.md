@@ -28,6 +28,14 @@ Lab adaptation, not an authoritative Productside canvas.
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
+## Sizing inputs to carry into Segment
+
+| Input | Value or UNKNOWN | Counting unit / geography / reference year | Source/table ID | Limitation |
+|---|---|---|---|---|
+| Relevant population | | | | |
+| Industry intersection / service filters | | | | |
+| Competitive coverage / switching evidence | | | | |
+
 ## Conflicting evidence and gaps
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]

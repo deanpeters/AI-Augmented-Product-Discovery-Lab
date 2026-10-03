@@ -24,7 +24,11 @@ Market Intel → Segment → Persona → Opportunity Solution Tree → Value Pro
 
 Start where the decision is. Each motion works independently, produces an editable artifact and stops for a human choice. This is a teaching path, not an automatic build pipeline. Evidence should increase before fidelity increases; a cheaper test can replace rendering or building.
 
-Market Intel investigates the landscape. Segment chooses a bounded context. Persona describes the person, situation, jobs, pains, gains and current workaround. Opportunities belong in the Opportunity Solution Tree. The 2x2 separates proposed customer value from meaningful differentiation. Positioning makes the proposition explicit, then Solution Hypothesis defines what could disconfirm it. Storyboard comes before Minimum Viable Narrative. Prototyping includes the experiment status and next evidence decision.
+Market Intel investigates the landscape. Segment reuses that intel, fills material source gaps and estimates population-led TAM, industry-filtered SAM and competition/capacity-constrained SOM before choosing a bounded context. Persona describes the person, situation, jobs, pains, gains and current workaround. Opportunities belong in the Opportunity Solution Tree. The 2x2 separates proposed customer value from meaningful differentiation. Positioning makes the proposition explicit, then Solution Hypothesis defines what could disconfirm it. Storyboard comes before Minimum Viable Narrative. Prototyping includes the experiment status and next evidence decision.
+
+The value-versus-differentiation 2x2 is a solution bake-off: compare several OST candidates, competitor offerings and the current workaround for the same audience and outcome. OST output is optional. All skills accept direct notes or partial context, and can draft labeled assumptions without requiring an upstream artifact. See [the loosely coupled flow](docs/CHAIN.md).
+
+[Productside canvas references](assets/productside/canvases/README.md) are included with Dean's confirmed permission to share. Skills and prompts preserve their useful fields and add evidence labels; the visual files are optional.
 
 ## Use a skill or a prompt
 

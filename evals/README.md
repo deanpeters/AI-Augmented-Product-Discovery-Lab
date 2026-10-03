@@ -1,6 +1,6 @@
 # Keep the discovery motions honest
 
-Nine synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
+Twelve synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
 
 | Case | Failure it should catch |
 |---|---|
@@ -13,6 +13,9 @@ Nine synthetic use cases, with pass rules written before the run. They test the 
 | [07 Route back](cases/07-route-back.json) | New contradictory evidence ignored, opportunity branches protected or prior persona context discarded |
 | [08 Value versus difference](cases/08-value-versus-difference.json) | AI novelty becomes claimed value, winning quadrant or moat |
 | [09 Storyboard before MVN](cases/09-storyboard-before-mvn.json) | Storyboard demands an MVN first or actual six frames are lost |
+| [10 Segment sizing](cases/10-segment-sizing.json) | Incorrect arithmetic, duplicate filters, capacity-free SOM or fictional pricing treated as WTP |
+| [11 Segment source gaps](cases/11-segment-source-gaps.json) | Existing intel ignored, source leads become fake findings, missing evidence filled by invention |
+| [12 Denominator traps](cases/12-segment-denominator-traps.json) | Firms/sites mixed, trade samples overgeneralized, overlap and free-share capture |
 
 **The corrected ten-motion chain has not been behaviorally re-run. Prior eleven-motion passes do not apply.**
 
@@ -56,7 +59,7 @@ The runner requires an authenticated Claude CLI whose `claude --help` supports `
 python3 scripts/run-evals.py run 02-guided-reuse --engine claude --variant both --review
 ```
 
-For all nine cases, including the full chain:
+For all twelve cases, including the full chain:
 
 ```bash
 python3 scripts/run-evals.py run all --engine claude --variant both --review
@@ -105,3 +108,7 @@ python3 scripts/run-evals.py resume runs/evals/REPLACE_WITH_YOUR_RUN_FOLDER --en
 Resume requires unchanged skill/prompt, bundled asset and case hashes, counts only fully recorded stages, preserves the original run, and creates a new receipt folder. It does not manufacture missing answers or approvals. A partly recorded stage is rerun. A changed skill, asset or case requires a fresh run instead.
 
 On failure, keep the original transcript, fix the skill or handoff, re-export prompts, and re-run. Change a case only to correct an actual case defect, with the reason documented. Private/local transcripts stay under ignored `runs/`; share selected synthetic receipts only after checking them.
+
+Cases 13 and 14 cover the multi-solution/competitor bake-off and standalone entry without an OST. The runner's six-field `<handoff>` transport checks protect context in scripted chain tests; they are harness conventions, not mandatory skill inputs. Behavioral cases require an explicitly chosen model run; local validation alone does not prove their behavior.
+
+Case 15 challenges cheap discovery theatre: a pleasant storyboard reaction cannot establish adoption under pressure. Its behavioral execution remains optional and separate from local checks.

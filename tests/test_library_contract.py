@@ -55,6 +55,42 @@ class LibraryContractTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertIn('prompts/03-persona.md', result.stderr)
 
+    def test_segment_example_counts_and_annual_values_match_its_inputs(self):
+        from decimal import Decimal
+        text = (ROOT / 'skills/dlab-step02-segment/examples/worked-example.md').read_text()
+        scenarios = text.split('## Scenario inputs and results', 1)[1]
+        counts, values = scenarios.split('Optional annualized price scenarios', 1)
+
+        def row(section, label):
+            line = next(line for line in section.splitlines()
+                        if line.startswith('| '+label+' |'))
+            return [cell.strip() for cell in line.split('|')[2:5]]
+
+        def numbers(section, label):
+            return [Decimal(cell.replace(',', '').replace('$', '').replace('%', ''))
+                    for cell in row(section, label)]
+
+        population = numbers(counts, 'Relevant population')
+        intersection = numbers(counts, 'Industry-qualified intersection')
+        fit = numbers(counts, 'Service/need fit within intersection')
+        reach = numbers(counts, 'Qualified reachable sites')
+        win = numbers(counts, 'Win rate')
+        acquisition = numbers(counts, 'Acquisition capacity')
+        onboarding = numbers(counts, 'Onboarding capacity')
+        price = numbers(counts, 'Annual price per site')
+        sam = [base * share / 100 for base, share in zip(intersection, fit)]
+        som = [min(sam[i], reach[i] * win[i] / 100, acquisition[i], onboarding[i])
+               for i in range(3)]
+        self.assertEqual(numbers(counts, 'TAM'), population)
+        self.assertEqual(numbers(counts, 'SAM'), sam)
+        self.assertEqual(numbers(counts, 'SOM, first 12 months'), som)
+        for label, units in [('TAM', population), ('SAM', sam),
+                             ('SOM endpoint annualized value', som)]:
+            self.assertEqual(numbers(values, label), [n * p for n, p in zip(units, price)])
+        for total, available, obtainable in zip(population, sam, som):
+            self.assertLessEqual(obtainable, available)
+            self.assertLessEqual(available, total)
+
     def test_missing_template_rejects_library(self):
         with tempfile.TemporaryDirectory() as tmp:
             copy = Path(tmp) / 'lab'

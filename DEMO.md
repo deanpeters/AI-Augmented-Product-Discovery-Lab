@@ -19,11 +19,11 @@ Use the [complete presenter script](examples/monday-demo-script.md) for what to 
 
 Audience: Product Managers, founders and product teams. Outcome: see a decision improve before committing to a build. The manufacturing teaching scenario is SYNTHETIC until actual evidence is supplied.
 
-Pre-run market research if using real sources. Demo Persona as a conversational canvas. Keep each other motion focused on the decision and the actual handoff. Storyboard consumes the selected Solution Hypothesis; Minimum Viable Narrative consumes the actual storyboard.
+Pre-run market research if using real sources. Segment reuses it, fills material census/industry/trade/academic/filing gaps, and shows population → TAM, industry filters → SAM, competition plus reach/capacity → SOM with assumptions visible. Demo Persona as a conversational canvas. Keep each other motion focused on the decision and the actual handoff. Use OST candidates for a 2x2 bake-off with competitor offerings and the status quo. Every motion also accepts standalone notes; prior artifacts help preserve context but are optional.
 
 ## Fallback control
 
-Plan roughly 4 minutes per short motion and 8 minutes for the Guided Persona exchange, within the SHOWRUN's 60-minute active-content budget. These are planning estimates, not rehearsal timings.
+Plan roughly 4 minutes per short motion, 6 for the Segment sizing exchange and 8 for the Guided Persona exchange, within the SHOWRUN's 60-minute active-content budget. These are planning estimates, not rehearsal timings.
 
 - 01 Market Intel: [synthetic illustration](fallbacks/01-market-intel.md).
 - 02 Segment: [synthetic illustration](fallbacks/02-segment.md).

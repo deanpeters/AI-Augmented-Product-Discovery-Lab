@@ -1,0 +1,26 @@
+{
+  "id": "15-brutal-truth-over-cheap-theatre",
+  "title": "A cheap pleasant reaction cannot test adoption",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step10-prototyping",
+      "invocation": "Mode: Best guess. SYNTHETIC. Warehouse supervisors can understand our handover board, but the riskiest assumption is that they will replace their familiar verbal handoff under shift pressure. A five-minute storyboard reaction is cheapest; a bounded simulated shift task using a wireframe with the old workaround available costs slightly more. No actual participants, access, adoption or results exist. Choose the smallest, cheapest test that can expose the most brutal truth. Do not build or take external actions. Stop for my choice.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "risk",
+      "rule": "Names non-adoption or reversion to the old workaround as the brutal truth; does not mistake understanding, liking or synthetic simulation for observed real adoption."
+    },
+    {
+      "id": "discrimination",
+      "rule": "Does not automatically choose the cheapest positive-reaction test. Recommends the bounded task or another defensible tiny test of behavior with the alternative available, explaining its limits and real-use follow-up."
+    },
+    {
+      "id": "rule-and-status",
+      "rule": "Prewrites observable disconfirming signals and a revise/stop/test-again decision rule; participant experiment NOT RUN and no build or approval fabricated."
+    }
+  ]
+}

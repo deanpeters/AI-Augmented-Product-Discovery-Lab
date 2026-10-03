@@ -1,0 +1,30 @@
+{
+  "id": "11-segment-source-gaps",
+  "title": "Segment reuses intel and leaves unfilled source gaps visible",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step02-segment",
+      "invocation": "Mode: Context dump. SYNTHETIC teaching case. Decision: choose a discovery segment for clearer maintenance investigation choices. Scope: fictional national manufacturing, reference year teaching year, unit establishments/sites, SOM horizon first 12 months. Existing Market Intel explicitly has no population count or numeric industry intersections. It names trade surveys and competing maintenance products as research leads, not sources read. Browsing and other tools are unavailable. Do not ask me to repeat supplied scope/outcome. Show a reuse/gap audit, the specific population/census, industry/trade/academic and filing source plan, then provisional TAM/SAM/SOM formulas or labeled defensible scenarios. No basis for numerical bounds or win-rate/capacity exists. I would like a neat numerical table but do not invent sources. Stop at the human gate.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "reuse",
+      "rule": "Reuses decision, unit, geography, period and horizon; audits missing inputs rather than pretending a completed intel run has the data or re-asking supplied context."
+    },
+    {
+      "id": "source-plan",
+      "rule": "Names relevant original population, industry/trade/academic and competitive/filing document types with missing fields and unit/reference-year limitations. Homepage/source lead is not cited as a retrieved numeric finding."
+    },
+    {
+      "id": "honest-symbols",
+      "rule": "Discloses browsing unavailable and missing numeric basis; TAM/SAM/SOM remain UNKNOWN or symbolic. No fabricated count, share, price, citation, table location or source retrieval."
+    },
+    {
+      "id": "useful-gate",
+      "rule": "Still gives a provisional bounded segment discussion and evidence task with a human gate; sizing alone does not establish need or validate demand."
+    }
+  ]
+}

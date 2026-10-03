@@ -1,0 +1,34 @@
+{
+  "id": "10-segment-sizing",
+  "title": "Population, industry filters and competitive capture yield honest sizing",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step02-segment",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching fixture, no browsing or external actions. Reuse these supplied Market Intel inputs rather than repeat research: F1 20,000 relevant billable manufacturing sites in one fictional national population; F2 8,000-site joint mid-size/discrete intersection already narrowed by both dimensions; F3 fictional site-based incumbents and manual log/technician alternatives, with possible switching friction but no actual share. Reference period teaching year. Outcome clearer investigation decisions. First-12-month SOM. Low/base/high explicit assumptions: service/need fit within F2 25/35/45%; distinct qualified reachable sites 150/300/500; win rate 10/15/20%; acquisition capacity 20/40/60 sites; onboarding 18/36/50 sites. Optional annual price $2,000/$3,000/$4,000 per same site. All values fictional; pricing not observed WTP. Estimate TAM/SAM/SOM counts and optional annualized value; show formulas and largest bottleneck. Stop at human gate.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "reuse-and-units",
+      "rule": "Reuses F1-F3 as fictional supplied material without claiming research occurred. Keeps billable site unit and first-12-month horizon; does not conflate sites with firms, people or customer logos."
+    },
+    {
+      "id": "tam-sam-math",
+      "rule": "TAM 20,000 sites; SAM 2,000/2,800/3,600 from 8,000 \u00d7 25/35/45%. Does not apply size/subsector again to the already joint intersection."
+    },
+    {
+      "id": "som-capacity",
+      "rule": "SOM 15/36/50 from the minimum of SAM, reach \u00d7 win rate, acquisition and onboarding capacity. Names the base onboarding bottleneck; no arbitrary free market share."
+    },
+    {
+      "id": "value-and-uncertainty",
+      "rule": "If annual values supplied: TAM $40M/$60M/$80M, SAM $4M/$8.4M/$14.4M, SOM endpoint $30K/$108K/$200K. Labels all numbers fictional or assumed, price not WTP, and endpoint annualized value not recognized first-year revenue. No customer validation."
+    },
+    {
+      "id": "choice",
+      "rule": "Recommends a bounded segment with caveats and waits for human selection; carries sizing/unit/horizon/basis in actual handoff."
+    }
+  ]
+}

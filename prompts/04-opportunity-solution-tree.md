@@ -8,7 +8,7 @@ Instructions, template and examples are included. No repository access or skill 
 
 ## Purpose and input
 
-Place opportunities in the Opportunity Solution Tree. Connect Outcome → Opportunities → Solutions → Experiments and require a human choice before a solution travels downstream.
+Place opportunities in the Opportunity Solution Tree. Connect Outcome → Opportunities → Solutions → Experiments and offer a candidate portfolio for comparison without requiring a winner first.
 
 Input: Persona or standalone actor, situation, desired outcome, candidate needs and supporting evidence. Jobs and problem context belong here as inputs, not extra stages.
 
@@ -16,11 +16,13 @@ Example invocation: `Use $dlab-step04-opportunity-solution-tree with my context.
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -34,7 +36,7 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 2. Which unmet needs or obstacles are supported or hypothesized?
 3. Which alternatives or solution candidates should we compare?
 4. What cheap experiment could disconfirm each serious candidate?
-5. Which branch do you choose to carry forward, if any?
+5. Which candidates should we compare or test next, if any?
 
 Reuse supplied answers, including a concrete actor, current condition and desired outcome. Unknown measurements do not justify re-asking those questions. Ask a narrower follow-up only when ambiguity would change the decision.
 
@@ -44,7 +46,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 2. Group a few opportunities as unmet needs, pains or obstacles. Distinguish report uncertainty from authority or scheduling barriers; retain competing explanations rather than declaring a root cause.
 3. Offer a small set of solution candidates under the opportunities, including a process or non-AI alternative. Keep solution nouns out of opportunity labels.
 4. Attach assumptions, cheap experiments and expected versus disconfirming observations to candidates. Economic value for the customer and business may inform prioritization but remains unmeasured unless sourced.
-5. Recommend a branch without selecting it. Wait for the human choice and carry the actual opportunity, selected concept, experiment idea and uncertainty into the 2x2. Approval of the tree alone is not concept selection.
+5. Recommend a portfolio to compare or test without selecting a winner. Offer candidate IDs, descriptions, opportunity links, experiment ideas and uncertainty as optional context for a 2x2 bake-off. The person can compare several branches, revise, gather evidence or stop. Approval to compare is not concept selection.
 
 ## Output: Opportunity Solution Tree
 
@@ -58,7 +60,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
@@ -115,7 +117,7 @@ Lab adaptation, not an authoritative Productside canvas.
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
-## Branch choice
+## Portfolio choice
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
@@ -172,7 +174,7 @@ O1 understand source and recency of conflicting information; O2 clarify who can 
 
 ## Solution candidates
 
-Under O1: paper report comparison or annotated digital comparison. Under O2: explicit permission and scheduling process.
+Under O1: S1 storyboard report comparison and S2 annotated digital comparison. Under O2: S3 explicit permission and scheduling process.
 
 ## Experiments and disconfirmation
 
@@ -180,15 +182,15 @@ Discuss a recent decision and use fictional report pairs. If information is unde
 
 ## Value and feasibility assumptions
 
-Time saved, commercial value and integration feasibility UNKNOWN. A paper test may answer the first question.
+Time saved, commercial value and integration feasibility UNKNOWN. A lo-fi discovery test may answer the first question.
 
-## Branch choice
+## Portfolio choice
 
-DRAFT candidate: report-comparison process; no human concept selection recorded.
+DRAFT portfolio: S1 storyboard report comparison and S2 annotated digital comparison under O1; S3 permission/handoff process under O2. No winner selected.
 
 ## Next handoff
 
-Carry the chosen opportunity and concept only after a recorded choice, along with the alternative coordination explanation.
+Offer S1/S2/S3 with opportunity links, experiment ideas and the coordination alternative for a bake-off. Comparing a portfolio does not require choosing a winner first.
 
 ## Claim ledger
 
@@ -214,11 +216,11 @@ Biggest unanswered question: Is information uncertainty the obstacle, and which 
 
 - **Outcome and persona:** SYNTHETIC maintenance manager: clearer next-investigation decisions; baseline and target UNKNOWN.
 - **Opportunities:** O1 understand source and recency of conflicting information; O2 clarify who can authorize investigation. Both hypotheses, not verified needs.
-- **Solution candidates:** Under O1: paper report comparison or annotated digital comparison. Under O2: explicit permission and scheduling process.
+- **Solution candidates:** Under O1: S1 storyboard report comparison and S2 annotated digital comparison. Under O2: S3 explicit permission and scheduling process.
 - **Experiments and disconfirmation:** Discuss a recent decision and use fictional report pairs. If information is understood but permission blocks action, revise toward O2.
-- **Value and feasibility assumptions:** Time saved, commercial value and integration feasibility UNKNOWN. A paper test may answer the first question.
-- **Branch choice:** DRAFT candidate: report-comparison process; no human concept selection recorded.
-- **Next handoff:** Carry the chosen opportunity and concept only after a recorded choice, along with the alternative coordination explanation.
+- **Value and feasibility assumptions:** Time saved, commercial value and integration feasibility UNKNOWN. A lo-fi discovery test may answer the first question.
+- **Portfolio choice:** DRAFT portfolio: S1 storyboard report comparison and S2 annotated digital comparison under O1; S3 permission/handoff process under O2. No winner selected.
+- **Next handoff:** Offer S1/S2/S3 with opportunity links, experiment ideas and the coordination alternative for a bake-off. Comparing a portfolio does not require choosing a winner first.
 
 # Weak example
 

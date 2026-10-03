@@ -1,6 +1,6 @@
 # Minimum Viable Narrative
 
-Lab adaptation, not an authoritative Productside canvas.
+Use supplied context or a labeled provisional draft. This follows the narrative structure in Dean's supplied canvas; it does not require a completed upstream artifact.
 
 - Date:
 - Built from:
@@ -8,41 +8,49 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
-## Audience and learning question
+## Prototype hypothesis and learning question
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[What must be true? What behavior do we want to observe? What brutal truth could change the idea?]
+
+## Target audience
+
+[Who will view or use this prototype? Distinguish the testing audience from the actor if different.]
 
 ## Setup
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Who is this person, where are they, and what do they need?]
 
 ## Encounter
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[What do they see on arrival? What does the system show them?]
 
-## Action
+## Action–Response Loop
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+About 3-6 transactions live INSIDE this section. Each response creates the reason for the next human action. A transaction is one human action plus one system response, not a new top-level story section.
 
-## Response
+| Transaction | Human action / choice / input | System response / information returned | Why the human acts next |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+Add transactions 4-6 only when needed to observe the behavior. Do not pad with clicks. Label newly proposed interactions as assumptions.
 
-## New Action
-
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+- Loop exit condition:
+- Behavior to observe:
+- Any justified departure from 3-6 transactions:
 
 ## Resolution
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[How does it end? What does success look and feel like in the story? Preserve a supplied shared-success ending where relevant. Depicted success is not observed evidence.]
 
-## Prototype prompt and boundaries
+## No/Lo-Code Prompt and boundaries
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Copy-ready descriptive prompt: hypothesis, target audience, Setup, Encounter, ALL numbered human/system transactions and their continuations, loop exit, Resolution, task, decision rule and boundaries. Keep the internal loop intact. No architecture or pixel specification.]
 
 ## Narrative critique and decision
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+[Does each response enable the next action? Is the loop sufficient to expose the riskiest assumption? Could a smaller act of discovery do so?]
 
 ## Claim ledger
 
@@ -58,7 +66,7 @@ Lab adaptation, not an authoritative Productside canvas.
 - Unresolved disagreement:
 - Next motion or evidence task:
 
-## Small handoff
+## Optional context summary
 
 ```text
 Target:
@@ -69,4 +77,4 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
-Carry the actual downstream-required content, not just its title.
+When passing this narrative onward, include the actual numbered transactions, continuations and exit condition; a title or "repeat the loop" is insufficient to preserve supplied content.

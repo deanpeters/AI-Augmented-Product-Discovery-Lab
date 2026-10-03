@@ -18,7 +18,14 @@ Provisional report-comparison process; category is a working description.
 
 ## Statement
 
-For maintenance managers facing conflicting equipment reports, the report-comparison process is a decision aid that may clarify the next investigation. Unlike unstructured log review, it proposes making source, recency and uncertainty explicit.
+All clauses are SYNTHETIC teaching hypotheses:
+- **For:** maintenance managers in mid-sized manufacturing plants.
+- **Who:** need to explain an investigation choice when reports conflict.
+- **The:** Report Comparison Aid, a provisional teaching name.
+- **Is a:** source-context comparison aid, a provisional category.
+- **That:** may support an explainable next action with uncertainty visible.
+- **Unlike:** technician discussion and manual log review, an assumed workaround.
+- **Our product gives:** explicit side-by-side source, timing and uncertainty context; meaningful difference and benefit are untested.
 
 ## Alternative and proposed difference
 

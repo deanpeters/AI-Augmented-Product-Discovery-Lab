@@ -16,11 +16,13 @@ Example invocation: `Use $dlab-step03-persona with my context. Stop at the human
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -41,26 +43,28 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 ## Numbered work
 
 1. State the focal role and selected segment. If several materially different people emerge, show candidates and ask which persona to develop rather than blending them.
-2. Describe situation, trigger, functional job and relevant social or emotional jobs. Preserve reported language when sourced; do not invent interview quotes or decorative demographics.
+2. Preserve the supplied proto-persona canvas fields: Name; Portrait; Bio & Demographics; Quotes; Desired Outcomes / Goals; Needs / Pains. A name can be a role label or clearly fictional teaching name; portrait may remain a placeholder. Bio describes relevant working context; demographics stay UNKNOWN unless supported and relevant. Quotes must be sourced quotations, explicitly synthetic voice lines, or UNKNOWN; never disguise invented voice as an interview. Describe situation, trigger, functional job and relevant social or emotional jobs. Preserve reported language when sourced; do not invent interview quotes or decorative demographics.
 3. Map pains, desired gains, current workaround, incentives, constraints and decision relationships. Keep user, buyer and beneficiary distinct but do not replace the persona with a stakeholder map.
-4. Write a bounded problem statement from the person's perspective. Removing AI or a dashboard must leave the job and current condition intact. Baseline, frequency and cost stay UNKNOWN if absent.
+4. Identify the top job-to-be-done, top pain and top desired gain from the lists, with the basis and uncertainty for each. Treat this as a provisional recommendation until the person chooses. Use the supplied framing pattern: I am [role/context]; I am trying to [job]; But [obstacle]; Because [cause or explicit cause hypothesis]; Which makes me feel [reported feeling or labeled assumption/UNKNOWN]. Do not fabricate an emotional quote or declare a root cause from a canvas. Write a bounded problem statement from the person's perspective. Removing AI or a dashboard must leave the job and current condition intact. Baseline, frequency and cost stay UNKNOWN if absent.
 5. Attach an evidence ledger and the most dangerous assumption. Pass the persona and candidate needs into the Opportunity Solution Tree; do not select a solution.
 
 ## Output: Situational Persona
 
 - Persona identity and evidence status
+- Canvas fields: Name, Portrait, Bio & Demographics, Quotes, Desired Outcomes / Goals, Needs / Pains
 - Situation and trigger
 - Jobs to be done
 - Pains and desired gains
 - Current workaround
 - Stakes, incentives and constraints
 - Decision relationships
+- Top job, top pain and top gain
 - Problem statement and risky assumption
 - Research needed
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
@@ -89,7 +93,7 @@ Use the [artifact template](#artifact-template) when drafting. Consult the [synt
 
 # Situational Persona
 
-Lab adaptation, not an authoritative Productside canvas.
+Text adaptation aligned with the supplied Productside Creating Proto-Personas canvas; evidence and situational-context sections extend the reference.
 
 - Date:
 - Built from:
@@ -100,6 +104,15 @@ Lab adaptation, not an authoritative Productside canvas.
 ## Persona identity and evidence status
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+
+## Canvas fields
+
+- **Name:** [Role label or clearly fictional teaching name.]
+- **Portrait:** [Optional placeholder or supplied image; not evidence.]
+- **Bio & Demographics:** [Relevant role/context; unsupported demographics UNKNOWN.]
+- **Quotes:** [Source-linked actual quotation, explicitly synthetic voice line, or UNKNOWN.]
+- **Desired Outcomes / Goals:** [What motivates this person and connects to the problem?]
+- **Needs / Pains:** [Obstacles, constraints and supported or explicitly assumed feelings.]
 
 ## Situation and trigger
 
@@ -125,9 +138,22 @@ Lab adaptation, not an authoritative Productside canvas.
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
+## Top job, top pain and top gain
+
+- Top job-to-be-done and basis:
+- Top pain and basis:
+- Top desired gain and basis:
+- Selection: provisional recommendation / actual human choice:
+
 ## Problem statement and risky assumption
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+I am [role and situation].
+I am trying to [top job].
+But [obstacle].
+Because [supported cause or explicitly labeled cause hypothesis].
+Which makes me feel [reported feeling, labeled assumption or UNKNOWN].
+
+Label each unsupported clause. A first-person sentence is not an interview quotation. What assumption could overturn this frame?
 
 ## Research needed
 
@@ -176,6 +202,15 @@ Lab adaptation, not an authoritative Productside canvas.
 
 Maintenance manager in a mid-sized manufacturing plant. SYNTHETIC proto-persona; no customer evidence.
 
+## Canvas fields
+
+- **Name:** Maintenance manager, a role label in a SYNTHETIC teaching fixture.
+- **Portrait:** Placeholder; no real person depicted.
+- **Bio & Demographics:** Responsible for investigation choices before shift handover. Other demographic details UNKNOWN and unnecessary for this job.
+- **Quotes:** UNKNOWN; no interviews or verbatim customer language supplied.
+- **Desired Outcomes / Goals:** Explain the next investigation and unresolved uncertainty.
+- **Needs / Pains:** Conflicting reports with unclear source/recency; coordination may be an alternative barrier. Both assumed, not validated.
+
 ## Situation and trigger
 
 Fictional condition: two equipment reports disagree before an investigation decision.
@@ -199,6 +234,19 @@ Operational stakes possible but unmeasured. No real records or equipment command
 ## Decision relationships
 
 Technician and production supervisor are related provisional roles; buyer and authority UNKNOWN.
+
+## Top job, top pain and top gain
+
+Provisional teaching recommendations, not a recorded human choice:
+- Top job: explain the next equipment investigation.
+- Top pain: conflicting reports with unclear source and recency.
+- Top desired gain: an explainable next action with uncertainty visible.
+
+All three are ESTIMATE / BEST GUESS from the authored fixture. Permission or scheduling may be the stronger obstacle.
+
+### Problem framing pattern
+
+I am a maintenance manager before shift handover. I am trying to explain the next investigation. But conflicting reports make the choice hard to defend. Because their source and recency may be unclear, a cause hypothesis rather than a verified root cause. Which makes me feel: UNKNOWN; no reported emotional evidence exists. This is authored framing, not a customer quotation.
 
 ## Problem statement and risky assumption
 

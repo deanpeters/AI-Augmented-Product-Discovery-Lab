@@ -1,77 +1,80 @@
-# Minimum Viable Narrative
+# Minimum Viable Narrative: conflicting maintenance reports
 
-Lab adaptation, not an authoritative Productside canvas.
+SYNTHETIC teaching fixture. All people, reports, responses and success are fictional; no customer or plant evidence. Date: teaching session. Built from authored manufacturing story. Status DRAFT; decider not recorded.
 
-- Date: 2026-10-02
-- Built from: authored fictional manufacturing fixture
-- Status: DRAFT
-- Decider: not recorded
-- Synthetic status: SYNTHETIC; no observed customer or plant evidence
+## Prototype hypothesis and learning question
 
-## Audience and learning question
+Making source, recency and uncertainty visible may help a maintenance manager explain the next investigation. Brutal truth: information may already be sufficient while permission or scheduling is the real barrier.
 
-SYNTHETIC maintenance practitioner: can the proposed comparison support an explainable next investigation?
+## Target audience
+
+Maintenance practitioners reviewing a fictional investigation scenario. The actor is a maintenance manager before a shift handover.
 
 ## Setup
 
-Manager has a fictional investigation decision to make.
+The manager needs to explain which concern deserves investigation before handing over to the next shift.
 
 ## Encounter
 
-Two reports disagree and their bases are unclear.
+The comparison aid shows two conflicting reports with incomplete source context. It invites investigation reasoning, not equipment control.
 
-## Action
+## Action–Response Loop
 
-Manager compares source, timing and uncertainty.
+These four transactions are internal to one narrative section. They are proposed story interactions, not observed behavior.
 
-## Response
+| Transaction | Human action / choice / input | System response / information returned | Why the human acts next |
+|---|---|---|---|
+| 1 | Select the two fictional reports to compare. | Show their sources, timestamps and uncertainty side by side. | One item appears stale, prompting inspection of its basis. |
+| 2 | Inspect the stale report's source and timestamp. | Reveal its earlier observation date and flag a conflicting claim with a missing basis. | The unresolved claim prompts the manager to mark what is missing. |
+| 3 | Mark the missing basis and state what additional information is needed. | Keep that uncertainty visible alongside the available evidence; offer no automatic verdict. | The manager must choose a bounded next action despite the gap. |
+| 4 | Choose a next investigation or request clarification and explain why. | Reflect the manager's reasoning, unresolved gap and chosen next action for review. | The manager can review the explanation and end the comparison. |
 
-The comparison reveals a stale item and an unresolved claim; fictional story conditions.
-
-## New Action
-
-Manager chooses a next investigation or requests missing information and explains why.
+Loop exit: the person states a next action with a rationale and an explicit unresolved uncertainty. Behavior to observe: whether their rationale uses source context, or whether permission/coordination still blocks the choice. No number of clicks or favorable reaction proves value.
 
 ## Resolution
 
-The story ends with a stated next action, not verified plant improvement.
+In the fictional story, the manager walks the next-shift lead through the reasoning so they can explain their own investigation choice. Shared success is hypothesized; actual benefit, adoption and advocacy are UNKNOWN.
 
-## Prototype prompt and boundaries
+## No/Lo-Code Prompt and boundaries
 
-Test this loop using fictional report pairs, no real data or equipment commands. Preserve uncertainty and the agreed rule; choose paper before interaction if sufficient.
+```text
+Create a disposable low-fidelity prototype of this SYNTHETIC narrative for maintenance practitioners. Hypothesis: source/recency context may help explain the next investigation; coordination may instead be the barrier.
+Setup: a maintenance manager needs an explainable investigation choice before shift handover.
+Encounter: show two conflicting fictional reports and incomplete source context.
+Keep this internal action-response loop explicit:
+1. Human selects two reports. System shows source, timestamp and uncertainty side by side. A stale item prompts inspection.
+2. Human inspects the stale report's basis. System reveals its earlier date and a conflicting claim with a missing basis. That gap prompts annotation.
+3. Human marks the missing basis and needed information. System preserves the gap next to available evidence without deciding. The person must choose a next action.
+4. Human chooses an investigation or clarification and gives a reason. System reflects their rationale, uncertainty and next action for review.
+Exit when the person can state their next action, rationale and unresolved uncertainty.
+Resolution: the fictional manager explains the reasoning to the next-shift lead; do not present this as observed success.
+Task: compare the reports and explain the next action and what is still unknown.
+Decision rule: revise if source context confuses; investigate coordination if authority/scheduling dominates; otherwise propose another bounded test. Experiment NOT RUN.
+Use fictional data only. No real equipment control, integrations or publishing. Describe behavior before layout. Draft only; this prompt is not build authorization.
+```
 
 ## Narrative critique and decision
 
-DRAFT: mechanism may be inspectable on paper. No customer reaction or approval recorded.
+Four pairs expose information-to-decision continuity without adding an autonomous verdict. Recommend a storyboard or wireframe task to examine it; selection not recorded. A real recent-decision conversation is still needed to investigate the competing coordination explanation. NOT BUILT; participant experiment NOT RUN.
 
 ## Claim ledger
 
-| Claim | Evidence label | Source or basis | Date | Limitation |
+| Claim | Label | Basis | Date | Limitation |
 |---|---|---|---|---|
-| The minimal narrative makes the proposed reasoning loop explicit without proving it works. | ESTIMATE / BEST GUESS | Authored fictional fixture | 2026-10-02 | Not observed or validated |
-| Commercial value and operational benefit | UNKNOWN | No evidence supplied | 2026-10-02 | No measured baseline, pricing or experiment results |
+| Source/recency context may support investigation reasoning | ESTIMATE / BEST GUESS | Authored fixture | Teaching session | No observed benefit |
+| Coordination may dominate information uncertainty | ESTIMATE / BEST GUESS | Competing fixture hypothesis | Teaching session | Requires real evidence |
 
 ## Human decision
 
-Recommendation: review this illustrative artifact, then choose revise, gather evidence, approve a bounded next motion or stop. Selected option and decider: not recorded. No approval inferred.
+Recommendation: review the four-transaction story and choose revise, a bounded evidence task, or stop. Selected option and decider not recorded.
 
-## Small handoff
+## Optional context summary
 
-Target: maintenance managers in mid-sized manufacturing plants; SYNTHETIC provisional target.
-What we believe: The minimal narrative makes the proposed reasoning loop explicit without proving it works. (ESTIMATE / BEST GUESS).
-Evidence: none; fictional fixture only.
-What is inferred: a possible discovery direction, not validated demand.
-Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
-Biggest unanswered question: Can a person explain this loop and identify missing information without a built interface?
+Target: maintenance practitioners, fictional situation.
+What we believe: source context could support investigation reasoning.
+Evidence: authored fixture only.
+What is inferred: information uncertainty or coordination may explain the difficulty.
+Desired outcome: explainable next-investigation decisions.
+Biggest unanswered question: Which barrier dominates actual decisions?
 
-## Content to carry with this handoff
-
-- **Audience and learning question:** SYNTHETIC maintenance practitioner: can the proposed comparison support an explainable next investigation?
-- **Setup:** Manager has a fictional investigation decision to make.
-- **Encounter:** Two reports disagree and their bases are unclear.
-- **Action:** Manager compares source, timing and uncertainty.
-- **Response:** The comparison reveals a stale item and an unresolved claim; fictional story conditions.
-- **New Action:** Manager chooses a next investigation or requests missing information and explains why.
-- **Resolution:** The story ends with a stated next action, not verified plant improvement.
-- **Prototype prompt and boundaries:** Test this loop using fictional report pairs, no real data or equipment commands. Preserve uncertainty and the agreed rule; choose paper before interaction if sufficient.
-- **Narrative critique and decision:** DRAFT: mechanism may be inspectable on paper. No customer reaction or approval recorded.
+If this example is carried forward, include Setup, Encounter, all four transaction rows, their continuations, loop exit, Resolution and the test rule above. Do not replace them with a title.

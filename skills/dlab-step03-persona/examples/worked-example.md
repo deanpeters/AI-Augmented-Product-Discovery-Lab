@@ -12,6 +12,15 @@ Lab adaptation, not an authoritative Productside canvas.
 
 Maintenance manager in a mid-sized manufacturing plant. SYNTHETIC proto-persona; no customer evidence.
 
+## Canvas fields
+
+- **Name:** Maintenance manager, a role label in a SYNTHETIC teaching fixture.
+- **Portrait:** Placeholder; no real person depicted.
+- **Bio & Demographics:** Responsible for investigation choices before shift handover. Other demographic details UNKNOWN and unnecessary for this job.
+- **Quotes:** UNKNOWN; no interviews or verbatim customer language supplied.
+- **Desired Outcomes / Goals:** Explain the next investigation and unresolved uncertainty.
+- **Needs / Pains:** Conflicting reports with unclear source/recency; coordination may be an alternative barrier. Both assumed, not validated.
+
 ## Situation and trigger
 
 Fictional condition: two equipment reports disagree before an investigation decision.
@@ -35,6 +44,19 @@ Operational stakes possible but unmeasured. No real records or equipment command
 ## Decision relationships
 
 Technician and production supervisor are related provisional roles; buyer and authority UNKNOWN.
+
+## Top job, top pain and top gain
+
+Provisional teaching recommendations, not a recorded human choice:
+- Top job: explain the next equipment investigation.
+- Top pain: conflicting reports with unclear source and recency.
+- Top desired gain: an explainable next action with uncertainty visible.
+
+All three are ESTIMATE / BEST GUESS from the authored fixture. Permission or scheduling may be the stronger obstacle.
+
+### Problem framing pattern
+
+I am a maintenance manager before shift handover. I am trying to explain the next investigation. But conflicting reports make the choice hard to defend. Because their source and recency may be unclear, a cause hypothesis rather than a verified root cause. Which makes me feel: UNKNOWN; no reported emotional evidence exists. This is authored framing, not a customer quotation.
 
 ## Problem statement and risky assumption
 

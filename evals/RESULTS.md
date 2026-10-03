@@ -11,3 +11,23 @@ Verification completed: `./scripts/test-library.sh` passed all fourteen regressi
 Local checks verify metadata, templates, worked/weak examples, prompt parity including embedded assets, local links, catalog and case references, all-stage coverage and harness regressions. They do not establish semantic quality, model adherence or live usability. Record actual verification output before claiming any behavioral pass.
 
 Next: rehearse in the actual demo tools. Optional model tests require Claude cloud calls and consume the configured allowance or API budget. There is no paid call in `./scripts/test-library.sh` or CI.
+
+## Segment sizing revision: October 3, 2026
+
+Segment now reuses Market Intel and explicitly estimates population-led TAM, trade/industry-filtered SAM and competition/reach/capacity-constrained SOM. Its template, worked/weak examples, prompt and presenter motion were revised; Market Intel now carries relevant sizing inputs. The worked example is entirely fictional, with no numeric Census/trade/filing claims. Official source routes were verified separately.
+
+Three additional behavioral cases cover sizing arithmetic, source gaps and denominator/overlap/free-share traps, bringing the definitions to twelve. They are NOT RUN; no model review or human rehearsal result is inferred. Historical receipts remain stale.
+
+Local verification of this revision: all fifteen regression checks pass, including arithmetic recomputed from the worked example's own input table; all twelve case definitions validate; the two updated skills pass native validation; prompt/assets parity and local links pass. These are mechanical checks, not behavioral verdicts.
+
+The bake-off and standalone-interface revisions add cases 13–14. Behavioral execution: NOT RUN. Earlier receipts do not validate these revisions.
+
+Storyboard arc and brutal-truth experiment framing revised; cases 06 and 09 updated. Behavioral execution for these revisions: NOT RUN.
+
+Case 15 added for cheap reaction tests versus a falsifiable behavior test. Behavioral execution: NOT RUN. Local library checks and 15 regression tests pass.
+
+MVN now uses Setup, Encounter, an internal 3–6 transaction human/system loop, and Resolution. Cases 01 and 09 updated to check loop continuity through the portable prompt. Behavioral execution for this revision: NOT RUN.
+
+Supplied canvas references inspected; Persona framing, Solution Hypothesis measures and Storyboard solution summary aligned. Behavioral execution for these changes: NOT RUN.
+
+Persona and combined positioning canvas fields aligned; six supplied reference assets included with Dean's confirmed sharing permission. Behavioral execution for these revisions: NOT RUN.

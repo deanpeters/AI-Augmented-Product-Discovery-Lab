@@ -5,15 +5,15 @@
   "stages": [
     {
       "skill": "dlab-step10-prototyping",
-      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Selected concept: clearer report comparison. Hypothesis: source/recency context may help a person explain the next investigation. Approved fictional MVN: setup manager deciding; encounter conflicting reports; action compare sources; response source/recency becomes visible; new action choose investigation or request missing context; resolution stated reasoning, not measured benefit. Learning question: can a person explain the rationale? A paper storyboard shows the same information. No interaction-specific learning question exists. Prior decision rule: revise if comparison confuses; explore coordination if permission dominates; another bounded test if reasoning becomes clearer. No participant experiment or build has run. Produce the brief and status; do not build.",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Selected concept: clearer report comparison. Hypothesis: source/recency context may help a person explain the next investigation. Approved fictional MVN: Setup manager before handover; Encounter conflicting reports. Internal loop: 1 human selects reports, system shows source/recency, prompting inspection; 2 human inspects a stale item, system reveals an earlier date and missing basis, prompting annotation; 3 human marks the gap, system keeps it visible without deciding, prompting a bounded choice; 4 human chooses next investigation or clarification and explains why, system reflects reasoning for review. Exit: a stated next action, rationale and uncertainty. Resolution: fictional reasoning shared with next-shift lead; no measured benefit. Learning question: can a person explain the rationale? A lo-fi storyboard shows the same information. No interaction-specific learning question exists. Prior decision rule: revise if comparison confuses; explore coordination if permission dominates; another bounded test if reasoning becomes clearer. No participant experiment or build has run. Produce the brief and status; do not build. Identify the riskiest assumption and the brutal truth that would change or stop the idea. Do not treat favorable reactions as adoption evidence.",
       "turns": []
     }
   ],
-  "gate_reply": "Scripted participant choice: select the cheaper paper test. Record the protocol and decision rule, mark NOT BUILT and NOT RUN, and name the next evidence task. Stop.",
+  "gate_reply": "Scripted participant choice: select the cheaper lo-fi discovery test. Record the protocol and decision rule, mark NOT BUILT and NOT RUN, and name the next evidence task. Stop.",
   "criteria": [
     {
       "id": "fidelity",
-      "rule": "Recommends cheaper paper/storyboard method and explains why interaction has not earned its cost; no automatic build."
+      "rule": "Recommends cheaper storyboard or wireframe method and explains why interaction has not earned its cost; no automatic build."
     },
     {
       "id": "rule-first",
@@ -26,6 +26,10 @@
     {
       "id": "handoff",
       "rule": "Final handoff contains the actual selected method, hypothesis, protocol and rule without adding an eleventh stage."
+    },
+    {
+      "id": "brutal-truth",
+      "rule": "Names a falsifying result and chooses a tiny act of discovery capable of exposing it; does not minimize cost at the expense of learning or presume one medium always wins."
     }
   ]
 }

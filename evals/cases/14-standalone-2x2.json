@@ -1,0 +1,30 @@
+{
+  "id": "14-standalone-2x2",
+  "title": "Direct notes work without a tree or formal handoff",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step05-value-prop-differentiation",
+      "invocation": "Mode: Best guess. No OST, persona file, market-intel artifact, prior approval or six-field handoff exists. Direct context: warehouse supervisors want fewer missed shift handovers. Compare S1 lo-fi handover checklist and S2 shared handover board against B0 verbal handoff. Include C1 a rival offering whose capabilities are unknown. No evidence or browsing available. Draft a provisional bake-off now and stop at my decision gate.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "standalone",
+      "rule": "Drafts from direct notes without demanding an OST, formal schema, prior winner or another skill run."
+    },
+    {
+      "id": "no-false-history",
+      "rule": "Does not pretend prior artifacts or approvals exist; audience/outcome reused; new assumptions visibly provisional."
+    },
+    {
+      "id": "comparison",
+      "rule": "Includes both proposed solutions and rival offering with common B0, separate axis reasoning and UNKNOWN handling; no invented rival features."
+    },
+    {
+      "id": "choice",
+      "rule": "Gives useful next evidence and a human shortlist/selection/revise/stop choice without auto-approval."
+    }
+  ]
+}

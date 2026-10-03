@@ -10,17 +10,19 @@ Instructions, template and examples are included. No repository access or skill 
 
 Make the selected concept falsifiable. State what we think will change for the persona, which assumptions must hold, and what observations would support revising, stopping or another test.
 
-Input: Selected positioning statement, persona, concept, outcome, evidence gaps and constraints. An actual prototype or customer result is not required.
+Input: Concept, actor, outcome, evidence gaps and constraints from direct notes or optional positioning. Draft a provisional hypothesis if context is partial; no prior artifact or customer result is required.
 
 Example invocation: `Use $dlab-step07-solution-hypothesis with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -42,8 +44,8 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 1. Write: If we [provide the selected concept] for [persona in situation], then [observable progress] because [mechanism assumed]. Mark the causal mechanism as a hypothesis.
 2. Separate desirability, differentiation, usability and feasibility assumptions. Choose the riskiest assumption rather than testing every dimension at once.
-3. Design one or two tiny acts of discovery. Name participants, context, task, expected and disconfirming observations, and what requires access or consent.
-4. Write the decision rule before observations: what leads to revise, stop or another test. Any timeframe or sample plan invented for planning is a proposed protocol, not a measured baseline or statistical validation threshold.
+3. Design two tiny acts of discovery, following the supplied hypothesis canvas; justify a smaller set if one discriminating test is enough. Name participants, context, task, expected and disconfirming observations, and what requires access or consent.
+4. Specify at least one quantitative measure and one qualitative measure, each tied to the desired outcome and named experiment, with a timeframe. Distinguish proposed target/threshold from observed baseline and result; unsupported baselines remain UNKNOWN. Add an assembled final hypothesis: If we / for / Then we will; We will test our assumption by [experiments]; Within [timeframe] we expect to observe [quantitative and qualitative criteria]. Keep a causal because clause as a separate, optional mechanism hypothesis. Write the decision rule before observations: what leads to revise, stop or another test. Any timeframe or sample plan invented for planning is a proposed protocol, not a measured baseline or statistical validation threshold.
 5. Mark experiment NOT RUN when observations are absent. Wait for the human to select the hypothesis and protocol, then hand them into Storyboard. Do not claim the idea is valid because the sentence is complete.
 
 ## Output: Solution Hypothesis
@@ -52,6 +54,8 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - If / for / then / because
 - Riskiest assumption
 - Tiny acts of discovery
+- One quantitative and one qualitative measure, timeframe and proposed criteria
+- Final solution hypothesis statement
 - Expected and disconfirming observations
 - Protocol and decision rule
 - Experiment status
@@ -59,7 +63,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
@@ -110,7 +114,26 @@ Lab adaptation, not an authoritative Productside canvas.
 
 ## Tiny acts of discovery
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+We will test our assumption by:
+1. [Small experiment, risk tested, participant/task/access needs.]
+2. [Small experiment, risk tested, participant/task/access needs.]
+
+If one test is enough, explain why instead of adding activity.
+
+## One quantitative and one qualitative measure
+
+| Type | Measure and associated experiment | Baseline | Proposed criterion | Timeframe | Status |
+|---|---|---|---|---|---|
+| Quantitative | | UNKNOWN unless supplied | Proposed, not observed | | NOT RUN |
+| Qualitative | | UNKNOWN unless supplied | Observable signal, not a flattering reaction | | NOT RUN |
+
+## Final solution hypothesis statement
+
+If we [action or solution] for [target persona], Then we will [desired outcome or job-to-be-done].
+We will test our assumption by [two tiny acts of discovery or a justified smaller set].
+Within [proposed timeframe], we expect to observe [quantitative criterion] and [qualitative criterion].
+
+These are criteria to test, not evidence that the hypothesis is valid. Optional mechanism hypothesis: Because [assumption].
 
 ## Expected and disconfirming observations
 
@@ -183,6 +206,17 @@ Report uncertainty, rather than approval or scheduling, materially changes inves
 
 Proposed: examine a recent practitioner decision; then compare fictional report pairs with and without explicit source context. Participant access not arranged.
 
+## One quantitative and one qualitative measure
+
+Proposed formative plan, ESTIMATE / BEST GUESS: within two weeks, recruit five relevant practitioners if access is possible. Recruitment is not arranged. Baseline UNKNOWN; experiment NOT RUN.
+
+- Quantitative, report-comparison task: count how many can explain a next action and identify an unresolved uncertainty without facilitator rescue. Proposed review criterion: four of five; this is a planning choice, not a statistical validation threshold or observed result.
+- Qualitative, recent-decision conversation and task: capture how the person explains the choice in their own words and whether source uncertainty or permission/scheduling is the limiting factor. No quotations have been collected.
+
+## Final solution hypothesis statement
+
+If we expose source, recency and uncertainty for a maintenance manager facing conflicting reports, Then we will support a more explainable next-investigation choice. We will test our assumption by examining a recent decision and comparing fictional report pairs with/without source context. Within a proposed two-week window, we expect four of five task participants to explain a next action and unresolved gap, alongside qualitative accounts showing whether that context helped or coordination still blocked the choice. All targets are proposed; no results or validity claimed.
+
 ## Expected and disconfirming observations
 
 Expected: person explains the role of source/recency and remaining uncertainty. Disconfirming: same decision without those details, or inability to act due to coordination.
@@ -247,6 +281,8 @@ Unobservable enthusiasm, invented measurement and a verdict without a test.
 State actor, mechanism, task, disconfirmation and a prewritten rule; mark the experiment NOT RUN.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+A completed IF/THEN sentence without test measures is also incomplete. Add two tiny acts of discovery or a justified smaller set, one quantitative and one qualitative measure, and a timeframe. Keep thresholds proposed and missing results NOT RUN; completing a canvas does not validate the idea.
 
 Begin this motion now using the context I provide.
 ````

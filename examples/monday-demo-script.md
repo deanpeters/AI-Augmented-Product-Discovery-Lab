@@ -10,7 +10,7 @@ This is a presenter script, not a transcript or rehearsal receipt. All supplied 
 
 Open this script, the [launchpad](../DEMO.md), your assistant and prepared fallbacks. Rehearse the actual tool path once, retaining prompts, inputs, outputs, decisions, handoffs, timing and screenshots under a dated `rehearsal/` folder (ignored by Git). Pre-run source-heavy market collection if using actual research; retain URLs, dates and limitations.
 
-The [SHOWRUN](../SHOWRUN.md) plans approximately 60 minutes of active content within a 90-minute performance. Give Persona about 8 minutes and each other motion about 4; reserve framing, synthesis and recovery time. These are planning estimates, not recorded timings.
+The [SHOWRUN](../SHOWRUN.md) plans approximately 60 minutes of active content within a 90-minute performance. Give Persona about 8 minutes, Segment about 6 minutes and each other motion about 4; reserve framing, synthesis and recovery time. These are planning estimates, not recorded timings.
 
 Each skill bundles a template and worked/weak examples. Open Persona's assets before the show so you can demonstrate the package as well as the conversation. Current fallback seeds link to synthetic worked examples; they are not successful rehearsal receipts.
 
@@ -20,7 +20,7 @@ Each skill bundles a template and worked/weak examples. Open Persona's assets be
 
 **Prompt path:** open the linked prompt and copy its entire large four-backtick block into your AI chat, then append the stage message without its `Read skills/...` line. The prompt includes the template and examples; no repo access is needed.
 
-Replace `[PASTE ...]` with the actual small handoff, never the placeholder. At a tool change, carry the selected artifact content needed by the receiver, not the entire prior conversation or just a title. Preserve source labels and unknowns. Ask the prior motion to repair a missing handoff rather than inventing it.
+Replace `[PASTE ...]` with the actual small handoff, never the placeholder. At a tool change, carry the selected artifact content needed by the receiver, not the entire prior conversation or just a title. Preserve source labels and unknowns. These placeholders support this rehearsal route; they are not skill prerequisites. If context is missing, restate the relevant notes or request a labeled provisional draft. Never claim an absent artifact was read.
 
 This is manual interaction through your chosen assistant. No custom API integration is required, but a hosted chat still uses provider cloud inference and its allowance. Do not run the optional Claude eval harness on stage.
 
@@ -87,25 +87,67 @@ Approve this provisional landscape for segment comparison only. Preserve the sou
 
 [Skill](../skills/dlab-step02-segment/SKILL.md) · [Template](../skills/dlab-step02-segment/template.md) · [Worked example](../skills/dlab-step02-segment/examples/worked-example.md) · [Prompt](../prompts/02-segment.md) · [Fallback illustration](../fallbacks/02-segment.md)
 
-**Say:** “Market interest is broad. A segment is a deliberate boundary. We choose it; the assistant does not quietly choose for us.”
+**Say:** “Reuse the intel. Population gives us a possible TAM. Trade and industry evidence narrow SAM. Competition helps bound SOM, and our capacity tells us what we could actually reach and serve. Watch the assumptions, not just the big number.”
+
+```mermaid
+flowchart TB
+    I["Reuse existing market intel; fill material source gaps"] --> P["Population evidence"]
+    I --> D["Trade and industry evidence"]
+    I --> C["Competitive evidence"]
+    P --> T["TAM: relevant population"]
+    T --> A["SAM: industry and service filters"]
+    D --> A
+    A --> O["SOM: obtainable units over a stated horizon"]
+    C --> O
+    R["Qualified reach, win assumptions and delivery capacity"] --> O
+    O --> H["Compare scenarios; human selects the segment"]
+```
+
+The default walkthrough has no actual population sources. For arithmetic teaching only, introduce the fictional fixture below explicitly. If using a real pre-run source pack, omit the fixture and use the sourced variant after this block. Never attribute fixture numbers to Census, a trade group or a filing.
 
 **Send:**
 
 ```text
 Read skills/dlab-step02-segment/SKILL.md and follow it.
-Mode: Best guess. Use the actual Market Intel handoff below.
-Compare a few plausible manufacturing segments on relevant need, stakes, participant access, current alternatives and buying constraints. Qualitative comparisons need a stated basis; unknown evidence stays UNKNOWN.
-Recommend a provisional discovery focus with inclusions and exclusions, not a researched persona or validated market.
-Produce the Segment Selection Brief and stop for my segment choice.
+Mode: Best guess. Reuse the actual Market Intel handoff below first. Show known, assumed, conflicting and missing sizing inputs. Do not repeat the market sweep.
+For this demo only, use these NEW SYNTHETIC fixtures to show the calculation. They are not findings from the prior market-intel run and have no real source URLs:
+F1: fictional relevant national population = 20,000 billable manufacturing sites, not firms or people.
+F2: fictional joint mid-sized/discrete-manufacturing intersection = 8,000 of those sites; size and subsector are already applied together.
+F3: fictional incumbents sell site-based maintenance tools; technician discussion and log review are substitutes; switching may be slow. No actual competitive share is known.
+Low/base/high ASSUMPTIONS, not observations:
+Service/need fit within F2 = 25% / 35% / 45%.
+Distinct qualified sites reachable in the first 12 months = 150 / 300 / 500; assumed win rate = 10% / 15% / 20%.
+Acquisition capacity = 20 / 40 / 60 sites; onboarding capacity = 18 / 36 / 50 sites over the same horizon.
+Optional annual price scenario = $2,000 / $3,000 / $4,000 per site, not willingness-to-pay evidence.
+Show three numbered estimates: population → TAM; trade/industry filters → SAM; competitive assumptions plus reach/capacity → SOM. Show formulas, low/base/high counts, optional annualized value and the bottleneck.
+No browsing in this synthetic path. Identify which census, trade, academic or filing documents a real run would require, without pretending to have read them.
+Compare plausible segment boundaries and recommend a provisional focus. Produce the Segment Selection Brief and stop for my choice.
 [PASTE THE STEP 1 HANDOFF]
 ```
 
-**Inspect:** Selected context and explicit inclusions/exclusions. Choosing a segment is not proof of attractiveness.
+**Inspect:** The reuse/gap audit, units, source labels, filter waterfall and SOM capacity bound. In this fictional fixture: TAM 20,000 sites; SAM 2,000 / 2,800 / 3,600; SOM 15 / 36 / 50 over the first 12 months. The base case is onboarding-limited at 36, even though the assumed reachable wins are 45. Optional SOM value is an endpoint annualized scenario, not first-year recognized revenue or validated pricing.
+
+**Ask the room:** “Would multiplying another mid-size percentage help, or would we count the same filter twice? Would more leads help if we can onboard only 36 sites?”
+
+### Sourced variant, when a real source pack is ready
+
+Use the stage's skill or full prompt, then send this instead of the fictional fixture:
+
+```text
+Mode: Context dump. Reuse this actual Market Intel and its source IDs. Keep the supplied outcome and scope.
+Audit reusable population, industry and competitive inputs before searching. Fill only material gaps from original census/statistical, trade/industry, academic or filing documents when browsing is available and permitted. Cite the actual table/page and reference period, not merely the publisher's homepage.
+Estimate population-led TAM, industry-filtered SAM and competition/reach/capacity-constrained SOM with explicit low/base/high assumptions. State the counting/buying unit, geography and capture horizon; flag missing ones instead of silently choosing them.
+Keep source facts separate from derived estimates, guessed prices and unresolved inputs. Where a bounded range is unjustified, use UNKNOWN or a symbolic expression.
+Produce the Segment Selection Brief and stop for my choice.
+[PASTE THE ACTUAL SOURCE PACK AND MARKET INTEL HANDOFF]
+```
+
+Pre-run source collection when timing requires it. If browsing is unavailable, use the existing pack and expose missing evidence; do not switch to invented source citations.
 
 **If the actual output supports this teaching choice, send:**
 
 ```text
-Select mid-sized manufacturing plants where maintenance managers make investigation decisions as the provisional teaching focus. This is not verified market attractiveness. Record the segment boundaries, tradeoff and evidence gaps, and prepare the actual handoff for Persona. Stop.
+Select mid-sized manufacturing plants where maintenance managers make investigation decisions as the provisional teaching focus. This is not verified market attractiveness. Record the segment boundaries, tradeoff, counting unit, TAM/SAM/SOM scenarios and capture horizon, with source/assumption IDs and the largest sizing gap. Prepare the actual handoff for Persona. Stop.
 ```
 
 **Transition:** “Next: Persona. What decision does that help us make?”
@@ -183,7 +225,7 @@ Produce the Opportunity Solution Tree and stop at the human gate.
 **If the actual output supports this teaching choice, send:**
 
 ```text
-Select the provisional report-comparison process that makes source, timing and uncertainty visible, with the person making the investigation decision. Approve comparison in the 2x2 only; not validation or a build commitment. Carry the actual selected opportunity/concept, coordination alternative and candidate experiment into the handoff. Record my choice, then stop.
+Carry several provisional solutions into the bake-off: storyboard report comparison, digital source/recency comparison, and a permission/handoff checklist, if they appear in the actual tree. Include their opportunity links, descriptions and experiment ideas. If absent, propose them explicitly as new teaching candidates. Approve comparison only; no winner, validation or build commitment. Record my choice, then stop.
 ```
 
 **Transition:** “Next: Value Prop vs. Differentiation 2x2. What decision does that help us make?”
@@ -198,12 +240,13 @@ Select the provisional report-comparison process that makes source, timing and u
 
 ```text
 Read skills/dlab-step05-value-prop-differentiation/SKILL.md and follow it.
-Mode: Best guess. Use the human-selected opportunity and concept below.
+Mode: Best guess. Use the supplied solution portfolio below; no prior winner is required. Direct notes are also enough to start.
 Compare proposed customer value on the horizontal axis with meaningful differentiation from a named alternative on the vertical axis. Define low/high for this context and include all four quadrants.
-Current comparator for the teaching path: technician discussion and log review; actual practice is unobserved.
+Common baseline for EVERY point: technician discussion and log review; actual practice is unobserved.
+Map the solution candidates with stable IDs. Include C1, a completely fictional rival offering called Rival Compare that links sources and recency context. This is a new SYNTHETIC teaching fixture, not actual competitor research or an earlier OST output. Include the baseline as B0. Judge all offerings for the same maintenance-manager decision job. Leave unsupported axes unplaced; no invented rival capabilities.
 AI novelty is not evidence of either axis. Missing evidence is UNKNOWN, not low; any placement remains provisional or conditional. No moat, measured benefit or validated demand claims.
 Produce the Value Prop vs. Differentiation 2x2 and stop at the human gate.
-[PASTE THE STEP 4 HANDOFF WITH SELECTED OPPORTUNITY AND CONCEPT]
+[PASTE RELEVANT STEP 4 CANDIDATE NOTES OR DIRECT SOLUTION DESCRIPTIONS]
 ```
 
 **Inspect:** Two separately supported axes and a named comparator. No missing evidence promoted into a winning quadrant.
@@ -213,7 +256,7 @@ Produce the Value Prop vs. Differentiation 2x2 and stop at the human gate.
 **If the actual output supports this teaching choice, send:**
 
 ```text
-Retain the selected concept for a provisional positioning statement. Value and differentiation remain untested; any matrix placement is conditional. Carry the actual separate assessments, comparator and proof gaps into the handoff. Record my choice, then stop.
+Select the report-comparison concept for a provisional positioning statement only if the actual bake-off supports this teaching choice. Otherwise retain the stronger shortlist and adapt the next motion. Value and differentiation remain untested; any matrix placement is conditional. Carry the actual separate assessments, comparator and proof gaps into the handoff. Record my choice, then stop.
 ```
 
 **Transition:** “Next: Positioning Statement. What decision does that help us make?”
@@ -285,7 +328,7 @@ Select the hypothesis about source/recency context helping a person explain the 
 ```text
 Read skills/dlab-step08-storyboard/SKILL.md and follow it.
 Mode: Best guess. Use the actual selected hypothesis and protocol below.
-No Minimum Viable Narrative exists yet. Create a six-frame descriptive storyboard directly from the hypothesis: context, trigger, action, response, new action, consequence.
+No Minimum Viable Narrative exists yet. Create a six-frame descriptive storyboard directly from the hypothesis: who has the problem, what the problem is, the oh crap moment, the solution arrives, the person uses the solution, and the person helps others enjoy the same success. Label the depicted success as a fictional story hypothesis.
 Show the person, motivation, information exchanged and uncertainty. Keep the person making the investigation decision. The consequence is fictional, not measured plant benefit.
 Include a reaction question and portable renderer prompt if useful. No rendering now; mark NOT RENDERED.
 Produce the Storyboard and stop at the human gate.
@@ -313,19 +356,19 @@ Approve these fictional storyboard frames for MVN drafting only. Carry all actua
 ```text
 Read skills/dlab-step09-minimum-viable-narrative/SKILL.md and follow it.
 Mode: Best guess. Use the actual approved six storyboard frames below.
-Write the minimum viable narrative: Setup, Encounter, Action, Response, New Action, Resolution. Preserve actor agency, hypothesis, uncertainty and the prewritten experiment rule.
+Write the minimum viable narrative: Setup, Encounter, an internal loop of 3-6 human action/system response transactions, Resolution. For every transaction show the human action, system response and how it motivates the next action. Preserve all transactions in the No/Lo-Code Prompt. Preserve actor agency, hypothesis, uncertainty and the prewritten experiment rule.
 Remove ornamental features. This is descriptive context, not a UI specification, PRD or architecture.
 Provide a self-contained descriptive prototype prompt carrying the actual narrative, task and constraints. No build.
 Produce the Minimum Viable Narrative and stop at the human gate.
 [PASTE THE STEP 8 HANDOFF WITH ALL ACTUAL SIX FRAMES]
 ```
 
-**Inspect:** The actual approved storyboard tightened into the six-part MVN. No unselected features or architecture.
+**Inspect:** The actual approved storyboard tightened into the MVN with its numbered internal loop. No unselected features or architecture.
 
 **If the actual output supports this teaching choice, send:**
 
 ```text
-Approve this narrative for comparing experiment fidelities. Carry the full actual six-part narrative, hypothesis, task, boundaries and prewritten rule into Prototyping. No build is authorized by narrative approval. Record my choice, then stop.
+Approve this narrative for comparing experiment fidelities. Carry the full actual narrative with all numbered transactions, their continuations and loop exit, hypothesis, task, boundaries and prewritten rule into Prototyping. No build is authorized by narrative approval. Record my choice, then stop.
 ```
 
 **Transition:** “Next: Prototyping. What decision does that help us make?”
@@ -334,7 +377,7 @@ Approve this narrative for comparing experiment fidelities. Carry the full actua
 
 [Skill](../skills/dlab-step10-prototyping/SKILL.md) · [Template](../skills/dlab-step10-prototyping/template.md) · [Worked example](../skills/dlab-step10-prototyping/examples/worked-example.md) · [Prompt](../prompts/10-prototyping.md) · [Fallback illustration](../fallbacks/10-prototyping.md)
 
-**Say:** “The prototype has to earn its cost. If paper answers the question, paper wins.”
+**Say:** “What is the smallest, cheapest test we can run to learn the most brutal truth? Tiniest act of discovery wins. Lo-fi wins.”
 
 **Send:**
 
@@ -342,7 +385,7 @@ Approve this narrative for comparing experiment fidelities. Carry the full actua
 Read skills/dlab-step10-prototyping/SKILL.md and follow it.
 Mode: Best guess. Use the actual narrative and hypothesis below.
 Learning question: can the person explain a next investigation, what makes it uncertain and what additional information they need?
-Compare interview, paper comparison, storyboard and interaction. Recommend the cheapest method that can answer the question; do not force a build.
+Name the riskiest assumption and the brutal truth that could kill or change this idea. Compare a recent-decision conversation, storyboard or wireframe task, concierge test and interaction for their ability to expose it. Recommend the tiniest useful act of discovery; do not force a build or mistake a pleasant reaction for validation.
 Retain the agreed experiment rule or propose a revision explicitly. Use fictional data only. No real records, plant commands, integrations, publishing or other external actions.
 No participant experiment or build has run. Mark NOT BUILT and NOT RUN.
 Produce the Prototype Experiment Brief and stop at the human fidelity/build gate.
@@ -354,7 +397,7 @@ Produce the Prototype Experiment Brief and stop at the human fidelity/build gate
 **If the actual output supports this teaching choice, send:**
 
 ```text
-Choose the cheaper paper/storyboard comparison for the first test, if it answers the question. Approve the protocol, not an outcome. Keep build NOT BUILT and participant experiment NOT RUN. Record the next evidence task: recruit relevant practitioners, examine a recent real decision and test the report-uncertainty versus coordination explanations. Access is not arranged. Prepare the final handoff and stop the chain.
+Choose a recent-decision conversation and a storyboard or wireframe task for the first test if they can expose whether authority/coordination dominates report uncertainty. Approve the protocol, not an outcome. Keep build NOT BUILT and participant experiment NOT RUN. Record the next evidence task: recruit relevant practitioners, examine a recent real decision and test the report-uncertainty versus coordination explanations. Access is not arranged. Prepare the final handoff and stop the chain.
 ```
 
 ## Optional rendering and build branches
@@ -403,12 +446,12 @@ Give a tool one reasonable recovery, then show the artifact. Do not infer approv
 | Opportunities become features | “Rewrite opportunity branches as needs or obstacles; put implementations under solutions.” |
 | 2x2 declares an AI moat | “Separate value from difference against the actual comparator; unsupported placement stays conditional or UNKNOWN.” |
 | Storyboard demands an MVN first | “Use the selected Solution Hypothesis to create frames. MVN follows the actual storyboard.” |
-| Missing artifact at a tool change | Ask the previous motion to carry the actual selected artifact and rule, not merely its title. |
+| Missing artifact at a tool change | Restate the useful notes or request a provisional draft with gaps labeled; do not require replaying earlier motions. |
 | Synthetic content becomes truth | “Relabel the fictional material and remove unsupported validation or benefit claims.” |
 | Automatic build | “Stop at the brief, compare cheaper methods and wait for my fidelity/build choice.” |
 | Gate silently crossed | “Return to the last recorded human decision; mark later choices unapproved and wait.” |
 
-If time is tight, show saved Market Intel and Segment, keep Persona live, then demonstrate tree selection and the 2x2. Use actual saved hypothesis/storyboard/MVN handoffs to reach Prototyping. Announce saved and skipped motions; a shortened show is not a full live chain.
+If time is tight, show saved Market Intel and Segment, keep Persona live, then demonstrate the tree portfolio and the 2x2 bake-off. Use actual saved hypothesis/storyboard/MVN handoffs to reach Prototyping. Announce saved and skipped motions; a shortened show is not a full live chain.
 
 ## Rehearse once before Monday
 

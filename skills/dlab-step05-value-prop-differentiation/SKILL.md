@@ -1,9 +1,9 @@
 ---
 name: dlab-step05-value-prop-differentiation
-description: "Compare proposed customer value and meaningful differentiation in a two-by-two before positioning. Use to distinguish a valuable concept from a distinctive but weak one."
+description: "Bake off solution candidates, competitor offerings and the status quo on a shared value-versus-differentiation 2x2 before positioning. Accept an OST portfolio or standalone notes."
 metadata:
   author: "Dean Peters"
-  version: "0.2.0"
+  version: "0.3.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "5"
@@ -11,9 +11,9 @@ metadata:
   intent: "Compare two independent questions: does this proposed value matter to the persona, and is the concept meaningfully different from the real alternative? A quadrant is a discussion aid, not proof or a moat claim."
   audience: "Product Managers; founders; product teams"
   operating-level: "product-team; initiative"
-  argument-hint: "Human-selected opportunity and concept, persona, desired outcome, alternatives and evidence. If no concept was chosen, pause for selection."
-  best-for: "Compare proposed customer value and meaningful differentiation in a two-by-two before positioning. Use to distinguish a valuable concept from a distinctive but weak one."
-  evidence-required: "Human-selected opportunity and concept, persona, desired outcome, alternatives and evidence. If no concept was chosen, pause for selection."
+  argument-hint: "Solution candidates from an OST or direct notes; audience, desired outcome, competitor offerings, current workaround and available evidence. No OST file or prior winner is required."
+  best-for: "Bake off solution candidates, competitor offerings and the status quo on a shared value-versus-differentiation 2x2 before positioning. Accept an OST portfolio or standalone notes."
+  evidence-required: "Solution candidates from an OST or direct notes; audience, desired outcome, competitor offerings, current workaround and available evidence. No OST file or prior winner is required."
   produces: "Value Prop vs. Differentiation 2x2; claim ledger; human decision; small handoff"
   estimated-time: "15-30 minutes for a working session; planning estimate, not demo timing"
   group-size: "1-8; planning guidance"
@@ -33,21 +33,27 @@ metadata:
 
 # Value Prop vs. Differentiation 2x2
 
+## Supplied canvas relationship
+
+The Productside positioning canvas combines a competitive matrix with statement clauses. Here they remain two independently callable motions. Its general matrix allows benefit-defined axes; Dean's lab uses customer value versus meaningful differentiation for the bake-off. Preserve this shared frame unless the person explicitly chooses different axes. Include direct and indirect alternatives where relevant; never assume our product is best on both axes.
+
 ## Purpose and input
 
 Compare two independent questions: does this proposed value matter to the persona, and is the concept meaningfully different from the real alternative? A quadrant is a discussion aid, not proof or a moat claim.
 
-Input: Human-selected opportunity and concept, persona, desired outcome, alternatives and evidence. If no concept was chosen, pause for selection.
+Input: Solution candidates from an OST or direct notes; audience, desired outcome, competitor offerings, current workaround and available evidence. No OST file or prior winner is required.
 
 Example invocation: `Use $dlab-step05-value-prop-differentiation with my context. Stop at the human decision gate.`
 
 ## How to work together
 
+This motion accepts direct notes, partial context or optional upstream artifacts. No named file, six-field schema or completed earlier skill is a prerequisite. Reuse what is supplied; ask material gaps in Guided mode or draft labeled assumptions in Best guess mode. Never claim an absent artifact was read or a human choice was made. Useful summaries may travel between motions, but missing paperwork alone must not block a provisional draft.
+
 You facilitate a conversation, not a form-filling exercise. Begin by naming this motion, its output and the decision where you will stop. Summarize context already supplied. Offer 1. Guided, 2. Context dump, 3. Best guess, unless a mode was already chosen.
 
 In Guided mode, ask one question on one subject per turn. Announce a maximum of five numbered questions. Show `Context Qx/5`; skip answered questions while keeping their original numbers. Ask only the missing part of a partial answer. Offer short numbered choices where helpful and allow custom answers. Use at most two clarifying follow-ups across the motion, labeled `Qx/5 follow-up`; then record ambiguity rather than endlessly interrogating. Stop and wait for each answer.
 
-In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When several unrelated candidates emerge, ask for selection rather than blending them.
+In Context dump mode, extract Known / Assumed / Missing / Conflicting from notes, files and earlier handoffs, then ask only material gaps. In Best guess mode, draft immediately and label provisional details. Missing audience or desired outcome must be clarified in Guided mode or explicitly provisional in Best guess mode before substantial work. When unrelated audiences or outcomes emerge, separate them rather than blending them. Related solution candidates may be compared together before selection.
 
 ## Evidence rules
 
@@ -57,7 +63,7 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 
 ## Guided questions
 
-1. Which selected concept and persona are we comparing?
+1. Which solution candidates or competitor offerings should we compare for which audience?
 2. What progress would make the proposed value matter?
 3. Which real alternative or workaround is the comparison against?
 4. What evidence supports value and meaningful difference separately?
@@ -67,26 +73,24 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 ## Numbered work
 
-1. Define horizontal axis as proposed customer value (low to high) and vertical axis as meaningful differentiation versus the named alternative (low to high). Define what low/high mean in this case before placing concepts.
-2. Compare the selected concept with alternatives using separate evidence for value and differentiation. Novel technology is not inherently differentiation; a distinct mechanism can still be irrelevant.
-3. Populate the four quadrants: low value/low difference; high value/low difference; low value/high difference; high value/high difference. Mark positions provisional when evidence is absent; UNKNOWN does not become low.
-4. Explain confidence, tradeoffs and the evidence needed to move a candidate. Do not assign numerical scores, validated willingness to pay or defensibility without support.
-5. Recommend retain, revise, gather evidence or stop. Carry the selected concept, proposed value, proposed difference, comparator and unresolved proof into the Positioning Statement.
+1. Reuse available OST solutions and their opportunity/experiment links, or collect candidates from direct notes. Give each a stable ID: S for proposed solutions, C for competitor offerings, B for the current workaround. Preserve provenance; newly proposed candidates are explicitly provisional. Compare related solutions together; separate maps for unrelated audiences or outcomes. No completed tree, artifact schema or prior concept selection is required.
+2. Fix one audience, outcome and common comparator before mapping. Horizontal axis: proposed customer value, low to high, defined by progress toward that outcome. Vertical axis: meaningful differentiation from the same named baseline, low to high, defined by a relevant capability or mechanism. Use the status quo as the baseline when useful. Do not change the baseline per candidate or compare a rival against itself. The baseline has no difference from itself by definition, but its value still needs assessment.
+3. Map candidate solutions AND competitor offerings on the same four quadrants. Compare specific offerings for the same job, not company logos. Keep value and differentiation evidence separate for each point. Preserve supplied rival sources, dates and gaps; research only material gaps when browsing is available and appropriate. Do not invent competitor capabilities. Mark qualitative positions conditional when assumed; leave UNKNOWN axes unplaced or show a range. UNKNOWN is not low. Not every quadrant needs a point.
+4. Explain tradeoffs, uncertainty and the cheapest observation that could change each placement. Novel technology is not inherently meaningful differentiation. Do not fabricate coordinates, measured value, willingness to pay or defensibility. High/high is a hypothesis worth testing, not an automatic winner or moat.
+5. Recommend a shortlist, revision, evidence task or stop, with reasons. Wait for the human to choose; the shortlist may contain several concepts. If positioning is next, offer the chosen candidate descriptions, value/difference assessments, common comparator and proof gaps as useful context. A matrix does not record an approval by itself.
 
 ## Output: Value Prop vs. Differentiation 2x2
 
-- Concept, persona and comparator
-- Axis definitions
-- Low value / low differentiation
-- High value / low differentiation
-- Low value / high differentiation
-- High value / high differentiation
-- Evidence and confidence
-- Decision and next evidence
+- Audience, outcome and common comparator
+- Candidate inventory: solution / competitor offering / workaround, ID, source, opportunity link if available
+- Axis definitions and four-quadrant map with conditional or unplaced points
+- Per-candidate value evidence, differentiation evidence and confidence
+- Bake-off tradeoffs and provisional shortlist
+- Human choice and next evidence task
 - Claim ledger: statement / evidence label / source or basis / date / limitation
 - Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
 
-Close with the small handoff. Add the actual selected segment, persona, opportunity and concept, comparison, statement, hypothesis and protocol, storyboard or narrative when the next motion needs them. Preserve source references and uncertainty labels; never substitute a title for the actual story.
+Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
 
 ```text
 Target:
