@@ -29,7 +29,7 @@ Market Intel → Segment → Persona → Opportunity Solution Tree → Value Pro
 | 07 Solution Hypothesis | Make the selected concept falsifiable. State what we think will change for the persona, which assumptions must hold, and what observations would support revising, stopping or another test. | Solution Hypothesis |
 | 08 Storyboard | Make the hypothesis visible as six descriptive frames. Storyboard precedes Minimum Viable Narrative in this lab; it consumes the solution hypothesis, not a previously completed narrative. | Storyboard |
 | 09 Minimum Viable Narrative | Turn the selected storyboard into the smallest coherent narrative worth testing. Preserve an internal loop of 3-6 human action/system response transactions between Encounter and Resolution and prepare portable descriptive context for prototyping. | Minimum Viable Narrative |
-| 10 Prototyping | Ask what is the smallest, cheapest test we can run to learn the most brutal truth. Tiniest act of discovery wins; lo-fi wins. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence. | Prototype Experiment Brief |
+| 10 Prototyping | Ask what is the smallest, cheapest test we can run to learn the most brutal truth. The winner is the tiniest act of discovery that returns the most brutal truth, or gives enough signal to pivot, punt or pursue. Tiny alone is not enough; teams usually overbuild their experiments. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence. | Prototype Experiment Brief |
 
 Open with the cost of committing before understanding the market, person and outcome. Use a prepared Hall of Shame slide only when its claims and sources have been checked; do not research cases on stage.
 
@@ -57,4 +57,4 @@ Actual canvas and brand files govern their structure and visual treatment. Until
 
 A complete script, mechanical checks or historical model reviews do not establish live usability. Finish with the question: what actual evidence earns the next investment?
 
-Tiniest act of discovery wins. Lo-fi wins. Jeff Patton: “The most expensive way to test your idea is to build production quality software.” Use this on the fidelity ladder before deciding what to build. [Source: Dual Track Development is not Duel Track](https://jpattonassociates.com/dual-track-development/).
+The tiniest act of discovery that returns the most brutal truth, or gives enough signal to pivot, punt or pursue, wins. Tiny alone is not enough; we usually overbuild. Jeff Patton: “The most expensive way to test your idea is to build production quality software.” Use this on the fidelity ladder before deciding what to build. [Source: Dual Track Development is not Duel Track](https://jpattonassociates.com/dual-track-development/).

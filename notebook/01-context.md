@@ -121,7 +121,7 @@ The running example is Industrial IoT and manufacturing maintenance.
 
 The scenario is chosen because dashboards, copilots, alerts and predictive platforms are exactly where teams jump too early. At each step the show asks: what problem are we assuming this solves, what outcome are we pursuing, and what remains true if this solution disappears?
 
-Where the demo lands: a tiny, cheap test (a conversation, a storyboard or a wireframe) can answer the learning question before anyone builds anything. The Prototyping question is: what is the smallest, cheapest test we can run to learn the most brutal truth? The tiniest act of discovery wins. Lo-fi wins. We are not attached to any one medium, including paper. Jeff Patton: "The most expensive way to test your idea is to build production-quality software."
+Where the demo lands: a tiny, cheap test (a conversation, a storyboard or a wireframe) can answer the learning question before anyone builds anything. The Prototyping question is: what is the smallest, cheapest test we can run to learn the most brutal truth? The tiniest act of discovery that returns the most brutal truth, or gives enough signal to pivot, punt or pursue, wins. Tiny alone is not enough: teams usually overbuild their experiments rather than running tiny acts of discovery. Lo-fi wins when it still tells the truth. We are not attached to any one medium, including paper. Jeff Patton: "The most expensive way to test your idea is to build production-quality software."
 
 ## 9. Premature solutionism: the thing to catch
 

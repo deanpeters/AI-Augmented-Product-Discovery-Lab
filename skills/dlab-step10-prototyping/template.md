@@ -21,7 +21,7 @@ Lab adaptation, not an authoritative Productside canvas.
 
 ## Tiny acts of discovery and fidelity choice
 
-Tiniest act of discovery wins. Lo-fi wins when it exposes the relevant risk.
+The tiniest act of discovery that returns the most brutal truth, or gives enough signal to pivot, punt or pursue, wins. Lo-fi wins when it exposes the relevant risk.
 
 | Candidate test | Brutal truth it could expose | Cost / effort / access | What it cannot establish |
 |---|---|---|---|

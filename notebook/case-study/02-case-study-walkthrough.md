@@ -148,7 +148,7 @@ It ends in a descriptive prompt for a no or low code builder: not a UI spec, not
 
 **Question:** what is the smallest, cheapest test we can run to learn the most brutal truth?
 
-**What the artifact said:** the brutal truth is that source and recency context might not matter because authority or scheduling decides. Recommendation: examine a recent real decision with a relevant practitioner, then run a storyboard or wireframe task to contrast the two explanations. A comprehension check alone cannot show adoption or value. Tiniest act of discovery wins. Lo-fi wins.
+**What the artifact said:** the brutal truth is that source and recency context might not matter because authority or scheduling decides. Recommendation: examine a recent real decision with a relevant practitioner, then run a storyboard or wireframe task to contrast the two explanations. A comprehension check alone cannot show adoption or value. The tiniest act that returns the most brutal truth, or enough signal to pivot, punt or pursue, wins. Tiny alone is not enough, and lo-fi counts only if it still tells the truth.
 
 Build status and experiment status: not built, not run. Next decision: gather practitioner evidence before increasing fidelity.
 

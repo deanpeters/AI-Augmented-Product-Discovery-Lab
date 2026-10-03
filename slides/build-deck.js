@@ -476,16 +476,16 @@ section([["What must be true, ", WHITE], ["how do we learn?", GREEN]], "Part 3. 
   pill(s, "NOT BUILT", 10.85, 5.95, 1.55, { fill: ORANGE, color: BLACK, h: 0.34 });
 }
 
-motion(10, "Prototyping", "What is the smallest, cheapest test we can run to learn the most brutal truth?", "Prototype Experiment Brief", "The tiniest act of discovery wins.",
+motion(10, "Prototyping", "What is the smallest, cheapest test we can run to learn the most brutal truth?", "Prototype Experiment Brief", "The tiniest act that gives enough signal to pivot, punt or pursue.",
   (s) => {
     s.addShape(pres.ShapeType.roundRect, { x: PX + 0.4, y: PY + 0.5, w: PW - 0.8, h: 5.1, rectRadius: 0.18, fill: { color: WHITE }, line: { color: WHITE }, objectName: "Brief card" });
     T(s, "Build an AI predictive-maintenance dashboard.", { x: PX + 0.8, y: PY + 1.0, w: PW - 1.6, h: 1.6, fontFace: F.head, fontSize: 30, color: "7A7A7A", strike: "sngStrike", objectName: "Struck request" });
-    s.addText("TINIEST ACT WINS", {
+    s.addText([{ text: "TINIEST ACT THAT", options: { breakLine: true } }, { text: "TELLS THE TRUTH" }], {
       shape: pres.ShapeType.roundRect, rectRadius: 0.1, x: PX + 0.8, y: PY + 3.0, w: PW - 1.6, h: 1.5, rotate: 355,
       fill: { type: "none" }, line: { color: GREEN, width: 5 }, fontFace: F.head, fontSize: 34, color: "00C765", align: "center", valign: "middle", margin: 0, objectName: "Tiniest act wins stamp",
     });
   },
-  "The question is the smallest, cheapest test that surfaces the most brutal truth. Compare a conversation, a storyboard or wireframe test, an interaction, and a build. Recommend the tiniest act of discovery that can answer it. Status, if asked: prototypes built in advance are implementation evidence only. The participant test is NOT RUN until a person actually runs it. If you did not build one, say NOT BUILT.");
+  "The question is the smallest, cheapest test that surfaces the most brutal truth. Compare a conversation, a storyboard or wireframe test, an interaction, and a build. Recommend the tiniest act of discovery that returns the most brutal truth, or enough signal to pivot, punt or pursue. Tiny alone is not enough: teams usually overbuild their experiments instead of running tiny acts of discovery. Status, if asked: prototypes built in advance are implementation evidence only. The participant test is NOT RUN until a person actually runs it. If you did not build one, say NOT BUILT.");
 
 // ---------- 14. Fidelity ladder ----------
 {
@@ -499,10 +499,10 @@ motion(10, "Prototyping", "What is the smallest, cheapest test we can run to lea
     T(s, t, { x: x + 0.2, y: y + 0.12, w: w - 0.3, h: 0.7, fontFace: F.head, fontSize: 18, color: i === 3 || i === 0 ? BLACK : WHITE, objectName: `Step label ${t}` });
     T(s, c, { x: x + 0.2, y: y + 0.8, w: w - 0.4, h: 0.3, fontSize: 16, color: i === 3 || i === 0 ? BLACK : MUTED, objectName: `Step cost ${t}` });
   });
-  T(s, "Lo-fi wins.", { x: 8.2, y: 0.8, w: 4.5, h: 0.6, fontFace: F.head, fontSize: 32, color: GREEN, align: "right", objectName: "Rule" });
+  T(s, "Lo-fi, if it tells the truth.", { x: 7.2, y: 0.8, w: 5.5, h: 0.6, fontFace: F.head, fontSize: 30, color: GREEN, align: "right", objectName: "Rule" });
   T(s, [{ text: "The most expensive way to test your idea is to build ", options: { color: WHITE } }, { text: "production quality software.", options: { color: GREEN } }], { x: 0.6, y: 2.5, w: 6.0, h: 1.6, fontFace: F.head, fontSize: 28, objectName: "Patton quote" });
   T(s, "Jeff Patton", { x: 0.6, y: 4.0, w: 4, h: 0.3, fontSize: 16, color: MUTED, objectName: "Quote attribution" });
-  s.addNotes("Jeff Patton: the most expensive way to test your idea is to build production quality software. A polished prototype is not stronger evidence. It may be a more expensive rendering of weak assumptions. Lo-fi wins. Quote source: https://jpattonassociates.com/dual-track-development/ (Jeff Patton, Dual Track Development is not Duel Track, 2017). Cost labels on this ladder are illustrative, not universal; choose the lowest fidelity that can expose the risk.");
+  s.addNotes("Jeff Patton: the most expensive way to test your idea is to build production quality software. A polished prototype is not stronger evidence. It may be a more expensive rendering of weak assumptions. Lo-fi wins only if it still tells the truth. Quote source: https://jpattonassociates.com/dual-track-development/ (Jeff Patton, Dual Track Development is not Duel Track, 2017). Cost labels on this ladder are illustrative, not universal; choose the lowest fidelity that can expose the risk.");
 }
 
 // ---------- 15. Prompt / Skill / Agent / Plugin ----------

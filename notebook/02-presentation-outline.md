@@ -59,7 +59,7 @@ Planning time is about 4 minutes each, with Persona at about 8.
 | 7 | Solution Hypothesis | Shown on the Productside canvas: If we / for / then we will, 2 tiny acts of discovery, 1 quantitative and 1 qualitative metric with a timeframe, plus what would make us revise or stop. | Write the rule before the result exists. |
 | 8 | Storyboard | Shown on the Productside storyboard canvas: a solution summary over six descriptive frames, one sentence each: who has the problem, what the problem is, the "oh crap" moment when it comes to a head, the solution arrives, the person with the problem uses it, and they help others enjoy the same success. | Descriptive before prescriptive. No MVN yet. |
 | 9 | Minimum Viable Narrative | Shown on the Productside MVN canvas, with the prototype hypothesis and target audience on top and a builder prompt below. Five parts: Setup, Encounter, a loop of Action and Response repeated 3 to 6 times between the person and the system, then Resolution. The loop repeats; it is not a single pass. | The smallest story worth testing. Not a PRD, not a UI spec. |
-| 10 | Prototyping | The question: what is the smallest, cheapest test we can run to learn the most brutal truth? A comparison of a conversation, a storyboard or wireframe test, an interaction, and a build. Status shown honestly: NOT BUILT, NOT RUN. | The tiniest act of discovery wins. Fidelity must earn its cost. |
+| 10 | Prototyping | The question: what is the smallest, cheapest test we can run to learn the most brutal truth? A comparison of a conversation, a storyboard or wireframe test, an interaction, and a build. Status shown honestly: NOT BUILT, NOT RUN. | The tiniest act that returns the most brutal truth, or enough signal to pivot, punt or pursue, wins. Fidelity must earn its cost. |
 
 Between motions, show the small handoff as a recurring visual: target, belief, evidence, inferred, outcome, biggest unanswered question.
 
@@ -96,7 +96,7 @@ Treat these as prompts to react to, not decisions.
 2. **The ten-motion path** as a single horizontal or vertical chain, with human gates marked between motions.
 3. **Evidence labels** as a small, consistent visual vocabulary (four tags) reused across slides.
 4. **The small handoff** as a compact six-field card.
-5. **Fidelity ladder:** conversation, storyboard or wireframe, interaction, build. Lo-fi wins. Include the Jeff Patton quote: "The most expensive way to test your idea is to build production-quality software."
+5. **Fidelity ladder:** conversation, storyboard or wireframe, interaction, build. Lo-fi, if it still tells the truth. Include the Jeff Patton quote: "The most expensive way to test your idea is to build production-quality software."
 6. **Prompt / Skill / Agent / Plugin** as a progression: explore, codify, delegate, distribute.
 7. **Persona canvas** as a conversation: jobs, pains, gains, workaround, stakes, trigger. Mark as lab adaptation.
 8. **Opportunity Solution Tree** diagram: Outcome, Opportunities, Solutions, Experiments.

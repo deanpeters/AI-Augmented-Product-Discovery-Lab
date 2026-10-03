@@ -377,7 +377,7 @@ Approve this narrative for comparing experiment fidelities. Carry the full actua
 
 [Skill](../skills/dlab-step10-prototyping/SKILL.md) · [Template](../skills/dlab-step10-prototyping/template.md) · [Worked example](../skills/dlab-step10-prototyping/examples/worked-example.md) · [Prompt](../prompts/10-prototyping.md) · [Fallback illustration](../fallbacks/10-prototyping.md)
 
-**Say:** “What is the smallest, cheapest test we can run to learn the most brutal truth? Tiniest act of discovery wins. Lo-fi wins.”
+**Say:** “What is the smallest, cheapest test we can run to learn the most brutal truth? The tiniest act of discovery that returns the most brutal truth, or gives enough signal to pivot, punt or pursue, wins. Tiny alone is not enough, and lo-fi counts only if it still tells the truth.”
 
 **Send:**
 
