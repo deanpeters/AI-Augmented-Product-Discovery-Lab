@@ -480,9 +480,9 @@ motion(10, "Prototyping", "What is the smallest, cheapest test we can run to lea
   (s) => {
     s.addShape(pres.ShapeType.roundRect, { x: PX + 0.4, y: PY + 0.5, w: PW - 0.8, h: 5.1, rectRadius: 0.18, fill: { color: WHITE }, line: { color: WHITE }, objectName: "Brief card" });
     T(s, "Build an AI predictive-maintenance dashboard.", { x: PX + 0.8, y: PY + 1.0, w: PW - 1.6, h: 1.6, fontFace: F.head, fontSize: 30, color: "7A7A7A", strike: "sngStrike", objectName: "Struck request" });
-    s.addText([{ text: "TINIEST ACT THAT", options: { breakLine: true } }, { text: "TELLS THE TRUTH" }], {
+    s.addText([{ text: "JUST ENOUGH", options: { breakLine: true } }, { text: "SIGNAL" }], {
       shape: pres.ShapeType.roundRect, rectRadius: 0.1, x: PX + 0.8, y: PY + 3.0, w: PW - 1.6, h: 1.5, rotate: 355,
-      fill: { type: "none" }, line: { color: GREEN, width: 5 }, fontFace: F.head, fontSize: 34, color: "00C765", align: "center", valign: "middle", margin: 0, objectName: "Tiniest act wins stamp",
+      fill: { type: "none" }, line: { color: GREEN, width: 5 }, fontFace: F.head, fontSize: 40, color: "00C765", align: "center", valign: "middle", margin: 0, objectName: "Just enough signal stamp",
     });
   },
   "The question is the smallest, cheapest test that surfaces the most brutal truth. Compare a conversation, a storyboard or wireframe test, an interaction, and a build. Recommend the tiniest act of discovery that returns the most brutal truth, or enough signal to pivot, punt or pursue. Tiny alone is not enough: teams usually overbuild their experiments instead of running tiny acts of discovery. Status, if asked: prototypes built in advance are implementation evidence only. The participant test is NOT RUN until a person actually runs it. If you did not build one, say NOT BUILT.");
