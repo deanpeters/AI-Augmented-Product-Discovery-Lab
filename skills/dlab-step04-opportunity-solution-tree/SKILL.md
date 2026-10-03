@@ -23,7 +23,7 @@ metadata:
   template: "template.md"
   worked-example: "examples/worked-example.md"
   weak-example: "examples/weak-example.md"
-  license-status: "Unselected for new lab materials; see docs/PROVENANCE.md before redistribution"
+  license-status: "CC BY-NC-SA 4.0 for original lab materials; Productside canvases and brand assets excluded; see docs/PROVENANCE.md"
   scenarios: "Misleading starting input: Outcome: launch our copilot. Opportunities: AI alerts, dashboard and chatbot."
   capture-modes: "Guided; Context dump; Best guess"
   question-budget: "Five numbered context questions; at most two labeled clarifications"

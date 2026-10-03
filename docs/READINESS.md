@@ -12,4 +12,4 @@ Local checks validate metadata, bundled assets, catalog order, prompt parity, lo
 
 Rehearse the actual ten-motion path, capture final outputs and handoffs, record timings and prepare actual fallbacks. Verify a new chat can consume the small handoff with the required content. Mark absent rendering/builds/participant experiments NOT RENDERED, NOT BUILT and NOT RUN.
 
-Before an attendee release, decide the new materials' license, inspect visibility and history, and supply or explicitly mark absent canonical canvas and brand assets. The repository remains private. No autonomous discovery operator, renderer or prototype build is bundled.
+Before an attendee release, inspect visibility and history and confirm Productside's permission covers redistributing its canvases and logos. Original lab materials are CC BY-NC-SA 4.0. The repository remains private. No autonomous discovery operator, renderer or prototype build is bundled.

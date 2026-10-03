@@ -10,7 +10,7 @@ Conceptual attribution: situational proto-personas and jobs/pains/gains build on
 
 The four Productside canvas PDFs supplied on October 3, 2026 are now inspected references for field structure and terminology; see [supplied canvas references](../reference/supplied-canvases.md). The skill templates are text adaptations with evidence and decision safeguards, not reproductions of official artwork. Unmodified reference copies are included under assets/productside/canvases with Dean's explicit sharing permission; their illustrative examples are teaching material, not evidence for the lab's manufacturing case. Dean's later storyboard and MVN instructions take precedence over older flat prompt examples in the PDFs.
 
-Each upstream project retains its own license. No new lab redistribution license has been selected. Do not copy a license label from an inspiration repo and imply it applies to these materials. Resolve licensing and attribution before public attendee release.
+Each upstream project retains its own license. Original lab materials are licensed CC BY-NC-SA 4.0 (see LICENSE); commercial use requires express written permission from Dean Peters. Productside canvases, logos, brand assets and the Productside branding guide are Productside property included with permission and are excluded from that license. Check attribution before any public attendee release.
 
 Use-case testing borrows the inspected ADLC pattern of fixed inputs, prewritten criteria, scripted participant replies, actual transcripts and separate review. The revised JSON cases and standard-library harness are local authorship. Historical eleven-motion results are not evidence for the corrected chain.
 

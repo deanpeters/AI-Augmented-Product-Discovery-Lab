@@ -29,7 +29,7 @@ Market Intel → Segment → Persona → Opportunity Solution Tree → Value Pro
 | 07 Solution Hypothesis | Make the selected concept falsifiable. State what we think will change for the persona, which assumptions must hold, and what observations would support revising, stopping or another test. | Solution Hypothesis |
 | 08 Storyboard | Make the hypothesis visible as six descriptive frames. Storyboard precedes Minimum Viable Narrative in this lab; it consumes the solution hypothesis, not a previously completed narrative. | Storyboard |
 | 09 Minimum Viable Narrative | Turn the selected storyboard into the smallest coherent narrative worth testing. Preserve an internal loop of 3-6 human action/system response transactions between Encounter and Resolution and prepare portable descriptive context for prototyping. | Minimum Viable Narrative |
-| 10 Prototyping | Prototype to learn, and stop when a cheaper method answers the question. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence. | Prototype Experiment Brief |
+| 10 Prototyping | Ask what is the smallest, cheapest test we can run to learn the most brutal truth. Tiniest act of discovery wins; lo-fi wins. Define the experiment first, build only when requested, and distinguish implementation checks from participant evidence. | Prototype Experiment Brief |
 
 Open with the cost of committing before understanding the market, person and outcome. Use a prepared Hall of Shame slide only when its claims and sources have been checked; do not research cases on stage.
 

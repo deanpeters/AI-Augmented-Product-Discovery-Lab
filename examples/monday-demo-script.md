@@ -299,15 +299,15 @@ Select the proposed statement only if it preserves our target, concept, real alt
 ```text
 Read skills/dlab-step07-solution-hypothesis/SKILL.md and follow it.
 Mode: Best guess. Use the actual chosen positioning statement below.
-Write If we / for / then / because for the selected concept and persona. Mark the mechanism as a hypothesis.
-Pick the riskiest assumption, one or two tiny acts of discovery, and expected versus disconfirming observations. Write the task, protocol and revise/stop/another-test rule before any experiment.
+Write If we / for / Then we will for the selected concept and persona. Then We will test our assumption by two tiny acts of discovery, and We know it is valid if within [timeframe] we observe one quantitative and one qualitative result. Keep any because clause as a separate, optional mechanism hypothesis.
+Name the riskiest assumption and the expected versus disconfirming observations. Write the task, protocol and revise/stop/another-test rule before any experiment.
 Proposed teaching question: does explicit source/recency context help a person explain the next investigation, or does permission/coordination dominate?
 Participant access has not been arranged. No results exist. Mark NOT RUN.
 Produce the Solution Hypothesis and stop for my hypothesis/protocol choice.
 [PASTE THE STEP 6 HANDOFF WITH THE ACTUAL POSITIONING STATEMENT]
 ```
 
-**Inspect:** Observable causal hypothesis, tiny acts, disconfirmation and a rule written before results.
+**Inspect:** If / for / Then we will, two tiny acts, a quantitative and a qualitative measure, and a revise/stop rule written before results.
 
 **If the actual output supports this teaching choice, send:**
 
@@ -321,7 +321,7 @@ Select the hypothesis about source/recency context helping a person explain the 
 
 [Skill](../skills/dlab-step08-storyboard/SKILL.md) · [Template](../skills/dlab-step08-storyboard/template.md) · [Worked example](../skills/dlab-step08-storyboard/examples/worked-example.md) · [Prompt](../prompts/08-storyboard.md) · [Fallback illustration](../fallbacks/08-storyboard.md)
 
-**Say:** “We have a hypothesis. Let's show the person acting, receiving a response and acting again. We have not written the MVN yet.”
+**Say:** “We have a hypothesis. Let's tell the story: who has the problem, the oh crap moment, the solution arriving, and the win spreading. We have not written the MVN yet.”
 
 **Send:**
 
@@ -335,7 +335,7 @@ Produce the Storyboard and stop at the human gate.
 [PASTE THE STEP 7 HANDOFF WITH THE ACTUAL HYPOTHESIS AND RULE]
 ```
 
-**Inspect:** Six descriptive frames with context → trigger → action → response → new action → consequence. NOT RENDERED unless an actual renderer ran.
+**Inspect:** Six descriptive frames: who has the problem, the problem, the oh crap moment, solution arrives, solution used, success shared. NOT RENDERED unless an actual renderer ran.
 
 **If the actual output supports this teaching choice, send:**
 
@@ -349,7 +349,7 @@ Approve these fictional storyboard frames for MVN drafting only. Carry all actua
 
 [Skill](../skills/dlab-step09-minimum-viable-narrative/SKILL.md) · [Template](../skills/dlab-step09-minimum-viable-narrative/template.md) · [Worked example](../skills/dlab-step09-minimum-viable-narrative/examples/worked-example.md) · [Prompt](../prompts/09-minimum-viable-narrative.md) · [Fallback illustration](../fallbacks/09-minimum-viable-narrative.md)
 
-**Say:** “Tighten the storyboard into the smallest story worth testing. Keep the action-response-new-action loop.”
+**Say:** “Tighten the storyboard into the smallest story worth testing. Keep the loop of 3 to 6 action and response exchanges.”
 
 **Send:**
 

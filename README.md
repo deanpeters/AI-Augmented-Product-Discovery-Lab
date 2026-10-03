@@ -101,4 +101,4 @@ scripts/      local validation, prompt export and optional eval runner
 docs/         catalog, skill contract, chain, provenance and readiness
 ```
 
-Authoritative Productside canvases and brand assets have not been supplied; these are labeled lab adaptations. Licensing for new lab materials remains unselected. See [provenance](docs/PROVENANCE.md) before redistribution or public release.
+Original lab materials are licensed under [CC BY-NC-SA 4.0](LICENSE). Commercial use requires express written permission from Dean Peters. Productside canvases, logos and brand assets used here are Productside property, included with permission, and are not covered by that license. See [provenance](docs/PROVENANCE.md).

@@ -390,16 +390,14 @@ The audience should understand why the idea matters before seeing polished UI.
 
 Use the MVN to describe the smallest story worth testing.
 
-Possible structure:
+Structure:
 
 1. Setup
 2. Encounter
-3. Action
-4. Response
-5. New Action
-6. Resolution
+3. Action–Response Loop (about 3 to 6 transactions between the person and the system, each response prompting the next action)
+4. Resolution
 
-Preserve the action → response → action loop when relevant.
+Preserve the internal action → response loop. Do not flatten it into a single pass.
 
 The MVN is not:
 
