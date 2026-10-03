@@ -1,0 +1,90 @@
+[
+  {
+    "step": 1,
+    "name": "dlab-step01-market-segment",
+    "title": "Market and Segment",
+    "artifact": "Segment Brief",
+    "prompt": "prompts/01-market-segment.md",
+    "fallback": "fallbacks/01-market-segment.md"
+  },
+  {
+    "step": 2,
+    "name": "dlab-step02-people",
+    "title": "People in the System",
+    "artifact": "Actor Map",
+    "prompt": "prompts/02-people.md",
+    "fallback": "fallbacks/02-people.md"
+  },
+  {
+    "step": 3,
+    "name": "dlab-step03-jobs-pains-gains",
+    "title": "Jobs, Pains and Gains",
+    "artifact": "Jobs Pains Gains Brief",
+    "prompt": "prompts/03-jobs-pains-gains.md",
+    "fallback": "fallbacks/03-jobs-pains-gains.md"
+  },
+  {
+    "step": 4,
+    "name": "dlab-step04-problem-frame",
+    "title": "Frame the Problem",
+    "artifact": "Problem Frame",
+    "prompt": "prompts/04-problem-frame.md",
+    "fallback": "fallbacks/04-problem-frame.md"
+  },
+  {
+    "step": 5,
+    "name": "dlab-step05-stress-test",
+    "title": "Synthetic Scenarios and Stress Tests",
+    "artifact": "Scenario Pack",
+    "prompt": "prompts/05-stress-test.md",
+    "fallback": "fallbacks/05-stress-test.md"
+  },
+  {
+    "step": 6,
+    "name": "dlab-step06-opportunity-tree",
+    "title": "Opportunities, Solutions and Experiments",
+    "artifact": "Opportunity Tree",
+    "prompt": "prompts/06-opportunity-tree.md",
+    "fallback": "fallbacks/06-opportunity-tree.md"
+  },
+  {
+    "step": 7,
+    "name": "dlab-step07-positioning",
+    "title": "Position the Concept",
+    "artifact": "Positioning Brief",
+    "prompt": "prompts/07-positioning.md",
+    "fallback": "fallbacks/07-positioning.md"
+  },
+  {
+    "step": 8,
+    "name": "dlab-step08-minimum-viable-narrative",
+    "title": "Minimum Viable Narrative",
+    "artifact": "Minimum Viable Narrative",
+    "prompt": "prompts/08-minimum-viable-narrative.md",
+    "fallback": "fallbacks/08-minimum-viable-narrative.md"
+  },
+  {
+    "step": 9,
+    "name": "dlab-step09-storyboard-explainer",
+    "title": "Storyboard or Explainer",
+    "artifact": "Story Rendering Brief",
+    "prompt": "prompts/09-storyboard-explainer.md",
+    "fallback": "fallbacks/09-storyboard-explainer.md"
+  },
+  {
+    "step": 10,
+    "name": "dlab-step10-throwaway-prototype",
+    "title": "Prototype to Learn",
+    "artifact": "Prototype Experiment Brief",
+    "prompt": "prompts/10-throwaway-prototype.md",
+    "fallback": "fallbacks/10-throwaway-prototype.md"
+  },
+  {
+    "step": 11,
+    "name": "dlab-step11-learning-review",
+    "title": "Review the Learning",
+    "artifact": "Learning Review",
+    "prompt": "prompts/11-learning-review.md",
+    "fallback": "fallbacks/11-learning-review.md"
+  }
+]
