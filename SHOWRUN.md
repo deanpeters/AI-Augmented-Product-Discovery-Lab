@@ -14,6 +14,23 @@ Event block: 6:00–8:00 PM. Plan approximately 90 minutes of performance with 6
 
 Brief frame → live motion → audience reaction → synthesis → next question. Slides are chapter markers. Never put on a slide what Dean can demonstrate better live.
 
+## The deck
+
+`slides/Build-the-Right-Thing.pptx` is a native, editable 21-slide deck in the Productside style. Rebuild it with `slides/build-deck.js` (needs `pptxgenjs`). `slides/Build-the-Right-Thing.pdf` is the fallback if the brand fonts are missing on the presenting machine. Readability rule: canvas shapes stay, text stays minimal (about 16 point minimum), detail lives in the speaker notes.
+
+| Slides | Content |
+|---|---|
+| 1 to 4 | Title, Hall of Shame (five cases, sources in `notebook/hall-of-shame-sources.md`), the starting request, the cost paradox |
+| 5 | Part 1 question: What problem are we solving, and for whom? |
+| 6 to 9 | Market Intel, Segment (TAM, SAM, SOM circles), Persona (JTBD framing canvas), Proto-Persona canvas |
+| 10 | Part 2 question: Where do we play, where do we win? |
+| 11 to 13 | Opportunity Solution Tree, Value vs. Differentiation 2x2 bake-off, Positioning Statement |
+| 14 | Part 3 question: What must be true, how do we learn? |
+| 15 to 18 | Solution Hypothesis, Storyboard, Minimum Viable Narrative, Prototyping |
+| 19 to 21 | Fidelity ladder with the Jeff Patton quote, prompt, skill, agent, plugin, close |
+
+Planning budget for 90 minutes (not rehearsed): open and framing 10, Part 1 16, Part 2 12, Part 3 17, close 8, reaction, recovery and Q&A 27. Persona now spans two slides.
+
 ## The exact live arc
 
 Market Intel → Segment → Persona → Opportunity Solution Tree → Value Prop vs. Differentiation 2x2 → Positioning Statement → Solution Hypothesis → Storyboard → Minimum Viable Narrative → Prototyping.
