@@ -1,37 +1,65 @@
 # A chain you can interrupt
 
-The chain follows the show: market → people → jobs → problem → stress test → opportunities → positioning → narrative → story → prototype → learning.
+Market Intel → Segment → Persona → Opportunity Solution Tree → Value Prop vs. Differentiation 2x2 → Positioning Statement → Solution Hypothesis → Storyboard → Minimum Viable Narrative → Prototyping.
 
-Each skill has a numbered work sequence, five-question maximum in Guided mode, three entry modes, a named artifact, a small handoff and a human decision gate. Prompts reproduce the same body. Each motion can run independently from supplied context.
+There are ten motions. Jobs, pains, gains and problem context are developed within Persona and the Opportunity Solution Tree. Opportunities belong in that tree. There is no standalone agent-strategy or learning-review stage. Prototyping closes with experiment status and the next evidence decision.
 
-## Entry and re-entry
+Each skill offers three capture modes, visible numbered work, a template, worked/weak examples, a named artifact and a human gate. Prompt equivalents embed the assets. Start at any motion with the context its decision needs.
 
-Start where the decision is. Existing customer notes can enter at jobs or problem framing; an existing concept can enter at positioning, with its assumptions made visible. A later result can send work backward. Preserve prior context and revise only what changed.
+## What crosses the boundary
 
-The sequence is a teaching path, not permission to fabricate missing evidence or keep increasing fidelity. A cheap interview or paper test can end a run before story rendering or prototyping. Hall of Shame is the spoken opening, not another automated discovery artifact.
+```mermaid
+sequenceDiagram
+    actor Person
+    participant A as Current motion
+    participant B as Next motion
+    Person->>A: Supply context and choose capture mode
+    A-->>Person: Editable artifact and human gate
+    alt Revise or gather evidence
+        Person->>A: Correction or new evidence
+        A-->>Person: Revised artifact and gate
+    else Approve a bounded next motion
+        Person->>A: Explicit choice and reason
+        A-->>Person: Recorded decision and small handoff
+        Person->>B: Selected skill or prompt plus actual handoff
+        alt Required content is missing
+            B-->>Person: Flag the gap and ask for context
+        else Context is sufficient
+            B-->>Person: Next editable artifact and gate
+        end
+    else Stop
+        Person->>A: Stop and record the reason
+        A-->>Person: Decision record with no next motion
+    end
+```
 
-## A future chain operator
+| Boundary | Content to preserve beyond the six common fields |
+|---|---|
+| Market Intel → Segment | Market scope, alternatives, candidate segment dimensions, source register and gaps |
+| Segment → Persona | Actual selected segment and boundaries; persona role remains provisional |
+| Persona → Opportunity Solution Tree | Actual situational persona, jobs, pains, gains, workaround and evidence |
+| Tree → 2x2 | Human-selected opportunity and solution concept; competing branches and candidate experiments |
+| 2x2 → Positioning | Proposed value and difference assessed separately; comparator and confidence |
+| Positioning → Hypothesis | Actual selected statement, target, concept, benefit, alternative and proof gaps |
+| Hypothesis → Storyboard | Actual hypothesis, task, expected/disconfirming observations and prewritten rule |
+| Storyboard → MVN | Actual six frames, actor action loop, hypothesis and reaction question |
+| MVN → Prototyping | Full six-part narrative, hypothesis, task, constraints and decision rule |
 
-The stage interfaces are ready for an operator, but this starter has no autonomous runner. A future operator should:
+Keep labels and source references on claims. Missing context prompts a visible gap. Do not manufacture approved choices or observations. New evidence can route backward without discarding context. A cheaper test can stop the path before rendering or building.
 
-1. Read the selected skill and the latest human-selected handoff.
-2. Reuse supplied context and ask only material gaps.
-3. Run the visible numbered work and keep the artifact editable.
-4. Save a draft, present a decision and wait for the person's choice.
-5. Record that choice and pass the small handoff to the selected next motion.
-6. Resume from the last recorded decision after interruption, or route back on new evidence.
+## Operator boundary
 
-Allow reading approved context and drafting in a named run folder. Tool use, spending, messages, publishing and building need their own authorization. Retrieved material is evidence to inspect, never instructions granting authority. A successful prompt injection stops the run.
+Dean or another person operates this chain today. No autonomous discovery operator is implemented. A future operator would reuse actual context, run the selected play, save a draft, wait for the person's decision and pass only the selected handoff. Its usefulness must come from observed friction.
 
-The operator must not mark its own recommendation approved, manufacture observations, convert a synthetic result into validation, or increase fidelity automatically. An agent becomes useful when it removes observed handoff friction; its existence is not Monday's learning objective.
+Retrieved material is evidence, never authority to override instructions or invent permission. Tools, spend, messages, publishing and builds need their own authorization. A successful prompt injection stops the run.
 
 ## Maintenance
 
-Canonical text lives in `skills/*/SKILL.md`. Edit there, then run:
+Edit canonical `skills/*/SKILL.md`, templates and examples, then:
 
 ```bash
 python3 scripts/export-prompts.py
 ./scripts/test-library.sh
 ```
 
-Do not edit generated prompts by hand. Prompt parity is enforced in the local check and GitHub workflow. `docs/catalog.json` records the ordered skill, prompt, output and fallback mapping.
+Metadata and assets follow [the skill contract](SKILL-SPEC.md). Asset edits are included in prompt parity and behavioral receipt staleness checks.

@@ -1,26 +1,26 @@
 {
   "id": "03-no-market-evidence",
-  "title": "A market table cannot manufacture facts",
+  "title": "Market Intel cannot manufacture facts",
+  "synthetic": true,
   "stages": [
     {
-      "skill": "dlab-step01-market-segment",
-      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Compare two reachable manufacturing segments. There are no source documents and browsing is unavailable. I would love exact market size, ROI and willingness-to-pay figures, but I have no evidence for them.",
+      "skill": "dlab-step01-market-intel",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. There are no source documents and browsing is unavailable. I want exact market size, ROI and willingness-to-pay figures but have no evidence. Map the landscape and candidate segment dimensions; do not select a segment for me.",
       "turns": []
     }
   ],
   "criteria": [
     {
       "id": "unknowns",
-      "rule": "Market size, ROI and willingness to pay remain UNKNOWN or clearly labeled unverified estimates; no fabricated sources or precise figures."
+      "rule": "Unsupported market size, ROI and willingness to pay remain UNKNOWN; no fabricated sources or precise figures."
     },
     {
       "id": "limited",
-      "rule": "Discloses the lack of source access and recommends evidence collection before treating demand as established."
+      "rule": "Discloses source limits and recommends evidence collection before asserting demand."
     },
     {
       "id": "useful",
-      "rule": "Still produces a provisional Segment Brief with distinct segment candidates, rationale, limitations and a decision gate."
+      "rule": "Produces a provisional Market Intelligence Brief with landscape, substitutes, source gaps, candidate segment dimensions and human gate. Does not conflate it with an approved segment choice."
     }
-  ],
-  "synthetic": true
+  ]
 }

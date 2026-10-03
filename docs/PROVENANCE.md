@@ -1,26 +1,15 @@
-# What informed this lab
+# Provenance and reuse boundaries
 
-This starter was written for Dean's October 5, 2026 discovery performance. The existing README, AGENTS and SHOWRUN define its purpose and arc. These are lab adaptations and conversation outlines, not claims to reproduce authoritative Productside or MITRE canvas artwork.
+The current architecture follows Dean Peters' explicit correction: Market Intel, Segment, Persona, Opportunity Solution Tree, Value Prop vs. Differentiation 2x2, Positioning Statement, Solution Hypothesis, Storyboard, Minimum Viable Narrative, Prototyping. This instruction supersedes the original README/SHOWRUN arc; the project contract has been brought into alignment.
 
-The local working copies of the following projects were inspected on October 2, 2026. Links identify the upstream projects; this inspection did not independently verify their current public release status.
+Inspected local inspirations include Productside-ADLC-Skills and Productside-Precedents-Thinking, especially their stage `SKILL.md`, `template.md`, worked/weak examples, guided-capture conventions and use-case protocols. Also inspected the prior product-manager skill/prompt libraries, Mitre-Skills, product-manager-antagonist-skills, ai-product-operating-model-skills, Productside-Webinar-Vibe-Coding-to-Learn, Productside-Evals-for-Product-Managers and Productside-Market-Intelligence-Skills.
 
-| Project | Pattern used here |
-|---|---|
-| [Productside ADLC Skills](https://github.com/Productside/Productside-ADLC-Skills) | Guided / Context dump / Best guess; context reuse; numbered questions; artifact and human gate |
-| [Productside Precedents Thinking](https://github.com/Productside/Productside-Precedents-Thinking) | A focused chain with named handoffs, independent entry and route-back behavior |
-| [Vibe Coding to Learn](https://github.com/deanpeters/Productside-Webinar-Vibe-Coding-to-Learn) | Paired portable skills and copy-paste prompts; narrative before prototype |
-| [Product Manager Skills](https://github.com/deanpeters/Product-Manager-Skills) | Discoverable bounded plays and accessible entry points |
-| [Product Manager Prompts](https://github.com/deanpeters/product-manager-prompts) | Copy-paste use without installation; jobs, pains and gains conversation |
-| [MITRE ITK Skills](https://github.com/deanpeters/MITRE-ITK-Skills) | Problem framing before solution commitment |
-| [Product Management Antagonists](https://github.com/deanpeters/product-manager-antagonist-skills) | Challenge assumptions and look for disconfirming evidence |
-| [AI Product Operating Model Skills](https://github.com/deanpeters/ai-product-operating-model-skills) | Clear catalog and evidence-status disclosure |
-| [Productside Evals for Product Managers](https://github.com/Productside/Productside-Evals-for-Product-Managers) | Define a decision rule before examining results |
-| [Productside Market Intelligence Skills](https://github.com/Productside/Productside-Market-Intelligence-Skills) | Provenance, same-origin collapse and collection before synthesis |
+The new artifacts are authored lab adaptations. The richer metadata follows the recent libraries' useful intent, audience, input, output, phase, chaining and provenance fields inside a portable `metadata` map. No upstream client research, source archives, branded canvas PDFs or examples are copied. Templates and worked/weak examples are authored for this lab's fictional manufacturing case.
 
-Specific local inspirations: ADLC and Precedents `reference/guided-context-capture.md`; webinar `portable-skills/opportunity-solution-tree`; Product Manager Prompts `prompt-generators/jobs-to-be-done customer circle.md`; ADLC `reference/minimum-viable-narrative.md`. This lab uses the six-beat MVN specified in its own show contract, including New Action; the inspected ADLC variant uses five beats.
+Conceptual attribution: situational proto-personas and jobs/pains/gains build on the inspected Product Manager libraries; Opportunity Solution Tree is attributed to Teresa Torres; the positioning statement uses a Geoffrey Moore-style structure. The value-versus-differentiation matrix, guided templates, evidence ledger and chain are lab adaptations, not asserted canonical artwork or a published moat framework.
 
-Jobs / pains / gains is influenced by Alexander Osterwalder's Value Proposition Canvas. Opportunity Solution Tree is attributed to Teresa Torres. These conceptual credits do not make this lab a canonical publication of either framework.
+When authoritative Productside canvas or brand sources are supplied, preserve their structure, meaning and terminology. Until then, label the outlines as lab adaptations. Do not claim a template reproduces an official Productside or MITRE canvas.
 
-No upstream research archives, client materials, branding assets or canvas PDFs were copied into this starter. Productside Market Intelligence's inspected license restricts distribution of adaptations, so its content is linked as inspiration rather than bundled. Each upstream project retains its own license. A redistribution license for the new lab materials has not been selected; public visibility alone does not grant reuse rights. Resolve licensing and attribution before the attendee release.
+Each upstream project retains its own license. No new lab redistribution license has been selected. Do not copy a license label from an inspiration repo and imply it applies to these materials. Resolve licensing and attribution before public attendee release.
 
-Use-case testing also draws on the inspected ADLC `evals/README.md`, `cases/case-08-guided-mode-stage-1.yaml`, `cases/negative-controls.yaml` and `scoring-guide.md`: fixed scenarios, rules written before running, scripted participant replies, raw outputs and separate review. This lab authors its own JSON cases and uses the Python standard library; it does not bundle ADLC cases or transcripts.
+Use-case testing borrows the inspected ADLC pattern of fixed inputs, prewritten criteria, scripted participant replies, actual transcripts and separate review. The revised JSON cases and standard-library harness are local authorship. Historical eleven-motion results are not evidence for the corrected chain.

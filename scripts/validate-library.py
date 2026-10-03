@@ -5,12 +5,13 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from library_assets import parse_frontmatter, resource_paths
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 catalog = json.loads((ROOT / 'docs/catalog.json').read_text())
-if [item['step'] for item in catalog] != list(range(1, 12)):
-    errors.append('Catalog must contain the 11 ordered show motions.')
+if [item['step'] for item in catalog] != list(range(1, 11)):
+    errors.append('Catalog must contain the 10 ordered discovery motions.')
 names = [item['name'] for item in catalog]
 if len(set(names)) != len(names):
     errors.append('Duplicate skill names.')
@@ -22,18 +23,28 @@ for item in catalog:
     if not path.exists():
         errors.append(f'Missing {path}')
         continue
-    text = path.read_text()
     try:
-        front, body = text.split('\n---\n', 1)
-        lines = front.removeprefix('---\n').splitlines()
-        metadata = dict(line.split(': ', 1) for line in lines)
-        if set(metadata) != {'name', 'description'}:
+        fields, body = parse_frontmatter(path)
+        if set(fields) != {'name', 'description', 'metadata'}:
             errors.append(f'{item["name"]}: unsupported metadata')
-        if metadata['name'] != item['name'] or not re.fullmatch(r'[a-z0-9-]{1,64}', metadata['name']):
+        if fields['name'] != item['name'] or not re.fullmatch(r'[a-z0-9-]{1,64}', fields['name']):
             errors.append(f'{item["name"]}: invalid name')
-        description = json.loads(metadata['description'])
-        if not isinstance(description, str) or len(description) > 200:
+        if not isinstance(fields['description'], str) or len(fields['description']) > 240:
             errors.append(f'{item["name"]}: invalid description')
+        required = {'author', 'version', 'intent', 'type', 'theme', 'phase', 'status',
+                    'audience', 'best-for', 'evidence-required', 'produces', 'depends-on',
+                    'combine-with', 'source-basis', 'template', 'worked-example', 'weak-example'}
+        metadata = fields['metadata']
+        if not required.issubset(metadata) or not all(isinstance(v, str) and v.strip() for v in metadata.values()):
+            errors.append(f'{item["name"]}: incomplete rich metadata')
+        if metadata.get('phase') != str(item['step']):
+            errors.append(f'{item["name"]}: phase disagrees with catalog')
+        for resource in resource_paths(path):
+            if not resource.is_file():
+                errors.append(f'{item["name"]}: missing bundled asset {resource.name}')
+        for key in ('template', 'worked-example', 'weak-example'):
+            if not (path.parent / metadata.get(key, 'MISSING')).is_file():
+                errors.append(f'{item["name"]}: broken metadata resource {key}')
     except (ValueError, KeyError):
         errors.append(f'{item["name"]}: invalid frontmatter')
         continue
@@ -64,5 +75,5 @@ if result.returncode:
     errors.append('Prompt parity check failed.')
 if errors:
     raise SystemExit('\n'.join(errors))
-print('PASS: 11 skills, ordered catalog, prompt parity, local links, and basic credential patterns.')
+print('PASS: 10 skills with rich metadata and bundled assets, catalog, prompt parity, local links, and basic credential patterns.')
 print('Mechanical checks only; model behavior, rights clearance, and live rehearsal are separate.')

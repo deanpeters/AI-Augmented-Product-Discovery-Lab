@@ -3,10 +3,10 @@
 SYNTHETIC. No observed customer or plant evidence. Not approved research.
 
 Target: maintenance managers in mid-sized manufacturing plants (ESTIMATE / BEST GUESS).
-What we believe: conflicting equipment information may complicate decisions about the next investigation (ESTIMATE / BEST GUESS).
+What we believe: conflicting equipment reports may complicate the next investigation choice (ESTIMATE / BEST GUESS).
 Evidence: none supplied.
-What is inferred: this may be a useful discovery direction; frequency, consequence and willingness to pay are UNKNOWN.
-Desired outcome: clearer next-action decisions; baseline and target UNKNOWN.
-Biggest unanswered question: when does this actually occur, and what do people do today?
+What is inferred: a possible discovery direction; frequency, consequence, baseline, commercial value and willingness to pay UNKNOWN.
+Desired outcome: clearer next-investigation decisions.
+Biggest unanswered question: is report uncertainty the obstacle, or does permission or coordination matter more?
 
-Start at market segmentation or problem framing. Do not start by assuming a predictive-maintenance platform is needed.
+Start at Market Intel, Segment or Persona depending on the decision. Segment selection does not establish a researched persona. Use the actual situational persona as input to the Opportunity Solution Tree. Do not assume a predictive-maintenance platform is needed.

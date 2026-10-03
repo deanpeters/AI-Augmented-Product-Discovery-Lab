@@ -1,26 +1,26 @@
 {
   "id": "07-route-back",
-  "title": "Contradictory evidence revises the frame without resetting context",
+  "title": "New evidence revises opportunities rather than protecting a solution",
+  "synthetic": true,
   "stages": [
     {
-      "skill": "dlab-step04-problem-frame",
-      "invocation": "Mode: Context dump. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Previous illustrative frame: prioritize conflicting reports. New synthetic interview fixture N1, not a real customer: participants understand the reports but cannot get approval to schedule an investigation. Reportedly the conflict explanation is not the obstacle. Product decision: revise the discovery direction. Keep the same actor and outcome; show changes from the previous frame.",
+      "skill": "dlab-step04-opportunity-solution-tree",
+      "invocation": "Mode: Context dump. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Previous synthetic persona: maintenance manager may struggle to prioritize conflicting reports. Previous candidate opportunity: understand source/recency. New synthetic interview fixture N1, not a real customer: people understand reports but cannot get approval to schedule an investigation. Decision: revise discovery direction. Keep actor and outcome; show changes to opportunity branches and candidate experiments.",
       "turns": []
     }
   ],
   "criteria": [
     {
       "id": "route-back",
-      "rule": "Revises the hypothesized current condition toward approval or coordination constraints and explains what changed. Does not protect the dashboard solution."
+      "rule": "Revises opportunity hypotheses toward permission or coordination and explains changed branches; does not protect a dashboard concept or assert a proven root cause."
     },
     {
       "id": "source-status",
-      "rule": "Keeps N1 synthetic/user-reported and does not convert it into verified customer truth or an established root cause."
+      "rule": "N1 stays synthetic/user-reported; no verified customer evidence inferred."
     },
     {
       "id": "reuse-and-gate",
-      "rule": "Reuses actor and outcome, identifies new unknowns and ends at a new human gate; no silent approval."
+      "rule": "Retains the persona role/outcome, identifies unknowns and waits at a new human gate."
     }
-  ],
-  "synthetic": true
+  ]
 }

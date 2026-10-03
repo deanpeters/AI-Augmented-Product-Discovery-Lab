@@ -1,0 +1,32 @@
+{
+  "id": "09-storyboard-before-mvn",
+  "title": "Storyboard uses hypothesis and MVN uses actual frames",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step08-storyboard",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Selected concept: report comparison. Human-selected hypothesis: making source/recency visible may help a person explain the next investigation. Task: compare fictional reports and explain next action and uncertainty. Decision rule: revise if context confuses; explore coordination if permission dominates; another bounded test if reasoning becomes clearer. No MVN exists yet. Create the six descriptive frames and a renderer prompt if useful; no rendering.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step09-minimum-viable-narrative",
+      "invocation": "Mode: Best guess. SYNTHETIC. Use only the actual storyboard handoff to write the six-part MVN and prototype-ready descriptive prompt. Preserve hypothesis, task and rule. Do not render, build or invent missing frames. Stop at the human gate.",
+      "turns": []
+    }
+  ],
+  "gate_reply": "Scripted teaching choice: approve these fictional frames for narrative work only. Carry the actual six frames, hypothesis, task, uncertainty and rule in the handoff. No rendering or participant test has run. Stop.",
+  "criteria": [
+    {
+      "id": "story-first",
+      "rule": "Storyboard develops six descriptive frames directly from hypothesis; it does not require a preexisting MVN or silently render."
+    },
+    {
+      "id": "actual-story",
+      "rule": "MVN uses the actual prior six frames and preserves actor agency, hypothesis and rule; no new unselected solution or missing frame invented."
+    },
+    {
+      "id": "status",
+      "rule": "Both artifacts are fictional drafts, with NOT RENDERED/NOT RUN as appropriate, and human gates. No measured resolution, build or production claim."
+    }
+  ]
+}

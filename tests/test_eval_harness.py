@@ -98,7 +98,7 @@ class EvalHarnessTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             copy = Path(tmp) / 'lab'
             shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns('.git', 'runs', '__pycache__'))
-            prompt = copy / 'prompts/04-problem-frame.md'
+            prompt = copy / 'prompts/03-persona.md'
             prompt.write_text(prompt.read_text()+'\nPrompt drift\n')
             result = subprocess.run([sys.executable, str(copy / 'scripts/export-prompts.py'), '--check'], capture_output=True, text=True)
             self.assertNotEqual(result.returncode, 0)

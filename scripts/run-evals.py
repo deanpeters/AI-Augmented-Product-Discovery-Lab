@@ -12,6 +12,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+from library_assets import portable_skill, resource_paths
+
 CASES = ROOT / 'evals/cases'
 LABELS = ('Target:', 'What we believe:', 'Evidence:', 'What is inferred:',
           'Desired outcome:', 'Biggest unanswered question:')
@@ -33,6 +36,11 @@ def source_for(name, variant):
         return ROOT / 'skills' / name / 'SKILL.md'
     catalog = json.loads((ROOT / 'docs/catalog.json').read_text())
     return ROOT / next(x['prompt'] for x in catalog if x['name'] == name)
+
+
+def source_text(name, variant):
+    path = source_for(name, variant)
+    return portable_skill(path) if variant == 'skill' else path.read_text()
 
 
 def validate_cases():
@@ -62,7 +70,7 @@ def packet(case, variant):
     """A human/Claude facilitator sees the script and rubric; the subject does not."""
     return json.dumps({'case': case, 'variant': variant,
                       'instructions': (ROOT / 'evals/README.md').read_text(),
-                      'skill_sources': {s['skill']: source_for(s['skill'], variant).read_text()
+                      'skill_sources': {s['skill']: source_text(s['skill'], variant)
                                         for s in case['stages']}}, indent=2)
 
 
@@ -171,9 +179,11 @@ def run_case(case, variant, parent, timeout, review_enabled, prior=None):
     upstream = ''
     # Freeze all selected sources so a concurrent edit cannot mix skill versions in one run.
     sources = {s['skill']: source_for(s['skill'], variant) for s in case['stages']}
-    source_texts = {name: path.read_text() for name, path in sources.items()}
-    run['sources'] = {str(path.relative_to(ROOT)): digest(source_texts[name])
-                      for name, path in sources.items()}
+    source_texts = {name: source_text(name, variant) for name in sources}
+    paths = list(sources.values())
+    if variant == 'skill':
+        paths += [p for skill in sources.values() for p in resource_paths(skill)]
+    run['sources'] = {str(path.relative_to(ROOT)): digest(path.read_text()) for path in paths}
     save()
     completed = 0
     if prior:
@@ -258,7 +268,7 @@ def summarize(parent):
             if found:
                 path, saved = found
                 stale = (saved['case_sha256'] != digest(json.dumps(case, sort_keys=True)) or
-                         any(not (ROOT / source).exists() or digest((ROOT / source).read_text()) != expected
+                         any(not (ROOT / source).exists() or (digest((ROOT / source).read_text()) if (ROOT / source).is_file() else None) != expected
                              for source, expected in saved['sources'].items()))
                 review_path = path.parent / 'review.json'
                 if stale:
@@ -311,7 +321,7 @@ def main():
             case = load_case(path.stem)
             print(f'{case["id"]}: {case["title"]} ({len(case["stages"])} motions)')
     elif args.command == 'validate':
-        print(f'PASS: {validate_cases()} use cases, valid stage references, all 11 skills covered.')
+        print(f'PASS: {validate_cases()} use cases, valid stage references, all 10 skills covered.')
     elif args.command == 'summary':
         summarize(args.out)
     elif args.command == 'prepare':
@@ -319,8 +329,8 @@ def main():
     elif args.command in ('check', 'review', 'resume'):
         saved = json.loads((args.folder / 'run.json').read_text())
         for relative, expected in saved['sources'].items():
-            if digest((ROOT / relative).read_text()) != expected:
-                raise SystemExit('STALE RUN: skill or prompt changed after this run; re-run it.')
+            if not (ROOT / relative).is_file() or digest((ROOT / relative).read_text()) != expected:
+                raise SystemExit('STALE RUN: skill, prompt or bundled asset changed or was retired; re-run it.')
         if saved['case_sha256'] != digest(json.dumps(load_case(saved['case']['id']), sort_keys=True)):
             raise SystemExit('STALE RUN: case changed after this run; re-run it.')
         if args.command == 'resume':

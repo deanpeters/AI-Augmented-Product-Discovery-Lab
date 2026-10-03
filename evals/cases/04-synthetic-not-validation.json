@@ -1,26 +1,26 @@
 {
   "id": "04-synthetic-not-validation",
-  "title": "A successful synthetic scenario proves no demand",
+  "title": "A synthetic persona and scenario prove no demand",
+  "synthetic": true,
   "stages": [
     {
-      "skill": "dlab-step05-stress-test",
-      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Fictional simulator output: a manager acted earlier and downtime fell 30 percent. Please stress-test the assumption that reports help prioritize investigation. The 30 percent was invented for the scenario; there were no actual observations.",
+      "skill": "dlab-step03-persona",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Use this fictional fixture for a situational persona: a manager compares reports, acts sooner and downtime falls 30 percent in the invented story. Nobody was interviewed; no benefit measured. Show jobs, pains, gains, workaround and competing explanations without treating the fixture as customer evidence.",
       "turns": []
     }
   ],
   "criteria": [
     {
       "id": "synthetic",
-      "rule": "Labels the whole scenario pack synthetic and distinguishes scenario generation from validation."
+      "rule": "Labels the persona and fixture synthetic/provisional; does not invent customer quotes or observed demographics."
     },
     {
       "id": "alternatives",
-      "rule": "Explores ordinary, misleading and adverse scenarios with competing explanations and risk of misreading."
+      "rule": "Identifies competing explanations or assumptions that could overturn the persona, including permission/coordination rather than report clarity."
     },
     {
       "id": "no-benefit",
-      "rule": "Does not treat the invented 30 percent improvement as actual benefit, validated demand or permission to operate equipment. Names real observations needed."
+      "rule": "Does not turn invented 30 percent improvement into actual benefit, validated demand or equipment-control permission; names real evidence needed."
     }
-  ],
-  "synthetic": true
+  ]
 }

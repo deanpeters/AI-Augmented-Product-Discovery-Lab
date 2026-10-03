@@ -1,50 +1,41 @@
 # Monday's demo launchpad
 
-Choose the motion. Open its skill for the live conversational canvas, or its prompt for the attendee path. Both run the same instructions. Use [QUICKSTART](QUICKSTART.md) for a first invocation.
+The exact sequence: Market Intel → Segment → Persona → Opportunity Solution Tree → Value Prop vs. Differentiation 2x2 → Positioning Statement → Solution Hypothesis → Storyboard → Minimum Viable Narrative → Prototyping.
 
 | Step | Motion | Skill | Paste-ready equivalent | Output |
 |---|---|---|---|---|
-| 01 | Market and Segment | [Skill](skills/dlab-step01-market-segment/SKILL.md) | [Prompt](prompts/01-market-segment.md) | Segment Brief |
-| 02 | People in the System | [Skill](skills/dlab-step02-people/SKILL.md) | [Prompt](prompts/02-people.md) | Actor Map |
-| 03 | Jobs, Pains and Gains | [Skill](skills/dlab-step03-jobs-pains-gains/SKILL.md) | [Prompt](prompts/03-jobs-pains-gains.md) | Jobs Pains Gains Brief |
-| 04 | Frame the Problem | [Skill](skills/dlab-step04-problem-frame/SKILL.md) | [Prompt](prompts/04-problem-frame.md) | Problem Frame |
-| 05 | Synthetic Scenarios and Stress Tests | [Skill](skills/dlab-step05-stress-test/SKILL.md) | [Prompt](prompts/05-stress-test.md) | Scenario Pack |
-| 06 | Opportunities, Solutions and Experiments | [Skill](skills/dlab-step06-opportunity-tree/SKILL.md) | [Prompt](prompts/06-opportunity-tree.md) | Opportunity Tree |
-| 07 | Position the Concept | [Skill](skills/dlab-step07-positioning/SKILL.md) | [Prompt](prompts/07-positioning.md) | Positioning Brief |
-| 08 | Minimum Viable Narrative | [Skill](skills/dlab-step08-minimum-viable-narrative/SKILL.md) | [Prompt](prompts/08-minimum-viable-narrative.md) | Minimum Viable Narrative |
-| 09 | Storyboard or Explainer | [Skill](skills/dlab-step09-storyboard-explainer/SKILL.md) | [Prompt](prompts/09-storyboard-explainer.md) | Story Rendering Brief |
-| 10 | Prototype to Learn | [Skill](skills/dlab-step10-throwaway-prototype/SKILL.md) | [Prompt](prompts/10-throwaway-prototype.md) | Prototype Experiment Brief |
-| 11 | Review the Learning | [Skill](skills/dlab-step11-learning-review/SKILL.md) | [Prompt](prompts/11-learning-review.md) | Learning Review |
+| 01 | Market Intel | [Skill](skills/dlab-step01-market-intel/SKILL.md) | [Prompt](prompts/01-market-intel.md) | Market Intelligence Brief |
+| 02 | Segment | [Skill](skills/dlab-step02-segment/SKILL.md) | [Prompt](prompts/02-segment.md) | Segment Selection Brief |
+| 03 | Persona | [Skill](skills/dlab-step03-persona/SKILL.md) | [Prompt](prompts/03-persona.md) | Situational Persona |
+| 04 | Opportunity Solution Tree | [Skill](skills/dlab-step04-opportunity-solution-tree/SKILL.md) | [Prompt](prompts/04-opportunity-solution-tree.md) | Opportunity Solution Tree |
+| 05 | Value Prop vs. Differentiation 2x2 | [Skill](skills/dlab-step05-value-prop-differentiation/SKILL.md) | [Prompt](prompts/05-value-prop-differentiation.md) | Value Prop vs. Differentiation 2x2 |
+| 06 | Positioning Statement | [Skill](skills/dlab-step06-positioning-statement/SKILL.md) | [Prompt](prompts/06-positioning-statement.md) | Positioning Statement |
+| 07 | Solution Hypothesis | [Skill](skills/dlab-step07-solution-hypothesis/SKILL.md) | [Prompt](prompts/07-solution-hypothesis.md) | Solution Hypothesis |
+| 08 | Storyboard | [Skill](skills/dlab-step08-storyboard/SKILL.md) | [Prompt](prompts/08-storyboard.md) | Storyboard |
+| 09 | Minimum Viable Narrative | [Skill](skills/dlab-step09-minimum-viable-narrative/SKILL.md) | [Prompt](prompts/09-minimum-viable-narrative.md) | Minimum Viable Narrative |
+| 10 | Prototyping | [Skill](skills/dlab-step10-prototyping/SKILL.md) | [Prompt](prompts/10-prototyping.md) | Prototype Experiment Brief |
 
-## Live setup
+Use the [complete presenter script](examples/monday-demo-script.md) for what to say, what to send, Guided replies, decisions and recovery. Start with [QUICKSTART](QUICKSTART.md) for an attendee's first invocation.
 
-Audience: founders, Product Managers and product teams attending the discovery session.
-Desired outcome: see how a sequence of conversations reduces uncertainty before a team commits to building.
-Teaching scenario: maintenance decision-making in manufacturing. It is synthetic until actual sourced material is supplied.
+Audience: Product Managers, founders and product teams. Outcome: see a decision improve before committing to a build. The manufacturing teaching scenario is SYNTHETIC until actual evidence is supplied.
 
-Pre-run slower market collection. Demonstrate a few Guided turns rather than eleven full interviews. Reuse a prepared handoff when changing tools. Keep the audience watching the decision, not the spinner.
+Pre-run market research if using real sources. Demo Persona as a conversational canvas. Keep each other motion focused on the decision and the actual handoff. Storyboard consumes the selected Solution Hypothesis; Minimum Viable Narrative consumes the actual storyboard.
 
 ## Fallback control
 
-These suggested budgets are planning estimates, not rehearsal measurements. Each linked seed is an illustrative draft with no approved decision and no successful live-run claim. Replace it with a saved rehearsal artifact before relying on it on stage.
+Plan roughly 4 minutes per short motion and 8 minutes for the Guided Persona exchange, within the SHOWRUN's 60-minute active-content budget. These are planning estimates, not rehearsal timings.
 
-| Motion | Suggested ceiling | Illustrative seed | Recovery |
-|---|---|---|---|
-| Market and Segment | Pre-run; 4 min synthesis | [Seed](fallbacks/01-market-segment.md) | Show seed, disclose synthetic status, continue |
-| People in the System | 4 min | [Seed](fallbacks/02-people.md) | Show seed, disclose synthetic status, continue |
-| Jobs, Pains and Gains | 4 min | [Seed](fallbacks/03-jobs-pains-gains.md) | Show seed, disclose synthetic status, continue |
-| Frame the Problem | 4 min | [Seed](fallbacks/04-problem-frame.md) | Show seed, disclose synthetic status, continue |
-| Synthetic Scenarios and Stress Tests | 4 min | [Seed](fallbacks/05-stress-test.md) | Show seed, disclose synthetic status, continue |
-| Opportunities, Solutions and Experiments | 4 min | [Seed](fallbacks/06-opportunity-tree.md) | Show seed, disclose synthetic status, continue |
-| Position the Concept | 4 min | [Seed](fallbacks/07-positioning.md) | Show seed, disclose synthetic status, continue |
-| Minimum Viable Narrative | 4 min | [Seed](fallbacks/08-minimum-viable-narrative.md) | Show seed, disclose synthetic status, continue |
-| Storyboard or Explainer | 4 min | [Seed](fallbacks/09-storyboard-explainer.md) | Show seed, disclose synthetic status, continue |
-| Prototype to Learn | 4 min | [Seed](fallbacks/10-throwaway-prototype.md) | Show seed, disclose synthetic status, continue |
-| Review the Learning | 4 min | [Seed](fallbacks/11-learning-review.md) | Show seed, disclose synthetic status, continue |
+- 01 Market Intel: [synthetic illustration](fallbacks/01-market-intel.md).
+- 02 Segment: [synthetic illustration](fallbacks/02-segment.md).
+- 03 Persona: [synthetic illustration](fallbacks/03-persona.md).
+- 04 Opportunity Solution Tree: [synthetic illustration](fallbacks/04-opportunity-solution-tree.md).
+- 05 Value Prop vs. Differentiation 2x2: [synthetic illustration](fallbacks/05-value-prop-differentiation.md).
+- 06 Positioning Statement: [synthetic illustration](fallbacks/06-positioning-statement.md).
+- 07 Solution Hypothesis: [synthetic illustration](fallbacks/07-solution-hypothesis.md).
+- 08 Storyboard: [synthetic illustration](fallbacks/08-storyboard.md).
+- 09 Minimum Viable Narrative: [synthetic illustration](fallbacks/09-minimum-viable-narrative.md).
+- 10 Prototyping: [synthetic illustration](fallbacks/10-prototyping.md).
 
-For an actual saved rehearsal output: “AI demos obey Murphy's Law, so I brought receipts.”
-For today's seeds: “This is a synthetic illustration of the motion. It is not customer evidence.”
+Current seeds are not rehearsal receipts. For a seed: “This is a synthetic illustration of the motion. It is not customer evidence.” For an actual saved rehearsal output: “AI demos obey Murphy's Law, so I brought receipts.”
 
-Give a failing tool one reasonable recovery attempt. Then use the artifact and move on. Renderer and prototype steps currently produce portable briefs; no storyboard, video or prototype has been generated in this starter.
-
-See [SHOWRUN](SHOWRUN.md) for performance framing and [readiness](docs/READINESS.md) for rehearsal work still required.
+Try one reasonable recovery, then show the artifact and continue with an explicit human choice. Do not debug on stage. Rendering, building and participant testing are separate actions, not implied by completed briefs. See [readiness](docs/READINESS.md).

@@ -1,16 +1,20 @@
 # Keep the discovery motions honest
 
-Seven synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
+Nine synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
 
 | Case | Failure it should catch |
 |---|---|
 | [01 Full chain](cases/01-full-chain.json) | A selected concept, narrative, experiment or evidence label lost between motions |
-| [02 Guided reuse](cases/02-guided-reuse.json) | Repeated context questions, multiple subjects per turn, vague answers accepted, budget overrun |
+| [02 Guided Persona reuse](cases/02-guided-reuse.json) | Repeated context questions, multiple subjects per turn, vague answers accepted, budget overrun |
 | [03 No market evidence](cases/03-no-market-evidence.json) | Fabricated sources, market figures or willingness to pay |
 | [04 Synthetic scenarios](cases/04-synthetic-not-validation.json) | Invented success presented as customer validation |
 | [05 Untrusted instructions](cases/05-untrusted-instructions.json) | Source text invents approval or bypasses a gate |
-| [06 Cheap test and absent results](cases/06-cheaper-test-and-no-results.json) | Automatic prototyping or a learning review with invented observations |
-| [07 Route back](cases/07-route-back.json) | New contradictory evidence ignored, old solution protected or prior context discarded |
+| [06 Cheap test and absent results](cases/06-cheaper-test-and-no-results.json) | Automatic prototyping or invented participant observations |
+| [07 Route back](cases/07-route-back.json) | New contradictory evidence ignored, opportunity branches protected or prior persona context discarded |
+| [08 Value versus difference](cases/08-value-versus-difference.json) | AI novelty becomes claimed value, winning quadrant or moat |
+| [09 Storyboard before MVN](cases/09-storyboard-before-mvn.json) | Storyboard demands an MVN first or actual six frames are lost |
+
+**The corrected ten-motion chain has not been behaviorally re-run. Prior eleven-motion passes do not apply.**
 
 See [the verification record](RESULTS.md) for actual runs, failures, fixes and coverage limits.
 
@@ -52,17 +56,19 @@ The runner requires an authenticated Claude CLI whose `claude --help` supports `
 python3 scripts/run-evals.py run 02-guided-reuse --engine claude --variant both --review
 ```
 
-For all seven cases, including the full chain:
+For all nine cases, including the full chain:
 
 ```bash
 python3 scripts/run-evals.py run all --engine claude --variant both --review
 ```
 
-That is a larger run: the chain alone uses 22 subject calls per variant, plus review. Start with an affected case after a focused edit; use the full chain after changing handoff behavior.
+That is a larger run: the chain alone uses 20 subject calls per variant, plus review. Start with an affected case after a focused edit; use the full chain after changing handoff behavior.
 
-The runner disables tools, MCP, installed skills and customizations, supplies the selected file explicitly, and records each raw response. It runs one conversation turn at a time by replaying the actual history, with no rubric or future answers shown to the subject. Guided replies are fixed scripted answers, not an adaptive simulated customer. Review receives the transcript and prewritten criteria in a separate model call. Cases run sequentially and no external actions are available.
+For skill tests, the runner embeds the actual template and worked/weak examples as well as SKILL.md; for prompt tests, those assets are already embedded in the exported file. It hashes all supplied canonical assets so example or template changes invalidate old receipts.
 
-Between stages it forwards only the last actual `<handoff>` block, not the whole prior artifact. The tags are a transport convention, not a product framework requirement. A missing block or field fails loudly. Case 01's approvals and explicit concept choice at stage 6, and case 06's cheaper-test choice are explicitly scripted participant decisions, not actual Dean approvals. It does not invent a result when a request times out or authentication fails. Fresh timestamped run folders prevent overwriting previous evidence.
+The runner disables tools, MCP, installed skills and customizations, supplies the selected file and its actual template/examples explicitly, and records each raw response. It runs one conversation turn at a time by replaying the actual history, with no rubric or future answers shown to the subject. Guided replies are fixed scripted answers, not an adaptive simulated customer. Review receives the transcript and prewritten criteria in a separate model call. Cases run sequentially and no external actions are available.
+
+Between stages it forwards only the last actual `<handoff>` block, not the whole prior artifact. The tags are a transport convention, not a product framework requirement. A missing block or field fails loudly. Case 01's approvals, segment choice at stage 2 and concept choice at stage 4, and case 06's cheaper-test choice are explicitly scripted participant decisions, not actual Dean approvals. It does not invent a result when a request times out or authentication fails. Fresh timestamped run folders prevent overwriting previous evidence.
 
 ## Judge the actual run
 
@@ -80,7 +86,7 @@ See the latest result for each case and variant, including NOT RUN and STALE ent
 python3 scripts/run-evals.py summary
 ```
 
-The real folder path is printed after every run. A review is stale after a source or case change; re-run the affected case. An unreviewed, incomplete or stale run cannot report a behavioral pass.
+The real folder path is printed after every run. A review is stale after a source, embedded asset or case change; re-run the affected case. An unreviewed, incomplete or stale run cannot report a behavioral pass.
 
 If the model reviewer supplies a malformed or inaccurate evidence quote, the check refuses the verdict. You can repeat just the review of a completed, current transcript:
 
@@ -96,6 +102,6 @@ If the runner stopped between completed motions because of a timeout or a handof
 python3 scripts/run-evals.py resume runs/evals/REPLACE_WITH_YOUR_RUN_FOLDER --engine claude --review
 ```
 
-Resume requires unchanged skill/prompt and case hashes, counts only fully recorded stages, preserves the original run, and creates a new receipt folder. It does not manufacture missing answers or approvals. A partly recorded stage is rerun. A changed skill or case requires a fresh run instead.
+Resume requires unchanged skill/prompt, bundled asset and case hashes, counts only fully recorded stages, preserves the original run, and creates a new receipt folder. It does not manufacture missing answers or approvals. A partly recorded stage is rerun. A changed skill, asset or case requires a fresh run instead.
 
 On failure, keep the original transcript, fix the skill or handoff, re-export prompts, and re-run. Change a case only to correct an actual case defect, with the reason documented. Private/local transcripts stay under ignored `runs/`; share selected synthetic receipts only after checking them.

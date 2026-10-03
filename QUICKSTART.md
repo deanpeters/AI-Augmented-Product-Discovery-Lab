@@ -1,47 +1,61 @@
 # Start with one discovery motion
 
-For Product Managers, founders and product teams exploring what deserves to be built. The outcome is a clearer decision and a next experiment, not a pile of completed canvases.
+For Product Managers, founders and product teams. Aim for a clearer decision and a next experiment, not a pile of completed canvases.
+
+## Two ways into the same play
+
+```mermaid
+flowchart TB
+    P["Paste a prompt with its included assets"] --> C["Add context and choose capture mode"]
+    S["Use the equivalent skill"] --> C
+    C --> G["Guided: one question at a time"]
+    C --> D["Context dump: organize supplied notes"]
+    C --> B["Best guess: label assumptions"]
+    G --> W["Numbered work and editable artifact"]
+    D --> W
+    B --> W
+    W --> H{"Your decision"}
+    H -->|Revise| W
+    H -->|Gather evidence| E["Collect actual evidence"]
+    E --> C
+    H -->|Approve next motion| N["Record choice and prepare small handoff"]
+    H -->|Stop| X["Record decision and stop"]
+```
 
 ## Use a prompt, no installation
 
-1. Open a prompt from the [demo launchpad](DEMO.md).
-2. Copy everything inside its large code block into your AI chat.
-3. Add your idea, notes or the small handoff from a previous motion.
-4. Choose Guided, Context dump or Best guess. Guided asks one question at a time.
-5. Edit the draft. Choose approve, revise, gather evidence or stop at the decision gate.
+1. Choose a motion from the [launchpad](DEMO.md).
+2. Copy everything inside its large block into your AI chat. It includes the instructions, template and worked/weak examples.
+3. Add your context and choose Guided, Context dump or Best guess.
+4. Edit the draft. Choose approve a bounded next motion, revise, gather evidence or stop.
 
-You can start with any motion. Nothing requires completing eleven steps first. For a first swing, try [Frame the Problem](prompts/04-problem-frame.md).
-
-Append this example context after the prompt:
+For a first swing, try the [Persona prompt](prompts/03-persona.md). Append:
 
 ```text
-Mode: Guided
-Target: maintenance managers in mid-sized manufacturing plants.
-Desired outcome: make clearer decisions about which equipment concern to investigate next.
-Initial ask: someone suggested an AI predictive-maintenance dashboard.
-Evidence: no customer interviews or plant observations supplied yet.
-Constraint: this is a teaching exercise with fictional material.
-Help me frame the problem before choosing a solution.
+Mode: Guided.
+SYNTHETIC teaching exercise, not customer research.
+Selected segment: mid-sized manufacturing plants.
+Focal persona: maintenance manager deciding which equipment concern to investigate next.
+Situation: equipment reports conflict before an investigation decision.
+Desired outcome: clearer next-investigation choices.
+Evidence: no actual interviews or plant observations supplied.
+Help me develop a situational persona with jobs, pains, gains, stakes and current workarounds. Reuse this context; ask only the first missing question and wait.
 ```
-
-That names a discovery direction. It does not claim the problem is real or the solution useful.
 
 ## Use the equivalent skill
 
-Open or attach the corresponding `skills/<name>/SKILL.md` to a skill-capable assistant and ask it to follow that file. Each skill is self-contained. If your tool has a skill installer, install the selected folder using that tool's supported workflow; this project does not require a plugin.
-
-Example for an assistant with workspace file access:
+Open or attach the corresponding skill folder in an assistant with file access. Follow your tool's installer workflow if using installed skills; cloning does not install them automatically.
 
 ```text
-Read skills/dlab-step04-problem-frame/SKILL.md and follow it.
-Mode: Guided.
-Use the manufacturing teaching context above.
+Read skills/dlab-step03-persona/SKILL.md and follow it.
+Use its template and examples when relevant.
+Mode: Guided. Use the manufacturing teaching context above.
 Stop at the human decision gate.
 ```
 
-An installed tool may expose it as `$dlab-step04-problem-frame`. Merely cloning this project does not install skills into your assistant.
+An installed tool may expose it as `$dlab-step03-persona`. Each skill is independently usable; no previous stages are mandatory when equivalent context is supplied.
 
-## Hand off without hauling the whole conversation
+## Hand off without hauling the entire conversation
 
 ```text
 Target:
@@ -52,33 +66,28 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
-Carry source references and uncertainty labels with the claims. Add a selected concept or hypothesis where the next motion needs it. A small handoff can travel between tools; approval does not turn a belief into evidence.
+Carry source references and uncertainty labels. Add the selected segment, actual persona, opportunity and concept, 2x2 comparison, positioning statement, hypothesis and experiment rule, actual storyboard or full narrative when the next motion needs them. A title is not the artifact. Approving a tree does not select a branch.
 
-When changing tools, use this reply at the decision gate. Replace the bracketed choices with your actual decision:
+At the gate, replace the bracketed choices with your actual decision:
 
 ```text
 I choose [approve / revise / gather evidence / stop], because [reason].
 Prepare a self-contained handoff for [next motion].
-Carry the target, outcome, evidence labels and source references.
-Include the selected concept and hypothesis, narrative, or experiment and decision rule when the next motion needs them. Use only what we actually produced; mark missing context UNKNOWN.
+Preserve evidence labels, source references and the actual content that motion needs.
+Use only what we produced; mark missing context UNKNOWN.
 Record my decision. Do not start the next motion.
 ```
 
-Copy that handoff after the next prompt. For story rendering and prototyping, carry the actual narrative, not just its title. For the learning review, carry the experiment and its decision rule. If you haven't selected a concept, choose it before asking for positioning; approving a tree does not automatically select one branch.
+Paste that actual handoff after the next skill invocation or prompt. Approval permits another bounded step; it does not validate the idea.
 
-## Get a local copy
+## Get a local copy and verify it
 
-While this repository is private, GitHub access is required. After public release, attendees can use the prompt files directly in the browser.
+GitHub access is required while the repository is private.
 
 ```bash
 git clone https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab.git
 cd AI-Augmented-Product-Discovery-Lab
-```
-
-No local runtime is required to copy a prompt. Maintainers need Python 3.9 or newer and Bash only for the mechanical checks:
-
-```bash
 ./scripts/test-library.sh
 ```
 
-If `python3` is unavailable, prompt and skill use still works; the maintenance checks cannot run until Python is available.
+Copying prompts needs no local runtime. Maintainer checks need Python 3.9 or newer and Bash; they make no model calls. The separate optional Claude eval runner uses cloud calls through your existing authentication.

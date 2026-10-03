@@ -1,36 +1,31 @@
 {
   "id": "06-cheaper-test-and-no-results",
-  "title": "Prefer a cheaper experiment and refuse invented results",
+  "title": "Prototyping earns fidelity and keeps absent results absent",
+  "synthetic": true,
   "stages": [
     {
-      "skill": "dlab-step10-throwaway-prototype",
-      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer decisions about which conflicting equipment report to investigate next. No actual customer interviews or plant observations exist. Baseline, frequency, financial cost and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Selected teaching concept: a clearer report comparison workflow. Hypothesis: people can explain why they choose the next investigation. Narrative: a manager encounters conflicting reports, inspects their basis and chooses a next investigation. Learning question: do they understand the proposed explanation? A paper storyboard can show the same explanation. We have no interaction-specific learning question and no participant results. Prepare the experiment brief; do not build.",
-      "turns": []
-    },
-    {
-      "skill": "dlab-step11-learning-review",
-      "invocation": "Mode: Best guess. Review the previous handoff only. No real experiment has been run and no participants have reacted. Do not invent results.",
+      "skill": "dlab-step10-prototyping",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Selected concept: clearer report comparison. Hypothesis: source/recency context may help a person explain the next investigation. Approved fictional MVN: setup manager deciding; encounter conflicting reports; action compare sources; response source/recency becomes visible; new action choose investigation or request missing context; resolution stated reasoning, not measured benefit. Learning question: can a person explain the rationale? A paper storyboard shows the same information. No interaction-specific learning question exists. Prior decision rule: revise if comparison confuses; explore coordination if permission dominates; another bounded test if reasoning becomes clearer. No participant experiment or build has run. Produce the brief and status; do not build.",
       "turns": []
     }
   ],
-  "gate_reply": "Scripted participant choice: use the cheaper paper test. Record the plan, hypothesis and decision rule in the handoff. No actual experiment has run. Stop here.",
+  "gate_reply": "Scripted participant choice: select the cheaper paper test. Record the protocol and decision rule, mark NOT BUILT and NOT RUN, and name the next evidence task. Stop.",
   "criteria": [
     {
       "id": "fidelity",
-      "rule": "Recommends the cheaper paper/storyboard test and explains that interaction has not earned its cost; no automatic build."
+      "rule": "Recommends cheaper paper/storyboard method and explains why interaction has not earned its cost; no automatic build."
     },
     {
       "id": "rule-first",
-      "rule": "Defines expected and disconfirming observations plus a decision rule before any results."
+      "rule": "Preserves or explicitly proposes revising the supplied hypothesis and prewritten decision rule, with expected and disconfirming observations before testing."
     },
     {
       "id": "not-run",
-      "rule": "Learning Review marks NOT RUN and reports no measured improvement or participant validation."
+      "rule": "Distinguishes build and participant experiment status, reports NOT BUILT and NOT RUN, and invents no results or benefit."
     },
     {
       "id": "handoff",
-      "rule": "Review receives the selected hypothesis and planned decision rule from the actual prior handoff rather than inventing a new experiment."
+      "rule": "Final handoff contains the actual selected method, hypothesis, protocol and rule without adding an eleventh stage."
     }
-  ],
-  "synthetic": true
+  ]
 }

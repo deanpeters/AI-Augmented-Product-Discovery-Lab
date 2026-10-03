@@ -1,35 +1,35 @@
 {
   "id": "02-guided-reuse",
-  "title": "Guided turns reuse context and stay within budget",
+  "title": "Guided Persona reuses supplied context and clarifies bounded gaps",
+  "synthetic": true,
   "stages": [
     {
-      "skill": "dlab-step04-problem-frame",
-      "invocation": "Mode: Guided. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Current condition to explore: conflicting equipment reports make the next investigation unclear. Desired outcome: clearer next-investigation decisions. No actual customer or plant observations exist; frequency and cost are UNKNOWN. Proposed solution: AI dashboard. Start with the first missing question only.",
+      "skill": "dlab-step03-persona",
+      "invocation": "Mode: Guided. SYNTHETIC teaching case. Selected segment: mid-sized manufacturing plants. Focal persona: maintenance manager. Situation/trigger: conflicting equipment reports before choosing the next investigation. Functional job and desired outcome: make a clearer next-investigation choice. No actual interviews or plant observations exist. Missing workaround, stakes/constraints and beliefs that could overturn this persona. Start with the first missing question only; do not repeat the supplied context.",
       "turns": [
-        "The decision is whether to fund a small customer discovery effort.",
+        "Fictional workaround: review logs and talk with a technician; not an observed customer behavior.",
         "Keep it safe.",
-        "By safe I mean no actual equipment control and no real plant records; use fictional material only.",
-        "We do not know whether conflicting reports materially change investigation choices."
+        "By safe I mean no equipment control or real plant records. Role relationships and actual operational stakes remain UNKNOWN.",
+        "We do not know whether conflicting reports really change choices or whether permission and coordination matter more."
       ]
     }
   ],
   "criteria": [
     {
       "id": "one-question",
-      "rule": "Each pre-artifact response asks at most one decision-relevant subject, waits for a reply, and does not dump the question list."
+      "rule": "Each pre-artifact response asks at most one missing subject and waits, without dumping the whole question list."
     },
     {
       "id": "context-reuse",
-      "rule": "Does not re-ask target, current condition or desired outcome. Starts with the missing product decision and preserves question numbers when skipping answered questions."
+      "rule": "Reuses role, selected segment, trigger and supplied functional job/outcome. Starts with the missing workaround portion of Q3, preserving original question numbering."
     },
     {
       "id": "clarify",
-      "rule": "Clarifies the vague safety answer once and reuses the specific answer. No more than five numbered questions and two follow-ups."
+      "rule": "Clarifies vague safety once, reuses the answer, and respects at most five numbered questions and two follow-ups."
     },
     {
-      "id": "honest-frame",
-      "rule": "Produces solution-neutral alternative frames with UNKNOWN evidence gaps and stops for a human choice; no invented approval."
+      "id": "honest-persona",
+      "rule": "Produces a situational Persona with jobs/pains/gains, workaround, stakes/constraints and evidence limits. No decorative demographics, invented observations or approval. Stops at a human gate."
     }
-  ],
-  "synthetic": true
+  ]
 }

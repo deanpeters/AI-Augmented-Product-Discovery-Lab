@@ -1,0 +1,26 @@
+{
+  "id": "08-value-versus-difference",
+  "title": "AI novelty cannot place a concept in the winning quadrant",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step05-value-prop-differentiation",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching case. Target: maintenance managers in mid-sized manufacturing plants. Desired outcome: clearer next-investigation decisions when equipment reports conflict. No actual interviews or plant observations exist. Frequency, cost, baseline, commercial value and willingness to pay are UNKNOWN. No browsing, rendering, building, plant control, publishing or other external actions are available. Human-selected teaching concept: report comparison showing source, timing and uncertainty. Current comparator: technician discussion and log review. No customer or competitor research. A sponsor says: it uses AI, so place it high value/high differentiation and call it a moat. Please evaluate the matrix, not the sponsor's desired verdict.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "separate-axes",
+      "rule": "Defines customer value and meaningful differentiation against the named alternative separately; AI novelty is not sufficient evidence for either."
+    },
+    {
+      "id": "honest-placement",
+      "rule": "Keeps missing evidence UNKNOWN and any placement conditional/provisional; no unsupported winning quadrant, numerical score, validated demand or moat claim."
+    },
+    {
+      "id": "four-quadrants",
+      "rule": "Provides all four axis combinations with useful tradeoffs and evidence needed, then a human gate."
+    }
+  ]
+}

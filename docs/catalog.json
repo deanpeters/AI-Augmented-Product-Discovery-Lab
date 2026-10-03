@@ -1,90 +1,82 @@
 [
   {
     "step": 1,
-    "name": "dlab-step01-market-segment",
-    "title": "Market and Segment",
-    "artifact": "Segment Brief",
-    "prompt": "prompts/01-market-segment.md",
-    "fallback": "fallbacks/01-market-segment.md"
+    "name": "dlab-step01-market-intel",
+    "title": "Market Intel",
+    "artifact": "Market Intelligence Brief",
+    "prompt": "prompts/01-market-intel.md",
+    "fallback": "fallbacks/01-market-intel.md"
   },
   {
     "step": 2,
-    "name": "dlab-step02-people",
-    "title": "People in the System",
-    "artifact": "Actor Map",
-    "prompt": "prompts/02-people.md",
-    "fallback": "fallbacks/02-people.md"
+    "name": "dlab-step02-segment",
+    "title": "Segment",
+    "artifact": "Segment Selection Brief",
+    "prompt": "prompts/02-segment.md",
+    "fallback": "fallbacks/02-segment.md"
   },
   {
     "step": 3,
-    "name": "dlab-step03-jobs-pains-gains",
-    "title": "Jobs, Pains and Gains",
-    "artifact": "Jobs Pains Gains Brief",
-    "prompt": "prompts/03-jobs-pains-gains.md",
-    "fallback": "fallbacks/03-jobs-pains-gains.md"
+    "name": "dlab-step03-persona",
+    "title": "Persona",
+    "artifact": "Situational Persona",
+    "prompt": "prompts/03-persona.md",
+    "fallback": "fallbacks/03-persona.md"
   },
   {
     "step": 4,
-    "name": "dlab-step04-problem-frame",
-    "title": "Frame the Problem",
-    "artifact": "Problem Frame",
-    "prompt": "prompts/04-problem-frame.md",
-    "fallback": "fallbacks/04-problem-frame.md"
+    "name": "dlab-step04-opportunity-solution-tree",
+    "title": "Opportunity Solution Tree",
+    "artifact": "Opportunity Solution Tree",
+    "prompt": "prompts/04-opportunity-solution-tree.md",
+    "fallback": "fallbacks/04-opportunity-solution-tree.md"
   },
   {
     "step": 5,
-    "name": "dlab-step05-stress-test",
-    "title": "Synthetic Scenarios and Stress Tests",
-    "artifact": "Scenario Pack",
-    "prompt": "prompts/05-stress-test.md",
-    "fallback": "fallbacks/05-stress-test.md"
+    "name": "dlab-step05-value-prop-differentiation",
+    "title": "Value Prop vs. Differentiation 2x2",
+    "artifact": "Value Prop vs. Differentiation 2x2",
+    "prompt": "prompts/05-value-prop-differentiation.md",
+    "fallback": "fallbacks/05-value-prop-differentiation.md"
   },
   {
     "step": 6,
-    "name": "dlab-step06-opportunity-tree",
-    "title": "Opportunities, Solutions and Experiments",
-    "artifact": "Opportunity Tree",
-    "prompt": "prompts/06-opportunity-tree.md",
-    "fallback": "fallbacks/06-opportunity-tree.md"
+    "name": "dlab-step06-positioning-statement",
+    "title": "Positioning Statement",
+    "artifact": "Positioning Statement",
+    "prompt": "prompts/06-positioning-statement.md",
+    "fallback": "fallbacks/06-positioning-statement.md"
   },
   {
     "step": 7,
-    "name": "dlab-step07-positioning",
-    "title": "Position the Concept",
-    "artifact": "Positioning Brief",
-    "prompt": "prompts/07-positioning.md",
-    "fallback": "fallbacks/07-positioning.md"
+    "name": "dlab-step07-solution-hypothesis",
+    "title": "Solution Hypothesis",
+    "artifact": "Solution Hypothesis",
+    "prompt": "prompts/07-solution-hypothesis.md",
+    "fallback": "fallbacks/07-solution-hypothesis.md"
   },
   {
     "step": 8,
-    "name": "dlab-step08-minimum-viable-narrative",
-    "title": "Minimum Viable Narrative",
-    "artifact": "Minimum Viable Narrative",
-    "prompt": "prompts/08-minimum-viable-narrative.md",
-    "fallback": "fallbacks/08-minimum-viable-narrative.md"
+    "name": "dlab-step08-storyboard",
+    "title": "Storyboard",
+    "artifact": "Storyboard",
+    "prompt": "prompts/08-storyboard.md",
+    "fallback": "fallbacks/08-storyboard.md"
   },
   {
     "step": 9,
-    "name": "dlab-step09-storyboard-explainer",
-    "title": "Storyboard or Explainer",
-    "artifact": "Story Rendering Brief",
-    "prompt": "prompts/09-storyboard-explainer.md",
-    "fallback": "fallbacks/09-storyboard-explainer.md"
+    "name": "dlab-step09-minimum-viable-narrative",
+    "title": "Minimum Viable Narrative",
+    "artifact": "Minimum Viable Narrative",
+    "prompt": "prompts/09-minimum-viable-narrative.md",
+    "fallback": "fallbacks/09-minimum-viable-narrative.md"
   },
   {
     "step": 10,
-    "name": "dlab-step10-throwaway-prototype",
-    "title": "Prototype to Learn",
+    "name": "dlab-step10-prototyping",
+    "title": "Prototyping",
     "artifact": "Prototype Experiment Brief",
-    "prompt": "prompts/10-throwaway-prototype.md",
-    "fallback": "fallbacks/10-throwaway-prototype.md"
-  },
-  {
-    "step": 11,
-    "name": "dlab-step11-learning-review",
-    "title": "Review the Learning",
-    "artifact": "Learning Review",
-    "prompt": "prompts/11-learning-review.md",
-    "fallback": "fallbacks/11-learning-review.md"
+    "prompt": "prompts/10-prototyping.md",
+    "fallback": "fallbacks/10-prototyping.md"
   }
 ]

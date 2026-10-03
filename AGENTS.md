@@ -78,33 +78,33 @@ The audience should watch product thinking happen.
 
 # 4. MACRO → MICRO DISCOVERY ARC
 
-The current show architecture is:
+The current show architecture, corrected by Dean, is:
 
 ~~~text
-HALL OF SHAME
+HALL OF SHAME (spoken opening)
       ↓
-MARKET / SEGMENT
+MARKET INTEL
       ↓
-PEOPLE
+SEGMENT
       ↓
-JOBS / PAINS / GAINS
-      ↓
-PROBLEM FRAME
-      ↓
-SYNTHETIC SCENARIOS / STRESS TESTS
+PERSONA
       ↓
 OPPORTUNITY SOLUTION TREE
       ↓
-POSITIONING
+VALUE PROP vs. DIFFERENTIATION 2x2
+      ↓
+POSITIONING STATEMENT
+      ↓
+SOLUTION HYPOTHESIS
+      ↓
+STORYBOARD
       ↓
 MINIMUM VIABLE NARRATIVE
       ↓
-STORYBOARD / EXPLAINER
-      ↓
-THROWAWAY PROTOTYPE
-      ↓
-LEARNING
+PROTOTYPING
 ~~~
+
+Persona includes situational jobs, pains, gains, workarounds and problem context. Opportunities belong in the Opportunity Solution Tree. Storyboard precedes Minimum Viable Narrative. Remove agent-strategy canvases/maps from the demo and chain. Prototyping includes experiment status and the next evidence decision; there is no added learning-review stage.
 
 This is deliberately **loosely coupled**.
 
@@ -179,7 +179,7 @@ Never invent a number because a table looks incomplete without one.
 
 # 7. PERSONA RULES
 
-Personas should be situational.
+Persona is an explicit discovery motion. Personas should be situational.
 
 Prefer:
 
