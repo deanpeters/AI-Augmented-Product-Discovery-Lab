@@ -172,7 +172,7 @@ function handoffCard(s, values, x, y, w, h) {
     T(s, who, { x: 1.6, y: y + 0.17, w: 4.2, h: 0.45, fontFace: F.head, fontSize: 20, color: WHITE, valign: "middle", objectName: `Case name ${i + 1}` });
     T(s, lesson, { x: 5.85, y: y + 0.17, w: 6.85, h: 0.45, fontSize: 17, color: MUTED, valign: "middle", objectName: `Case lesson ${i + 1}` });
   });
-  s.addNotes("Spoken opening. Five cases, one line each, then leave the slide. Source URLs and dates for each case: [ATTACH BEFORE SHOWTIME]. Do not research cases on stage. Lessons: Relay.app, differentiation must keep being earned. Humane AI Pin, novelty does not equal customer value. Google Gemini image generation, optimizing one thing can break another. Air Canada chatbot, automation does not outsource accountability. Zillow Offers, model performance does not guarantee business viability.");
+  s.addNotes("Spoken opening. Five cases, one line each, then leave the slide. Do not research cases on stage. Sources are in notebook/hall-of-shame-sources.md. Facts: Relay.app shut down in 2026 (relay.app). Humane AI Pin discontinued Feb 2025 after HP bought assets for $116M (TechCrunch, Feb 18 2025). Google paused Gemini image generation of people, Feb 23 2024 (blog.google). Air Canada held liable for its chatbot, Moffatt v. Air Canada, 2024 BCCRT 149. Zillow wound down Zillow Offers, Q3 2021 shareholder letter, Nov 2 2021. The one-line lessons are Dean's interpretation (INFERRED), not claims the sources make.");
 }
 
 // ---------- 2. Starting request ----------
@@ -478,17 +478,14 @@ section([["What must be true, ", WHITE], ["how do we learn?", GREEN]], "Part 3. 
 
 motion(10, "Prototyping", "What is the smallest, cheapest test we can run to learn the most brutal truth?", "Prototype Experiment Brief", "The tiniest act of discovery wins.",
   (s) => {
-    s.addShape(pres.ShapeType.roundRect, { x: PX + 0.4, y: PY + 0.5, w: PW - 0.8, h: 3.4, rectRadius: 0.18, fill: { color: WHITE }, line: { color: WHITE }, objectName: "Brief card" });
-    T(s, "Build an AI predictive-maintenance dashboard.", { x: PX + 0.8, y: PY + 0.9, w: PW - 1.6, h: 1.3, fontFace: F.head, fontSize: 26, color: "7A7A7A", strike: "sngStrike", objectName: "Struck request" });
+    s.addShape(pres.ShapeType.roundRect, { x: PX + 0.4, y: PY + 0.5, w: PW - 0.8, h: 5.1, rectRadius: 0.18, fill: { color: WHITE }, line: { color: WHITE }, objectName: "Brief card" });
+    T(s, "Build an AI predictive-maintenance dashboard.", { x: PX + 0.8, y: PY + 1.0, w: PW - 1.6, h: 1.6, fontFace: F.head, fontSize: 30, color: "7A7A7A", strike: "sngStrike", objectName: "Struck request" });
     s.addText("TINIEST ACT WINS", {
-      shape: pres.ShapeType.roundRect, rectRadius: 0.1, x: PX + 0.9, y: PY + 2.2, w: PW - 1.8, h: 1.2, rotate: 355,
-      fill: { type: "none" }, line: { color: GREEN, width: 5 }, fontFace: F.head, fontSize: 30, color: "00C765", align: "center", valign: "middle", margin: 0, objectName: "Tiniest act wins stamp",
+      shape: pres.ShapeType.roundRect, rectRadius: 0.1, x: PX + 0.8, y: PY + 3.0, w: PW - 1.6, h: 1.5, rotate: 355,
+      fill: { type: "none" }, line: { color: GREEN, width: 5 }, fontFace: F.head, fontSize: 34, color: "00C765", align: "center", valign: "middle", margin: 0, objectName: "Tiniest act wins stamp",
     });
-    pill(s, "BUILT: IMPLEMENTATION CHECK ONLY", PX + 0.4, PY + 4.1, 5.05, { fill: ORANGE, color: BLACK });
-    pill(s, "NOT RUN: PARTICIPANT TEST", PX + 0.4, PY + 4.6, 3.7, { fill: ORANGE, color: BLACK });
-    T(s, "Next: examine a recent real decision with a practitioner.", { x: PX + 0.4, y: PY + 5.1, w: PW - 0.8, h: 0.7, fontSize: 16, color: MUTED });
   },
-  "The question is the smallest, cheapest test that surfaces the most brutal truth. Compare a conversation, a storyboard or wireframe test, an interaction, and a build. Recommend the tiniest act of discovery that can answer it. Prototypes built in advance are implementation evidence only. The participant test stays NOT RUN until a person actually runs it. If you did not build one, say NOT BUILT.");
+  "The question is the smallest, cheapest test that surfaces the most brutal truth. Compare a conversation, a storyboard or wireframe test, an interaction, and a build. Recommend the tiniest act of discovery that can answer it. Status, if asked: prototypes built in advance are implementation evidence only. The participant test is NOT RUN until a person actually runs it. If you did not build one, say NOT BUILT.");
 
 // ---------- 14. Fidelity ladder ----------
 {
