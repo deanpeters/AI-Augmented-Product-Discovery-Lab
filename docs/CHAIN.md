@@ -6,6 +6,8 @@ Supplied canvases and examples may imply other sequences in their original conte
 
 There are ten motions. Jobs, pains, gains and problem context are developed within Persona and the Opportunity Solution Tree. Opportunities belong in that tree. There is no standalone agent-strategy or learning-review stage. Prototyping closes with experiment status and the next evidence decision.
 
+A HiPPO's initial solution request is an entry point for exploration, not a delivery commitment or something to reject reflexively. The current demo deliberately moves from the dashboard request toward intervention by prediction instead of intervention by exception. Preserve the reasoning for that evolution rather than forcing all later outcomes to repeat the original request. Delight, differentiation, defensibility and customer/provider margins are hypotheses to examine, not promised results.
+
 Each skill offers three capture modes, visible numbered work, a template, worked/weak examples, a named artifact and a human gate. Prompt equivalents embed the assets. Start at any motion with the context its decision needs.
 
 ## Useful context between motions

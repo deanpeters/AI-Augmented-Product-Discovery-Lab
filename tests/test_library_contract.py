@@ -1,5 +1,6 @@
 """Guard the user-selected chain and the assets needed by skill and prompt users."""
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -25,6 +26,43 @@ class LibraryContractTests(unittest.TestCase):
         case = json.loads((ROOT / 'evals/cases/01-full-chain.json').read_text())
         self.assertEqual([stage['skill'] for stage in case['stages']],
                          [item['name'] for item in catalog])
+
+    def test_demo_companion_has_twenty_matching_context_dump_launches(self):
+        catalog = json.loads((ROOT / 'docs/catalog.json').read_text())
+        text = (ROOT / 'examples/kickoff-prompts.md').read_text()
+        headings = re.findall(r'^## (\d{2})\. (.+)$', text, re.M)
+        self.assertEqual(headings, [(f"{item['step']:02d}", item['title'])
+                                    for item in catalog])
+        blocks = re.findall(r'```text\n(.*?)\n```', text, re.S)
+        self.assertEqual(len(blocks), 2 * len(catalog))
+        for index, item in enumerate(catalog):
+            prompt, skill = blocks[index*2:index*2+2]
+            prompt_command, prompt_context = prompt.split('\n', 1)
+            skill_command, skill_context = skill.split('\n', 1)
+            self.assertTrue(prompt_command.startswith('For '))
+            self.assertIn('run this attached prompt in context dump mode', prompt_command)
+            self.assertTrue(skill_command.startswith('/'+item['name']+
+                                                     ' Run in context dump mode for '))
+            self.assertEqual(prompt_context, skill_context,
+                             'Prompt and skill launches must carry the same task/context.')
+            self.assertIn('](../'+item['prompt']+')', text)
+
+    def test_current_demo_case_matches_launch_context_and_chain(self):
+        catalog = json.loads((ROOT / 'docs/catalog.json').read_text())
+        case = json.loads((ROOT / 'evals/cases/16-predictive-maintenance-demo.json').read_text())
+        self.assertEqual([stage['skill'] for stage in case['stages']],
+                         [item['name'] for item in catalog])
+        text = (ROOT / 'examples/kickoff-prompts.md').read_text()
+        blocks = re.findall(r'```text\n(.*?)\n```', text, re.S)
+        for index, stage in enumerate(case['stages']):
+            command, body = blocks[index*2+1].split('\n', 1)
+            audience = command.split('Run in context dump mode for ', 1)[1]
+            self.assertTrue(stage['invocation'].startswith('Mode: Context dump.'))
+            self.assertIn(audience, stage['invocation'])
+            self.assertIn(body, stage['invocation'],
+                          'A changed demo launch requires refreshing its rehearsal fixture.')
+            self.assertTrue(stage['gate_reply'].startswith(
+                'Scripted evaluation participant choice:'))
 
     def test_tool_free_packets_embed_actual_assets(self):
         for item in json.loads((ROOT / 'docs/catalog.json').read_text()):

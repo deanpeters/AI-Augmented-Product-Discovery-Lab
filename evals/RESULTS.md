@@ -31,3 +31,9 @@ MVN now uses Setup, Encounter, an internal 3–6 transaction human/system loop, 
 Supplied canvas references inspected; Persona framing, Solution Hypothesis measures and Storyboard solution summary aligned. Behavioral execution for these changes: NOT RUN.
 
 Persona and combined positioning canvas fields aligned; six supplied reference assets included with Dean's confirmed sharing permission. Behavioral execution for these revisions: NOT RUN.
+
+October 4, 2026: Added cases 16 (current Context dump predictive-maintenance demo) and 17 (synthetic IIoT is not validation). Existing report-comparison and standalone cases remain regression coverage. New and revised behavioral definitions are NOT RUN; no cloud/model call or simulated plant experiment was executed.
+
+Current local verification: `./scripts/test-library.sh` passes 18 regression tests, 17 case definitions, ten skill/prompt pairs, asset/link checks and kickoff/demo-fixture consistency. This is mechanical verification; cases 16 and 17 have not been run through a model.
+
+Case 16 refined for the intentional HiPPO request → evolved predictive-intervention outcome arc. Behavioral execution remains NOT RUN; no margin improvement or observed prevention is claimed.

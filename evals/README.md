@@ -112,3 +112,11 @@ On failure, keep the original transcript, fix the skill or handoff, re-export pr
 Cases 13 and 14 cover the multi-solution/competitor bake-off and standalone entry without an OST. The runner's six-field `<handoff>` transport checks protect context in scripted chain tests; they are harness conventions, not mandatory skill inputs. Behavioral cases require an explicitly chosen model run; local validation alone does not prove their behavior.
 
 Case 15 challenges cheap discovery theatre: a pleasant storyboard reaction cannot establish adoption under pressure. Its behavioral execution remains optional and separate from local checks.
+
+## Updated predictive-maintenance demo coverage
+
+Case 01 retains the older report-comparison route as a regression case. It is not a rehearsal of the current deck. Case 16 covers the current ten-motion predictive-dashboard/incident-router route in Context dump mode, matching the kickoff companion and the synthetic IIoT override. Case 17 challenges a sponsor who treats a stipulated simulator result as real prevented failures or customer confidence. These are new behavioral definitions, not passing model receipts.
+
+The standalone, denominator, hostile-source, cheap-test and narrative-continuity cases remain useful across contexts. Different case narratives do not change the lab chain. Local regression checks additionally cover the 20 launch blocks, paired prompt/skill context, invocation names and demo-case route.
+
+Case 16 also tests the intentional HiPPO-to-outcome arc: explore the requested dashboard rather than reflexively refuse or blindly implement it; allow the desired proposition to evolve from intervention by exception toward intervention by prediction. Delight, hard-to-copy value and customer/provider margins remain hypotheses. A changed outcome is not inherently a chain failure.
