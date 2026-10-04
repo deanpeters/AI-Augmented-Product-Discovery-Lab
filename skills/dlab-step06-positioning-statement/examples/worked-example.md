@@ -1,76 +1,61 @@
-# Positioning Statement
+# Positioning: a payoff worth funding, not an AI feature list
 
-Lab adaptation, not an authoritative Productside canvas.
+SYNTHETIC F2 adaptation, October 4, 2026. Status DRAFT; human selection/decider not recorded. Inputs are illustrative hypotheses, not customer evidence. This standalone example reuses the worked 2x2's assumptions for consistency, not as a required upstream artifact.
 
-- Date: 2026-10-02
-- Built from: authored fictional manufacturing fixture
-- Status: DRAFT
-- Decider: not recorded
-- Synthetic status: SYNTHETIC; no observed customer or plant evidence
+## Target, need and customer value proposition
 
-## Target and need
+User: maintenance manager; beneficiary: plant operations; proposed payer: plant leader with finance review. Situation: warning signals arrive but an intervention must be justified and fit production constraints.
 
-SYNTHETIC maintenance managers who need to explain the next investigation when reports conflict.
+Value proposition: replace the scramble to reconcile warnings with an explainable chance to intervene before an avoidable outage. The customer payoff would be less lost productive time and protected contribution after intervention, review, implementation and product costs. Proposed delight moment: the manager can explain and coordinate an earlier action without repeated searches; not an observed quote or proof of avoided failure.
 
 ## Concept and category
 
-Provisional report-comparison process; category is a working description.
+S2 Early Intervention Context, a working name; category: maintenance decision support. O1 ambiguity is the hypothesized opportunity, but O2 authority/timing could be the real barrier.
 
 ## Statement
 
-All clauses are SYNTHETIC teaching hypotheses:
-- **For:** maintenance managers in mid-sized manufacturing plants.
-- **Who:** need to explain an investigation choice when reports conflict.
-- **The:** Report Comparison Aid, a provisional teaching name.
-- **Is a:** source-context comparison aid, a provisional category.
-- **That:** may support an explainable next action with uncertainty visible.
-- **Unlike:** technician discussion and manual log review, an assumed workaround.
-- **Our product gives:** explicit side-by-side source, timing and uncertainty context; meaningful difference and benefit are untested.
+All clauses describe the intended, unvalidated proposition:
+
+- **For:** maintenance managers coordinating maintenance and production in mid-sized plants.
+- **Who:** need to justify intervention before an emerging risk becomes an avoidable outage.
+- **The:** Early Intervention Context (working name).
+- **Is a:** maintenance decision-support aid.
+- **That:** aims to protect productive time and contribution while removing the scramble to reconcile warnings.
+- **Unlike:** exception-triggered manual log review and reactive scheduling (assumed B0 baseline).
+- **Our product gives:** earlier signal context, visible uncertainty and production constraints together for a human intervention choice (proposed mechanism, not demonstrated superiority).
 
 ## Alternative and proposed difference
 
-Log review and technician discussion; whether the proposed difference is already available is UNKNOWN.
+B0 is the common baseline. Fictional C1 Rival Predict may supply similar predictive/source context; advantage over a real closest rival is UNKNOWN. Do not turn the baseline difference into “only we can.” If coordination is the actual barrier, S3 shift huddles or S5 evidence checklist may be sufficient and cheaper.
 
-## Reason to believe
+## Budget and renewal case
 
-UNKNOWN. No customer observations or independent performance evidence.
+- Proposed budget: plant leader's planned-maintenance improvement investment. Existing reactive response/overtime spend might be relevant, but protected contribution does not itself free a transferable budget line. Authority and buyer priorities UNKNOWN.
+- F2 base illustrative scenario: 8 avoided hours/year × $5,000 contribution/hour × 50% realization = $20,000 realized customer contribution/year. Deduct $6,000 interventions/false warnings + $6,000 fee + $3,000 first-year implementation + $1,000 annual review → $4,000 first-year net, $7,000 recurring net. These are assumptions, not a positioning promise or WTP proof.
+- Downside: 4 hours × $5,000 × 25% realization gives $5,000 benefit and -$11,000 first-year net. The proposition can fail commercially despite a delightful demo.
+- Provider: $6,000 fee − $900 inference − $600 hosting/monitoring − $1,800 support = $2,700 recurring delivery contribution; minus $2,000 onboarding → $700 first-year contribution. Acquisition/fixed costs not modeled; total profitability UNKNOWN.
+- Why renew: repeated realized net benefit and useful accumulated decision context, if proven. More alerts or accepted suggestions do not establish renewal. Context rights, feedback quality and outcome lift needed before claiming a compounding advantage.
 
-## Claim check and revision
+## Reason to believe and claim check
 
-Benefit and differentiation remain hypotheses. Remove any claim of reduced downtime or superiority.
+UNKNOWN: no independent prediction results, buyer commitments, observed avoided downtime or competitor comparison. Do not publish illustrative dollar results as measured savings. Need actual recoverable contribution, adoption/intervention cost, feasible decision changes and budget-owner purchase conditions. Separate current mechanism from hypothetical future context/learning advantage.
 
-## Statement choice
+## Commercial falsifier and next decision
 
-DRAFT wording; no human selection recorded.
+If managers already understand warnings but cannot secure a feasible intervention window, revise the information proposition toward coordination. If the customer cannot realize net benefit after total costs, revise price/cost/mechanism or stop. If the closest rival delivers the same payoff more credibly, revise the buy-ours claim. Recommend a bounded evidence task, not approval to build; human choice not recorded.
 
-## Claim ledger
+## Optional context for Solution Hypothesis
 
-| Claim | Evidence label | Source or basis | Date | Limitation |
-|---|---|---|---|---|
-| The proposed decision aid may clarify an investigation choice; the statement is untested. | ESTIMATE / BEST GUESS | Authored fictional fixture | 2026-10-02 | Not observed or validated |
-| Commercial value and operational benefit | UNKNOWN | No evidence supplied | 2026-10-02 | No measured baseline, pricing or experiment results |
-
-## Human decision
-
-Recommendation: review this illustrative artifact, then choose revise, gather evidence, approve a bounded next motion or stop. Selected option and decider: not recorded. No approval inferred.
-
-## Small handoff
-
-Target: maintenance managers in mid-sized manufacturing plants; SYNTHETIC provisional target.
-What we believe: The proposed decision aid may clarify an investigation choice; the statement is untested. (ESTIMATE / BEST GUESS).
-Evidence: none; fictional fixture only.
-What is inferred: a possible discovery direction, not validated demand.
-Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
-Biggest unanswered question: Does the claimed difference exist and matter to this persona?
+Carry the actual statement, target, S2 mechanism, B0 and rival distinction, customer/provider cost assumptions and falsifiers. A hypothesis should test whether earlier context changes feasible intervention and net value—not merely whether people like the display. Standalone notes work without this artifact.
 
 ## Final readout
 
-- **For:** maintenance managers in mid-sized manufacturing plants.
-- **Who:** need to explain the next investigation when reports conflict.
-- **The:** Report Comparison Aid (working name).
-- **Is a:** source-context comparison aid (working category).
-- **That:** may support an explainable next action with uncertainty visible.
-- **Unlike:** technician discussion and manual log review (assumed alternative).
-- **Our product gives:** explicit source, timing and uncertainty context (untested difference).
+- **For:** maintenance managers coordinating with production.
+- **Who:** need to justify intervention before an avoidable outage.
+- **The:** Early Intervention Context.
+- **Is a:** maintenance decision-support aid.
+- **That:** aims to protect productive time/contribution and remove warning-reconciliation work.
+- **Unlike:** reactive log review/scheduling.
+- **Our product gives:** earlier signal context, uncertainty and production constraints for a human choice.
 
-**Reason to believe:** UNKNOWN. This is SYNTHETIC provisional positioning, not validated advantage. **Next decision:** review whether the difference exists and matters before approving the wording; no human selection recorded.
+Commercial case is unproven: proposed plant-leader improvement budget; illustrative $4,000 customer first-year net versus -$11,000 downside, $2,700 provider recurring delivery contribution before acquisition/fixed costs. No rival-relative advantage or WTP established. Renewal requires repeated net benefit and useful retained context. Next: test feasible intervention, actual costs and buyer conditions; revise or stop if the payoff fails. All claims SYNTHETIC/provisional; selection not recorded.

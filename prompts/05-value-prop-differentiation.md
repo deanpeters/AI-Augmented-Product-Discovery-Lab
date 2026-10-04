@@ -34,30 +34,44 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Customer payoff and budget test
+
+Trace **capability → changed work/decision → customer outcome → economic lever → budget choice**. AI is an ingredient, not the benefit. Name the person using it, the beneficiary and the budget owner separately. Reuse supplied context; when missing, offer a labeled hypothesis in Best guess/Context dump rather than inventing research or blocking on another artifact.
+
+- **What's in it for the customer?** Identify revenue/contribution, margin, spend, capacity/time, risk or newly affordable capability. State what frustrating work disappears or what valuable action becomes possible, and where the person experiences it. A delightful moment is observable relief/progress, not UI polish or an invented customer quote.
+- **Why would they move budget?** Name the current alternative and funded activity, proposed payer/budget line, purchase or switching trigger, adoption/migration/retraining cost, and the hurdle that would justify switching. Willingness to pay and authority remain UNKNOWN unless supported. Continued use needs recurring realized value, not a one-time demo reaction; state why they would renew and what could make them stop.
+- **Do both sides win?** Estimate customer net benefit after fee, extra work, planned interventions/false positives, implementation and ongoing review. Keep time released distinct from realized cash saving or usable capacity. Avoid counting protected revenue, contribution, labor savings and risk reduction twice for the same effect. Show quantities × unit value and the realization assumption. With no numerical basis, use a symbolic formula and explicit gaps; grounded or clearly illustrative low/base/high what-ifs are allowed, never fabricated measured savings.
+- **Can we afford to serve them?** Separate price/revenue from inference, hosting, human review, support, onboarding, integrations and other delivery costs. Show recurring delivery contribution and first-period onboarding impact; do not label these total profit. Acquisition, fixed costs, retained value and renewals need their own evidence. Customer surplus is not provider revenue; SOM revenue potential is not customer ROI.
+- **Why ours, and why hard to copy?** Compare specific offerings for the same job. Test context/data access and rights, workflow fit, trust, learning signals/feedback quality, experience, distribution, switching value and delivery economics only where relevant. Distinguish a current customer-relevant difference from a future compounding advantage. For each claimed advantage name the asset/loop, how it improves the outcome, what a rival could copy or substitute, and missing proof. Shared models, more data, workflow lock-in and a high/high point do not establish a moat. Ethical switching value comes from accumulated useful context/history, not trapping customer data.
+
+Do not manufacture positive economics or insist every concept improves every lever. A useful product may fail the budget, competitive or provider-cost test; recommend revise, investigate or stop when it does. The user's desired delightful, differentiated and margin-enhancing outcome is a hypothesis to test, not permission to assert it.
+
 ## Guided questions
 
 1. Which solution candidates or competitor offerings should we compare for which audience?
-2. What progress would make the proposed value matter?
+2. What customer payoff would be worth paying for?
 3. Which real alternative or workaround is the comparison against?
-4. What evidence supports value and meaningful difference separately?
-5. What would change the concept's placement or make us stop?
+4. What evidence would make buying ours rational?
+5. What would make this purchase sustainable for both sides?
 
 Reuse supplied answers, including a concrete actor, current condition and desired outcome. Unknown measurements do not justify re-asking those questions. Ask a narrower follow-up only when ambiguity would change the decision.
 
 ## Numbered work
 
 1. Reuse available OST solutions and their opportunity/experiment links, or collect candidates from direct notes. Give each a stable ID: S for proposed solutions, C for competitor offerings, B for the current workaround. Preserve provenance; newly proposed candidates are explicitly provisional. Compare related solutions together; separate maps for unrelated audiences or outcomes. No completed tree, artifact schema or prior concept selection is required.
-2. Fix one audience, outcome and common comparator before mapping. Horizontal axis: proposed customer value, low to high, defined by progress toward that outcome. Vertical axis: meaningful differentiation from the same named baseline, low to high, defined by a relevant capability or mechanism. Use the status quo as the baseline when useful. Do not change the baseline per candidate or compare a rival against itself. The baseline has no difference from itself by definition, but its value still needs assessment.
+2. Build a short payoff case for each serious candidate: friction removed/new capability, observable customer outcome, economic lever, fee and adoption/operating costs, plausible payer/budget source, and purchase/renewal evidence or gap. Separate user delight from the budget owner's decision. Fix one audience, outcome and common comparator before mapping. Horizontal axis: proposed customer value, low to high, defined by meaningful realized progress and net customer payoff toward that outcome, including adoption burden. Do not require a dollar figure to acknowledge nonfinancial value, but expose the missing conversion when making an economic claim. Vertical axis: meaningful differentiation from the same named baseline, low to high, defined by a relevant capability or mechanism. Use the status quo as the baseline when useful. Do not change the baseline per candidate or compare a rival against itself. The baseline has no difference from itself by definition, but its value still needs assessment.
 3. Map candidate solutions AND competitor offerings on the same four quadrants. Compare specific offerings for the same job, not company logos. Keep value and differentiation evidence separate for each point. Preserve supplied rival sources, dates and gaps; research only material gaps when browsing is available and appropriate. Do not invent competitor capabilities. Mark qualitative positions conditional when assumed; leave UNKNOWN axes unplaced or show a range. UNKNOWN is not low. Not every quadrant needs a point.
-4. Explain tradeoffs, uncertainty and the cheapest observation that could change each placement. Novel technology is not inherently meaningful differentiation. Do not fabricate coordinates, measured value, willingness to pay or defensibility. High/high is a hypothesis worth testing, not an automatic winner or moat.
-5. Recommend a shortlist, revision, evidence task or stop, with reasons. Wait for the human to choose; the shortlist may contain several concepts. If positioning is next, offer the chosen candidate descriptions, value/difference assessments, common comparator and proof gaps as useful context. A matrix does not record an approval by itself.
+4. Challenge why the customer would choose us over the closest real offering, even when both beat the baseline. Keep one common baseline on the map; use a separate rival-relative check for buy-ours claims. Assess defensibility mechanisms and provider delivery contribution separately from the axes; they are not a third axis or a score proving a moat. Explain tradeoffs, uncertainty and the cheapest observation that could change each placement. Novel technology is not inherently meaningful differentiation. Do not fabricate coordinates, measured value, willingness to pay or defensibility. High/high is a hypothesis worth testing, not an automatic winner or moat.
+5. Recommend a shortlist, revision, evidence task or stop, with reasons grounded in customer payoff, why-buy-ours, willingness-to-switch and delivery economics. Explicitly call out negative customer surplus, unproven budget access, copied advantages or unprofitable delivery; no automatic high/high winner. Wait for the human to choose; the shortlist may contain several concepts. If positioning is next, offer the chosen candidate descriptions, value/difference assessments, common comparator and proof gaps as useful context. A matrix does not record an approval by itself.
 
 ## Output: Value Prop vs. Differentiation 2x2
 
 - Audience, outcome and common comparator
 - Candidate inventory: solution / competitor offering / workaround, ID, source, opportunity link if available
 - Axis definitions and four-quadrant map with conditional or unplaced points
-- Per-candidate value evidence, differentiation evidence and confidence
+- Per-candidate payoff and budget case; customer net-benefit scenarios/formulas with units and adoption/operating costs
+- Separate differentiation evidence, closest-rival comparison, compounding-advantage hypothesis and confidence
+- Provider recurring delivery contribution and onboarding cost/risk, or formulas and UNKNOWN inputs
 - Bake-off tradeoffs and provisional shortlist
 - Human choice and next evidence task
 - Claim ledger: statement / evidence label / source or basis / date / limitation
@@ -76,16 +90,9 @@ Biggest unanswered question:
 
 ## Required final readout
 
-Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+Finish completed drafts in every mode with **Final readout**: a copy-ready commercial verdict, about 200 words of prose, rather than another copy of the map or report. State the target/customer payoff, provisional candidate recommendation, why buy ours (or the missing reason), proposed payer/budget source, customer net benefit and provider delivery contribution with basis/limits, largest downside, renewal hypothesis and next evidence decision. A numerical what-if is useful only with visible assumptions; symbolic formulas or UNKNOWN gaps are legitimate. Human selection/decider remains not recorded until actually supplied.
 
-Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
-
-- Audience, desired outcome and shared comparator: one line each.
-- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
-- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
-- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
-
-Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+Keep the 2x2 and comparison/economics tables in the preceding artifact. Supporting sources, dates, rival evidence, cost/realization assumptions and material conflicts remain traceable. An optional handoff carries actual candidate descriptions, comparator and proof gaps before the readout; no schema or preselected winner is required. Do not make an unprofitable or unsupported proposition look investable just to fill the ending.
 
 ## Human decision gate and saving
 
@@ -129,6 +136,22 @@ Lab adaptation, not an authoritative Productside canvas. OST outputs are optiona
 | C1 | Competitor offering | | Optional | |
 | B0 | Workaround / shared baseline | | Optional | |
 
+## Customer payoff and budget case
+
+| Candidate | User / beneficiary / budget owner | Friction removed or newly possible action | Outcome → economic lever | Current spend / proposed budget source | Trigger / switching burden / renewal reason | Evidence / gap |
+|---|---|---|---|---|---|---|
+| S1 | | | | | | |
+
+## Customer and provider economics
+
+Show units, time basis, assumptions and low/base/high sensitivity where justified. Unknown inputs stay UNKNOWN or symbolic; illustrative estimates need a basis/rationale and a visible label.
+
+| Candidate / scenario | Gross outcome value and realization | Customer fee + adoption/operating costs | Customer net benefit | Provider revenue − delivery costs / onboarding impact | Biggest sensitivity / proof gap |
+|---|---|---|---|---|---|
+| | | | | | |
+
+Do not convert saved hours to cash automatically, double-count revenue/contribution/time, or mistake SOM revenue for customer savings. Provider delivery contribution excludes acquisition/fixed costs unless separately modeled.
+
 ## The 2x2
 
 | Difference versus the shared baseline | Low proposed customer value | High proposed customer value |
@@ -143,6 +166,14 @@ Unplaced or conditional candidates: [IDs and missing axis evidence]. Empty quadr
 | ID | Value assessment and evidence | Difference assessment and evidence | Confidence / limitation | Cheapest placement-changing test |
 |---|---|---|---|---|
 | | | | | |
+
+## Why ours and what compounds
+
+| Candidate | Difference vs. shared baseline | Closest rival-relative reason to choose | Asset / learning or workflow mechanism | Rival replication/substitution path | Required evidence / rights / limits |
+|---|---|---|---|---|---|
+| | | | | | |
+
+Defensibility is a separate hypothesis, not proof from a quadrant. Learning requires usable outcome/correction signals and access rights; volume and adoption alone prove neither improvement nor renewal.
 
 ## Provisional shortlist and tradeoffs
 
@@ -177,102 +208,101 @@ Include useful candidate descriptions, comparator and evidence gaps. These field
 
 ## Final readout
 
-Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
-
-- Audience, desired outcome and shared comparator: one line each.
-- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
-- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
-- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
-
-- Evidence caveat: [material limit, source reference or synthetic status]
-- Next decision: [specific recommendation; human selection/decider or not recorded]
+[Short, populated ending: target/payoff, compact candidate verdicts, why buy ours, proposed payer/budget source, customer net benefit and provider delivery contribution or UNKNOWN/formulas, reason to renew, largest risk and next decision. About 200 words of prose; do not duplicate the map. A candidate can be valuable but too costly, copied or unable to earn budget. Human selection remains not recorded until actually chosen.]
 
 # Worked example
 
-# Worked example: bake off solutions and a competitor offering
+# Worked example: would predictive intervention earn the customer's budget?
 
-SYNTHETIC teaching fixture. All offerings, evidence and placements below are fictional assumptions, not observations or market research. Status DRAFT; decider not recorded. Built from fixture F1, authored for this example; date: teaching session.
+SYNTHETIC fixture F2, authored October 4, 2026. Every candidate, rival, behavior, price and numerical input below is an illustrative assumption, not plant/customer evidence or researched pricing. Status DRAFT; human choice/decider not recorded. Different illustrative price from the Segment example; no cross-stage price selection is implied.
 
 ## Audience, outcome and common comparator
 
-Maintenance managers deciding the next investigation when equipment reports conflict. Outcome: explain the next investigation with less avoidable uncertainty. Common baseline B0: technician discussion and manual log review.
+User: maintenance manager. Beneficiary: plant operations. Proposed payer: plant leader with finance review; authority UNKNOWN. Desired outcome: reduce avoidable unplanned downtime through justified intervention before failure. Shared baseline B0: exception-triggered log review, technician conversations and reactive scheduling, an assumed practice.
 
-Horizontal value: high means plausibly improves that decision; low means little progress on this particular job. Vertical difference: high means a meaningfully different way to resolve uncertainty from B0; low means largely the same mechanism. Both are qualitative hypotheses.
+Horizontal Customer Value: low/high means insufficient/material realized progress and net payoff after adoption burden. Vertical Meaningful Differentiation: low/high means similar/materially different mechanism relevant to that outcome versus B0. This map does not prove advantage over another predictive offering or a durable moat.
 
 ## Candidate inventory
 
-| ID | Type | Description | Optional opportunity link | Basis |
-|---|---|---|---|---|
-| S1 | Proposed solution | Paper report comparison with source, recency and uncertainty | O1 understand conflicting reports | F1 fictional OST candidate |
-| S2 | Proposed solution | Digital report comparison exposing the same context | O1 | F1 fictional OST candidate |
-| S3 | Proposed solution | Investigation permission/handoff checklist | O2 reduce coordination ambiguity | F1 fictional OST candidate |
-| C1 | Fictional competitor offering | Rival Compare: linked report sources with recency context | Same decision job; no actual competitor claim | F1 fictional rival description |
-| B0 | Current workaround / baseline | Technician discussion and manual log review | Same decision job | F1 fictional practice |
+| ID | Type / opportunity | Description | Basis |
+|---|---|---|---|
+| S2 | Proposed solution / O1 early-risk ambiguity | Predictive signals with source, confidence and operational context | F2 hypothesis; optional OST candidate |
+| S3 | Proposed process / O2 timing coordination | Shift intervention huddles aligning authority and timing | F2 hypothesis; non-AI alternative |
+| S5 | Proposed process / O3 uncertain reasoning | Evidence checklist for explainable intervention choices | F2 hypothesis; non-AI alternative |
+| C1 | Fictional rival offering | Rival Predict supplies early warnings and source context | F2 invented offering, not a real company claim |
+| B0 | Shared baseline | React after an exception; logs and technician conversations | F2 assumed practice, not observed |
+
+Other supplied OST options S1/S4/S6 remain available when requested; this direct-notes example supplies only S2/S3/S5. No upstream artifact or winner is required.
+
+## Customer payoff and budget case
+
+| Candidate | Friction removed / delight hypothesis | Outcome → economic lever | Budget / trigger / switching / renewal hypothesis |
+|---|---|---|---|
+| S2 | Replace the scramble to reconcile warnings with an explainable chance to intervene early | Fewer avoidable lost productive hours → protected contribution, if work can be recovered economically | Planned-maintenance investment, proposed plant leader approval after observed prevention evidence; implementation/review and false alarms cost money. Renew only if ongoing realized benefit exceeds total cost. |
+| S3 | Stop the back-and-forth over who can authorize a workable intervention window | Earlier coordinated action → less lost capacity or overtime, if coordination actually blocks intervention | Existing supervisor/maintenance time; paying a vendor instead requires evidence the process alone cannot achieve the benefit. Recurring fee justification UNKNOWN. |
+| S5 | Stop repeated searches to explain a decision and its unresolved gaps | Better investigation choices/time released → usable capacity or lower rework, if the freed effort is redeployed | Existing operational-improvement spend, hypothesized; cheap checklist may suffice. Renewal rationale for paid software UNKNOWN. |
+
+All delight moments are proposed observations, not customer quotes. No buyer commitments, budget approvals or measured savings exist. S2's current rival-relative advantage is UNKNOWN: C1 could already supply the same mechanism.
+
+## Economics inputs: an illustrative what-if, not a forecast
+
+All entries are ESTIMATE / BEST GUESS, basis F2 authored teaching assumptions, date October 4, 2026. The downside intentionally allows the customer to lose money. The scenario varies benefit and realization, keeping costs fixed; it does not imply a probability distribution.
+
+| ID | Assumption / unit | Low | Base | High | Rationale / limit |
+|---|---|---:|---:|---:|---|
+| H1 | Avoided lost hours / site/year | 4 | 8 | 12 | Illustrative range to test; prevention unobserved |
+| H2 | Contribution per recoverable hour / USD/hour | 5000 | 5000 | 5000 | Contribution after production variable costs, not revenue; real plant ledger needed |
+| H3 | Realization fraction | 0.25 | 0.50 | 0.75 | Demand, recovery, timing and adoption may prevent theoretical benefit being realized |
+| H4 | Extra planned interventions + false-warning work / USD/site/year | 6000 | 6000 | 6000 | Incremental delivery of customer outcome, not our operating cost |
+| H5 | Product fee / USD/site/year | 6000 | 6000 | 6000 | Illustrative pricing hypothesis, not willingness to pay |
+| H6 | Customer one-time implementation / USD/site | 3000 | 3000 | 3000 | Migration/training/setup, excludes fee and recurring work |
+| H7 | Customer ongoing review / USD/site/year | 1000 | 1000 | 1000 | Additional review effort, not counted in H4 |
+| H8 | Provider inference / USD/site/year | 900 | 900 | 900 | Illustrative workload cost; actual usage UNKNOWN |
+| H9 | Provider hosting/monitoring / USD/site/year | 600 | 600 | 600 | Incremental delivery cost |
+| H10 | Provider human support/review / USD/site/year | 1800 | 1800 | 1800 | Human cost that automation does not erase |
+| H11 | Provider one-time onboarding / USD/site | 2000 | 2000 | 2000 | First-period cost in addition to recurring delivery |
+
+Realized customer contribution = H1 × H2 × H3. Customer first-year net = realized contribution − H4 − H5 − H6 − H7; recurring net omits H6. Provider recurring delivery contribution = H5 − H8 − H9 − H10; first-year delivery contribution also subtracts H11. Units are USD/site with the stated annual/first-year basis. All benefit is attributed to the proposed mechanism only as a what-if; causal proof is missing.
+
+| Scenario | Realized customer contribution/year | Customer first-year net | Customer recurring net/year | Provider recurring delivery contribution/year | Provider first-year delivery contribution |
+|---|---:|---:|---:|---:|---:|
+| Low | $5,000 | -$11,000 | -$8,000 | $2,700 | $700 |
+| Base | $20,000 | $4,000 | $7,000 | $2,700 | $700 |
+| High | $45,000 | $29,000 | $32,000 | $2,700 | $700 |
+
+Provider recurring delivery contribution is 45% of the illustrative fee, falling to about 11.7% in the first year after onboarding. This excludes acquisition, R&D, fixed overhead and taxes: not total profit or proof of margin improvement versus an alternative. Base first-year break-even requires 6.4 avoided hours at 50% realization and the assumed $5,000 contribution/hour. No discounted multi-year valuation modeled.
+
+Do not add another downtime-revenue number or saved-labor benefit for the same effect. Released hours are not automatically cash savings; H3 represents an unverified realization condition. Without credible plant inputs, use these formulas symbolically rather than borrowing F2 figures as evidence.
 
 ## The 2x2
 
-| Difference versus B0 | Low proposed value | High proposed value |
+| Difference versus B0 | Low proposed customer value | High proposed customer value |
 |---|---|---|
-| High | No supported placement | S2, C1 conditional: source-link mechanism may help |
-| Low | No supported placement | S1 conditional: useful structured comparison with modest difference |
+| High | S2 downside: distinct mechanism, negative net benefit | S2 base/high conditional; C1 if equivalent benefits/costs hold |
+| Low | No supported placement | S3 or S5 only if cheap process changes achieve the outcome |
 
-S3 is unplaced: if coordination is the actual obstacle, it could outperform the report concepts. B0 has low difference from itself by definition; value UNKNOWN. S2 and C1 sharing a conditional quadrant shows no established advantage for S2 over C1. Rival-relative superiority needs a separate comparison; this map cannot establish it.
+S2 spans value cases; the scenarios are not separate products or measured coordinates. C1 actual benefit, fee and adoption cost are UNKNOWN, so its placement is conditional. S3/S5 outcome impact is UNKNOWN, so their proposed high-value placement remains unproven. B0 difference from itself is zero; its effectiveness/value UNKNOWN. Empty quadrants are allowed. Unknown is not low.
 
-## Evidence and bake-off
+## Why ours and what could compound
 
-| ID | Proposed value | Proposed difference | Confidence / limitation | Cheapest test |
-|---|---|---|---|---|
-| S1 | May clarify conflicting reports | Modest change to existing discussion | ESTIMATE / BEST GUESS; no observed benefit | Storyboard task comparison with real practitioners |
-| S2 | May clarify conflicting reports | Linked sources may change investigation explanation | ESTIMATE / BEST GUESS; digital fidelity may add no value | Compare storyboard S1 with a low-fidelity S2 story |
-| S3 | May resolve permission delays instead | UNKNOWN relevance to this outcome | UNKNOWN root cause | Examine a recent decision for permission barriers |
-| C1 | Claimed source/recency support | Similar hypothesized mechanism to S2 | F1 fictional description, not competitor proof | In a real run inspect the specific rival offering |
-| B0 | UNKNOWN effectiveness | None against itself by definition | Fictional practice only | Observe current decision process |
+| Claim | Customer-relevant mechanism | Rival copying/substitution path | Proof gap / test |
+|---|---|---|---|
+| Current S2 difference vs. B0 | Earlier, explainable signals could change timing | C1 may already offer equivalent context; a huddle/checklist may remove the real barrier | Compare actual decision tasks and intervention feasibility; no superiority established |
+| Plant-specific context advantage | Authorized failure history and production constraints might improve relevance | Rivals could obtain similar context or customer could use existing tooling | Access/rights and incremental outcome lift UNKNOWN |
+| Learning advantage | Use → corrected warning/outcome → checked improvement → better decisions | Accepted alerts alone are not failure labels; bias or drift may erase improvement | Test feedback quality, lawful reuse, held-out performance and false-warning burden |
+| Workflow/trust advantage | Decisions fit approval routines with traceable reasons | Incumbent workflow may have stronger trust and distribution | Observe authorization/review burden and actual adoption; no trust or distribution moat claimed |
 
-## Provisional shortlist and tradeoffs
+An attractive position versus B0 does not answer why buy S2 instead of C1. Useful accumulated history could justify renewal; it is not permission to trap the customer's data. Defensibility is hypothetical until an advantage survives rival comparison and copy/substitution challenges.
 
-Recommend testing S1 and S3 before investing in S2: cheap report-uncertainty and coordination probes discriminate competing explanations. C1 challenges a uniqueness claim but provides no validated evidence. No automatic winner.
+## Provisional shortlist and next evidence
 
-## Claim ledger
+Compare S2 with S3 and S5 before choosing. Start with recent downtime/decision records to establish the recoverable contribution and bottleneck; ask the actual budget owner what they would stop funding or newly fund, under what evidence and approval conditions. Test willingness to commit to a bounded paid trial only after the value case is credible, not from a favorable demo reaction. Then compare a specific real rival's outcome, adoption burden and total cost.
 
-| Claim | Label | Basis | Date | Limitation |
-|---|---|---|---|---|
-| Source/recency context could help explain an investigation | ESTIMATE / BEST GUESS | F1 | Teaching session | No actual users or observed result |
-| Coordination could be the barrier | ESTIMATE / BEST GUESS | F1 | Teaching session | Competing hypothesis |
-| Rival Compare exposes source context | ESTIMATE / BEST GUESS | F1 fictional offering | Teaching session | Not a claim about a real company |
-
-## Human decision
-
-Recommendation: compare S1 and S3 cheaply. Selected option: not recorded. Decider: not recorded. Next task: ask the person to select a shortlist or evidence task; participant experiment NOT RUN.
-
-## Optional small handoff
-
-```text
-Target: Maintenance managers facing conflicting reports, fictional context.
-What we believe: S1 storyboard comparison and S3 coordination checklist merit cheap contrasting tests; neither selected yet.
-Evidence: No actual customer or competitor evidence; fixture F1 only.
-What is inferred: Report uncertainty or coordination may explain the difficulty; S2 has no established advantage over fictional C1.
-Desired outcome: Explain the next investigation with less avoidable uncertainty.
-Biggest unanswered question: Which obstacle dominates actual decisions?
-```
+No human choice recorded. Customer WTP, cost inputs, recurring value and provider acquisition/fixed costs remain UNKNOWN. Synthetic IIoT can challenge scenarios, not establish causal downtime prevention or real prediction accuracy.
 
 ## Final readout
 
-**Audience/outcome:** maintenance managers explaining the next investigation. **Shared comparator B0:** technician discussion/manual logs. All entries SYNTHETIC hypotheses.
-
-| Meaningful difference vs. B0 | Low customer value | High customer value |
-|---|---|---|
-| High | No supported placement | S2 digital comparison; fictional C1 rival, conditional |
-| Low | No supported placement | S1 storyboard comparison, conditional |
-
-S3 coordination checklist is unplaced; B0 value UNKNOWN, difference zero relative to itself.
-
-| Option | Value / difference | Tradeoff / evidence |
-|---|---|---|
-| S1 | Possible clarity / modest difference | Cheap probe; ESTIMATE / BEST GUESS |
-| S2 / C1 | Possible clarity / linked-source mechanism | No established S2 advantage; ESTIMATE / BEST GUESS |
-| S3 | UNKNOWN relevance / UNKNOWN difference | Could address the actual barrier |
-
-**Recommendation:** test S1 and S3 before spending on S2. Distinguish information and coordination causes. No real competitor evidence or customer validation; shortlist and decider not recorded.
+S2 could replace reactive warning-reconciliation with earlier, explainable intervention, protecting plant contribution—but “AI” is not the reason to buy. The illustrative base gives the customer $4,000 first-year net benefit ($7,000 recurring); downside loses $11,000 in year one. Our illustrative recurring delivery contribution is $2,700, before acquisition/fixed costs and with only $700 after first-year onboarding. Proposed payer/budget: plant leader funding planned-maintenance improvement; authority and willingness to pay UNKNOWN. Compare S2 with cheap S3 huddles and S5 checklist, plus the closest actual rival: no buy-ours advantage or moat is proven. Renewal needs repeated realized net value, not alerts delivered. Next decision: obtain real loss/realization/cost evidence and buyer requirements before pricing or increasing fidelity. All figures and mechanisms are SYNTHETIC what-ifs; no selection or approval recorded.
 
 # Weak example
 
@@ -289,6 +319,14 @@ Repair: accept S1/S2/S3 from the OST or plain notes without a prior winner. Name
 ## Readout failure to catch
 
 A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
+
+## Budget and economics failure
+
+Weak: “Our AI delights users, saves ten hours, and has proprietary data. Put it high/high; customers will fund it and our margins will rise.”
+
+The claim never shows what changed, whether time can be realized as capacity/cash, who pays, what they switch from, total adoption cost, the closest rival or our human/inference cost. A data asset without rights, useful feedback and outcome lift is not a moat. A delightful demo is not purchase or renewal evidence.
+
+Repair: trace changed work to an economic lever; show net customer value after fee and all incremental costs, then provider delivery contribution separately. Name a supported or provisional payer/budget source and hurdle. Compare a specific rival's total payoff; expose copying/substitution and renewal proof gaps. Use labeled downside/base/upside scenarios or symbolic formulas. Recommend revise/stop if the cheaper process wins, net value is negative or serving the customer loses money. Never invent positive savings, pricing commitments or authorization to satisfy the requested narrative.
 
 Begin this motion now using the context I provide.
 ````

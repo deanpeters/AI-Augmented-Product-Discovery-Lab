@@ -25,6 +25,10 @@ Eighteen synthetic use cases, with pass rules written before the run. They test 
 
 [Case 19: concise canvas readouts](cases/19-concise-canvas-readouts.json) checks every motion's copy-ready ending, decision-bearing content and evidence limits, including the complete MVN loop. It can be run as skill and prompt variants; behavioral status is NOT RUN.
 
+[Case 20: an actual branching OST](cases/20-ost-branching-not-feature-list.json) checks outcome-rooted diagrams, divergence, parent-linked tests, honest prioritization and portfolio continuity. Behavioral status: NOT RUN.
+
+[Case 21: customer payoff and budget](cases/21-customer-payoff-and-budget.json) checks the three motions, economic arithmetic, buyer/renewal logic and defensibility limits. [Case 22: delight with negative economics](cases/22-delight-with-negative-economics.json) tests losing customer/provider scenarios and unsupported learning rights. Both are NOT RUN behaviorally.
+
 **The corrected ten-motion chain has not been behaviorally re-run. Prior eleven-motion passes do not apply.**
 
 See [the verification record](RESULTS.md) for actual runs, failures, fixes and coverage limits.

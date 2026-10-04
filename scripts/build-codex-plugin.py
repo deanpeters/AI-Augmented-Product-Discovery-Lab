@@ -57,7 +57,7 @@ def package_files(root):
         raise ValueError('Marketplace must expose the canonical plugin root')
     paths = ['plugin.json', '.codex-plugin/plugin.json', 'LICENSE',
              'docs/catalog.json', 'docs/CHAIN.md', 'docs/SKILL-SPEC.md',
-             'docs/PROVENANCE.md', 'reference/supplied-canvases.md']
+             'docs/PROVENANCE.md', 'docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md', 'reference/supplied-canvases.md']
     canvas_names = ['README.md', 'creating-proto-personas.png',
                     'positioning-statement-competitive-matrix.png',
                     'aipm.epic-level-solution-hypothesis.pdf',

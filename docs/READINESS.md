@@ -2,18 +2,19 @@
 
 Status as of October 4, 2026, one day before the show.
 
-## What is ready
+## Attendee distribution
 
-- The ten-motion sequence, skills, prompts, examples, templates and the presenter script are aligned and pass local checks.
-- A native, editable 21-slide deck is built from `slides/build-deck.js`, with a PDF fallback. See [SHOWRUN](../SHOWRUN.md) for the slide map.
-- NotebookLM source documents exist for the presentation and for an industry case file, with project instructions for ChatGPT Projects, Gemini Gems, Copilot Agents and Notebooks. See [what we built and learned](LEARNINGS.md).
-- The industry research behind the case file is saved in `research/manufacturing-pdm/`, with raw fetches kept locally.
-- The Hall of Shame cases have checked sources and dates. See `notebook/hall-of-shame-sources.md`.
-- Original lab materials are licensed CC BY-NC-SA 4.0.
+The public repository ships **v0.1.4** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
 
-- Segment v0.4.0 requires a final SOM dollar takeaway and population / potential economics / reasoning table, with labeled pricing assumptions and revenue limits.
-- Codex and Claude `dlab` v0.1.2 kits have `.plugin` and `.zip` downloads. See [Codex setup](CODEX-PLUGIN.md) and [Claude setup](PLUGIN.md).
-- Twenty-two local regression tests pass and nineteen use-case definitions validate. Codex installation was checked in an isolated temporary CLI configuration; desktop discovery and the revised skills’ behavior still need rehearsal.
+- Ten canonical skills with matching self-contained prompts, templates and worked/weak examples; the chain and standalone modes are preserved.
+- Segment's final commercial table; actual OST branching diagrams; customer-payoff, budget/renewal and two-sided economics in OST, value/differentiation and positioning.
+- [Customer-value documentation](CUSTOMER-VALUE-AND-DIFFERENTIATION.md), included in both kits.
+- Twenty-five local regression tests pass; twenty-two behavioral-case definitions validate. Prompt parity, local links, example arithmetic and both archive contents pass.
+- Supplied Productside canvases and repository/Mural QR assets are distributed with Dean's confirmed sharing permission. Original lab materials retain CC BY-NC-SA 4.0.
+
+## Presenter materials
+
+The [SHOWRUN](../SHOWRUN.md), [kickoff companion](../examples/kickoff-prompts.md) and [rehearsal guide](REHEARSAL.md) support the show. Deck/case-study production is separate from this skill/prompt release; its local edits are not certified or included by this release's validation checks. No autonomous discovery operator or production prototype is bundled.
 
 ## Verification boundaries
 
@@ -21,7 +22,7 @@ Local checks validate metadata, bundled assets, catalog order, prompt parity, lo
 
 **The corrected chain has not been behaviorally re-run.** Former eleven-motion receipts do not validate the new skills. See [results](../evals/RESULTS.md). Optional model tests use cloud inference through Claude; the local check does not.
 
-The deck was rendered and checked in LibreOffice. It was opened in PowerPoint and passed schema validation, but its slides were not viewed in PowerPoint.
+The earlier committed deck has a rendering/schema-check record; that is not certification of separate local deck edits or a completed show rehearsal.
 
 ## Before Monday
 
@@ -32,6 +33,6 @@ The deck was rendered and checked in LibreOffice. It was opened in PowerPoint an
 5. Mark absent renderings, builds and participant experiments NOT RENDERED, NOT BUILT and NOT RUN. Prototypes built in advance are implementation evidence only.
 6. Test the project instructions once in each tool: a case question, a request for a refused statistic, and a request to write a persona quote. It should answer the first and refuse the other two.
 
-## Before an attendee release
+## Release record
 
-Inspect repository visibility and history. Confirm Productside's permission covers redistributing its canvases, logos and the branding guide. No autonomous discovery operator, renderer or prototype build is bundled.
+Repository visibility is PUBLIC. Productside reference sharing permission was confirmed by Dean in this session. Packaging excludes private research/source archives and rehearsal transcripts. The attendee kit is available independently of presenter deck changes. Local checks establish mechanical consistency, not successful model behavior or a completed rehearsal.

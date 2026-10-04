@@ -30,23 +30,35 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Customer payoff and budget test
+
+Trace **capability → changed work/decision → customer outcome → economic lever → budget choice**. AI is an ingredient, not the benefit. Name the person using it, the beneficiary and the budget owner separately. Reuse supplied context; when missing, offer a labeled hypothesis in Best guess/Context dump rather than inventing research or blocking on another artifact.
+
+- **What's in it for the customer?** Identify revenue/contribution, margin, spend, capacity/time, risk or newly affordable capability. State what frustrating work disappears or what valuable action becomes possible, and where the person experiences it. A delightful moment is observable relief/progress, not UI polish or an invented customer quote.
+- **Why would they move budget?** Name the current alternative and funded activity, proposed payer/budget line, purchase or switching trigger, adoption/migration/retraining cost, and the hurdle that would justify switching. Willingness to pay and authority remain UNKNOWN unless supported. Continued use needs recurring realized value, not a one-time demo reaction; state why they would renew and what could make them stop.
+- **Do both sides win?** Estimate customer net benefit after fee, extra work, planned interventions/false positives, implementation and ongoing review. Keep time released distinct from realized cash saving or usable capacity. Avoid counting protected revenue, contribution, labor savings and risk reduction twice for the same effect. Show quantities × unit value and the realization assumption. With no numerical basis, use a symbolic formula and explicit gaps; grounded or clearly illustrative low/base/high what-ifs are allowed, never fabricated measured savings.
+- **Can we afford to serve them?** Separate price/revenue from inference, hosting, human review, support, onboarding, integrations and other delivery costs. Show recurring delivery contribution and first-period onboarding impact; do not label these total profit. Acquisition, fixed costs, retained value and renewals need their own evidence. Customer surplus is not provider revenue; SOM revenue potential is not customer ROI.
+- **Why ours, and why hard to copy?** Compare specific offerings for the same job. Test context/data access and rights, workflow fit, trust, learning signals/feedback quality, experience, distribution, switching value and delivery economics only where relevant. Distinguish a current customer-relevant difference from a future compounding advantage. For each claimed advantage name the asset/loop, how it improves the outcome, what a rival could copy or substitute, and missing proof. Shared models, more data, workflow lock-in and a high/high point do not establish a moat. Ethical switching value comes from accumulated useful context/history, not trapping customer data.
+
+Do not manufacture positive economics or insist every concept improves every lever. A useful product may fail the budget, competitive or provider-cost test; recommend revise, investigate or stop when it does. The user's desired delightful, differentiated and margin-enhancing outcome is a hypothesis to test, not permission to assert it.
+
 ## Guided questions
 
 1. Which persona and need does this statement serve?
 2. Which concept and category have been selected?
-3. What proposed benefit matters in this situation?
-4. Unlike which alternative, and what is meaningfully different?
-5. What reason to believe is actually supported?
+3. What customer payoff is worth funding in this situation?
+4. Why would the buyer choose us over their alternative?
+5. What evidence supports buying and continuing to pay?
 
 Reuse supplied answers, including a concrete actor, current condition and desired outcome. Unknown measurements do not justify re-asking those questions. Ask a narrower follow-up only when ambiguity would change the decision.
 
 ## Numbered work
 
-1. Reuse the persona, selected opportunity and concept. Preserve the distinction between user, buyer and beneficiary.
-2. Use the supplied canvas clauses: For [target customer], Who [statement of opportunity], The [product name], Is a [product category], That [key benefit], Unlike [primary competitive alternative], Our product gives [primary differentiation]. State benefits the persona cares about, not a feature list. The primary alternative can be direct, indirect or the current workaround; use the one the persona would most likely compare. Reuse an optional matrix or direct notes without requiring one. Use provisional category language when needed.
-3. Test each clause against the supplied evidence. Avoid unsupported superlatives, measured savings and customer quotes. Keep an unsupported reason to believe explicitly UNKNOWN.
+1. Reuse the persona, selected opportunity and concept. Preserve user, buyer and beneficiary roles. Express the value proposition before wordsmithing: for this situation, we remove [painful work] or enable [new capability], improving [customer outcome/economic lever] through [mechanism], versus [alternative]. Identify payer, existing spend/budget source and purchase trigger as supported or provisional.
+2. Use the supplied canvas clauses: For [target customer], Who [statement of opportunity], The [product name], Is a [product category], That [key benefit], Unlike [primary competitive alternative], Our product gives [primary differentiation]. Make That describe a customer payoff, not an AI capability. Make Our product gives explain a relevant mechanism for choosing this concept over the named alternative, not unsupported uniqueness. Keep delight in the workflow and net economics in the supporting value case, not stuffed into marketing clauses. The primary alternative can be direct, indirect or the current workaround; use the one the persona would most likely compare. Reuse an optional matrix or direct notes without requiring one. Use provisional category language when needed.
+3. Include a compact budget case: proposed payer/budget source, net customer value after total adoption/operating cost, provider delivery-cost implication, renewal reason and the purchase/competitive proof needed. Reuse earlier value evidence when available; direct notes or honest symbolic formulas suffice. A positive scenario is not validated willingness to pay or rival superiority. Test each clause against the supplied evidence. Avoid unsupported superlatives, measured savings and customer quotes. Keep an unsupported reason to believe explicitly UNKNOWN.
 4. Offer meaningful wording or boundary alternatives without inventing a new concept. Recommend a statement and wait for a human choice.
-5. Pass the actual selected statement, persona, concept, proposed benefit, alternative and proof gaps into Solution Hypothesis.
+5. Offer the actual selected statement, persona, concept, customer payoff, budget and renewal hypotheses, alternative, proposed advantage and proof gaps as optional context for Solution Hypothesis. Include a test that could overturn the commercial proposition; never silently invoke another motion.
 
 ## Output: Positioning Statement
 
@@ -54,6 +66,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Concept and category
 - Statement
 - Alternative and proposed difference
+- Budget case: payer, displaced/funded activity, net customer benefit and provider economics, renewal hypothesis and proof gaps
 - Reason to believe
 - Claim check and revision
 - Statement choice
@@ -79,6 +92,7 @@ Default to a concise artifact plus this ending. Treat the template as a content 
 
 - Audience, need/opportunity and primary alternative: one short line each.
 - The complete seven-clause statement: For / Who / The / Is a / That / Unlike / Our product gives. Prefer one sentence per clause, without a second rewritten statement repeating the same content.
+- Customer payoff/economic lever, why buy ours, proposed payer/budget source, net-value/delivery-economics limits and reason to renew: one compact commercial paragraph.
 - Reason to believe or proof gap, biggest unsupported benefit/difference, and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
 
 Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
@@ -117,6 +131,10 @@ Text adaptation aligned with the supplied Productside Competitive Matrix / Posit
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
 
+## Customer value proposition
+
+[For this person/situation, what frustrating work disappears or useful action becomes affordable? Connect changed work → customer outcome → economic lever. Describe the observable delight moment without inventing a customer quote.]
+
 ## Statement
 
 - **For:** [Target customer.]
@@ -132,6 +150,19 @@ Keep benefits distinct from features. Unsupported superiority remains unproven. 
 ## Alternative and proposed difference
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+
+## Budget and renewal case
+
+- User / beneficiary / proposed payer:
+- Existing funded activity / proposed budget source and purchase trigger:
+- Customer net benefit after fee, adoption and ongoing operating cost (scenario or symbolic formula):
+- Provider delivery contribution / onboarding or service-cost risk:
+- Why buy ours instead of the closest specific alternative:
+- Current difference vs. future compounding advantage / imitation risk:
+- Why continue paying / renewal evidence needed:
+- Commercial claim that could fail / cheapest discriminating test:
+
+Do not invent observed savings, authority or willingness to pay. Keep recurring delivery contribution separate from total profit and customer value separate from our revenue.
 
 ## Reason to believe
 
@@ -178,89 +209,75 @@ Fill these fields with the actual result, not instructions to consult the report
 
 - Audience, need/opportunity and primary alternative: one short line each.
 - The complete seven-clause statement: For / Who / The / Is a / That / Unlike / Our product gives. Prefer one sentence per clause, without a second rewritten statement repeating the same content.
-- Reason to believe or proof gap, biggest unsupported benefit/difference, and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
+- Customer payoff, why buy ours, proposed payer/budget source, net-value and provider-economics limits, renewal reason and decisive proof gap: one short commercial paragraph.
+- Reason to believe or proof gap and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
 
 - Evidence caveat: [material limit, source reference or synthetic status]
 - Next decision: [specific recommendation; human selection/decider or not recorded]
 
 # Worked example
 
-# Positioning Statement
+# Positioning: a payoff worth funding, not an AI feature list
 
-Lab adaptation, not an authoritative Productside canvas.
+SYNTHETIC F2 adaptation, October 4, 2026. Status DRAFT; human selection/decider not recorded. Inputs are illustrative hypotheses, not customer evidence. This standalone example reuses the worked 2x2's assumptions for consistency, not as a required upstream artifact.
 
-- Date: 2026-10-02
-- Built from: authored fictional manufacturing fixture
-- Status: DRAFT
-- Decider: not recorded
-- Synthetic status: SYNTHETIC; no observed customer or plant evidence
+## Target, need and customer value proposition
 
-## Target and need
+User: maintenance manager; beneficiary: plant operations; proposed payer: plant leader with finance review. Situation: warning signals arrive but an intervention must be justified and fit production constraints.
 
-SYNTHETIC maintenance managers who need to explain the next investigation when reports conflict.
+Value proposition: replace the scramble to reconcile warnings with an explainable chance to intervene before an avoidable outage. The customer payoff would be less lost productive time and protected contribution after intervention, review, implementation and product costs. Proposed delight moment: the manager can explain and coordinate an earlier action without repeated searches; not an observed quote or proof of avoided failure.
 
 ## Concept and category
 
-Provisional report-comparison process; category is a working description.
+S2 Early Intervention Context, a working name; category: maintenance decision support. O1 ambiguity is the hypothesized opportunity, but O2 authority/timing could be the real barrier.
 
 ## Statement
 
-All clauses are SYNTHETIC teaching hypotheses:
-- **For:** maintenance managers in mid-sized manufacturing plants.
-- **Who:** need to explain an investigation choice when reports conflict.
-- **The:** Report Comparison Aid, a provisional teaching name.
-- **Is a:** source-context comparison aid, a provisional category.
-- **That:** may support an explainable next action with uncertainty visible.
-- **Unlike:** technician discussion and manual log review, an assumed workaround.
-- **Our product gives:** explicit side-by-side source, timing and uncertainty context; meaningful difference and benefit are untested.
+All clauses describe the intended, unvalidated proposition:
+
+- **For:** maintenance managers coordinating maintenance and production in mid-sized plants.
+- **Who:** need to justify intervention before an emerging risk becomes an avoidable outage.
+- **The:** Early Intervention Context (working name).
+- **Is a:** maintenance decision-support aid.
+- **That:** aims to protect productive time and contribution while removing the scramble to reconcile warnings.
+- **Unlike:** exception-triggered manual log review and reactive scheduling (assumed B0 baseline).
+- **Our product gives:** earlier signal context, visible uncertainty and production constraints together for a human intervention choice (proposed mechanism, not demonstrated superiority).
 
 ## Alternative and proposed difference
 
-Log review and technician discussion; whether the proposed difference is already available is UNKNOWN.
+B0 is the common baseline. Fictional C1 Rival Predict may supply similar predictive/source context; advantage over a real closest rival is UNKNOWN. Do not turn the baseline difference into “only we can.” If coordination is the actual barrier, S3 shift huddles or S5 evidence checklist may be sufficient and cheaper.
 
-## Reason to believe
+## Budget and renewal case
 
-UNKNOWN. No customer observations or independent performance evidence.
+- Proposed budget: plant leader's planned-maintenance improvement investment. Existing reactive response/overtime spend might be relevant, but protected contribution does not itself free a transferable budget line. Authority and buyer priorities UNKNOWN.
+- F2 base illustrative scenario: 8 avoided hours/year × $5,000 contribution/hour × 50% realization = $20,000 realized customer contribution/year. Deduct $6,000 interventions/false warnings + $6,000 fee + $3,000 first-year implementation + $1,000 annual review → $4,000 first-year net, $7,000 recurring net. These are assumptions, not a positioning promise or WTP proof.
+- Downside: 4 hours × $5,000 × 25% realization gives $5,000 benefit and -$11,000 first-year net. The proposition can fail commercially despite a delightful demo.
+- Provider: $6,000 fee − $900 inference − $600 hosting/monitoring − $1,800 support = $2,700 recurring delivery contribution; minus $2,000 onboarding → $700 first-year contribution. Acquisition/fixed costs not modeled; total profitability UNKNOWN.
+- Why renew: repeated realized net benefit and useful accumulated decision context, if proven. More alerts or accepted suggestions do not establish renewal. Context rights, feedback quality and outcome lift needed before claiming a compounding advantage.
 
-## Claim check and revision
+## Reason to believe and claim check
 
-Benefit and differentiation remain hypotheses. Remove any claim of reduced downtime or superiority.
+UNKNOWN: no independent prediction results, buyer commitments, observed avoided downtime or competitor comparison. Do not publish illustrative dollar results as measured savings. Need actual recoverable contribution, adoption/intervention cost, feasible decision changes and budget-owner purchase conditions. Separate current mechanism from hypothetical future context/learning advantage.
 
-## Statement choice
+## Commercial falsifier and next decision
 
-DRAFT wording; no human selection recorded.
+If managers already understand warnings but cannot secure a feasible intervention window, revise the information proposition toward coordination. If the customer cannot realize net benefit after total costs, revise price/cost/mechanism or stop. If the closest rival delivers the same payoff more credibly, revise the buy-ours claim. Recommend a bounded evidence task, not approval to build; human choice not recorded.
 
-## Claim ledger
+## Optional context for Solution Hypothesis
 
-| Claim | Evidence label | Source or basis | Date | Limitation |
-|---|---|---|---|---|
-| The proposed decision aid may clarify an investigation choice; the statement is untested. | ESTIMATE / BEST GUESS | Authored fictional fixture | 2026-10-02 | Not observed or validated |
-| Commercial value and operational benefit | UNKNOWN | No evidence supplied | 2026-10-02 | No measured baseline, pricing or experiment results |
-
-## Human decision
-
-Recommendation: review this illustrative artifact, then choose revise, gather evidence, approve a bounded next motion or stop. Selected option and decider: not recorded. No approval inferred.
-
-## Small handoff
-
-Target: maintenance managers in mid-sized manufacturing plants; SYNTHETIC provisional target.
-What we believe: The proposed decision aid may clarify an investigation choice; the statement is untested. (ESTIMATE / BEST GUESS).
-Evidence: none; fictional fixture only.
-What is inferred: a possible discovery direction, not validated demand.
-Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
-Biggest unanswered question: Does the claimed difference exist and matter to this persona?
+Carry the actual statement, target, S2 mechanism, B0 and rival distinction, customer/provider cost assumptions and falsifiers. A hypothesis should test whether earlier context changes feasible intervention and net value—not merely whether people like the display. Standalone notes work without this artifact.
 
 ## Final readout
 
-- **For:** maintenance managers in mid-sized manufacturing plants.
-- **Who:** need to explain the next investigation when reports conflict.
-- **The:** Report Comparison Aid (working name).
-- **Is a:** source-context comparison aid (working category).
-- **That:** may support an explainable next action with uncertainty visible.
-- **Unlike:** technician discussion and manual log review (assumed alternative).
-- **Our product gives:** explicit source, timing and uncertainty context (untested difference).
+- **For:** maintenance managers coordinating with production.
+- **Who:** need to justify intervention before an avoidable outage.
+- **The:** Early Intervention Context.
+- **Is a:** maintenance decision-support aid.
+- **That:** aims to protect productive time/contribution and remove warning-reconciliation work.
+- **Unlike:** reactive log review/scheduling.
+- **Our product gives:** earlier signal context, uncertainty and production constraints for a human choice.
 
-**Reason to believe:** UNKNOWN. This is SYNTHETIC provisional positioning, not validated advantage. **Next decision:** review whether the difference exists and matters before approving the wording; no human selection recorded.
+Commercial case is unproven: proposed plant-leader improvement budget; illustrative $4,000 customer first-year net versus -$11,000 downside, $2,700 provider recurring delivery contribution before acquisition/fixed costs. No rival-relative advantage or WTP established. Renewal requires repeated net benefit and useful retained context. Next: test feasible intervention, actual costs and buyer conditions; revise or stop if the payoff fails. All claims SYNTHETIC/provisional; selection not recorded.
 
 # Weak example
 
@@ -283,6 +300,14 @@ Use the [worked example](#worked-example) to inspect the repaired structure. The
 ## Readout failure to catch
 
 A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
+
+## Budget and economics failure
+
+Weak: “Our AI delights users, saves ten hours, and has proprietary data. Put it high/high; customers will fund it and our margins will rise.”
+
+The claim never shows what changed, whether time can be realized as capacity/cash, who pays, what they switch from, total adoption cost, the closest rival or our human/inference cost. A data asset without rights, useful feedback and outcome lift is not a moat. A delightful demo is not purchase or renewal evidence.
+
+Repair: trace changed work to an economic lever; show net customer value after fee and all incremental costs, then provider delivery contribution separately. Name a supported or provisional payer/budget source and hurdle. Compare a specific rival's total payoff; expose copying/substitution and renewal proof gaps. Use labeled downside/base/upside scenarios or symbolic formulas. Recommend revise/stop if the cheaper process wins, net value is negative or serving the customer loses money. Never invent positive savings, pricing commitments or authorization to satisfy the requested narrative.
 
 Begin this motion now using the context I provide.
 ````

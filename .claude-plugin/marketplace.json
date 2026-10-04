@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Discovery skills for Product Managers, founders and product teams: learn faster, decide better, then build.",
-    "version": "0.1.2"
+    "version": "0.1.4"
   },
   "plugins": [
     {
       "name": "dlab",
       "source": ".",
       "description": "Ten evidence-aware discovery motions with a human decision at every gate. Each skill labels what is actual data, inferred, estimated or unknown, and stops before anything gets built.",
-      "version": "0.1.2",
+      "version": "0.1.4",
       "author": {
         "name": "Dean Peters"
       },

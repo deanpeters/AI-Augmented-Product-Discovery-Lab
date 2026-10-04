@@ -11,7 +11,7 @@ claude plugin marketplace add ./
 claude plugin install dlab@ai-augmented-discovery-lab
 ```
 
-From GitHub, once you have access to the repository:
+From the public GitHub repository:
 
 ```bash
 claude plugin marketplace add deanpeters/AI-Augmented-Product-Discovery-Lab
@@ -22,13 +22,17 @@ Restart any running Claude Code session so it sees the new skills.
 
 ### Upload through Customize
 
-Claude's plugin upload accepts only a `.zip` or `.plugin` file whose root holds `.claude-plugin/plugin.json`. A zip of the whole repository will not work, because GitHub nests everything inside a folder. Build the right archive:
+Claude's plugin upload accepts only a `.zip` or `.plugin` file whose root holds `.claude-plugin/plugin.json`. Use the ready-made client bundle below. GitHub's **Download ZIP** for the entire repository nests the contents inside a folder and is not the plugin upload bundle.
+
+Maintainers can rebuild the bundle from a local clone:
 
 ```bash
 python3 scripts/package-plugin.py
 ```
 
-Upload the [dlab-claude-0.1.2.plugin bundle](../dist/dlab-claude-0.1.2.plugin) or the identical [dlab-claude-0.1.2.zip bundle](../dist/dlab-claude-0.1.2.zip). It contains the manifest, the ten skills with their templates and examples, the reference notes, the license and a README.
+Upload the [dlab-claude-0.1.4.plugin bundle](../dist/dlab-claude-0.1.4.plugin) or the identical [dlab-claude-0.1.4.zip bundle](../dist/dlab-claude-0.1.4.zip). It contains the manifest, the ten skills with their templates and examples, all ten prompt equivalents, customer-value guidance, optional supplied canvas references, the license and a README.
+
+If an older installed skill is still appearing, update the plugin through your client's plugin manager and open a new session. Current kit: **v0.1.4**; OST, value/differentiation and positioning skill metadata: **v0.4.0**. The [attendee guide](ATTENDEE-GUIDE.md) provides direct downloads and a prompt-upload fallback.
 
 ## What you get
 

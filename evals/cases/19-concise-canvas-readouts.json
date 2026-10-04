@@ -79,7 +79,7 @@
     },
     {
       "id": "tree-readout",
-      "rule": "OST ending preserves outcome and ID-linked opportunities, solution options and experiments/disconfirmation, with a next comparison/test recommendation. Opportunities are needs, not disguised solutions; no automatic winner."
+      "rule": "OST provides an actual populated branching diagram with equivalent ASCII fallback: outcome \u2192 opportunities \u2192 competing solutions \u2192 assumption-test leaves. Relationship tables alone fail. Short ending references recommended branches/candidate IDs, rationale and next decision without repeating the tree. Opportunities are needs; no automatic winner."
     },
     {
       "id": "bakeoff-readout",

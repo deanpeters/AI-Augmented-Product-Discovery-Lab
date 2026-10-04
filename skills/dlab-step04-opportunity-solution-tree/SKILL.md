@@ -3,7 +3,7 @@ name: dlab-step04-opportunity-solution-tree
 description: "Structure a persona outcome into opportunities, solution candidates and experiments. Use to explore needs before selecting a provisional solution concept."
 metadata:
   author: "Dean Peters"
-  version: "0.2.1"
+  version: "0.4.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "4"
@@ -19,7 +19,7 @@ metadata:
   group-size: "1-8; planning guidance"
   depends-on: "none; standalone entry supported"
   combine-with: "dlab-step05-value-prop-differentiation"
-  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns"
+  source-basis: "Dean Peters' product-manager-skills opportunity-solution-tree and product-manager-prompts opportunity-solution-tree-workshop; Teresa Torres OST; corrected lab chain and guided capture patterns; Dean Peters' Thoughts on AI Value Proposition and Differentiation (supplied October 4, 2026)"
   template: "template.md"
   worked-example: "examples/worked-example.md"
   weak-example: "examples/weak-example.md"
@@ -57,6 +57,18 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Customer payoff and budget test
+
+Trace **capability → changed work/decision → customer outcome → economic lever → budget choice**. AI is an ingredient, not the benefit. Name the person using it, the beneficiary and the budget owner separately. Reuse supplied context; when missing, offer a labeled hypothesis in Best guess/Context dump rather than inventing research or blocking on another artifact.
+
+- **What's in it for the customer?** Identify revenue/contribution, margin, spend, capacity/time, risk or newly affordable capability. State what frustrating work disappears or what valuable action becomes possible, and where the person experiences it. A delightful moment is observable relief/progress, not UI polish or an invented customer quote.
+- **Why would they move budget?** Name the current alternative and funded activity, proposed payer/budget line, purchase or switching trigger, adoption/migration/retraining cost, and the hurdle that would justify switching. Willingness to pay and authority remain UNKNOWN unless supported. Continued use needs recurring realized value, not a one-time demo reaction; state why they would renew and what could make them stop.
+- **Do both sides win?** Estimate customer net benefit after fee, extra work, planned interventions/false positives, implementation and ongoing review. Keep time released distinct from realized cash saving or usable capacity. Avoid counting protected revenue, contribution, labor savings and risk reduction twice for the same effect. Show quantities × unit value and the realization assumption. With no numerical basis, use a symbolic formula and explicit gaps; grounded or clearly illustrative low/base/high what-ifs are allowed, never fabricated measured savings.
+- **Can we afford to serve them?** Separate price/revenue from inference, hosting, human review, support, onboarding, integrations and other delivery costs. Show recurring delivery contribution and first-period onboarding impact; do not label these total profit. Acquisition, fixed costs, retained value and renewals need their own evidence. Customer surplus is not provider revenue; SOM revenue potential is not customer ROI.
+- **Why ours, and why hard to copy?** Compare specific offerings for the same job. Test context/data access and rights, workflow fit, trust, learning signals/feedback quality, experience, distribution, switching value and delivery economics only where relevant. Distinguish a current customer-relevant difference from a future compounding advantage. For each claimed advantage name the asset/loop, how it improves the outcome, what a rival could copy or substitute, and missing proof. Shared models, more data, workflow lock-in and a high/high point do not establish a moat. Ethical switching value comes from accumulated useful context/history, not trapping customer data.
+
+Do not manufacture positive economics or insist every concept improves every lever. A useful product may fail the budget, competitive or provider-cost test; recommend revise, investigate or stop when it does. The user's desired delightful, differentiated and margin-enhancing outcome is a hypothesis to test, not permission to assert it.
+
 ## Guided questions
 
 1. What outcome should this tree improve for the persona?
@@ -69,46 +81,33 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 ## Numbered work
 
-1. Anchor one observable outcome and the persona context. Do not use shipping a dashboard as the outcome.
-2. Group a few opportunities as unmet needs, pains or obstacles. Distinguish report uncertainty from authority or scheduling barriers; retain competing explanations rather than declaring a root cause.
-3. Offer a small set of solution candidates under the opportunities, including a process or non-AI alternative. Keep solution nouns out of opportunity labels.
-4. Attach assumptions, cheap experiments and expected versus disconfirming observations to candidates. Economic value for the customer and business may inform prioritization but remains unmeasured unless sourced.
-5. Recommend a portfolio to compare or test without selecting a winner. Offer candidate IDs, descriptions, opportunity links, experiment ideas and uncertainty as optional context for a 2x2 bake-off. The person can compare several branches, revise, gather evidence or stop. Approval to compare is not concept selection.
+1. Preserve the incoming stakeholder request, then extract one observable outcome for the persona. A dashboard request is a candidate solution, not the root. Show how the underlying desired progress differs from the requested output; baseline/target remain UNKNOWN if absent.
+2. Connect each opportunity to customer progress and an economic lever before considering solutions: what painful work or lost value does it address, for whom, and through what mechanism? Distinguish hypotheses from observed customer needs. Diverge on customer problems before solutions. Normally explore three opportunity branches, with two or three genuinely different solutions per opportunity. Use fewer if evidence/context is thin and explain why; do not manufacture needs to fill the tree. Broader opportunities may have sub-opportunities when the supplied context warrants them. Retain competing explanations and supplied branches; distinguish information, authority and scheduling obstacles.
+3. Draw the actual hierarchy with stable IDs: Y0 outcome → O1/O2/... opportunities → S1/S2/... solution candidates → E1/E2/... assumption tests. Use globally unique IDs and explicit parent links. A nested outline is the minimum fallback; separate lists or a relationship table alone are not an OST. A solution that spans needs may have explicit cross-links, but give it one primary parent and do not count copies as different ideas.
+4. For each serious candidate, identify the riskiest assumption, a tiny test, an observable signal and what would disconfirm the mechanism. Tests are leaves attached to the solutions they examine. Shared tests must name all covered IDs. Every retained candidate gets a test idea or an explicit UNKNOWN test gap; a gap is a research task, not permission to build. Prefer at least one process/non-AI alternative; do not diverge by renaming the same dashboard.
+5. Include a compact customer-payoff bridge per branch: pain/desired progress → operational change → economic lever → measurable evidence needed. For serious candidates sketch why a budget owner might pay, adoption cost and provider delivery-cost risk; do not force pricing or a winner before the bake-off. Explain which opportunity deserves attention and why using expected outcome contribution, evidence strength, test cost/access and feasibility. Keep unknowns unknown; do not fabricate numeric scores or treat a scoring total as a decision. Recommend a portfolio for the next 2x2 bake-off, or an optional first discriminating test. No mandatory POC winner. Include the strongest counterargument and what new evidence would change the focus.
 
 ## Output: Opportunity Solution Tree
 
-- Outcome and persona
-- Opportunities
-- Solution candidates
-- Experiments and disconfirmation
-- Value and feasibility assumptions
-- Branch choice
-- Next handoff
-- Claim ledger: statement / evidence label / source or basis / date / limitation
-- Decision record: draft or human-selected choice / reason / decider / unresolved disagreement
+The tree is the primary artifact. Provide **one branching Mermaid flowchart** (normally `flowchart LR`) plus an equivalent **plain-text ASCII tree** for chats/canvases without Mermaid rendering. Do not call a flat list, standalone table or unexplained set of boxes a tree. Keep node labels sticky-note sized, usually 4–8 words, and put evidence detail outside the diagram. Choose layout for readability; no diagram tool, repository access or external rendering is required to draft the fenced text.
 
-Offer a small context summary when useful. Include relevant candidate descriptions, evidence and uncertainty; preserve supplied story content when continuity matters. The summary is optional context, not an entry requirement for another motion. Do not imply selection or approval that has not occurred.
+Use this structure:
 
-```text
-Target:
-What we believe:
-Evidence:
-What is inferred:
-Desired outcome:
-Biggest unanswered question:
-```
+- Incoming request, persona and observable outcome; metric/baseline/target where supported, otherwise UNKNOWN.
+- Tree: one outcome root, problem branches, competing solutions beneath each and test leaves. Every node must be connected to the root. Mark hypotheses and unsupported gaps visibly with a short legend.
+- Compact supporting register: ID / parent / description / evidence label and source or basis. Preserve dates, URLs, conflicts and limitations for actual sources. User-reported and synthetic material is not independent customer evidence.
+- Test cards: test ID / solution IDs / risky assumption / smallest test / observable signal / disconfirmation. Criteria and thresholds are proposed unless grounded; actual status stays NOT RUN until executed.
+- Customer-payoff bridge: branch ID / removed friction or newly possible action / economic lever / realization condition / proof gap.
+- Branch comparison and recommended portfolio: expected outcome contribution, evidence strength, cost/access/feasibility limits, tradeoff, counterargument and what would change the recommendation. If scores are requested, explain each assumed score and its limits.
+- Human decision: recommendation versus actual selection, decider or not recorded. Do not auto-run the next motion.
+
+Use the actual template and filled worked example below. They are lab adaptations informed by Dean's Product Manager skill/prompt libraries, not reproductions of authoritative canvas artwork.
 
 ## Required final readout
 
-Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+End with **Final readout**: one short paragraph stating the target/outcome, recommended focus or portfolio, why it merits attention, biggest evidence gap and next human decision. Include the customer payoff and economic lever; if no budget rationale is credible, say so rather than promoting a dashboard. Include IDs and short candidate descriptions so the reader can find the branches. Aim for roughly 100–150 words; do not repeat the full tree or supporting tables in the ending.
 
-Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
-
-- Persona and desired outcome: one line.
-- A compact linked tree/table: Opportunity ID and need → Solution ID and option → Experiment and disconfirming observation. Normally show up to three opportunities and two options per opportunity; use fewer when context is thin. Keep supplied candidates available for a requested portfolio bake-off; do not silently discard them to meet a size target.
-- Next step: the branch/options recommended for comparison or testing, the tradeoff and the assumption most likely to change the choice. No automatic winner or human approval.
-
-Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+The preceding Mermaid/ASCII tree is required content and is not limited by the prose budget. If a handoff is useful, carry selected candidate IDs, descriptions, parent opportunities, test ideas and uncertainty before the readout. Missing upstream files or a preselected winner must not block a standalone draft or a multi-candidate bake-off.
 
 ## Human decision gate and saving
 

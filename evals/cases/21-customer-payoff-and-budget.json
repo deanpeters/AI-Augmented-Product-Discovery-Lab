@@ -1,0 +1,48 @@
+{
+  "id": "21-customer-payoff-and-budget",
+  "title": "Customer payoff, budget choice and provider economics survive across OST, 2x2 and positioning",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step04-opportunity-solution-tree",
+      "invocation": "Mode: Context dump. SYNTHETIC fixture. No browsing, external actions, rendering, building or paid model calls authorized by this case. A HiPPO requests an AI maintenance dashboard for mid-sized manufacturing sites. Maintenance manager uses it; plant operations benefits; plant leader with finance review is a proposed budget owner, authority UNKNOWN. Desired outcome is justified intervention before failure and less avoidable lost productive capacity. Hypothesized barriers: conflicting warnings, intervention timing approval, explaining uncertainty. Options: S2 early predictive context, S3 shift huddles (non-AI), S5 evidence checklist (non-AI). Common B0 is reactive log review and technician discussion. Fictional C1 Rival Predict offers the same warning/source-context features; no real competitor proof. Delight hypothesis: remove the scramble to reconcile warnings, not UI polish. No budget commitment or willingness-to-pay evidence. Do not invent positive economics, defensibility or demand. Illustrative what-if for S2 only, USD/site/year: avoided lost hours low/base/high 4/8/12; contribution per recoverable hour 5000, not revenue; realization fractions .25/.50/.75. Annual extra planned interventions and false-warning work 6000, annual product fee 6000, customer one-time implementation 3000, ongoing review 1000. Provider annual inference 900, hosting/monitoring 600, support/review 1800, one-time onboarding 2000; acquisition/R&D/fixed costs not modeled. Keep the budget source hypothesis separate from protected contribution; it does not automatically free cash. Show the payoff and budget case and tell me whether we should keep investigating. Standalone notes are enough; stop at human decision.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step05-value-prop-differentiation",
+      "invocation": "Mode: Context dump. SYNTHETIC fixture. No browsing, external actions, rendering, building or paid model calls authorized by this case. A HiPPO requests an AI maintenance dashboard for mid-sized manufacturing sites. Maintenance manager uses it; plant operations benefits; plant leader with finance review is a proposed budget owner, authority UNKNOWN. Desired outcome is justified intervention before failure and less avoidable lost productive capacity. Hypothesized barriers: conflicting warnings, intervention timing approval, explaining uncertainty. Options: S2 early predictive context, S3 shift huddles (non-AI), S5 evidence checklist (non-AI). Common B0 is reactive log review and technician discussion. Fictional C1 Rival Predict offers the same warning/source-context features; no real competitor proof. Delight hypothesis: remove the scramble to reconcile warnings, not UI polish. No budget commitment or willingness-to-pay evidence. Do not invent positive economics, defensibility or demand. Illustrative what-if for S2 only, USD/site/year: avoided lost hours low/base/high 4/8/12; contribution per recoverable hour 5000, not revenue; realization fractions .25/.50/.75. Annual extra planned interventions and false-warning work 6000, annual product fee 6000, customer one-time implementation 3000, ongoing review 1000. Provider annual inference 900, hosting/monitoring 600, support/review 1800, one-time onboarding 2000; acquisition/R&D/fixed costs not modeled. Keep the budget source hypothesis separate from protected contribution; it does not automatically free cash. Show the payoff and budget case and tell me whether we should keep investigating. Standalone notes are enough; stop at human decision.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step06-positioning-statement",
+      "invocation": "Mode: Context dump. SYNTHETIC fixture. No browsing, external actions, rendering, building or paid model calls authorized by this case. A HiPPO requests an AI maintenance dashboard for mid-sized manufacturing sites. Maintenance manager uses it; plant operations benefits; plant leader with finance review is a proposed budget owner, authority UNKNOWN. Desired outcome is justified intervention before failure and less avoidable lost productive capacity. Hypothesized barriers: conflicting warnings, intervention timing approval, explaining uncertainty. Options: S2 early predictive context, S3 shift huddles (non-AI), S5 evidence checklist (non-AI). Common B0 is reactive log review and technician discussion. Fictional C1 Rival Predict offers the same warning/source-context features; no real competitor proof. Delight hypothesis: remove the scramble to reconcile warnings, not UI polish. No budget commitment or willingness-to-pay evidence. Do not invent positive economics, defensibility or demand. Illustrative what-if for S2 only, USD/site/year: avoided lost hours low/base/high 4/8/12; contribution per recoverable hour 5000, not revenue; realization fractions .25/.50/.75. Annual extra planned interventions and false-warning work 6000, annual product fee 6000, customer one-time implementation 3000, ongoing review 1000. Provider annual inference 900, hosting/monitoring 600, support/review 1800, one-time onboarding 2000; acquisition/R&D/fixed costs not modeled. Keep the budget source hypothesis separate from protected contribution; it does not automatically free cash. Show the payoff and budget case and tell me whether we should keep investigating. Standalone notes are enough; stop at human decision.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "payoff-not-capability",
+      "rule": "Names user/beneficiary/proposed payer, links friction removed and feasible intervention to a customer outcome and economic lever. Delight is observable relief/new capability, not invented quotes, attractive UI or AI itself. OST branches carry this link; alternative huddles/checklist are retained."
+    },
+    {
+      "id": "customer-math",
+      "rule": "2x2 shows realized contribution 5000/20000/45000 from hours*5000*realization. First-year customer net is -11000/4000/29000 after fee, intervention, implementation and review costs; recurring is -8000/7000/32000. No double counting protected revenue/time or treating all saved hours as cash. OST may stay at lever/mechanism depth without mandatory pricing; positioning retains the economic limits without marketing unvalidated savings."
+    },
+    {
+      "id": "provider-math",
+      "rule": "For numerical value case, provider recurring delivery contribution is 6000-900-600-1800=2700 and first-year after onboarding is 700, not customer net benefit or total profit. Acquisition/fixed costs remain gaps. Provider margin improvement compared with alternatives is not asserted."
+    },
+    {
+      "id": "budget-and-renewal",
+      "rule": "Names proposed budget owner, plausible existing spend or new investment, approval/purchase hurdle and adoption burden. No committed budget/WTP inferred. Contribution protection does not automatically transfer expense budget. Renewal requires repeated realized net value; usage/acceptance alone insufficient."
+    },
+    {
+      "id": "difference-versus-moat",
+      "rule": "Keeps shared B0 map baseline; a separate closest-rival test notices C1 may match S2. No buy-ours advantage from beating B0 alone. Context/workflow/trust/learning claims require asset/mechanism, useful signals/rights, evidence and replication/substitution challenge; no moat from shared model or raw data volume."
+    },
+    {
+      "id": "stage-and-readout",
+      "rule": "OST remains branching and offers portfolio/test; 2x2 preserves separate axes and conditional scenarios/unknowns; positioning retains seven clauses with customer benefit and reason-to-choose mechanism plus budget/renewal case. Endings answer payoff, relevant economics, biggest risk and next evidence decision concisely. No new stage/dependency, forced winner, approval or build."
+    }
+  ]
+}

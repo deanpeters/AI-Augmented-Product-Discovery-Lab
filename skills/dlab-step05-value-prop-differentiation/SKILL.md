@@ -3,7 +3,7 @@ name: dlab-step05-value-prop-differentiation
 description: "Bake off solution candidates, competitor offerings and the status quo on a shared value-versus-differentiation 2x2 before positioning. Accept an OST portfolio or standalone notes."
 metadata:
   author: "Dean Peters"
-  version: "0.3.1"
+  version: "0.4.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "5"
@@ -19,7 +19,7 @@ metadata:
   group-size: "1-8; planning guidance"
   depends-on: "none; standalone entry supported"
   combine-with: "dlab-step06-positioning-statement"
-  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns"
+  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns; Dean Peters' Thoughts on AI Value Proposition and Differentiation (supplied October 4, 2026)"
   template: "template.md"
   worked-example: "examples/worked-example.md"
   weak-example: "examples/weak-example.md"
@@ -61,30 +61,44 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Customer payoff and budget test
+
+Trace **capability → changed work/decision → customer outcome → economic lever → budget choice**. AI is an ingredient, not the benefit. Name the person using it, the beneficiary and the budget owner separately. Reuse supplied context; when missing, offer a labeled hypothesis in Best guess/Context dump rather than inventing research or blocking on another artifact.
+
+- **What's in it for the customer?** Identify revenue/contribution, margin, spend, capacity/time, risk or newly affordable capability. State what frustrating work disappears or what valuable action becomes possible, and where the person experiences it. A delightful moment is observable relief/progress, not UI polish or an invented customer quote.
+- **Why would they move budget?** Name the current alternative and funded activity, proposed payer/budget line, purchase or switching trigger, adoption/migration/retraining cost, and the hurdle that would justify switching. Willingness to pay and authority remain UNKNOWN unless supported. Continued use needs recurring realized value, not a one-time demo reaction; state why they would renew and what could make them stop.
+- **Do both sides win?** Estimate customer net benefit after fee, extra work, planned interventions/false positives, implementation and ongoing review. Keep time released distinct from realized cash saving or usable capacity. Avoid counting protected revenue, contribution, labor savings and risk reduction twice for the same effect. Show quantities × unit value and the realization assumption. With no numerical basis, use a symbolic formula and explicit gaps; grounded or clearly illustrative low/base/high what-ifs are allowed, never fabricated measured savings.
+- **Can we afford to serve them?** Separate price/revenue from inference, hosting, human review, support, onboarding, integrations and other delivery costs. Show recurring delivery contribution and first-period onboarding impact; do not label these total profit. Acquisition, fixed costs, retained value and renewals need their own evidence. Customer surplus is not provider revenue; SOM revenue potential is not customer ROI.
+- **Why ours, and why hard to copy?** Compare specific offerings for the same job. Test context/data access and rights, workflow fit, trust, learning signals/feedback quality, experience, distribution, switching value and delivery economics only where relevant. Distinguish a current customer-relevant difference from a future compounding advantage. For each claimed advantage name the asset/loop, how it improves the outcome, what a rival could copy or substitute, and missing proof. Shared models, more data, workflow lock-in and a high/high point do not establish a moat. Ethical switching value comes from accumulated useful context/history, not trapping customer data.
+
+Do not manufacture positive economics or insist every concept improves every lever. A useful product may fail the budget, competitive or provider-cost test; recommend revise, investigate or stop when it does. The user's desired delightful, differentiated and margin-enhancing outcome is a hypothesis to test, not permission to assert it.
+
 ## Guided questions
 
 1. Which solution candidates or competitor offerings should we compare for which audience?
-2. What progress would make the proposed value matter?
+2. What customer payoff would be worth paying for?
 3. Which real alternative or workaround is the comparison against?
-4. What evidence supports value and meaningful difference separately?
-5. What would change the concept's placement or make us stop?
+4. What evidence would make buying ours rational?
+5. What would make this purchase sustainable for both sides?
 
 Reuse supplied answers, including a concrete actor, current condition and desired outcome. Unknown measurements do not justify re-asking those questions. Ask a narrower follow-up only when ambiguity would change the decision.
 
 ## Numbered work
 
 1. Reuse available OST solutions and their opportunity/experiment links, or collect candidates from direct notes. Give each a stable ID: S for proposed solutions, C for competitor offerings, B for the current workaround. Preserve provenance; newly proposed candidates are explicitly provisional. Compare related solutions together; separate maps for unrelated audiences or outcomes. No completed tree, artifact schema or prior concept selection is required.
-2. Fix one audience, outcome and common comparator before mapping. Horizontal axis: proposed customer value, low to high, defined by progress toward that outcome. Vertical axis: meaningful differentiation from the same named baseline, low to high, defined by a relevant capability or mechanism. Use the status quo as the baseline when useful. Do not change the baseline per candidate or compare a rival against itself. The baseline has no difference from itself by definition, but its value still needs assessment.
+2. Build a short payoff case for each serious candidate: friction removed/new capability, observable customer outcome, economic lever, fee and adoption/operating costs, plausible payer/budget source, and purchase/renewal evidence or gap. Separate user delight from the budget owner's decision. Fix one audience, outcome and common comparator before mapping. Horizontal axis: proposed customer value, low to high, defined by meaningful realized progress and net customer payoff toward that outcome, including adoption burden. Do not require a dollar figure to acknowledge nonfinancial value, but expose the missing conversion when making an economic claim. Vertical axis: meaningful differentiation from the same named baseline, low to high, defined by a relevant capability or mechanism. Use the status quo as the baseline when useful. Do not change the baseline per candidate or compare a rival against itself. The baseline has no difference from itself by definition, but its value still needs assessment.
 3. Map candidate solutions AND competitor offerings on the same four quadrants. Compare specific offerings for the same job, not company logos. Keep value and differentiation evidence separate for each point. Preserve supplied rival sources, dates and gaps; research only material gaps when browsing is available and appropriate. Do not invent competitor capabilities. Mark qualitative positions conditional when assumed; leave UNKNOWN axes unplaced or show a range. UNKNOWN is not low. Not every quadrant needs a point.
-4. Explain tradeoffs, uncertainty and the cheapest observation that could change each placement. Novel technology is not inherently meaningful differentiation. Do not fabricate coordinates, measured value, willingness to pay or defensibility. High/high is a hypothesis worth testing, not an automatic winner or moat.
-5. Recommend a shortlist, revision, evidence task or stop, with reasons. Wait for the human to choose; the shortlist may contain several concepts. If positioning is next, offer the chosen candidate descriptions, value/difference assessments, common comparator and proof gaps as useful context. A matrix does not record an approval by itself.
+4. Challenge why the customer would choose us over the closest real offering, even when both beat the baseline. Keep one common baseline on the map; use a separate rival-relative check for buy-ours claims. Assess defensibility mechanisms and provider delivery contribution separately from the axes; they are not a third axis or a score proving a moat. Explain tradeoffs, uncertainty and the cheapest observation that could change each placement. Novel technology is not inherently meaningful differentiation. Do not fabricate coordinates, measured value, willingness to pay or defensibility. High/high is a hypothesis worth testing, not an automatic winner or moat.
+5. Recommend a shortlist, revision, evidence task or stop, with reasons grounded in customer payoff, why-buy-ours, willingness-to-switch and delivery economics. Explicitly call out negative customer surplus, unproven budget access, copied advantages or unprofitable delivery; no automatic high/high winner. Wait for the human to choose; the shortlist may contain several concepts. If positioning is next, offer the chosen candidate descriptions, value/difference assessments, common comparator and proof gaps as useful context. A matrix does not record an approval by itself.
 
 ## Output: Value Prop vs. Differentiation 2x2
 
 - Audience, outcome and common comparator
 - Candidate inventory: solution / competitor offering / workaround, ID, source, opportunity link if available
 - Axis definitions and four-quadrant map with conditional or unplaced points
-- Per-candidate value evidence, differentiation evidence and confidence
+- Per-candidate payoff and budget case; customer net-benefit scenarios/formulas with units and adoption/operating costs
+- Separate differentiation evidence, closest-rival comparison, compounding-advantage hypothesis and confidence
+- Provider recurring delivery contribution and onboarding cost/risk, or formulas and UNKNOWN inputs
 - Bake-off tradeoffs and provisional shortlist
 - Human choice and next evidence task
 - Claim ledger: statement / evidence label / source or basis / date / limitation
@@ -103,16 +117,9 @@ Biggest unanswered question:
 
 ## Required final readout
 
-Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+Finish completed drafts in every mode with **Final readout**: a copy-ready commercial verdict, about 200 words of prose, rather than another copy of the map or report. State the target/customer payoff, provisional candidate recommendation, why buy ours (or the missing reason), proposed payer/budget source, customer net benefit and provider delivery contribution with basis/limits, largest downside, renewal hypothesis and next evidence decision. A numerical what-if is useful only with visible assumptions; symbolic formulas or UNKNOWN gaps are legitimate. Human selection/decider remains not recorded until actually supplied.
 
-Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
-
-- Audience, desired outcome and shared comparator: one line each.
-- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
-- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
-- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
-
-Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+Keep the 2x2 and comparison/economics tables in the preceding artifact. Supporting sources, dates, rival evidence, cost/realization assumptions and material conflicts remain traceable. An optional handoff carries actual candidate descriptions, comparator and proof gaps before the readout; no schema or preselected winner is required. Do not make an unprofitable or unsupported proposition look investable just to fill the ending.
 
 ## Human decision gate and saving
 

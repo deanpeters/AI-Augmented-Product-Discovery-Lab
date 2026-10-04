@@ -3,7 +3,7 @@ name: dlab-step06-positioning-statement
 description: "Write a provisional positioning statement from a chosen persona, concept and value-versus-difference comparison. Use before formalizing a solution hypothesis."
 metadata:
   author: "Dean Peters"
-  version: "0.3.1"
+  version: "0.4.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "6"
@@ -19,7 +19,7 @@ metadata:
   group-size: "1-8; planning guidance"
   depends-on: "none; standalone entry supported"
   combine-with: "dlab-step07-solution-hypothesis"
-  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns"
+  source-basis: "Dean Peters' corrected ten-motion discovery sequence; ADLC and Precedents Thinking packaging and guided capture patterns; Dean Peters' Thoughts on AI Value Proposition and Differentiation (supplied October 4, 2026)"
   template: "template.md"
   worked-example: "examples/worked-example.md"
   weak-example: "examples/weak-example.md"
@@ -57,23 +57,35 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Customer payoff and budget test
+
+Trace **capability → changed work/decision → customer outcome → economic lever → budget choice**. AI is an ingredient, not the benefit. Name the person using it, the beneficiary and the budget owner separately. Reuse supplied context; when missing, offer a labeled hypothesis in Best guess/Context dump rather than inventing research or blocking on another artifact.
+
+- **What's in it for the customer?** Identify revenue/contribution, margin, spend, capacity/time, risk or newly affordable capability. State what frustrating work disappears or what valuable action becomes possible, and where the person experiences it. A delightful moment is observable relief/progress, not UI polish or an invented customer quote.
+- **Why would they move budget?** Name the current alternative and funded activity, proposed payer/budget line, purchase or switching trigger, adoption/migration/retraining cost, and the hurdle that would justify switching. Willingness to pay and authority remain UNKNOWN unless supported. Continued use needs recurring realized value, not a one-time demo reaction; state why they would renew and what could make them stop.
+- **Do both sides win?** Estimate customer net benefit after fee, extra work, planned interventions/false positives, implementation and ongoing review. Keep time released distinct from realized cash saving or usable capacity. Avoid counting protected revenue, contribution, labor savings and risk reduction twice for the same effect. Show quantities × unit value and the realization assumption. With no numerical basis, use a symbolic formula and explicit gaps; grounded or clearly illustrative low/base/high what-ifs are allowed, never fabricated measured savings.
+- **Can we afford to serve them?** Separate price/revenue from inference, hosting, human review, support, onboarding, integrations and other delivery costs. Show recurring delivery contribution and first-period onboarding impact; do not label these total profit. Acquisition, fixed costs, retained value and renewals need their own evidence. Customer surplus is not provider revenue; SOM revenue potential is not customer ROI.
+- **Why ours, and why hard to copy?** Compare specific offerings for the same job. Test context/data access and rights, workflow fit, trust, learning signals/feedback quality, experience, distribution, switching value and delivery economics only where relevant. Distinguish a current customer-relevant difference from a future compounding advantage. For each claimed advantage name the asset/loop, how it improves the outcome, what a rival could copy or substitute, and missing proof. Shared models, more data, workflow lock-in and a high/high point do not establish a moat. Ethical switching value comes from accumulated useful context/history, not trapping customer data.
+
+Do not manufacture positive economics or insist every concept improves every lever. A useful product may fail the budget, competitive or provider-cost test; recommend revise, investigate or stop when it does. The user's desired delightful, differentiated and margin-enhancing outcome is a hypothesis to test, not permission to assert it.
+
 ## Guided questions
 
 1. Which persona and need does this statement serve?
 2. Which concept and category have been selected?
-3. What proposed benefit matters in this situation?
-4. Unlike which alternative, and what is meaningfully different?
-5. What reason to believe is actually supported?
+3. What customer payoff is worth funding in this situation?
+4. Why would the buyer choose us over their alternative?
+5. What evidence supports buying and continuing to pay?
 
 Reuse supplied answers, including a concrete actor, current condition and desired outcome. Unknown measurements do not justify re-asking those questions. Ask a narrower follow-up only when ambiguity would change the decision.
 
 ## Numbered work
 
-1. Reuse the persona, selected opportunity and concept. Preserve the distinction between user, buyer and beneficiary.
-2. Use the supplied canvas clauses: For [target customer], Who [statement of opportunity], The [product name], Is a [product category], That [key benefit], Unlike [primary competitive alternative], Our product gives [primary differentiation]. State benefits the persona cares about, not a feature list. The primary alternative can be direct, indirect or the current workaround; use the one the persona would most likely compare. Reuse an optional matrix or direct notes without requiring one. Use provisional category language when needed.
-3. Test each clause against the supplied evidence. Avoid unsupported superlatives, measured savings and customer quotes. Keep an unsupported reason to believe explicitly UNKNOWN.
+1. Reuse the persona, selected opportunity and concept. Preserve user, buyer and beneficiary roles. Express the value proposition before wordsmithing: for this situation, we remove [painful work] or enable [new capability], improving [customer outcome/economic lever] through [mechanism], versus [alternative]. Identify payer, existing spend/budget source and purchase trigger as supported or provisional.
+2. Use the supplied canvas clauses: For [target customer], Who [statement of opportunity], The [product name], Is a [product category], That [key benefit], Unlike [primary competitive alternative], Our product gives [primary differentiation]. Make That describe a customer payoff, not an AI capability. Make Our product gives explain a relevant mechanism for choosing this concept over the named alternative, not unsupported uniqueness. Keep delight in the workflow and net economics in the supporting value case, not stuffed into marketing clauses. The primary alternative can be direct, indirect or the current workaround; use the one the persona would most likely compare. Reuse an optional matrix or direct notes without requiring one. Use provisional category language when needed.
+3. Include a compact budget case: proposed payer/budget source, net customer value after total adoption/operating cost, provider delivery-cost implication, renewal reason and the purchase/competitive proof needed. Reuse earlier value evidence when available; direct notes or honest symbolic formulas suffice. A positive scenario is not validated willingness to pay or rival superiority. Test each clause against the supplied evidence. Avoid unsupported superlatives, measured savings and customer quotes. Keep an unsupported reason to believe explicitly UNKNOWN.
 4. Offer meaningful wording or boundary alternatives without inventing a new concept. Recommend a statement and wait for a human choice.
-5. Pass the actual selected statement, persona, concept, proposed benefit, alternative and proof gaps into Solution Hypothesis.
+5. Offer the actual selected statement, persona, concept, customer payoff, budget and renewal hypotheses, alternative, proposed advantage and proof gaps as optional context for Solution Hypothesis. Include a test that could overturn the commercial proposition; never silently invoke another motion.
 
 ## Output: Positioning Statement
 
@@ -81,6 +93,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 - Concept and category
 - Statement
 - Alternative and proposed difference
+- Budget case: payer, displaced/funded activity, net customer benefit and provider economics, renewal hypothesis and proof gaps
 - Reason to believe
 - Claim check and revision
 - Statement choice
@@ -106,6 +119,7 @@ Default to a concise artifact plus this ending. Treat the template as a content 
 
 - Audience, need/opportunity and primary alternative: one short line each.
 - The complete seven-clause statement: For / Who / The / Is a / That / Unlike / Our product gives. Prefer one sentence per clause, without a second rewritten statement repeating the same content.
+- Customer payoff/economic lever, why buy ours, proposed payer/budget source, net-value/delivery-economics limits and reason to renew: one compact commercial paragraph.
 - Reason to believe or proof gap, biggest unsupported benefit/difference, and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
 
 Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.

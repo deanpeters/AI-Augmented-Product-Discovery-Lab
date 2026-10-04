@@ -1,0 +1,34 @@
+{
+  "id": "20-ost-branching-not-feature-list",
+  "title": "A stakeholder dashboard request becomes an inspectable branching tree",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step04-opportunity-solution-tree",
+      "invocation": "Mode: Context dump. SYNTHETIC fixture; no browsing, external actions, rendering or building. A HiPPO says: \"Build an AI-enhanced maintenance dashboard.\" Audience: maintenance managers coordinating with production at mid-sized discrete-manufacturing plants. Desired outcome: reduce avoidable unplanned downtime by enabling justified intervention before failure, not simply reacting afterward. Hypothesized obstacles: early warning reports conflict; production and maintenance cannot agree on timing; managers cannot explain uncertainty in a proposed action. None is validated. Previous weak output was a table with three columns: opportunities=information/approval/timing, solutions=dashboard/checklist/huddle, tests=interview/simulation. It did not link any parents or tests. Keep that request and the alternative explanations; give me an actual branching OST with meaningful alternatives, including non-AI/process options. No baseline, target, cost, recruitment access, impact scores or results supplied. Keep candidates available for a later value-vs-differentiation comparison; no winner or build authorized. Stop at my decision.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "actual-tree",
+      "rule": "Delivers populated Mermaid and equivalent plain-text ASCII trees with one outcome root, three problem branches, at least two substantively different solutions per branch, and explicit experiment leaves. Stable globally unique IDs and visible parentage; every retained serious candidate has a test or justified UNKNOWN gap. Flat tables/lists alone fail; rendering tools must not be required."
+    },
+    {
+      "id": "outcome-and-divergence",
+      "rule": "Preserves incoming dashboard request but root is observable desired progress, not shipping. Opportunities are customer needs/obstacles, not feature nouns. Explores competing information/timing/reasoning explanations and process/non-AI alternatives, not several names for a dashboard. No invented baseline/target or demanded prerequisite artifact."
+    },
+    {
+      "id": "tests-and-falsification",
+      "rule": "Test cards connect solution IDs and risky assumptions to tiny discovery acts, observable signals and disconfirmation. Synthetic IIoT tests expose scenario weaknesses, not validated prediction accuracy, prevented downtime or improved margin. Test proposals and absent results clearly labeled NOT RUN."
+    },
+    {
+      "id": "decision-and-portfolio",
+      "rule": "Compares branch attention by expected outcome contribution, evidence strength, test cost/access and feasibility limits. Recommends a portfolio or optional first discriminating test, explains tradeoff/counterargument and what would change focus, preserves alternatives for the 2x2. No invented score certainty, mandatory POC winner, selected option or build approval."
+    },
+    {
+      "id": "usable-ending",
+      "rule": "Sticky-note-sized diagram labels backed by traceable evidence/basis and material gaps. Final readout is concise populated recommendation with candidate IDs/descriptions, biggest uncertainty and next decision; does not repeat the full tree or erase hypotheses. Human selection/decider not recorded."
+    }
+  ]
+}

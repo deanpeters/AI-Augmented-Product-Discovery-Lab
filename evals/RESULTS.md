@@ -83,3 +83,19 @@ Audit: nine skills had structured output lists but no required concise ending; S
 Case 19 covers all ten endings: populated decision notes, source/uncertainty retention, linked OST and comparison content, seven positioning clauses, falsifiable tests, six storyboard frames and all MVN transactions plus the portable prompt. Behavioral status: NOT RUN. Local checks do not prove that a model will follow the output contract.
 
 Final mechanical verification: `bash scripts/refresh-library.sh` passed 22 regression tests, 19 case definitions, ten skill/prompt pairs, asset/link checks and both deterministic distribution-kit checks. No model calls were made.
+
+## OST branching revision: October 4, 2026
+
+OST v0.3.0 replaces the generic report template and tree/table ending with an actual outcome → opportunities → competing solutions → assumption-test hierarchy, delivered as Mermaid and equivalent ASCII. Its new synthetic manufacturing example preserves the dashboard request while exploring information, coordination and reasoning barriers to predictive intervention. Branch attention is justified by evidence, contribution and test constraints; no mandatory winner or automatic build is added. The ending is a short recommendation, not another copy of the diagram.
+
+Added Case 20 for flat-list/feature-list failure, diagram parentage, divergence, disconfirmation and portfolio continuity; revised Cases 07 and 19. Behavioral execution: NOT RUN. Added local structural tests for template/example graph connectivity, layer relationships, candidate test coverage, and equivalent fallback trees, including malformed-graph failures. These checks do not establish model judgment. Both client kits are versioned v0.1.3.
+
+Final verification: 24 regression tests and 20 case definitions pass, including skill/prompt parity and both kit content checks. Both example and template Mermaid trees rendered locally; ASCII graph parity is tested. Model behavior remains NOT RUN. Superseded v0.1.2 archives were removed; `dist/` keeps the four current v0.1.3 files. No deck or case-study files were edited.
+
+## Customer payoff and economics revision: October 4, 2026
+
+OST, value/differentiation and positioning skills are v0.4.0. Each embeds customer payoff, observable delight, economic realization, budget owner/switching/renewal reasoning, distinct provider delivery economics and current vs. compounding advantage tests. Templates, synthetic examples, weak-example repairs and prompt equivalents are aligned. Added `docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md`, bundled in both client kits; Claude now also includes the matching prompts so its document links resolve. Both kits are v0.1.4.
+
+Cases 21–22 cover positive/negative customer scenarios, provider contribution vs. profit, rival parity and failed learning-rights assumptions. Behavioral execution remains NOT RUN. A local regression recomputes all F2 scenario results and break-even from the example's input table; these fictional inputs are not validated market economics. No source essay instructions authorize external actions or claim evidence. No model calls, customer experiments or deck edits were performed.
+
+Final local verification: 25 regression tests pass; 22 behavioral-case definitions validate. Ten prompt equivalents match their skill assets; Codex (77 files) and Claude (66 files) v0.1.4 kits match canonical content. The new value-loop Mermaid diagram rendered locally. Behavioral execution for Cases 21–22 remains NOT RUN. `dist/` contains only the four current v0.1.4 archives.

@@ -4,7 +4,7 @@
 
 **10 discovery skills. 10 paste-ready prompt equivalents. Same play, two ways in.**
 
-For Product Managers, founders and product teams deciding what deserves to be built. Use the [case-study kickoff messages](examples/kickoff-prompts.md) to launch an attached prompt or installed skill. Start with [QUICKSTART](QUICKSTART.md), choose a motion from the [demo launchpad](DEMO.md), or rehearse with the [Monday interaction script](examples/monday-demo-script.md).
+For Product Managers, founders and product teams deciding what deserves to be built. **Taking this home? Start with the [attendee guide](docs/ATTENDEE-GUIDE.md).** Use the [case-study kickoff messages](examples/kickoff-prompts.md) to launch an attached prompt or installed skill. Start with [QUICKSTART](QUICKSTART.md), choose a motion from the [demo launchpad](DEMO.md), or rehearse with the [Monday interaction script](examples/monday-demo-script.md).
 
 Because AI can help you build the wrong thing really fucking fast.
 
@@ -25,6 +25,8 @@ Market Intel → Segment → Persona → Opportunity Solution Tree → Value Pro
 Start where the decision is. Each motion works independently, produces an editable artifact and stops for a human choice. This is a teaching path, not an automatic build pipeline. Evidence should increase before fidelity increases; a cheaper test can replace rendering or building.
 
 Market Intel investigates the landscape. Segment reuses that intel, fills material source gaps and estimates population-led TAM, industry-filtered SAM and competition/capacity-constrained SOM before choosing a bounded context. Persona describes the person, situation, jobs, pains, gains and current workaround. Opportunities belong in the Opportunity Solution Tree. The 2x2 separates proposed customer value from meaningful differentiation. Positioning makes the proposition explicit, then Solution Hypothesis defines what could disconfirm it. Storyboard comes before Minimum Viable Narrative. Prototyping includes the experiment status and next evidence decision.
+
+[Earn the customer's budget](docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md) explains the value test: removed friction → customer outcome → net economic payoff → purchase/renewal, with a separate reason to choose us and economics that let us serve them. OST, the 2x2 and positioning now carry that reasoning; AI capability and a high/high point are insufficient.
 
 The value-versus-differentiation 2x2 is a solution bake-off: compare several OST candidates, competitor offerings and the current workaround for the same audience and outcome. OST output is optional. All skills accept direct notes or partial context, and can draft labeled assumptions without requiring an upstream artifact. See [the loosely coupled flow](docs/CHAIN.md).
 
@@ -82,7 +84,7 @@ The rhythm is brief framing → live work → audience reaction → synthesis �
 
 ## Keep the skills honest
 
-After changing a skill or its templates/examples, run `bash scripts/refresh-library.sh` to update prompts and both distribution kits together. See [the maintenance checklist](docs/MAINTAINING.md). GitHub rejects stale prompts and archives through its validation check.
+After changing a skill or its templates/examples, run `bash scripts/refresh-library.sh` to update prompts and both distribution kits together. See [the maintenance checklist](docs/MAINTAINING.md). GitHub's validation check detects stale prompts and archives.
 
 Run local metadata, asset, prompt-parity, link, case-reference and regression checks:
 
@@ -94,9 +96,11 @@ These checks make no model calls. The [use-case guide](evals/README.md) also sup
 
 The corrected ten-motion chain has **not** been behaviorally re-run. Prior eleven-motion results are historical and do not validate this revision. See [results](evals/RESULTS.md) and [readiness](docs/READINESS.md). A full live rehearsal is still required.
 
+Share the [repository and Mural QR codes](assets/qr/README.md) during the workshop; keep their white margins intact.
+
 ## Repository and reuse
 
-The repository remains private while preparing the attendee release. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
+The repository is public; the current attendee distribution is v0.1.4. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
 
 ```text
 skills/       10 skills with templates and worked/weak examples

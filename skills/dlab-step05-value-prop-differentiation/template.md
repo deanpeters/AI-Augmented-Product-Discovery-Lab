@@ -24,6 +24,22 @@ Lab adaptation, not an authoritative Productside canvas. OST outputs are optiona
 | C1 | Competitor offering | | Optional | |
 | B0 | Workaround / shared baseline | | Optional | |
 
+## Customer payoff and budget case
+
+| Candidate | User / beneficiary / budget owner | Friction removed or newly possible action | Outcome → economic lever | Current spend / proposed budget source | Trigger / switching burden / renewal reason | Evidence / gap |
+|---|---|---|---|---|---|---|
+| S1 | | | | | | |
+
+## Customer and provider economics
+
+Show units, time basis, assumptions and low/base/high sensitivity where justified. Unknown inputs stay UNKNOWN or symbolic; illustrative estimates need a basis/rationale and a visible label.
+
+| Candidate / scenario | Gross outcome value and realization | Customer fee + adoption/operating costs | Customer net benefit | Provider revenue − delivery costs / onboarding impact | Biggest sensitivity / proof gap |
+|---|---|---|---|---|---|
+| | | | | | |
+
+Do not convert saved hours to cash automatically, double-count revenue/contribution/time, or mistake SOM revenue for customer savings. Provider delivery contribution excludes acquisition/fixed costs unless separately modeled.
+
 ## The 2x2
 
 | Difference versus the shared baseline | Low proposed customer value | High proposed customer value |
@@ -38,6 +54,14 @@ Unplaced or conditional candidates: [IDs and missing axis evidence]. Empty quadr
 | ID | Value assessment and evidence | Difference assessment and evidence | Confidence / limitation | Cheapest placement-changing test |
 |---|---|---|---|---|
 | | | | | |
+
+## Why ours and what compounds
+
+| Candidate | Difference vs. shared baseline | Closest rival-relative reason to choose | Asset / learning or workflow mechanism | Rival replication/substitution path | Required evidence / rights / limits |
+|---|---|---|---|---|---|
+| | | | | | |
+
+Defensibility is a separate hypothesis, not proof from a quadrant. Learning requires usable outcome/correction signals and access rights; volume and adoption alone prove neither improvement nor renewal.
 
 ## Provisional shortlist and tradeoffs
 
@@ -72,12 +96,4 @@ Include useful candidate descriptions, comparator and evidence gaps. These field
 
 ## Final readout
 
-Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
-
-- Audience, desired outcome and shared comparator: one line each.
-- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
-- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
-- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
-
-- Evidence caveat: [material limit, source reference or synthetic status]
-- Next decision: [specific recommendation; human selection/decider or not recorded]
+[Short, populated ending: target/payoff, compact candidate verdicts, why buy ours, proposed payer/budget source, customer net benefit and provider delivery contribution or UNKNOWN/formulas, reason to renew, largest risk and next decision. About 200 words of prose; do not duplicate the map. A candidate can be valuable but too costly, copied or unable to earn budget. Human selection remains not recorded until actually chosen.]

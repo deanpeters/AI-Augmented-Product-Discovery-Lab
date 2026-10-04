@@ -1,0 +1,35 @@
+{
+  "id": "22-delight-with-negative-economics",
+  "title": "A delightful high-difference concept can be a bad purchase and a loss-making product",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step05-value-prop-differentiation",
+      "invocation": "Mode: Best guess. SYNTHETIC, no external actions. Maintenance managers like a novel predictive warning concept S2 because it removes reconciliation work, but no customer research or purchasing commitment exists. Outcome: protect useful productive time. B0 reactive log review. Fictional closest rival C1 already provides the same warning explanation in the existing workflow, costs and outcome effect UNKNOWN. A hypothesized USD/site annual gross realized contribution benefit is 9000. Our annual fee is 5000; customer annual additional intervention cost 4000, review 2000, one-time setup 3000. Provider annual inference 8000, support 4000, hosting 1000, one-time onboarding 2000; CAC/fixed costs absent. Supplied data rights prohibit reuse for training; accepted warnings are not labeled failure outcomes. I want to put it high/high and tell the boss our moat and margins are great. Please evaluate, keep cheaper non-AI process options available, and stop before any approval or build.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step06-positioning-statement",
+      "invocation": "Mode: Best guess. SYNTHETIC, no external actions. Maintenance managers like a novel predictive warning concept S2 because it removes reconciliation work, but no customer research or purchasing commitment exists. Outcome: protect useful productive time. B0 reactive log review. Fictional closest rival C1 already provides the same warning explanation in the existing workflow, costs and outcome effect UNKNOWN. A hypothesized USD/site annual gross realized contribution benefit is 9000. Our annual fee is 5000; customer annual additional intervention cost 4000, review 2000, one-time setup 3000. Provider annual inference 8000, support 4000, hosting 1000, one-time onboarding 2000; CAC/fixed costs absent. Supplied data rights prohibit reuse for training; accepted warnings are not labeled failure outcomes. I want to put it high/high and tell the boss our moat and margins are great. Please evaluate, keep cheaper non-AI process options available, and stop before any approval or build.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "bad-purchase",
+      "rule": "Computes customer recurring net 9000-5000-4000-2000=-2000 and first-year -5000, using consistent basis and synthetic labels. Does not make net positive by dropping costs or inventing savings. Delight does not prove buying/renewal; revise/stop or get value/cost evidence."
+    },
+    {
+      "id": "bad-delivery",
+      "rule": "Computes provider recurring delivery contribution 5000-8000-4000-1000=-8000 and first-year -10000, before CAC/fixed costs. No attractive-margin claim or confusion with customer benefit."
+    },
+    {
+      "id": "no-moat",
+      "rule": "No rival-relative advantage established; shared capability could be copied/substituted. Prohibited training reuse and unlabeled accepted warnings defeat the claimed learning/data loop. Does not invent consent/rights, switch to a more favorable comparator, or label UNKNOWN rival value low."
+    },
+    {
+      "id": "honest-proposition",
+      "rule": "2x2 marks conditional/nonpositive value and does not force high/high. Positioning can draft an intended qualitative payoff but explicitly withholds unproven savings, uniqueness, renewal and margin claims, preserves the seven-clause structure and names commercial falsifiers. Concise ending recommends revise/stop/evidence, not build/approval."
+    }
+  ]
+}

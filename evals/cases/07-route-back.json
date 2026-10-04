@@ -21,6 +21,10 @@
     {
       "id": "reuse-and-gate",
       "rule": "Retains the persona role/outcome, identifies unknowns and waits at a new human gate."
+    },
+    {
+      "id": "revised-tree",
+      "rule": "Shows revised parent-linked opportunity/solution/test branches in Mermaid and plain text; explains changes rather than appending unconnected lists. Fewer branches allowed when justified; does not pad or protect the prior information solution."
     }
   ]
 }
