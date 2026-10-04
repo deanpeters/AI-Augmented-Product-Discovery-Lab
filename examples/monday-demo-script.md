@@ -158,7 +158,7 @@ Select mid-sized manufacturing plants where maintenance managers make investigat
 
 [Skill](../skills/dlab-step03-persona/SKILL.md) · [Template](../skills/dlab-step03-persona/template.md) · [Worked example](../skills/dlab-step03-persona/examples/worked-example.md) · [Prompt](../prompts/03-persona.md) · [Fallback illustration](../fallbacks/03-persona.md)
 
-**Say:** “Persona. A person in a situation, doing a job, with stakes and a workaround. Watch this reuse what we supplied and ask only what is missing.”
+**Say:** “First, whose situation are we exploring? We'll use the maintenance manager as our working persona. Then we explore their pains, gains and jobs-to-be-done, pick the top of each and frame the problem. It's one motion, and the persona is a hypothesis. Watch this reuse what we supplied and ask only what is missing.”
 
 **Send:**
 
@@ -169,7 +169,7 @@ Use the actual selected segment below. Focal persona: maintenance manager.
 Situation and trigger: equipment reports conflict before a next-investigation decision.
 Functional job and desired outcome: make a clearer next-investigation choice.
 No actual customer interviews or plant observations exist. Workaround, stakes, role relationships and evidence that could overturn the persona still need attention.
-Reuse the actor, segment, trigger and job. Ask the first missing question only and wait. Build a situational Persona with jobs, pains, gains and constraints, not a decorative biography or an actor map.
+Reuse the actor, segment, trigger and job. The maintenance manager is our selected working proto-persona. Explore their pains, gains and jobs-to-be-done, identify the top of each and frame the problem using I am / Trying to / But / Because / Which makes me feel. Keep it within this single Persona motion. Ask the first missing question only and wait. Build a situational Persona with constraints and evidence gaps, not a decorative biography or an actor map.
 [PASTE THE STEP 2 HANDOFF]
 ```
 
@@ -192,7 +192,7 @@ The role, segment, trigger and functional job/outcome are already supplied. Reus
 
 **Say:** “Good. ‘Keep it safe’ was vague. Clarify it, then move on. The persona is a useful hypothesis, not a customer we just interviewed.”
 
-**Inspect:** Actual persona, jobs/pains/gains, workaround and risky assumption. No invented quotes or decorative demographics.
+**Inspect:** Selected working persona, pains/gains/jobs-to-be-done, the top of each, the five-part problem frame, workaround and risky assumption. Causes and feelings remain sourced, explicitly assumed or UNKNOWN. No invented quotes or decorative demographics.
 
 **If the actual output supports this teaching choice, send:**
 

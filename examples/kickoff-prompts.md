@@ -60,12 +60,14 @@ Synthetic teaching case; no customer interviews or observed plant outcomes. Reus
 
 [Upload this prompt file](../prompts/03-persona.md) · [Skill instructions](../skills/dlab-step03-persona/SKILL.md)
 
+**Say:** “First, whose situation are we exploring? We'll use the maintenance manager as our working persona. Then we explore their pains, gains and jobs-to-be-done, pick the top of each and frame the problem. It's one motion, and the persona is a hypothesis.”
+
 **Prompt**
 
 ```text
 For maintenance managers at mid-sized manufacturers who need to prioritize equipment issues and decide when to intervene, run this attached prompt in context dump mode.
 
-Develop the maintenance-manager proto-persona: mid-sized plant, flood of early warning signals, checks logs and asks a technician. List jobs, pains and gains; pick the top and frame the problem. Teaching starting points: job "pick what to check next," gain "explain it fast," pain "reports disagree." Source/timing hidden and feeling unsure are assumptions. Include the persona canvas fields. "Which signals actually matter?", "What fails if I do nothing?", and "Is the fix worth the downtime?" are SYNTHETIC voice lines, not interview quotes. Explore catching emerging failures early and balancing intervention against uptime.
+First select the maintenance manager as the working proto-persona: mid-sized plant, flood of early warning signals, checks logs and asks a technician. Then list that person's pains, gains and jobs-to-be-done; pick the top of each and frame the problem using I am / Trying to / But / Because / Which makes me feel. Keep persona selection and problem framing within this single Step 3 motion. Teaching starting points: job "pick what to check next," gain "explain it fast," pain "reports disagree." Source/timing hidden and feeling unsure are assumptions. Include the persona canvas fields. "Which signals actually matter?", "What fails if I do nothing?", and "Is the fix worth the downtime?" are SYNTHETIC voice lines, not interview quotes. Explore catching emerging failures early and balancing intervention against uptime.
 
 Synthetic teaching case; no customer interviews or observed plant outcomes. Reuse relevant supplied context; earlier artifacts are optional. Label evidence, inference, estimates and unknowns. Stop at my decision gate; do not run the next motion or take external actions.
 ```
@@ -75,7 +77,7 @@ Synthetic teaching case; no customer interviews or observed plant outcomes. Reus
 ```text
 /dlab-step03-persona Run in context dump mode for maintenance managers at mid-sized manufacturers who need to prioritize equipment issues and decide when to intervene.
 
-Develop the maintenance-manager proto-persona: mid-sized plant, flood of early warning signals, checks logs and asks a technician. List jobs, pains and gains; pick the top and frame the problem. Teaching starting points: job "pick what to check next," gain "explain it fast," pain "reports disagree." Source/timing hidden and feeling unsure are assumptions. Include the persona canvas fields. "Which signals actually matter?", "What fails if I do nothing?", and "Is the fix worth the downtime?" are SYNTHETIC voice lines, not interview quotes. Explore catching emerging failures early and balancing intervention against uptime.
+First select the maintenance manager as the working proto-persona: mid-sized plant, flood of early warning signals, checks logs and asks a technician. Then list that person's pains, gains and jobs-to-be-done; pick the top of each and frame the problem using I am / Trying to / But / Because / Which makes me feel. Keep persona selection and problem framing within this single Step 3 motion. Teaching starting points: job "pick what to check next," gain "explain it fast," pain "reports disagree." Source/timing hidden and feeling unsure are assumptions. Include the persona canvas fields. "Which signals actually matter?", "What fails if I do nothing?", and "Is the fix worth the downtime?" are SYNTHETIC voice lines, not interview quotes. Explore catching emerging failures early and balancing intervention against uptime.
 
 Synthetic teaching case; no customer interviews or observed plant outcomes. Reuse relevant supplied context; earlier artifacts are optional. Label evidence, inference, estimates and unknowns. Stop at my decision gate; do not run the next motion or take external actions.
 ```
