@@ -86,14 +86,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Do report conflicts actually change this person's decisions or is coordination the obstacle?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Persona identity and evidence status:** Maintenance manager in a mid-sized manufacturing plant. SYNTHETIC proto-persona; no customer evidence.
-- **Situation and trigger:** Fictional condition: two equipment reports disagree before an investigation decision.
-- **Jobs to be done:** Functional: decide what to investigate next. Possible social job: explain the choice to production colleagues; ESTIMATE / BEST GUESS.
-- **Pains and desired gains:** Assumed pain: uncertain report basis. Desired gain: explain a defensible next action. Frequency and consequence UNKNOWN.
-- **Current workaround:** Plausible discussion with a technician and review of logs; not observed.
-- **Stakes, incentives and constraints:** Operational stakes possible but unmeasured. No real records or equipment commands in this exercise.
-- **Decision relationships:** Technician and production supervisor are related provisional roles; buyer and authority UNKNOWN.
-- **Problem statement and risky assumption:** When reports conflict, the maintenance manager may struggle to choose the next investigation. The conflict itself may not be the real obstacle.
-- **Research needed:** Examine a recent real decision; compare information uncertainty with permission or scheduling constraints.
+**Snapshot:** SYNTHETIC maintenance manager at a mid-sized plant before shift handover; assumed workaround: technician discussion and log review.
+
+| Priority | Provisional choice | Evidence |
+|---|---|---|
+| Top job | Explain the next investigation | ESTIMATE / BEST GUESS |
+| Top pain | Reports conflict; source/recency unclear | ESTIMATE / BEST GUESS |
+| Top gain | Explain a next action with uncertainty visible | ESTIMATE / BEST GUESS |
+
+**Problem framing:** I am a maintenance manager before handover. Trying to explain the next investigation. But conflicting reports make it hard to defend. Because source/recency may be unclear (cause hypothesis). Which makes me feel: UNKNOWN.
+
+**Quotes/behavior:** quotations UNKNOWN; log review/discussion assumed. **Takeaway:** inspect a recent decision to distinguish information uncertainty from permission/scheduling. No observed customers; human selection not recorded.

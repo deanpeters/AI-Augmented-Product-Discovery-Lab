@@ -63,3 +63,22 @@ What is inferred: Report uncertainty or coordination may explain the difficulty;
 Desired outcome: Explain the next investigation with less avoidable uncertainty.
 Biggest unanswered question: Which obstacle dominates actual decisions?
 ```
+
+## Final readout
+
+**Audience/outcome:** maintenance managers explaining the next investigation. **Shared comparator B0:** technician discussion/manual logs. All entries SYNTHETIC hypotheses.
+
+| Meaningful difference vs. B0 | Low customer value | High customer value |
+|---|---|---|
+| High | No supported placement | S2 digital comparison; fictional C1 rival, conditional |
+| Low | No supported placement | S1 storyboard comparison, conditional |
+
+S3 coordination checklist is unplaced; B0 value UNKNOWN, difference zero relative to itself.
+
+| Option | Value / difference | Tradeoff / evidence |
+|---|---|---|
+| S1 | Possible clarity / modest difference | Cheap probe; ESTIMATE / BEST GUESS |
+| S2 / C1 | Possible clarity / linked-source mechanism | No established S2 advantage; ESTIMATE / BEST GUESS |
+| S3 | UNKNOWN relevance / UNKNOWN difference | Could address the actual barrier |
+
+**Recommendation:** test S1 and S3 before spending on S2. Distinguish information and coordination causes. No real competitor evidence or customer validation; shortlist and decider not recorded.

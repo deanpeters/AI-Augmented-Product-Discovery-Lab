@@ -56,3 +56,30 @@ recomputed final executive-table arithmetic, prompt parity and package checks.
 Both Codex and Claude distribution bundles were refreshed from the canonical
 skills. These are mechanical checks: new/revised behavioral cases are NOT RUN;
 no cloud model calls or live rehearsal were performed for this revision.
+
+
+## Distribution freshness gate: October 4, 2026
+
+The GitHub validation workflow now checks committed Claude distribution content
+as well as Codex content and prompt parity. `bash scripts/refresh-library.sh`
+regenerates prompts, rebuilds both clients' `.plugin` and `.zip` copies and runs
+the checks. The PR template records the same maintenance checklist. Checks run
+without rebuilding first in CI, so stale committed artifacts fail.
+
+All 22 local regression tests pass, including stale Claude-template and
+unexpected-package-entry rejection; all 18 behavioral case definitions validate.
+No behavioral model tests or live rehearsal were run for this maintenance change.
+
+
+Claude distribution filenames now identify the client explicitly:
+`dist/dlab-claude-0.1.1.plugin` and `dist/dlab-claude-0.1.1.zip`.
+The refresh command rebuilds both alongside Codex; download links and
+freshness checks follow the renamed files. The 22 local tests pass.
+
+## Concise readout revision: October 4, 2026
+
+Audit: nine skills had structured output lists but no required concise ending; Segment alone required its final commercial readout. The other nine now require Final readout, supported by motion-specific template fields and filled synthetic examples. Prompt equivalents and both plugin kits were regenerated as v0.1.2. The chain and combined Persona motion are unchanged. Supplied workshop canvases inform the field choices; no deck edits were made.
+
+Case 19 covers all ten endings: populated decision notes, source/uncertainty retention, linked OST and comparison content, seven positioning clauses, falsifiable tests, six storyboard frames and all MVN transactions plus the portable prompt. Behavioral status: NOT RUN. Local checks do not prove that a model will follow the output contract.
+
+Final mechanical verification: `bash scripts/refresh-library.sh` passed 22 regression tests, 19 case definitions, ten skill/prompt pairs, asset/link checks and both deterministic distribution-kit checks. No model calls were made.

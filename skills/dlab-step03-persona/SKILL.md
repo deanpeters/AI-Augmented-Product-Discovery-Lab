@@ -3,7 +3,7 @@ name: dlab-step03-persona
 description: "Create an evidence-aware situational persona for a selected segment, including jobs, pains, gains, stakes and workarounds. Use before building an opportunity solution tree."
 metadata:
   author: "Dean Peters"
-  version: "0.3.0"
+  version: "0.3.1"
   type: "interactive"
   theme: "product-discovery"
   phase: "3"
@@ -101,6 +101,19 @@ What is inferred:
 Desired outcome:
 Biggest unanswered question:
 ```
+
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Persona snapshot and situation/trigger: role, relevant context and workaround; do not fill decorative biography or invented demographics.
+- A three-row table: Top job | Top pain | Top desired gain, with one selected or provisionally recommended item of each and its evidence status.
+- Problem framing: I am / Trying to / But / Because / Which makes me feel. Keep the cause provisional and the feeling UNKNOWN unless supported. Select the working persona before framing their problem; this remains one combined motion.
+- Quotes/behaviors and key takeaway: one supported quote or UNKNOWN (invented voice must be labeled SYNTHETIC), the relevant behavior, biggest uncertainty and next evidence task.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
 
 ## Human decision gate and saving
 

@@ -70,3 +70,15 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Decision, scope and desired outcome: one short line each.
+- Findings: at most three decision-changing signals or gaps, each with an evidence label and source ID/direct URL where available. If research was unavailable, say so; a research plan is not a finding.
+- Alternatives and candidate segment dimensions: one compact row each; no premature segment selection.
+- Uncertainty and recommendation: the biggest uncertainty that could change the call and the next evidence task.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

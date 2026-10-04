@@ -70,3 +70,14 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Audience, need/opportunity and primary alternative: one short line each.
+- The complete seven-clause statement: For / Who / The / Is a / That / Unlike / Our product gives. Prefer one sentence per clause, without a second rewritten statement repeating the same content.
+- Reason to believe or proof gap, biggest unsupported benefit/difference, and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

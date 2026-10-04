@@ -75,6 +75,20 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Prototype hypothesis/learning question and target audience: one short line each.
+- Setup and Encounter: one or two sentences each.
+- A numbered table with ALL 3–6 internal transactions: Human action/input | System response | Why the human acts next. Do not flatten the loop into one action and one response to save words. State its exit condition.
+- Resolution: one or two sentences, with depicted success labeled as a hypothesis when unobserved.
+- Experiment status, biggest risk and next decision. Provide the copy-ready No/Lo-Code Prompt separately in the artifact, carrying all numbered transactions, continuations, exit condition and boundaries. Never replace those with a reference to a title.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -172,6 +186,19 @@ Biggest unanswered question:
 
 When passing this narrative onward, include the actual numbered transactions, continuations and exit condition; a title or "repeat the loop" is insufficient to preserve supplied content.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Prototype hypothesis/learning question and target audience: one short line each.
+- Setup and Encounter: one or two sentences each.
+- A numbered table with ALL 3–6 internal transactions: Human action/input | System response | Why the human acts next. Do not flatten the loop into one action and one response to save words. State its exit condition.
+- Resolution: one or two sentences, with depicted success labeled as a hypothesis when unobserved.
+- Experiment status, biggest risk and next decision. Provide the copy-ready No/Lo-Code Prompt separately in the artifact, carrying all numbered transactions, continuations, exit condition and boundaries. Never replace those with a reference to a title.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Minimum Viable Narrative: conflicting maintenance reports
@@ -255,6 +282,23 @@ Biggest unanswered question: Which barrier dominates actual decisions?
 
 If this example is carried forward, include Setup, Encounter, all four transaction rows, their continuations, loop exit, Resolution and the test rule above. Do not replace them with a title.
 
+## Final readout
+
+**Hypothesis/audience:** SYNTHETIC source context may help maintenance practitioners explain an investigation; coordination may dominate.
+
+**Setup:** manager before handover needs a defensible choice. **Encounter:** comparison aid shows conflicting reports with incomplete context.
+
+| # | Human action | System response | Next-action reason |
+|---|---|---|---|
+| 1 | Select reports | Show sources, timestamps, uncertainty | Inspect stale item |
+| 2 | Inspect stale basis | Reveal earlier date and missing claim basis | Mark the gap |
+| 3 | Mark missing basis / information needed | Preserve uncertainty without a verdict | Choose a bounded next action |
+| 4 | Choose investigation/clarification and explain | Reflect rationale, gap and next action | Review and exit |
+
+**Exit:** person states action, rationale and unresolved gap. **Resolution:** fictional manager helps the next-shift lead explain their own choice; success unobserved.
+
+**Next decision:** review this four-transaction story and test information versus coordination. NOT BUILT / NOT RUN; no human choice recorded. The complete portable prompt above carries all four transactions and boundaries; this readout does not authorize building.
+
 # Weak example
 
 # Weak Minimum Viable Narrative and repair
@@ -266,6 +310,10 @@ SYNTHETIC anti-example.
 This flattens a repeated human/system loop into a single exchange, removes the person's reasoning and invents both an autonomous verdict and success. Adding React, widgets or a database would not repair the narrative.
 
 Repair: keep Setup and Encounter, enumerate about 3-6 internal transactions, then Resolution. In each pair, show the human's choice/input, the system's response and why that response motivates the next action. Include a loop exit and observable behavior. Preserve the pairs in the No/Lo-Code Prompt. Do not pad with clicks, map storyboard frames one-to-one, or fabricate customer validation. See the [four-transaction worked example](#worked-example).
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

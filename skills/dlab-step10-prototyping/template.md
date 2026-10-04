@@ -81,3 +81,15 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Audience, hypothesis and brutal truth: one line each. Answer: What is the smallest, cheapest test we can run to learn the most brutal truth?
+- A compact experiment card: Test/fidelity | Participant task | Observable evidence | Disconfirmation/decision rule | Time/cost/access assumptions.
+- Actual build/experiment status and observations, or NOT BUILT / NOT RUN. Distinguish implementation checks from learning results.
+- Recommended next evidence decision, biggest uncertainty and boundary on further investment. Keep a needed builder prompt and the full supplied MVN transactions separate; do not increase fidelity or build without authorization.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

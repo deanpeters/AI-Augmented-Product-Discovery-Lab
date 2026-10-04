@@ -13,3 +13,11 @@ Each body has three capture modes, up to five numbered questions and two clarifi
 Prompt export embeds the body, template, worked example and weak example with local asset links converted to internal anchors. A pasted prompt requires no repository access. Asset edits must be re-exported and make prior eval receipts stale.
 
 Prototyping closes with experiment status, actual observations when available and the next evidence task. There is no separate learning-review stage or agent-strategy canvas in this chain. Storyboard can reuse a Solution Hypothesis; Minimum Viable Narrative can reuse a storyboard. Both also accept standalone notes and label newly drafted assumptions.
+
+## Concise final readouts
+
+All completed drafts end with a copy-ready motion-specific readout. Segment retains its executive TL;DR and population / potential economics / reasoning table. The other nine end with `Final readout`: actual field values, compact tables or story beats, the material evidence limit and a specific next decision. Template fields are a checklist, not an invitation to write an essay per field. Supporting sources, calculations and test assumptions remain traceable; avoid repeating them in both the handoff and ending.
+
+The October 4 workshop canvases inform field selection, not chain order. Market Intel's Decision/Scope/Outcome/Inputs/Uncertainty fields frame research; the ending also includes actual findings or honest gaps. Persona includes its snapshot, top job/pain/gain and problem framing in the same motion. OST keeps links from outcome through opportunities, options and experiments. The 2x2 keeps a shared comparator and separate value/difference evidence. Positioning keeps all seven clauses; Solution Hypothesis keeps tiny tests, observable measures and a falsifying rule. Storyboard retains our six-frame arc. MVN retains every internal transaction, continuation, exit and portable prompt. Prototyping ends with an experiment card, actual status and next evidence decision.
+
+Aim for about 200 words of summary prose, allowing the required artifacts and portable prompts the space they need. Concision cannot justify invented evidence, deleted alternatives, a flattened loop or false approval. Shorten explanation; preserve the decision-bearing content.

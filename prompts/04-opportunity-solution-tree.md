@@ -71,6 +71,18 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Persona and desired outcome: one line.
+- A compact linked tree/table: Opportunity ID and need → Solution ID and option → Experiment and disconfirming observation. Normally show up to three opportunities and two options per opportunity; use fewer when context is thin. Keep supplied candidates available for a requested portfolio bake-off; do not silently discard them to meet a size target.
+- Next step: the branch/options recommended for comparison or testing, the tradeoff and the assumption most likely to change the choice. No automatic winner or human approval.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -152,6 +164,17 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Persona and desired outcome: one line.
+- A compact linked tree/table: Opportunity ID and need → Solution ID and option → Experiment and disconfirming observation. Normally show up to three opportunities and two options per opportunity; use fewer when context is thin. Keep supplied candidates available for a requested portfolio bake-off; do not silently discard them to meet a size target.
+- Next step: the branch/options recommended for comparison or testing, the tradeoff and the assumption most likely to change the choice. No automatic winner or human approval.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Opportunity Solution Tree
@@ -212,15 +235,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Is information uncertainty the obstacle, and which alternative best addresses it?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Outcome and persona:** SYNTHETIC maintenance manager: clearer next-investigation decisions; baseline and target UNKNOWN.
-- **Opportunities:** O1 understand source and recency of conflicting information; O2 clarify who can authorize investigation. Both hypotheses, not verified needs.
-- **Solution candidates:** Under O1: S1 storyboard report comparison and S2 annotated digital comparison. Under O2: S3 explicit permission and scheduling process.
-- **Experiments and disconfirmation:** Discuss a recent decision and use fictional report pairs. If information is understood but permission blocks action, revise toward O2.
-- **Value and feasibility assumptions:** Time saved, commercial value and integration feasibility UNKNOWN. A lo-fi discovery test may answer the first question.
-- **Portfolio choice:** DRAFT portfolio: S1 storyboard report comparison and S2 annotated digital comparison under O1; S3 permission/handoff process under O2. No winner selected.
-- **Next handoff:** Offer S1/S2/S3 with opportunity links, experiment ideas and the coordination alternative for a bake-off. Comparing a portfolio does not require choosing a winner first.
+**Target/outcome:** SYNTHETIC maintenance manager; explain the next investigation with less uncertainty.
+
+| Opportunity | Solution options | Experiment / disconfirmation |
+|---|---|---|
+| O1: Understand source and recency | S1 storyboard comparison; S2 annotated digital comparison | Fictional report-pair task; revise if context does not change reasoning. |
+| O2: Clarify investigation authority | S3 permission/scheduling process | Discuss a recent decision; revise information focus if permission blocks action. |
+
+**Next decision:** compare S1/S2/S3 with their opportunity links; no winner selected. Value and feasibility UNKNOWN. All branches are authored hypotheses, not observed needs; decider not recorded.
 
 # Weak example
 
@@ -239,6 +263,10 @@ An output replaces the outcome, and solutions are disguised as opportunities.
 Name the person's desired progress; separate needs from solution candidates and attach disconfirming experiments.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

@@ -3,7 +3,7 @@ name: dlab-step10-prototyping
 description: "Choose the smallest, cheapest test that can reveal the most brutal truth about the riskiest assumption. Create a bounded experiment brief; build only after an explicit human request."
 metadata:
   author: "Dean Peters"
-  version: "0.3.0"
+  version: "0.3.1"
   type: "interactive"
   theme: "product-discovery"
   phase: "10"
@@ -99,6 +99,19 @@ What is inferred:
 Desired outcome:
 Biggest unanswered question:
 ```
+
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Audience, hypothesis and brutal truth: one line each. Answer: What is the smallest, cheapest test we can run to learn the most brutal truth?
+- A compact experiment card: Test/fidelity | Participant task | Observable evidence | Disconfirmation/decision rule | Time/cost/access assumptions.
+- Actual build/experiment status and observations, or NOT BUILT / NOT RUN. Distinguish implementation checks from learning results.
+- Recommended next evidence decision, biggest uncertainty and boundary on further investment. Keep a needed builder prompt and the full supplied MVN transactions separate; do not increase fidelity or build without authorization.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
 
 ## Human decision gate and saving
 

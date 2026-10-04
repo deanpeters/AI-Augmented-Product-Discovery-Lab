@@ -60,12 +60,15 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Where is this condition frequent and consequential enough to investigate?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Scope and decision:** Manufacturing maintenance decisions; geography and time horizon UNKNOWN. Teaching sweep, not live market research.
-- **Landscape and alternatives:** SYNTHETIC candidates: manual log review, technician discussion, existing maintenance software. Adoption and market shares UNKNOWN.
-- **Signals and shifts:** UNKNOWN: no sources supplied. Increased tooling availability would need actual source evidence.
-- **Candidate segment dimensions:** Plant size, operating environment, maintenance decision frequency and coordination constraints are candidate dimensions, not verified segment attractiveness.
-- **Source register:** No sources supplied; no browsing run. URLs, dates and independent corroboration UNKNOWN.
-- **Conflicting evidence and gaps:** UNKNOWN market demand, purchasing authority, downtime costs and willingness to pay.
-- **Research recommendation:** Investigate recent maintenance investigation decisions before choosing a commercial opportunity.
+| Field | Readout |
+|---|---|
+| Decision / scope | Whether to investigate manufacturing maintenance decisions; geography/horizon UNKNOWN. |
+| Desired outcome | More explainable next-investigation choices. |
+| Findings / inputs | UNKNOWN: no research run or sources supplied. Report conflict is an ESTIMATE / BEST GUESS discovery lead. |
+| Alternatives | Assumed manual logs, technician discussions and maintenance software. |
+| Segment dimensions | Plant size, operating context and coordination constraints; not a selected segment. |
+| Uncertainty | Is conflicting information frequent and consequential, or is authority the real barrier? |
+
+**Recommendation:** investigate recent decisions and obtain primary market sources before choosing a segment. SYNTHETIC fixture only; no human choice recorded.

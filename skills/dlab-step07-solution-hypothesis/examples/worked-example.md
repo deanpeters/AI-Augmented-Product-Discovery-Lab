@@ -71,13 +71,15 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the hypothesized mechanism change reasoning or does another constraint dominate?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Selected persona, concept and positioning:** SYNTHETIC maintenance manager; provisional source/recency report comparison; no real-world positioning validation.
-- **If / for / then / because:** If we make source, timing and uncertainty explicit for a maintenance manager facing conflicting reports, then they may explain a clearer next investigation because the grounds for comparison are visible. All clauses are hypotheses.
-- **Riskiest assumption:** Report uncertainty, rather than approval or scheduling, materially changes investigation choices.
-- **Tiny acts of discovery:** Proposed: examine a recent practitioner decision; then compare fictional report pairs with and without explicit source context. Participant access not arranged.
-- **Expected and disconfirming observations:** Expected: person explains the role of source/recency and remaining uncertainty. Disconfirming: same decision without those details, or inability to act due to coordination.
-- **Protocol and decision rule:** Proposed formative session: revise toward coordination if permission dominates; revise comparison if details confuse; pursue another bounded test only if relevant reasoning becomes clearer. No demand validation inferred.
-- **Experiment status:** NOT RUN. No participants, results or measured improvements.
-- **Hypothesis decision:** DRAFT protocol; human selection not recorded.
+**Context:** SYNTHETIC maintenance manager cannot readily defend a choice from conflicting reports; provisional positioning offers source-context comparison.
+
+**Hypothesis:** If we expose source/recency/uncertainty for that manager, Then we will support a more explainable investigation choice (ESTIMATE / BEST GUESS).
+
+| Tiny act | Observable criterion | Disconfirmation |
+|---|---|---|
+| Examine a recent decision | Qualitative account of what blocked action | Permission/scheduling dominates |
+| Compare fictional report pairs | Proposed: 4 of 5 explain an action and gap without rescue | Context confuses or does not change reasoning |
+
+**Window/status:** proposed two weeks; baseline UNKNOWN; recruitment not arranged; NOT RUN. **Risk:** information may not be the limiting factor. **Rule/next decision:** revise toward coordination if it dominates; otherwise consider a bounded further test. No demand proof or human selection recorded.

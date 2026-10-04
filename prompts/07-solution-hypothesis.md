@@ -74,6 +74,19 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Problem framing and positioning context: one sentence each, reusing supplied content or labeling a provisional draft.
+- Hypothesis: If we / for / Then we will, with the proposed causal mechanism where useful.
+- A compact test table: Tiny act of discovery | Assumption tested | Observable measure/criterion | Disconfirming observation. Usually two tests, one quantitative and one qualitative measure, a proposed timeframe and explicit decision rule; label baselines/targets as UNKNOWN or proposed when unmeasured.
+- Riskiest assumption, experiment status and recommended next decision. A simulation result cannot substitute for customer or plant validation.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -178,6 +191,18 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Problem framing and positioning context: one sentence each, reusing supplied content or labeling a provisional draft.
+- Hypothesis: If we / for / Then we will, with the proposed causal mechanism where useful.
+- A compact test table: Tiny act of discovery | Assumption tested | Observable measure/criterion | Disconfirming observation. Usually two tests, one quantitative and one qualitative measure, a proposed timeframe and explicit decision rule; label baselines/targets as UNKNOWN or proposed when unmeasured.
+- Riskiest assumption, experiment status and recommended next decision. A simulation result cannot substitute for customer or plant validation.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Solution Hypothesis
@@ -253,16 +278,18 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the hypothesized mechanism change reasoning or does another constraint dominate?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Selected persona, concept and positioning:** SYNTHETIC maintenance manager; provisional source/recency report comparison; no real-world positioning validation.
-- **If / for / then / because:** If we make source, timing and uncertainty explicit for a maintenance manager facing conflicting reports, then they may explain a clearer next investigation because the grounds for comparison are visible. All clauses are hypotheses.
-- **Riskiest assumption:** Report uncertainty, rather than approval or scheduling, materially changes investigation choices.
-- **Tiny acts of discovery:** Proposed: examine a recent practitioner decision; then compare fictional report pairs with and without explicit source context. Participant access not arranged.
-- **Expected and disconfirming observations:** Expected: person explains the role of source/recency and remaining uncertainty. Disconfirming: same decision without those details, or inability to act due to coordination.
-- **Protocol and decision rule:** Proposed formative session: revise toward coordination if permission dominates; revise comparison if details confuse; pursue another bounded test only if relevant reasoning becomes clearer. No demand validation inferred.
-- **Experiment status:** NOT RUN. No participants, results or measured improvements.
-- **Hypothesis decision:** DRAFT protocol; human selection not recorded.
+**Context:** SYNTHETIC maintenance manager cannot readily defend a choice from conflicting reports; provisional positioning offers source-context comparison.
+
+**Hypothesis:** If we expose source/recency/uncertainty for that manager, Then we will support a more explainable investigation choice (ESTIMATE / BEST GUESS).
+
+| Tiny act | Observable criterion | Disconfirmation |
+|---|---|---|
+| Examine a recent decision | Qualitative account of what blocked action | Permission/scheduling dominates |
+| Compare fictional report pairs | Proposed: 4 of 5 explain an action and gap without rescue | Context confuses or does not change reasoning |
+
+**Window/status:** proposed two weeks; baseline UNKNOWN; recruitment not arranged; NOT RUN. **Risk:** information may not be the limiting factor. **Rule/next decision:** revise toward coordination if it dominates; otherwise consider a bounded further test. No demand proof or human selection recorded.
 
 # Weak example
 
@@ -283,6 +310,10 @@ State actor, mechanism, task, disconfirmation and a prewritten rule; mark the ex
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
 
 A completed IF/THEN sentence without test measures is also incomplete. Add two tiny acts of discovery or a justified smaller set, one quantitative and one qualitative measure, and a timeframe. Keep thresholds proposed and missing results NOT RUN; completing a canvas does not validate the idea.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

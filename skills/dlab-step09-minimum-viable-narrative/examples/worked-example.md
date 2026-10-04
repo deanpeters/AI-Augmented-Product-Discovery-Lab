@@ -78,3 +78,20 @@ Desired outcome: explainable next-investigation decisions.
 Biggest unanswered question: Which barrier dominates actual decisions?
 
 If this example is carried forward, include Setup, Encounter, all four transaction rows, their continuations, loop exit, Resolution and the test rule above. Do not replace them with a title.
+
+## Final readout
+
+**Hypothesis/audience:** SYNTHETIC source context may help maintenance practitioners explain an investigation; coordination may dominate.
+
+**Setup:** manager before handover needs a defensible choice. **Encounter:** comparison aid shows conflicting reports with incomplete context.
+
+| # | Human action | System response | Next-action reason |
+|---|---|---|---|
+| 1 | Select reports | Show sources, timestamps, uncertainty | Inspect stale item |
+| 2 | Inspect stale basis | Reveal earlier date and missing claim basis | Mark the gap |
+| 3 | Mark missing basis / information needed | Preserve uncertainty without a verdict | Choose a bounded next action |
+| 4 | Choose investigation/clarification and explain | Reflect rationale, gap and next action | Review and exit |
+
+**Exit:** person states action, rationale and unresolved gap. **Resolution:** fictional manager helps the next-shift lead explain their own choice; success unobserved.
+
+**Next decision:** review this four-transaction story and test information versus coordination. NOT BUILT / NOT RUN; no human choice recorded. The complete portable prompt above carries all four transactions and boundaries; this readout does not authorize building.

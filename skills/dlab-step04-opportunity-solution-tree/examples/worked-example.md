@@ -56,12 +56,13 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Is information uncertainty the obstacle, and which alternative best addresses it?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Outcome and persona:** SYNTHETIC maintenance manager: clearer next-investigation decisions; baseline and target UNKNOWN.
-- **Opportunities:** O1 understand source and recency of conflicting information; O2 clarify who can authorize investigation. Both hypotheses, not verified needs.
-- **Solution candidates:** Under O1: S1 storyboard report comparison and S2 annotated digital comparison. Under O2: S3 explicit permission and scheduling process.
-- **Experiments and disconfirmation:** Discuss a recent decision and use fictional report pairs. If information is understood but permission blocks action, revise toward O2.
-- **Value and feasibility assumptions:** Time saved, commercial value and integration feasibility UNKNOWN. A lo-fi discovery test may answer the first question.
-- **Portfolio choice:** DRAFT portfolio: S1 storyboard report comparison and S2 annotated digital comparison under O1; S3 permission/handoff process under O2. No winner selected.
-- **Next handoff:** Offer S1/S2/S3 with opportunity links, experiment ideas and the coordination alternative for a bake-off. Comparing a portfolio does not require choosing a winner first.
+**Target/outcome:** SYNTHETIC maintenance manager; explain the next investigation with less uncertainty.
+
+| Opportunity | Solution options | Experiment / disconfirmation |
+|---|---|---|
+| O1: Understand source and recency | S1 storyboard comparison; S2 annotated digital comparison | Fictional report-pair task; revise if context does not change reasoning. |
+| O2: Clarify investigation authority | S3 permission/scheduling process | Discuss a recent decision; revise information focus if permission blocks action. |
+
+**Next decision:** compare S1/S2/S3 with their opportunity links; no winner selected. Value and feasibility UNKNOWN. All branches are authored hypotheses, not observed needs; decider not recorded.

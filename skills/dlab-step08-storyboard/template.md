@@ -74,3 +74,14 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Solution summary, persona and hypothesis/reaction question: one short line each.
+- A six-row storyboard table: Frame | Story beat | What we can observe. Preserve this arc: who has the problem → problem → oh crap moment → solution arrives → person uses it → person helps others enjoy the same success. Keep each beat to one or two sentences; the persona is the hero.
+- Evidence status, rendering status, biggest story assumption and next test/decision. Fictional resolution is not measured success. Keep any requested renderer prompt separate from the compact table.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

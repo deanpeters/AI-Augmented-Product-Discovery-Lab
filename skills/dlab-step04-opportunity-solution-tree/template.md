@@ -62,3 +62,14 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Persona and desired outcome: one line.
+- A compact linked tree/table: Opportunity ID and need → Solution ID and option → Experiment and disconfirming observation. Normally show up to three opportunities and two options per opportunity; use fewer when context is thin. Keep supplied candidates available for a requested portfolio bake-off; do not silently discard them to meet a size target.
+- Next step: the branch/options recommended for comparison or testing, the tradeoff and the assumption most likely to change the choice. No automatic winner or human approval.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

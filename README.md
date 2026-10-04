@@ -58,6 +58,8 @@ The prompt equivalent embeds all four resources. Attendees can copy its single l
 | 09 | Minimum Viable Narrative | [Skill](skills/dlab-step09-minimum-viable-narrative/SKILL.md) | [Prompt](prompts/09-minimum-viable-narrative.md) | Minimum Viable Narrative |
 | 10 | Prototyping | [Skill](skills/dlab-step10-prototyping/SKILL.md) | [Prompt](prompts/10-prototyping.md) | Prototype Experiment Brief |
 
+Every completed motion ends with a concise, canvas-ready readout: the actual result, material evidence limit and next decision. Storyboard preserves six frames; MVN preserves every internal action–response transaction. Supporting evidence remains traceable without repeating the full report.
+
 Segment ends with a boss-ready commercial readout: estimated TAM/SAM/SOM populations, potential dollars and the reasoning behind them. Price hypotheses stay labeled; SOM annual revenue potential is distinguished from earned revenue, customer savings and profit.
 
 ## Evidence and decisions
@@ -79,6 +81,8 @@ Monday, October 5, 2026, 6:00 PM–8:00 PM EDT. Hosted by the Triangle Startup C
 The rhythm is brief framing → live work → audience reaction → synthesis → next question. The [SHOWRUN](SHOWRUN.md) controls the performance; the [demo script](examples/monday-demo-script.md) supplies copy-ready interactions, transitions and recovery lines. Use actual rehearsal outputs as receipts. Current fallback seeds are explicitly synthetic illustrations.
 
 ## Keep the skills honest
+
+After changing a skill or its templates/examples, run `bash scripts/refresh-library.sh` to update prompts and both distribution kits together. See [the maintenance checklist](docs/MAINTAINING.md). GitHub rejects stale prompts and archives through its validation check.
 
 Run local metadata, asset, prompt-parity, link, case-reference and regression checks:
 

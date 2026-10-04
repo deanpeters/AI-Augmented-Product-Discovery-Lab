@@ -12,8 +12,8 @@ Status as of October 4, 2026, one day before the show.
 - Original lab materials are licensed CC BY-NC-SA 4.0.
 
 - Segment v0.4.0 requires a final SOM dollar takeaway and population / potential economics / reasoning table, with labeled pricing assumptions and revenue limits.
-- Codex and Claude `dlab` v0.1.1 kits have `.plugin` and `.zip` downloads. See [Codex setup](CODEX-PLUGIN.md) and [Claude setup](PLUGIN.md).
-- Twenty local regression tests pass and eighteen use-case definitions validate. Codex installation was checked in an isolated temporary CLI configuration; desktop discovery and the revised skills’ behavior still need rehearsal.
+- Codex and Claude `dlab` v0.1.2 kits have `.plugin` and `.zip` downloads. See [Codex setup](CODEX-PLUGIN.md) and [Claude setup](PLUGIN.md).
+- Twenty-two local regression tests pass and nineteen use-case definitions validate. Codex installation was checked in an isolated temporary CLI configuration; desktop discovery and the revised skills’ behavior still need rehearsal.
 
 ## Verification boundaries
 

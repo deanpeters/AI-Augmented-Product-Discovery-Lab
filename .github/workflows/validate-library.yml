@@ -10,4 +10,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: bash scripts/test-library.sh
+      - name: Check skills, prompt parity and both distribution kits
+        run: bash scripts/test-library.sh

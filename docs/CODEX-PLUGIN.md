@@ -2,8 +2,8 @@
 
 The Codex plugin is named `dlab`. It packages the same ten canonical skills,
 including each template and worked/weak example. The downloadable
-[.plugin bundle](../dist/dlab-codex-0.1.1.plugin) and identical
-[.zip bundle](../dist/dlab-codex-0.1.1.zip) also include all ten prompt
+[.plugin bundle](../dist/dlab-codex-0.1.2.plugin) and identical
+[.zip bundle](../dist/dlab-codex-0.1.2.zip) also include all ten prompt
 equivalents and the optional supplied Productside canvas references.
 
 ## Install from a local checkout
@@ -34,7 +34,7 @@ an unpacked bundle, register it through a local marketplace rather than
 passing the archive to `codex plugin add`. Both extensions contain exactly the
 same ZIP bytes; providing both makes download, extraction and upload easier
 across clients. The older `plugins/codex.plugin` path is retained as an
-identical compatibility copy. Claude's `dist/dlab-<version>.*` files stay separate
+identical compatibility copy. Claude's `dist/dlab-claude-<version>.*` files stay separate
 from Codex's `dist/dlab-codex-<version>.*` files.
 
 ## Start one motion
@@ -61,6 +61,8 @@ operator. Building and installing it make no model calls. Using its skills in
 a hosted assistant uses that assistant's normal inference allowance.
 
 ## Maintain and verify
+
+Use `bash scripts/refresh-library.sh` for the complete prompt-and-distribution refresh. See [the maintenance checklist](MAINTAINING.md); GitHub checks both kits without silently rebuilding them.
 
 Edit the canonical files under `skills/`. Refresh prompts if skill content
 changes, then rebuild the bundle and run the local checks:

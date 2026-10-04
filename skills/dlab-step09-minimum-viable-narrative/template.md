@@ -78,3 +78,16 @@ Biggest unanswered question:
 ```
 
 When passing this narrative onward, include the actual numbered transactions, continuations and exit condition; a title or "repeat the loop" is insufficient to preserve supplied content.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Prototype hypothesis/learning question and target audience: one short line each.
+- Setup and Encounter: one or two sentences each.
+- A numbered table with ALL 3–6 internal transactions: Human action/input | System response | Why the human acts next. Do not flatten the loop into one action and one response to save words. State its exit condition.
+- Resolution: one or two sentences, with depicted success labeled as a hypothesis when unobserved.
+- Experiment status, biggest risk and next decision. Provide the copy-ready No/Lo-Code Prompt separately in the artifact, carrying all numbered transactions, continuations, exit condition and boundaries. Never replace those with a reference to a title.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

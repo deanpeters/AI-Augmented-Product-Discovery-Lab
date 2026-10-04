@@ -28,7 +28,7 @@ Claude's plugin upload accepts only a `.zip` or `.plugin` file whose root holds 
 python3 scripts/package-plugin.py
 ```
 
-Upload the [dlab-0.1.1.plugin bundle](../dist/dlab-0.1.1.plugin) or the identical [dlab-0.1.1.zip bundle](../dist/dlab-0.1.1.zip). It contains the manifest, the ten skills with their templates and examples, the reference notes, the license and a README.
+Upload the [dlab-claude-0.1.2.plugin bundle](../dist/dlab-claude-0.1.2.plugin) or the identical [dlab-claude-0.1.2.zip bundle](../dist/dlab-claude-0.1.2.zip). It contains the manifest, the ten skills with their templates and examples, the reference notes, the license and a README.
 
 ## What you get
 
@@ -56,5 +56,7 @@ Invoke one by name, for example `/dlab:dlab-step01-market-intel`, or ask for the
 - Codex has a separate [plugin setup and downloadable bundle](CODEX-PLUGIN.md) using the same ten skills.
 
 ## Maintaining it
+
+Use `bash scripts/refresh-library.sh` to refresh prompts and both clients' bundles, then run the checks. See [the maintenance checklist](MAINTAINING.md). GitHub checks the committed Claude archives with `python3 scripts/package-plugin.py --check`; stale skills, templates or examples fail the check.
 
 Edit the canonical skills in `skills/`, then run `python3 scripts/export-prompts.py`, `python3 scripts/package-plugin.py`, `python3 scripts/build-codex-plugin.py` and `./scripts/test-library.sh`. Repository installs read the canonical `skills/`; uploaded archives must be rebuilt after skill or asset changes. Bump the version in both `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json` when you release.

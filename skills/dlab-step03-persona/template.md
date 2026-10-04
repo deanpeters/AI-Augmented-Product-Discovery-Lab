@@ -92,3 +92,15 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Persona snapshot and situation/trigger: role, relevant context and workaround; do not fill decorative biography or invented demographics.
+- A three-row table: Top job | Top pain | Top desired gain, with one selected or provisionally recommended item of each and its evidence status.
+- Problem framing: I am / Trying to / But / Because / Which makes me feel. Keep the cause provisional and the feeling UNKNOWN unless supported. Select the working persona before framing their problem; this remains one combined motion.
+- Quotes/behaviors and key takeaway: one supported quote or UNKNOWN (invented voice must be labeled SYNTHETIC), the relevant behavior, biggest uncertainty and next evidence task.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

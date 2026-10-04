@@ -13,3 +13,7 @@ No person's action loop; introduces equipment control and invented proof.
 Show who has the problem, the problem, the oh crap moment, the solution arriving, the person using it, and the person helping others enjoy the same success. Do not collapse frames 2 and 3 or omit frame 6. Retain fictional status for the success shown.
 
 Use the [worked example](worked-example.md) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.

@@ -71,6 +71,18 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Audience, need/opportunity and primary alternative: one short line each.
+- The complete seven-clause statement: For / Who / The / Is a / That / Unlike / Our product gives. Prefer one sentence per clause, without a second rewritten statement repeating the same content.
+- Reason to believe or proof gap, biggest unsupported benefit/difference, and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -160,6 +172,17 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Audience, need/opportunity and primary alternative: one short line each.
+- The complete seven-clause statement: For / Who / The / Is a / That / Unlike / Our product gives. Prefer one sentence per clause, without a second rewritten statement repeating the same content.
+- Reason to believe or proof gap, biggest unsupported benefit/difference, and recommended wording/evidence decision. Do not turn draft positioning into validated advantage.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Positioning Statement
@@ -227,15 +250,17 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the claimed difference exist and matter to this persona?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Target and need:** SYNTHETIC maintenance managers who need to explain the next investigation when reports conflict.
-- **Concept and category:** Provisional report-comparison process; category is a working description.
-- **Statement:** For maintenance managers facing conflicting equipment reports, the report-comparison process is a decision aid that may clarify the next investigation. Unlike unstructured log review, it proposes making source, recency and uncertainty explicit.
-- **Alternative and proposed difference:** Log review and technician discussion; whether the proposed difference is already available is UNKNOWN.
-- **Reason to believe:** UNKNOWN. No customer observations or independent performance evidence.
-- **Claim check and revision:** Benefit and differentiation remain hypotheses. Remove any claim of reduced downtime or superiority.
-- **Statement choice:** DRAFT wording; no human selection recorded.
+- **For:** maintenance managers in mid-sized manufacturing plants.
+- **Who:** need to explain the next investigation when reports conflict.
+- **The:** Report Comparison Aid (working name).
+- **Is a:** source-context comparison aid (working category).
+- **That:** may support an explainable next action with uncertainty visible.
+- **Unlike:** technician discussion and manual log review (assumed alternative).
+- **Our product gives:** explicit source, timing and uncertainty context (untested difference).
+
+**Reason to believe:** UNKNOWN. This is SYNTHETIC provisional positioning, not validated advantage. **Next decision:** review whether the difference exists and matters before approving the wording; no human selection recorded.
 
 # Weak example
 
@@ -254,6 +279,10 @@ Unbounded target, invented exclusivity and an unsupported outcome guarantee.
 Use the selected persona, concrete alternative and provisional benefit; leave proof gaps visible.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

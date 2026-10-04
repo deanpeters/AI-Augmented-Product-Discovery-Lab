@@ -69,3 +69,15 @@ Biggest unanswered question:
 ```
 
 Include useful candidate descriptions, comparator and evidence gaps. These fields help carry context; they are not prerequisites for another skill.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Audience, desired outcome and shared comparator: one line each.
+- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
+- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
+- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

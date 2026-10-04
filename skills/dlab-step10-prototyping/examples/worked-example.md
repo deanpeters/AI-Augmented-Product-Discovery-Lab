@@ -64,14 +64,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: What actual practitioner observations support revising, stopping or another test?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Hypothesis and learning question:** SYNTHETIC source/recency context may support a clearer next-investigation explanation. No customer validation.
-- **Narrative carried forward:** Setup: manager before shift handover. Encounter: conflicting fictional reports. Internal loop: (1) human selects reports; system shows source/recency/uncertainty, prompting inspection; (2) human inspects a stale item; system reveals its earlier date and a missing claim basis, prompting annotation; (3) human marks the missing basis; system preserves it beside available evidence without deciding, prompting a bounded choice; (4) human states a next action and reason; system reflects rationale and uncertainty for review. Exit: person states the next action, rationale and unresolved gap. Resolution: fictional sharing of the reasoning with the next-shift lead. No observed success.
-- **Fidelity comparison and choice:** Brutal truth: source/recency context might be irrelevant because authority or scheduling dominates the actual decision. DRAFT recommendation: examine a recent real decision with a relevant practitioner, then use a storyboard or wireframe task to contrast uncertainty and coordination explanations. A comprehension check alone cannot establish adoption or value. The tiniest act that returns the most brutal truth or enough signal to pivot, punt or pursue wins; no interaction-specific need is established.
-- **Participant task and context:** Proposed: relevant practitioner explains a choice with fictional report pairs. Recruitment and access not arranged.
-- **Expected / disconfirming observations and rule:** Expected: explains source and recency plus remaining uncertainty. Revise if confusing; route toward coordination if permission dominates; another bounded test if the mechanism appears useful. This is formative, not market validation.
-- **Builder prompt and blocked actions:** If interaction later earns its cost, preserve all four human/system transaction pairs, their continuations and loop exit in a local disposable comparison with synthetic labels. No network, credentials, real records, commands or deployment.
-- **Build status and implementation checks:** NOT BUILT; no files or UI checks claimed.
-- **Experiment status and observations:** NOT RUN; no participant responses or measured benefits.
-- **Next decision:** DRAFT: gather practitioner evidence before increasing fidelity.
+**Target/hypothesis:** SYNTHETIC maintenance manager; source context might clarify investigation reasoning. **Brutal truth:** authority/scheduling may matter more.
+
+| Experiment field | Proposed test |
+|---|---|
+| Smallest test / fidelity | Recent-decision conversation, then storyboard or wireframe comparison |
+| Participant task | Explain a choice and unresolved uncertainty using fictional report pairs |
+| Evidence | Reasoning in the person's words; source/recency use vs. coordination barriers |
+| Disconfirmation / rule | Coordination dominates → revise direction; confusing context → revise comparison; clearer reasoning → consider bounded further test |
+| Time / cost / access | UNKNOWN; recruitment not arranged |
+
+**Status:** NOT BUILT / NOT RUN; no observations. **Next decision:** gather practitioner evidence before increasing fidelity. No demand proof, equipment control or build authorization; human choice not recorded.

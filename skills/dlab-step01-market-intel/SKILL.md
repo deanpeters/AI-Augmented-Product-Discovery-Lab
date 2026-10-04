@@ -3,7 +3,7 @@ name: dlab-step01-market-intel
 description: "Investigate a market, alternatives, shifts and evidence gaps before selecting a segment. Use for a sourced landscape or an explicitly provisional market sweep."
 metadata:
   author: "Dean Peters"
-  version: "0.2.0"
+  version: "0.2.1"
   type: "interactive"
   theme: "product-discovery"
   phase: "1"
@@ -98,6 +98,19 @@ What is inferred:
 Desired outcome:
 Biggest unanswered question:
 ```
+
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Decision, scope and desired outcome: one short line each.
+- Findings: at most three decision-changing signals or gaps, each with an evidence label and source ID/direct URL where available. If research was unavailable, say so; a research plan is not a finding.
+- Alternatives and candidate segment dimensions: one compact row each; no premature segment selection.
+- Uncertainty and recommendation: the biggest uncertainty that could change the call and the next evidence task.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
 
 ## Human decision gate and saving
 

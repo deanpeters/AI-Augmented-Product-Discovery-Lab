@@ -73,6 +73,19 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Audience, hypothesis and brutal truth: one line each. Answer: What is the smallest, cheapest test we can run to learn the most brutal truth?
+- A compact experiment card: Test/fidelity | Participant task | Observable evidence | Disconfirmation/decision rule | Time/cost/access assumptions.
+- Actual build/experiment status and observations, or NOT BUILT / NOT RUN. Distinguish implementation checks from learning results.
+- Recommended next evidence decision, biggest uncertainty and boundary on further investment. Keep a needed builder prompt and the full supplied MVN transactions separate; do not increase fidelity or build without authorization.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -173,6 +186,18 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Audience, hypothesis and brutal truth: one line each. Answer: What is the smallest, cheapest test we can run to learn the most brutal truth?
+- A compact experiment card: Test/fidelity | Participant task | Observable evidence | Disconfirmation/decision rule | Time/cost/access assumptions.
+- Actual build/experiment status and observations, or NOT BUILT / NOT RUN. Distinguish implementation checks from learning results.
+- Recommended next evidence decision, biggest uncertainty and boundary on further investment. Keep a needed builder prompt and the full supplied MVN transactions separate; do not increase fidelity or build without authorization.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Prototype Experiment Brief
@@ -241,17 +266,19 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: What actual practitioner observations support revising, stopping or another test?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Hypothesis and learning question:** SYNTHETIC source/recency context may support a clearer next-investigation explanation. No customer validation.
-- **Narrative carried forward:** Setup: manager before shift handover. Encounter: conflicting fictional reports. Internal loop: (1) human selects reports; system shows source/recency/uncertainty, prompting inspection; (2) human inspects a stale item; system reveals its earlier date and a missing claim basis, prompting annotation; (3) human marks the missing basis; system preserves it beside available evidence without deciding, prompting a bounded choice; (4) human states a next action and reason; system reflects rationale and uncertainty for review. Exit: person states the next action, rationale and unresolved gap. Resolution: fictional sharing of the reasoning with the next-shift lead. No observed success.
-- **Fidelity comparison and choice:** Brutal truth: source/recency context might be irrelevant because authority or scheduling dominates the actual decision. DRAFT recommendation: examine a recent real decision with a relevant practitioner, then use a storyboard or wireframe task to contrast uncertainty and coordination explanations. A comprehension check alone cannot establish adoption or value. The tiniest act that returns the most brutal truth or enough signal to pivot, punt or pursue wins; no interaction-specific need is established.
-- **Participant task and context:** Proposed: relevant practitioner explains a choice with fictional report pairs. Recruitment and access not arranged.
-- **Expected / disconfirming observations and rule:** Expected: explains source and recency plus remaining uncertainty. Revise if confusing; route toward coordination if permission dominates; another bounded test if the mechanism appears useful. This is formative, not market validation.
-- **Builder prompt and blocked actions:** If interaction later earns its cost, preserve all four human/system transaction pairs, their continuations and loop exit in a local disposable comparison with synthetic labels. No network, credentials, real records, commands or deployment.
-- **Build status and implementation checks:** NOT BUILT; no files or UI checks claimed.
-- **Experiment status and observations:** NOT RUN; no participant responses or measured benefits.
-- **Next decision:** DRAFT: gather practitioner evidence before increasing fidelity.
+**Target/hypothesis:** SYNTHETIC maintenance manager; source context might clarify investigation reasoning. **Brutal truth:** authority/scheduling may matter more.
+
+| Experiment field | Proposed test |
+|---|---|
+| Smallest test / fidelity | Recent-decision conversation, then storyboard or wireframe comparison |
+| Participant task | Explain a choice and unresolved uncertainty using fictional report pairs |
+| Evidence | Reasoning in the person's words; source/recency use vs. coordination barriers |
+| Disconfirmation / rule | Coordination dominates → revise direction; confusing context → revise comparison; clearer reasoning → consider bounded further test |
+| Time / cost / access | UNKNOWN; recruitment not arranged |
+
+**Status:** NOT BUILT / NOT RUN; no observations. **Next decision:** gather practitioner evidence before increasing fidelity. No demand proof, equipment control or build authorization; human choice not recorded.
 
 # Weak example
 
@@ -270,6 +297,10 @@ Build completion is mistaken for customer evidence and an operational metric is 
 Separate NOT BUILT/built status from NOT RUN/observed experiment status; use the prior decision rule on actual evidence.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

@@ -85,3 +85,15 @@ Biggest unanswered question:
 ```
 
 Carry the actual downstream-required content, not just its title.
+
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Problem framing and positioning context: one sentence each, reusing supplied content or labeling a provisional draft.
+- Hypothesis: If we / for / Then we will, with the proposed causal mechanism where useful.
+- A compact test table: Tiny act of discovery | Assumption tested | Observable measure/criterion | Disconfirming observation. Usually two tests, one quantitative and one qualitative measure, a proposed timeframe and explicit decision rule; label baselines/targets as UNKNOWN or proposed when unmeasured.
+- Riskiest assumption, experiment status and recommended next decision. A simulation result cannot substitute for customer or plant validation.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]

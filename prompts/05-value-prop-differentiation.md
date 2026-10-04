@@ -74,6 +74,19 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Audience, desired outcome and shared comparator: one line each.
+- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
+- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
+- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -162,6 +175,18 @@ Biggest unanswered question:
 
 Include useful candidate descriptions, comparator and evidence gaps. These fields help carry context; they are not prerequisites for another skill.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Audience, desired outcome and shared comparator: one line each.
+- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
+- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
+- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Worked example: bake off solutions and a competitor offering
@@ -230,6 +255,25 @@ Desired outcome: Explain the next investigation with less avoidable uncertainty.
 Biggest unanswered question: Which obstacle dominates actual decisions?
 ```
 
+## Final readout
+
+**Audience/outcome:** maintenance managers explaining the next investigation. **Shared comparator B0:** technician discussion/manual logs. All entries SYNTHETIC hypotheses.
+
+| Meaningful difference vs. B0 | Low customer value | High customer value |
+|---|---|---|
+| High | No supported placement | S2 digital comparison; fictional C1 rival, conditional |
+| Low | No supported placement | S1 storyboard comparison, conditional |
+
+S3 coordination checklist is unplaced; B0 value UNKNOWN, difference zero relative to itself.
+
+| Option | Value / difference | Tradeoff / evidence |
+|---|---|---|
+| S1 | Possible clarity / modest difference | Cheap probe; ESTIMATE / BEST GUESS |
+| S2 / C1 | Possible clarity / linked-source mechanism | No established S2 advantage; ESTIMATE / BEST GUESS |
+| S3 | UNKNOWN relevance / UNKNOWN difference | Could address the actual barrier |
+
+**Recommendation:** test S1 and S3 before spending on S2. Distinguish information and coordination causes. No real competitor evidence or customer validation; shortlist and decider not recorded.
+
 # Weak example
 
 # Weak example and repair
@@ -241,6 +285,10 @@ Weak: “Pick one OST solution first. Our AI dashboard is 9.8/10 on both axes. C
 Failures: excludes the portfolio before the bake-off; ranks a company rather than an offering; invents a rival capability and numerical certainty; equates novelty with value; changes comparison standards; treats placement as approval.
 
 Repair: accept S1/S2/S3 from the OST or plain notes without a prior winner. Name one audience, outcome and baseline. Include the specific C1 offering and B0 workaround. Assess both axes independently with source/basis labels. Keep missing capabilities or outcomes UNKNOWN and unplaced. A conditional high/high point is a hypothesis, not a winner. Offer a shortlist and wait for the person's choice.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

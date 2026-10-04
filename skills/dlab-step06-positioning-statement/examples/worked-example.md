@@ -63,12 +63,14 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the claimed difference exist and matter to this persona?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Target and need:** SYNTHETIC maintenance managers who need to explain the next investigation when reports conflict.
-- **Concept and category:** Provisional report-comparison process; category is a working description.
-- **Statement:** For maintenance managers facing conflicting equipment reports, the report-comparison process is a decision aid that may clarify the next investigation. Unlike unstructured log review, it proposes making source, recency and uncertainty explicit.
-- **Alternative and proposed difference:** Log review and technician discussion; whether the proposed difference is already available is UNKNOWN.
-- **Reason to believe:** UNKNOWN. No customer observations or independent performance evidence.
-- **Claim check and revision:** Benefit and differentiation remain hypotheses. Remove any claim of reduced downtime or superiority.
-- **Statement choice:** DRAFT wording; no human selection recorded.
+- **For:** maintenance managers in mid-sized manufacturing plants.
+- **Who:** need to explain the next investigation when reports conflict.
+- **The:** Report Comparison Aid (working name).
+- **Is a:** source-context comparison aid (working category).
+- **That:** may support an explainable next action with uncertainty visible.
+- **Unlike:** technician discussion and manual log review (assumed alternative).
+- **Our product gives:** explicit source, timing and uncertainty context (untested difference).
+
+**Reason to believe:** UNKNOWN. This is SYNTHETIC provisional positioning, not validated advantage. **Next decision:** review whether the difference exists and matters before approving the wording; no human selection recorded.

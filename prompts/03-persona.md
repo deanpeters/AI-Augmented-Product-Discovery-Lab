@@ -75,6 +75,19 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Persona snapshot and situation/trigger: role, relevant context and workaround; do not fill decorative biography or invented demographics.
+- A three-row table: Top job | Top pain | Top desired gain, with one selected or provisionally recommended item of each and its evidence status.
+- Problem framing: I am / Trying to / But / Because / Which makes me feel. Keep the cause provisional and the feeling UNKNOWN unless supported. Select the working persona before framing their problem; this remains one combined motion.
+- Quotes/behaviors and key takeaway: one supported quote or UNKNOWN (invented voice must be labeled SYNTHETIC), the relevant behavior, biggest uncertainty and next evidence task.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -186,6 +199,18 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Persona snapshot and situation/trigger: role, relevant context and workaround; do not fill decorative biography or invented demographics.
+- A three-row table: Top job | Top pain | Top desired gain, with one selected or provisionally recommended item of each and its evidence status.
+- Problem framing: I am / Trying to / But / Because / Which makes me feel. Keep the cause provisional and the feeling UNKNOWN unless supported. Select the working persona before framing their problem; this remains one combined motion.
+- Quotes/behaviors and key takeaway: one supported quote or UNKNOWN (invented voice must be labeled SYNTHETIC), the relevant behavior, biggest uncertainty and next evidence task.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Situational Persona
@@ -276,17 +301,19 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Do report conflicts actually change this person's decisions or is coordination the obstacle?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Persona identity and evidence status:** Maintenance manager in a mid-sized manufacturing plant. SYNTHETIC proto-persona; no customer evidence.
-- **Situation and trigger:** Fictional condition: two equipment reports disagree before an investigation decision.
-- **Jobs to be done:** Functional: decide what to investigate next. Possible social job: explain the choice to production colleagues; ESTIMATE / BEST GUESS.
-- **Pains and desired gains:** Assumed pain: uncertain report basis. Desired gain: explain a defensible next action. Frequency and consequence UNKNOWN.
-- **Current workaround:** Plausible discussion with a technician and review of logs; not observed.
-- **Stakes, incentives and constraints:** Operational stakes possible but unmeasured. No real records or equipment commands in this exercise.
-- **Decision relationships:** Technician and production supervisor are related provisional roles; buyer and authority UNKNOWN.
-- **Problem statement and risky assumption:** When reports conflict, the maintenance manager may struggle to choose the next investigation. The conflict itself may not be the real obstacle.
-- **Research needed:** Examine a recent real decision; compare information uncertainty with permission or scheduling constraints.
+**Snapshot:** SYNTHETIC maintenance manager at a mid-sized plant before shift handover; assumed workaround: technician discussion and log review.
+
+| Priority | Provisional choice | Evidence |
+|---|---|---|
+| Top job | Explain the next investigation | ESTIMATE / BEST GUESS |
+| Top pain | Reports conflict; source/recency unclear | ESTIMATE / BEST GUESS |
+| Top gain | Explain a next action with uncertainty visible | ESTIMATE / BEST GUESS |
+
+**Problem framing:** I am a maintenance manager before handover. Trying to explain the next investigation. But conflicting reports make it hard to defend. Because source/recency may be unclear (cause hypothesis). Which makes me feel: UNKNOWN.
+
+**Quotes/behavior:** quotations UNKNOWN; log review/discussion assumed. **Takeaway:** inspect a recent decision to distinguish information uncertainty from permission/scheduling. No observed customers; human selection not recorded.
 
 # Weak example
 
@@ -305,6 +332,10 @@ Invented demographics, preferences and interviews; no situation, job or provenan
 Use a labeled synthetic role-in-context persona, jobs/pains/gains, workaround and evidence gaps.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

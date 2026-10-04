@@ -3,7 +3,7 @@ name: dlab-step05-value-prop-differentiation
 description: "Bake off solution candidates, competitor offerings and the status quo on a shared value-versus-differentiation 2x2 before positioning. Accept an OST portfolio or standalone notes."
 metadata:
   author: "Dean Peters"
-  version: "0.3.0"
+  version: "0.3.1"
   type: "interactive"
   theme: "product-discovery"
   phase: "5"
@@ -100,6 +100,19 @@ What is inferred:
 Desired outcome:
 Biggest unanswered question:
 ```
+
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Audience, desired outcome and shared comparator: one line each.
+- A compact 2x2: horizontal Customer Value, vertical Meaningful Differentiation. Place named concepts, competitor offerings and the status quo; explicitly list unplaced/UNKNOWN candidates rather than fabricating positions.
+- A short comparison table: Candidate | Value | Difference vs. shared comparator | Evidence/confidence | Tradeoff or cheapest test. Keep value evidence separate from differentiation evidence.
+- Provisional shortlist and next decision: explain what to compare/test and what could reverse the recommendation. A shared quadrant does not prove superiority.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
 
 ## Human decision gate and saving
 

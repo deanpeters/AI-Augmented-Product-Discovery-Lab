@@ -72,6 +72,19 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Decision, scope and desired outcome: one short line each.
+- Findings: at most three decision-changing signals or gaps, each with an evidence label and source ID/direct URL where available. If research was unavailable, say so; a research plan is not a finding.
+- Alternatives and candidate segment dimensions: one compact row each; no premature segment selection.
+- Uncertainty and recommendation: the biggest uncertainty that could change the call and the next evidence task.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -161,6 +174,18 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Decision, scope and desired outcome: one short line each.
+- Findings: at most three decision-changing signals or gaps, each with an evidence label and source ID/direct URL where available. If research was unavailable, say so; a research plan is not a finding.
+- Alternatives and candidate segment dimensions: one compact row each; no premature segment selection.
+- Uncertainty and recommendation: the biggest uncertainty that could change the call and the next evidence task.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Market Intelligence Brief
@@ -225,15 +250,18 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Where is this condition frequent and consequential enough to investigate?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Scope and decision:** Manufacturing maintenance decisions; geography and time horizon UNKNOWN. Teaching sweep, not live market research.
-- **Landscape and alternatives:** SYNTHETIC candidates: manual log review, technician discussion, existing maintenance software. Adoption and market shares UNKNOWN.
-- **Signals and shifts:** UNKNOWN: no sources supplied. Increased tooling availability would need actual source evidence.
-- **Candidate segment dimensions:** Plant size, operating environment, maintenance decision frequency and coordination constraints are candidate dimensions, not verified segment attractiveness.
-- **Source register:** No sources supplied; no browsing run. URLs, dates and independent corroboration UNKNOWN.
-- **Conflicting evidence and gaps:** UNKNOWN market demand, purchasing authority, downtime costs and willingness to pay.
-- **Research recommendation:** Investigate recent maintenance investigation decisions before choosing a commercial opportunity.
+| Field | Readout |
+|---|---|
+| Decision / scope | Whether to investigate manufacturing maintenance decisions; geography/horizon UNKNOWN. |
+| Desired outcome | More explainable next-investigation choices. |
+| Findings / inputs | UNKNOWN: no research run or sources supplied. Report conflict is an ESTIMATE / BEST GUESS discovery lead. |
+| Alternatives | Assumed manual logs, technician discussions and maintenance software. |
+| Segment dimensions | Plant size, operating context and coordination constraints; not a selected segment. |
+| Uncertainty | Is conflicting information frequent and consequential, or is authority the real barrier? |
+
+**Recommendation:** investigate recent decisions and obtain primary market sources before choosing a segment. SYNTHETIC fixture only; no human choice recorded.
 
 # Weak example
 
@@ -252,6 +280,10 @@ Fabricated size and growth; category enthusiasm substitutes for evidence.
 Remove unsupported figures, register source gaps, map substitutes and propose targeted research.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

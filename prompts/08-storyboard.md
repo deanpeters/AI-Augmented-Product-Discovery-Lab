@@ -74,6 +74,18 @@ Desired outcome:
 Biggest unanswered question:
 ```
 
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Solution summary, persona and hypothesis/reaction question: one short line each.
+- A six-row storyboard table: Frame | Story beat | What we can observe. Preserve this arc: who has the problem → problem → oh crap moment → solution arrives → person uses it → person helps others enjoy the same success. Keep each beat to one or two sentences; the persona is the hero.
+- Evidence status, rendering status, biggest story assumption and next test/decision. Fictional resolution is not measured success. Keep any requested renderer prompt separate from the compact table.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
+
 ## Human decision gate and saving
 
 Recommend the option the evidence supports and put it first, labeled `(Recommended)`. Offer approve for the next bounded motion, revise, gather evidence, or stop, with a sentence on the tradeoff. Approval means permission for a next step, not validation of the product idea. Do not select for the person or silently invoke another motion. Even a chain request does not turn a recommendation into a recorded approval.
@@ -167,6 +179,17 @@ Biggest unanswered question:
 
 Carry the actual downstream-required content, not just its title.
 
+## Final readout
+
+Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
+
+- Solution summary, persona and hypothesis/reaction question: one short line each.
+- A six-row storyboard table: Frame | Story beat | What we can observe. Preserve this arc: who has the problem → problem → oh crap moment → solution arrives → person uses it → person helps others enjoy the same success. Keep each beat to one or two sentences; the persona is the hero.
+- Evidence status, rendering status, biggest story assumption and next test/decision. Fictional resolution is not measured success. Keep any requested renderer prompt separate from the compact table.
+
+- Evidence caveat: [material limit, source reference or synthetic status]
+- Next decision: [specific recommendation; human selection/decider or not recorded]
+
 # Worked example
 
 # Storyboard
@@ -239,17 +262,20 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the actor's changed action follow from information or only from our story assumptions?
 
-## Content to carry with this handoff
+## Final readout
 
-- **Persona, hypothesis and reaction question:** SYNTHETIC maintenance manager; can source/recency context help explain a next investigation?
-- **Frame 1: who has the problem:** A maintenance manager must explain the next investigation before a shift handover. This is a fictional person and situation, not a real plant record.
-- **Frame 2: what is the problem:** Conflicting equipment reports have unclear sources and timestamps, leaving the manager unable to explain which concern deserves attention.
-- **Frame 3: the oh crap moment:** The handover is about to start. A technician asks which concern to investigate first, and the manager cannot defend a choice from the conflicting reports. This fictional pressure point makes the problem unavoidable.
-- **Frame 4: the solution arrives:** A report-comparison aid arrives, exposing source, timing and uncertainty side by side. It offers context, not an autonomous equipment command or guaranteed answer.
-- **Frame 5: the person uses the solution:** The manager compares the fictional reports, notices a stale item and an unresolved claim, then explains the next investigation or requests missing information. These are invented story conditions, not measured results.
-- **Frame 6: the person helps others enjoy the same success:** The manager walks the next-shift lead through the comparison so they can explain their own investigation choice. Shared success is a fictional narrative hypothesis; operational benefit, adoption and advocacy remain untested.
-- **Renderer prompt and constraints:** Render these six beats with a visible SYNTHETIC label, consistent actor and readable source context. Visual style is a reversible placeholder; do not invent performance claims.
-- **Status and critique:** NOT RENDERED. Inspect whether information-to-decision continuity is clear before visual polish.
+**Solution/target:** SYNTHETIC report comparison for a maintenance manager. Hypothesis: source context helps explain an investigation choice.
+
+| Frame | Story beat | Observable question |
+|---|---|---|
+| 1: Who | Manager before handover | Who must explain the choice? |
+| 2: Problem | Reports conflict; basis unclear | What prevents a defensible choice? |
+| 3: Oh crap | Technician asks which concern first | Where does the problem come to a head? |
+| 4: Arrival | Comparison aid exposes context | What information becomes available? |
+| 5: Use | Manager identifies stale/missing basis and explains an action | Does reasoning change? |
+| 6: Shared success | Manager helps the next-shift lead explain their own choice | Can the reasoning transfer? |
+
+**Status:** NOT RENDERED; story success hypothetical. **Next decision:** test whether source context helps or coordination dominates before visual polish. No customer evidence or human choice recorded.
 
 # Weak example
 
@@ -268,6 +294,10 @@ No person's action loop; introduces equipment control and invented proof.
 Show who has the problem, the problem, the oh crap moment, the solution arriving, the person using it, and the person helping others enjoy the same success. Do not collapse frames 2 and 3 or omit frame 6. Retain fictional status for the success shown.
 
 Use the [worked example](#worked-example) to inspect the repaired structure. The repaired result remains a draft; no human choice or experiment is invented.
+
+## Readout failure to catch
+
+A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
 
 Begin this motion now using the context I provide.
 ````

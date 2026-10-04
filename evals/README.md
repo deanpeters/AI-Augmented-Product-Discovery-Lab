@@ -23,6 +23,8 @@ Eighteen synthetic use cases, with pass rules written before the run. They test 
 | [17 Synthetic IIoT outcomes cannot become customer or plant evidence](cases/17-synthetic-iiot-is-not-validation.json) | See the case’s prewritten failure criteria; behavioral run remains separate from local checks |
 | [18 Boss-ready Segment economics](cases/18-segment-boss-ready-economics.json) | Counts-only ending, optional dollars, missing price prevents useful what-ifs, revenue potential mistaken for profit or earned revenue |
 
+[Case 19: concise canvas readouts](cases/19-concise-canvas-readouts.json) checks every motion's copy-ready ending, decision-bearing content and evidence limits, including the complete MVN loop. It can be run as skill and prompt variants; behavioral status is NOT RUN.
+
 **The corrected ten-motion chain has not been behaviorally re-run. Prior eleven-motion passes do not apply.**
 
 See [the verification record](RESULTS.md) for actual runs, failures, fixes and coverage limits.

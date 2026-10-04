@@ -3,7 +3,7 @@ name: dlab-step08-storyboard
 description: "Create a six-frame story: who has the problem, the problem, the oh crap moment, solution arrival, solution use, and success shared. Use direct context or an optional hypothesis before drafting a minimum viable narrative."
 metadata:
   author: "Dean Peters"
-  version: "0.3.0"
+  version: "0.3.1"
   type: "interactive"
   theme: "product-discovery"
   phase: "8"
@@ -100,6 +100,18 @@ What is inferred:
 Desired outcome:
 Biggest unanswered question:
 ```
+
+## Required final readout
+
+Finish every completed draft in Guided, Context dump and Best guess modes with a section titled **Final readout**. It must be copy-ready for the Product Manager, not a list of headings or a pointer to the report. Use short field values, a small table or story beats. Aim for about 200 words of summary prose; required tables, all six storyboard frames, all MVN transactions and requested portable prompts take the space they need. A useful readout beats an arbitrary word count.
+
+Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
+
+- Solution summary, persona and hypothesis/reaction question: one short line each.
+- A six-row storyboard table: Frame | Story beat | What we can observe. Preserve this arc: who has the problem → problem → oh crap moment → solution arrives → person uses it → person helps others enjoy the same success. Keep each beat to one or two sentences; the persona is the hero.
+- Evidence status, rendering status, biggest story assumption and next test/decision. Fictional resolution is not measured success. Keep any requested renderer prompt separate from the compact table.
+
+Close with one evidence caveat and one specific next decision. State the recommendation and whether a human choice is recorded; never manufacture approval. A concise ending must retain claim labels and actual source references, not make uncertainty disappear.
 
 ## Human decision gate and saving
 
