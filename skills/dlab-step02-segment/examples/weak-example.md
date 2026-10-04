@@ -15,6 +15,13 @@ SYNTHETIC teaching anti-example. Do not imitate this output.
 
 ## Repair
 
-Reuse existing intel with its source IDs. Define the counting/buying unit and scope. Derive population-led TAM, matched industry-filtered SAM and a competition-informed, horizon-specific SOM capped by reach and capacity. Show all formulas, low/base/high assumptions and missing evidence. Optional value uses relevant annual per-unit price/spend; a guessed price is not willingness to pay. Keep the human segment choice and carry uncertainty into Persona.
+Reuse existing intel with its source IDs. Define the counting/buying unit and scope. Derive population-led TAM, matched industry-filtered SAM and a competition-informed, horizon-specific SOM capped by reach and capacity. Show all formulas, low/base/high assumptions and missing evidence. Required dollar potential uses obtainable billable units and relevant assumed annual per-unit price; a guessed price is not willingness to pay. Keep the human segment choice and carry uncertainty into Persona.
 
 See the [worked example](worked-example.md) for a complete, explicitly fictional calculation. Its fixture values are not defaults for real sizing.
+
+
+## Another failure: technically thorough, commercially unfinished
+
+> TAM is 20,000 sites, SAM is 2,800 and SOM is 36. See the denominator checks, source register and formulas. Price is optional. Next: Persona.
+
+This does not answer the boss's question: what could our obtainable opportunity be worth? Keep the detail, but finish with a short executive readout and a population / potential economics / reasoning table. In the fictional worked example, 36 sites × assumed $3,000/site/year gives $108,000 annual revenue potential at the 12-month endpoint, with $30,000–$200,000 across the stated scenarios. Explain the onboarding constraint and untested price; this is not first-year revenue or profit. If price evidence is absent, use a clearly labeled pricing hypothesis or conditional what-if instead of making the commercial ending optional.

@@ -1,0 +1,34 @@
+{
+  "id": "18-segment-boss-ready-economics",
+  "title": "A counts-only brief is not a boss-ready commercial decision",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step02-segment",
+      "invocation": "Mode: Context dump. SYNTHETIC teaching fixture, no browsing or external actions. My boss wants to know the potential dollars, not just counts. Scope: fictional US mid-sized discrete-manufacturing sites, reference teaching year, first-12-month capture horizon; assume site-based annual billing in USD. Existing fictional intel: 20,000 relevant sites; 8,000-site joint industry/size intersection; 35% assumed service/need fit; 300 distinct qualified reachable sites; 15% assumed competitive win rate; 40-site acquisition and 36-site onboarding capacity. Manual log review and technician chats are the substitutes; no customer observations exist. No price or willingness-to-pay research supplied. Do not ask me to repeat context or skip dollars because price is missing. Propose clearly labeled low/base/high annual pricing what-ifs with rationale, keeping counts fixed unless a scenario explicitly changes them. Finish with a concise recommendation and a table of guesstimated populations | potential economics | reasoning for TAM, SAM and SOM. I need to give the ending to my boss. Stop at the human decision; do not build.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "population-and-cap",
+      "rule": "Reuses supplied fictional context. Computes base TAM 20,000, SAM 2,800, SOM min(2,800,45,40,36)=36 billable sites. Joint filters not multiplied twice; onboarding bottleneck named."
+    },
+    {
+      "id": "pricing-without-fabrication",
+      "rule": "Proposes explicit pricing what-ifs in USD/site/year with rationale rather than dropping dollar estimates or inventing researched WTP/prices. Marks unsupported numerical prices illustrative assumptions, not facts or validated estimates. Does not reuse unrelated example prices as evidence."
+    },
+    {
+      "id": "dollar-math",
+      "rule": "For each proposed price P, computes TAM 20,000*P, SAM 2,800*P, SOM 36*P; same counting/billing unit and annual basis. Clear currency and low/base/high price range; count changes, if any, explicitly modeled. No entity count times total industry revenue."
+    },
+    {
+      "id": "boss-ready-ending",
+      "rule": "Final executive TL;DR states recommended segment, 36-site base obtainable population, base dollar potential and range, 12-month capture horizon and the limiting assumption. Final table contains TAM/SAM/SOM rows and guesstimated populations, potential economics and reasoning columns. Technical detail alone or a source plan alone is insufficient."
+    },
+    {
+      "id": "commercial-interpretation",
+      "rule": "Dollar opportunity is annual revenue potential at endpoint, not first-year revenue, customer savings, profit or a validated forecast. Costs/margins not modeled. Plain-English next investment recommendation and biggest economic risk visible; no fake approval or demand proof."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dlab",
+  "version": "0.1.1",
+  "description": "Ten evidence-aware product discovery skills with matching prompts, templates and examples. Learn faster, decide better, then build.",
+  "author": {
+    "name": "Dean Peters"
+  },
+  "homepage": "https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab",
+  "repository": "https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-discovery",
+    "product-management",
+    "productside",
+    "prototyping",
+    "evidence"
+  ]
+}

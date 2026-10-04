@@ -1,0 +1,32 @@
+{
+  "name": "ai-augmented-discovery-lab",
+  "owner": {
+    "name": "Dean Peters"
+  },
+  "metadata": {
+    "description": "Discovery skills for Product Managers, founders and product teams: learn faster, decide better, then build.",
+    "version": "0.1.1"
+  },
+  "plugins": [
+    {
+      "name": "dlab",
+      "source": ".",
+      "description": "Ten evidence-aware discovery motions with a human decision at every gate. Each skill labels what is actual data, inferred, estimated or unknown, and stops before anything gets built.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Dean Peters"
+      },
+      "homepage": "https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab",
+      "repository": "https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab",
+      "license": "CC-BY-NC-SA-4.0",
+      "category": "productivity",
+      "tags": [
+        "product-management",
+        "product-discovery",
+        "evidence",
+        "prototyping"
+      ],
+      "strict": false
+    }
+  ]
+}

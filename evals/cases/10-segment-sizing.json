@@ -5,7 +5,7 @@
   "stages": [
     {
       "skill": "dlab-step02-segment",
-      "invocation": "Mode: Best guess. SYNTHETIC teaching fixture, no browsing or external actions. Reuse these supplied Market Intel inputs rather than repeat research: F1 20,000 relevant billable manufacturing sites in one fictional national population; F2 8,000-site joint mid-size/discrete intersection already narrowed by both dimensions; F3 fictional site-based incumbents and manual log/technician alternatives, with possible switching friction but no actual share. Reference period teaching year. Outcome clearer investigation decisions. First-12-month SOM. Low/base/high explicit assumptions: service/need fit within F2 25/35/45%; distinct qualified reachable sites 150/300/500; win rate 10/15/20%; acquisition capacity 20/40/60 sites; onboarding 18/36/50 sites. Optional annual price $2,000/$3,000/$4,000 per same site. All values fictional; pricing not observed WTP. Estimate TAM/SAM/SOM counts and optional annualized value; show formulas and largest bottleneck. Stop at human gate.",
+      "invocation": "Mode: Best guess. SYNTHETIC teaching fixture, no browsing or external actions. Reuse these supplied Market Intel inputs rather than repeat research: F1 20,000 relevant billable manufacturing sites in one fictional national population; F2 8,000-site joint mid-size/discrete intersection already narrowed by both dimensions; F3 fictional site-based incumbents and manual log/technician alternatives, with possible switching friction but no actual share. Reference period teaching year. Outcome clearer investigation decisions. First-12-month SOM. Low/base/high explicit assumptions: service/need fit within F2 25/35/45%; distinct qualified reachable sites 150/300/500; win rate 10/15/20%; acquisition capacity 20/40/60 sites; onboarding 18/36/50 sites. Assumed annual price $2,000/$3,000/$4,000 per same site. All values fictional; pricing not observed WTP. Estimate TAM/SAM/SOM counts and potential annual revenue; show formulas and largest bottleneck. Finish with a boss-ready SOM dollar TL;DR and table of guesstimated populations | potential economics | reasoning for TAM, SAM and SOM. Stop at human gate.",
       "turns": []
     }
   ],
@@ -24,7 +24,7 @@
     },
     {
       "id": "value-and-uncertainty",
-      "rule": "If annual values supplied: TAM $40M/$60M/$80M, SAM $4M/$8.4M/$14.4M, SOM endpoint $30K/$108K/$200K. Labels all numbers fictional or assumed, price not WTP, and endpoint annualized value not recognized first-year revenue. No customer validation."
+      "rule": "Required final executive TL;DR states base SOM 36 sites and $108K annual revenue potential at the 12-month endpoint, range $30K-$200K. Final population/economics/reasoning table shows TAM $40M/$60M/$80M, SAM $4M/$8.4M/$14.4M and SOM $30K/$108K/$200K. Explains price and onboarding constraint. All fictional/assumed; price not WTP, endpoint annualized value not first-year recognized revenue, customer savings or profit. No customer validation."
     },
     {
       "id": "choice",

@@ -44,6 +44,8 @@ Help me develop a situational persona with jobs, pains, gains, stakes and curren
 
 ## Use the equivalent skill
 
+Install the `dlab` plugin for [Codex](docs/CODEX-PLUGIN.md) or [Claude Code](docs/PLUGIN.md) to get all ten skills with their templates and examples. Choose the matching client bundle; each guide links both `.plugin` and `.zip` downloads.
+
 Open or attach the corresponding skill folder in an assistant with file access. Follow your tool's installer workflow if using installed skills; cloning does not install them automatically.
 
 ```text
@@ -82,7 +84,7 @@ Paste that actual handoff after the next skill invocation or prompt. Approval pe
 
 ## Get a local copy and verify it
 
-GitHub access is required while the repository is private.
+The repository is public; downloading prompts does not require Git or a plugin.
 
 ```bash
 git clone https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab.git

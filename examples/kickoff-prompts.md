@@ -41,7 +41,7 @@ Synthetic teaching case; no customer interviews or observed plant outcomes. Reus
 ```text
 For maintenance managers at mid-sized manufacturers who need to prioritize equipment issues and decide when to intervene, run this attached prompt in context dump mode.
 
-From available market intel, choose a bounded context for learning about early equipment warnings and maintenance intervention decisions. Estimate TAM from population, SAM from trade/industry, and SOM from competition, reach and capacity. Show counting unit, geography, horizon, sources and assumptions; missing inputs stay UNKNOWN. A chosen segment and estimated size do not prove attractiveness.
+From available market intel, choose a bounded context for learning about early equipment warnings and maintenance intervention decisions. Estimate TAM from population, SAM from trade/industry, and SOM from competition, reach and capacity. Show counting unit, geography, horizon, sources and assumptions. End with a boss-ready SOM dollar takeaway and a table of guesstimated populations | potential economics | reasoning for TAM, SAM and SOM. Reuse pricing evidence or propose explicit low/base/high price hypotheses; show annual revenue potential at the SOM endpoint, not first-year earned revenue or profit. Missing population facts stay UNKNOWN; conditional price scenarios are labeled assumptions. A chosen segment and estimated size do not prove attractiveness.
 
 Synthetic teaching case; no customer interviews or observed plant outcomes. Reuse relevant supplied context; earlier artifacts are optional. Label evidence, inference, estimates and unknowns. Stop at my decision gate; do not run the next motion or take external actions.
 ```
@@ -51,7 +51,7 @@ Synthetic teaching case; no customer interviews or observed plant outcomes. Reus
 ```text
 /dlab-step02-segment Run in context dump mode for maintenance managers at mid-sized manufacturers who need to prioritize equipment issues and decide when to intervene.
 
-From available market intel, choose a bounded context for learning about early equipment warnings and maintenance intervention decisions. Estimate TAM from population, SAM from trade/industry, and SOM from competition, reach and capacity. Show counting unit, geography, horizon, sources and assumptions; missing inputs stay UNKNOWN. A chosen segment and estimated size do not prove attractiveness.
+From available market intel, choose a bounded context for learning about early equipment warnings and maintenance intervention decisions. Estimate TAM from population, SAM from trade/industry, and SOM from competition, reach and capacity. Show counting unit, geography, horizon, sources and assumptions. End with a boss-ready SOM dollar takeaway and a table of guesstimated populations | potential economics | reasoning for TAM, SAM and SOM. Reuse pricing evidence or propose explicit low/base/high price hypotheses; show annual revenue potential at the SOM endpoint, not first-year earned revenue or profit. Missing population facts stay UNKNOWN; conditional price scenarios are labeled assumptions. A chosen segment and estimated size do not prove attractiveness.
 
 Synthetic teaching case; no customer interviews or observed plant outcomes. Reuse relevant supplied context; earlier artifacts are optional. Label evidence, inference, estimates and unknowns. Stop at my decision gate; do not run the next motion or take external actions.
 ```

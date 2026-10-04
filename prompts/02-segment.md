@@ -16,7 +16,7 @@ Reuse the market intel already supplied. If material inputs are missing, find th
 
 Input: Market Intel handoff or source pack, desired outcome and any candidate segments, geography, counting unit, service constraints, SOM horizon and go-to-market capacity. Reuse supplied values instead of interviewing the person again. Standalone entry is allowed with equivalent context.
 
-Example invocation: `Use $dlab-step02-segment with this Market Intel brief. Estimate TAM/SAM/SOM, show the sources and assumptions, then stop for my segment choice.`
+Example invocation: `Use $dlab-step02-segment with this Market Intel brief. Estimate TAM/SAM/SOM, show the sources and assumptions, end with a plain-English SOM dollar takeaway and population/economics/reasoning table, then stop for my segment choice.`
 
 ## How to work together
 
@@ -40,7 +40,7 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 2. What population unit, geography and reference period are we sizing?
 3. Which industry, need and service constraints narrow that population?
 4. What competitive position, route to market and capacity bound SOM, over what horizon?
-5. Which assumptions or segment tradeoffs could change your choice?
+5. Which price/economic assumptions or segment tradeoffs could change your choice?
 
 Reuse the supplied Market Intel, including its sources and any answers. Ask only a material missing part, one subject per turn. Unknown prices or counts are not a reason to repeat the outcome. Best guess may propose bounded assumptions; Guided can clarify the important ones within its question budget.
 
@@ -52,8 +52,9 @@ Reuse the supplied Market Intel, including its sources and any answers. Ask only
 4. **Show TAM: population.** Estimate the broad relevant population for the job/outcome, within the stated scope. Prefer an eligible population count or a defensible conversion from a count. General national population or total industry output is not automatically demand. Show the arithmetic and any assumed need/incidence filter separately. Produce count-based TAM even when price is unknown.
 5. **Show SAM: trade/industry service filters.** Use industry/trade evidence to narrow TAM by relevant subsector, size, geography, workflow need, regulation, compatibility and service capability. Prefer a directly observed intersection table over multiplied marginal percentages. Conditional shares must use the correct denominator; do not multiply overlapping filters twice. An academic or trade survey's sample is not automatically the industry population. Explain selection/coverage bias.
 6. **Show SOM: competitive opportunity plus reach and capacity.** Identify the alternatives, incumbent coverage, switching friction, procurement cycles, distribution and credible advantage. Use competitive facts to motivate reachable targets and win-rate assumptions, not to assert a free share. Over a named horizon, estimate obtainable units as the minimum of SAM units, distinct qualified units reachable × assumed win rate, acquisition capacity and onboarding/service capacity, where those inputs are available. Explain dependencies and timing. With missing capacity or win evidence, give a conditional scenario or symbolic formula; do not turn “1% of the market” into a forecast. Competitor revenue or customer counts are not market share without a matched denominator, unit, geography and period.
-7. **Compare scenarios and candidates.** Show low/base/high or another bounded scenario set with assumptions and source labels on every input. Keep real sourced inputs separate from fictional teaching fixtures and speculation. Check comparable units, consistent periods and SOM ≤ SAM ≤ TAM. Optional annual value = units × relevant annual spend or assumed price per same unit; call an assumed price a pricing scenario, not willingness-to-pay evidence. Annualized value at the SOM endpoint is not automatically revenue recognized during the horizon. Identify the assumption that most changes the segment ranking.
+7. **Compare scenarios and candidates.** Show low/base/high or another bounded scenario set with assumptions and source labels on every input. Keep real sourced inputs separate from fictional teaching fixtures and speculation. Check comparable units, consistent periods and SOM ≤ SAM ≤ TAM. Required potential annual revenue = obtainable billable units × assumed annual realized price per same unit; use comparable annual price scenarios for TAM/SAM. Relevant customer spend is a separate spending ceiling, not automatically our revenue; call an assumed price a pricing scenario, not willingness-to-pay evidence. Annualized value at the SOM endpoint is not automatically revenue recognized during the horizon. Identify the assumption that most changes the segment ranking. Translate the counts into potential dollars; do not leave pricing and economics as an optional appendix.
 8. **Recommend without selecting.** Compare two or three candidate segments on need, stakes, access, buying path and obtainable scale; the largest TAM does not automatically win. Recommend a bounded segment with inclusions, exclusions, uncertainty and disconfirming evidence. Wait for the human choice, then carry its size scenarios, source/assumption trail and actual boundary into Persona. No researched customer or product validation is implied.
+9. **End with a boss-ready commercial readout.** After the detail and handoff, write a short executive TL;DR answering what the obtainable opportunity could be worth, for whom and over what horizon. Follow it with the required population/economics/reasoning table below, then one recommended next decision and its biggest risk. The final takeaway must not be only counts, formulas or a source-acquisition plan.
 
 ## Source routes: inspect these document types
 
@@ -77,6 +78,24 @@ Speculation is allowed and useful when labeled. For each estimated input, explai
 
 If no evidence supports even a bounded numerical range, show UNKNOWN or a symbolic formula. An explicitly fictional worked example can illustrate the math, but its values never become defaults for the user's market. Keep currency, per-unit price, annual basis and geography consistent when reporting value; do not multiply a population count by total sector revenue.
 
+## Required final commercial readout
+
+A Product Manager must be able to give the ending to their boss without translating the analysis. In two or three sentences, state the recommended segment, base SOM population, potential annual revenue, low/high range, currency and capture horizon. State the assumption or bottleneck that most changes that potential, and whether it warrants the next discovery investment. A commercial recommendation is not a recorded human approval.
+
+Finish with this table; all three tiers need estimated populations, potential economics and reasoning:
+
+| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (source/assumption IDs, price basis, filters or capture constraint) |
+|---|---|---|---|
+| TAM | Broad relevant population | Annual revenue opportunity at stated assumed per-unit price | Population basis and eligible-need assumptions |
+| SAM | Serviceable population | Annual revenue opportunity at stated assumed per-unit price | Matched industry/service filters |
+| SOM over [capture horizon] | Obtainable billable units | Potential annual revenue at capture-horizon endpoint | Reach, competitive win assumptions, acquisition/onboarding cap and price basis |
+
+Reuse any price/spend evidence in the intel. If price is missing, propose a clearly labeled low/base/high pricing hypothesis from relevant comparators, buyer budget, value context or an explicit planning assumption; explain the choice and that willingness to pay is untested. In Context dump or Best guess, an explicit what-if is useful and does not require a second interview. An assumed price is allowed; a fabricated observed price or unsupported source is not. Do not silently substitute this skill's worked-example prices as market facts.
+
+When even a useful price range has no basis, show the conditional amount (for example, 36 sites × assumed $3,000/site/year = $108,000 annual revenue potential), explicitly label the price as an illustrative what-if rather than a market estimate, and say what would anchor it. If the population also lacks a numerical basis, retain UNKNOWN/symbolic amounts in the same table and name the decisive missing input; never invent a credible-looking population to satisfy the table. Do not stop with UNKNOWN when supplied counts and an openly stated price hypothesis can answer a useful conditional dollar question.
+
+Keep paying accounts versus sites consistent with the pricing model. Include currency and recurring versus one-time basis. Annual revenue potential at the SOM endpoint is not automatically first-year recognized revenue, customer savings, profit or total sector revenue. Show profit or margin only with explicit cost assumptions; otherwise state that costs are not yet modeled. Make dollars legible and rounded for the reader; retain exact arithmetic in the detailed tables. Label estimates in the readout itself, not just in a distant caveat.
+
 ## Output: Segment Selection Brief
 
 - Decision, outcome, counting unit, geography, reference period and SOM horizon
@@ -85,12 +104,13 @@ If no evidence supports even a bounded numerical range, show UNKNOWN or a symbol
 - Population-led TAM calculation and assumptions
 - Trade/industry SAM filter waterfall, with overlap checks
 - Competition, reach, win-rate and capacity basis for SOM
-- Low/base/high TAM/SAM/SOM counts; optional annual value scenarios clearly separated
+- Low/base/high TAM/SAM/SOM counts and potential dollars, with price and paying-unit assumptions
 - Candidate-segment comparison, sensitivity and evidence that could reverse the ranking
 - Recommended boundary, inclusions/exclusions and human selection record
 - Claim ledger: statement / evidence label / source or assumption basis / date / limitation
+- Final executive TL;DR and population / potential economics / reasoning table; recommended next decision and biggest risk
 
-Close with the six common fields plus the actual selected segment boundary, counted unit, geography, TAM/SAM/SOM scenario summary, SOM horizon, source/assumption references and largest unresolved sizing assumption. Persona needs the human and operating context, not just a big market number.
+Before the final commercial readout, provide the six common fields plus the actual selected segment boundary, counted unit, geography, TAM/SAM/SOM scenario summary, SOM horizon, source/assumption references and largest unresolved sizing assumption. Persona needs the human and operating context, not just a big market number.
 
 ```text
 Target:
@@ -109,7 +129,7 @@ Save to a user-named folder when requested and available; otherwise provide copy
 
 ## Common failure and repair
 
-Do not count firms as plants, treat an association sample as a census, multiply overlapping filters, substitute total industry revenue for addressable spending, or assume an obtainable share because incumbents are present. Repair with a consistent denominator, a sourced filter waterfall, competition-aware capacity bounds and visibly labeled scenarios. Keep the segment choice with the human.
+Do not count firms as plants, treat an association sample as a census, multiply overlapping filters, substitute total industry revenue for addressable spending, or assume an obtainable share because incumbents are present. Repair with a consistent denominator, a sourced filter waterfall, competition-aware capacity bounds and visibly labeled scenarios. A counts-only or technical-only brief also fails: repair it with a plain-English SOM dollar takeaway and the final population/economics/reasoning table. Keep the segment choice with the human.
 
 ## Assets and Examples
 
@@ -137,7 +157,7 @@ Lab adaptation, not an authoritative Productside canvas. Sizing is an estimate, 
 | Industry/service filters | | | |
 | Competitive alternatives and coverage | | | |
 | Reach, win assumptions and delivery capacity | | | |
-| Optional price or relevant spend | | | |
+| Assumed annual realized price / relevant spend | | | |
 
 ## 2. Source register and limitations
 
@@ -183,7 +203,7 @@ Prefer observed intersections to multiplied marginal shares. Keep serviceability
 | Competitive win rate | | | | |
 | Acquisition capacity | | | | |
 | Onboarding/service capacity | | | | |
-| Optional annual price/spend per same unit | | | | |
+| Annual realized price per paying unit; evidence or pricing hypothesis | | | | |
 
 ## 7. TAM/SAM/SOM results
 
@@ -193,7 +213,7 @@ Prefer observed intersections to multiplied marginal shares. Keep serviceability
 | SAM | | | | | |
 | SOM over stated horizon | | | | | |
 
-Optional annual value scenario: units × price/relevant spend for the same unit and currency. Assumed prices are not verified willingness to pay. SOM endpoint annualized value is not automatically recognized revenue during the horizon.
+Required potential annual revenue scenario: billable units × assumed annual realized price for the same unit and currency. Relevant customer spending is a separate ceiling, not automatically our revenue. Assumed prices are not verified willingness to pay. SOM endpoint annualized value is not automatically recognized revenue during the horizon.
 
 Check SOM ≤ SAM ≤ TAM, matching units/periods, filter overlap, and price versus total industry revenue. Explain which input changes the recommendation most; do not present a range as a statistical confidence interval without a basis.
 
@@ -226,6 +246,25 @@ Biggest unanswered question:
 ```
 
 Also carry the actual segment boundary, counted/buying unit, geography, size scenarios, SOM horizon, source/assumption IDs and largest uncertainty. No customer, demand or human approval is invented.
+
+
+## 11. Executive TL;DR: what is the potential in dollars?
+
+[Two or three boss-ready sentences: recommended segment; base SOM population and capture horizon; potential annual revenue and low/high range in stated currency; key price/capacity assumption; why the next discovery investment is or is not warranted. ESTIMATE / BEST GUESS, not a validated forecast.]
+
+| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (source/assumption IDs, price basis, filters or capture constraint) |
+|---|---|---|---|
+| TAM | | | |
+| SAM | | | |
+| SOM over [capture horizon] | | | |
+
+- Price evidence or labeled pricing hypothesis / what-if, and why it is useful:
+- Costs/margin: not modeled unless explicit cost assumptions supplied.
+- Potential annual revenue at the SOM endpoint is not automatically revenue earned during the capture horizon, customer savings or profit.
+- Recommended next decision (not human approval):
+- Biggest risk to the dollar potential and the cheapest evidence that could change the decision:
+
+Missing evidence does not remove this ending. Use explicit conditional dollars when useful; retain UNKNOWN/symbolic populations when no numerical basis exists. Never present an illustrative price as observed willingness to pay.
 
 # Worked example
 
@@ -298,7 +337,7 @@ All capacities and qualified cohorts use the same site unit and 12-month horizon
 | SAM | 2,000 | 2,800 | 3,600 | ESTIMATE / BEST GUESS from fictional inputs |
 | SOM, first 12 months | 15 | 36 | 50 | ESTIMATE / BEST GUESS from fictional inputs |
 
-Optional annualized price scenarios, not observed market revenue:
+Potential annualized price scenarios, not observed market revenue:
 
 | Tier | Low annualized USD | Base annualized USD | High annualized USD |
 |---|---|---|---|
@@ -340,6 +379,19 @@ Biggest unanswered question: does report uncertainty materially affect the decis
 
 Carry with the handoff: counted unit is billable sites, firm-to-site buying conversion UNKNOWN; fictional national scope and teaching reference year; first-12-month SOM; TAM 20,000, SAM 2,000/2,800/3,600, SOM 15/36/50; source IDs F1–F3 and assumptions A1–A4. No segment approval is recorded, and the persona is not a real interviewed customer.
 
+
+## Executive TL;DR: what is the potential in dollars?
+
+**ESTIMATE / BEST GUESS, entirely fictional:** For the mid-sized discrete-manufacturing teaching segment, our base scenario is **36 billable sites obtained within 12 months**, worth about **$108,000 in annual revenue potential at that endpoint**, with a **$30,000–$200,000** low/high range. That is a bounded initial opportunity, not an $8.4 million near-term sales forecast: onboarding capacity limits capture and the assumed $3,000/site/year price has no willingness-to-pay evidence. This supports a small discovery test, not a production commitment; margins and first-year earned revenue are not yet modeled.
+
+| Tier | Guesstimated populations (low / base / high; billable sites) | Potential economics (low / base / high; USD per year) | Reasoning |
+|---|---|---|---|
+| TAM | 20,000 / 20,000 / 20,000 | $40,000,000 / $60,000,000 / $80,000,000 | F1 fictional relevant population × A4 assumed $2,000 / $3,000 / $4,000 per site/year; not all industry revenue or proven demand |
+| SAM | 2,000 / 2,800 / 3,600 | $4,000,000 / $8,400,000 / $14,400,000 | F2 joint industry/size intersection × A1 service-fit assumption × A4 price; no duplicate filters |
+| SOM, first 12 months | 15 / 36 / 50 | $30,000 / $108,000 / $200,000 | A2 reach/win assumptions capped by A3 acquisition/onboarding; captured sites × A4 price, annualized at endpoint, not first-year recognized revenue |
+
+**Recommended next decision:** Test the provisional need and pricing with accessible maintenance managers, and check whether serving 36 sites is realistic before funding a build. No human selection recorded. **Biggest dollar risk:** customers may not pay the assumed price, and onboarding or procurement may shrink capture. All numbers are synthetic; none establish market size or demand.
+
 # Weak example
 
 # Weak Segment example and repair
@@ -359,9 +411,16 @@ SYNTHETIC teaching anti-example. Do not imitate this output.
 
 ## Repair
 
-Reuse existing intel with its source IDs. Define the counting/buying unit and scope. Derive population-led TAM, matched industry-filtered SAM and a competition-informed, horizon-specific SOM capped by reach and capacity. Show all formulas, low/base/high assumptions and missing evidence. Optional value uses relevant annual per-unit price/spend; a guessed price is not willingness to pay. Keep the human segment choice and carry uncertainty into Persona.
+Reuse existing intel with its source IDs. Define the counting/buying unit and scope. Derive population-led TAM, matched industry-filtered SAM and a competition-informed, horizon-specific SOM capped by reach and capacity. Show all formulas, low/base/high assumptions and missing evidence. Required dollar potential uses obtainable billable units and relevant assumed annual per-unit price; a guessed price is not willingness to pay. Keep the human segment choice and carry uncertainty into Persona.
 
 See the [worked example](#worked-example) for a complete, explicitly fictional calculation. Its fixture values are not defaults for real sizing.
+
+
+## Another failure: technically thorough, commercially unfinished
+
+> TAM is 20,000 sites, SAM is 2,800 and SOM is 36. See the denominator checks, source register and formulas. Price is optional. Next: Persona.
+
+This does not answer the boss's question: what could our obtainable opportunity be worth? Keep the detail, but finish with a short executive readout and a population / potential economics / reasoning table. In the fictional worked example, 36 sites × assumed $3,000/site/year gives $108,000 annual revenue potential at the 12-month endpoint, with $30,000–$200,000 across the stated scenarios. Explain the onboarding constraint and untested price; this is not first-year revenue or profit. If price evidence is absent, use a clearly labeled pricing hypothesis or conditional what-if instead of making the commercial ending optional.
 
 Begin this motion now using the context I provide.
 ````

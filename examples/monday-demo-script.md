@@ -120,14 +120,14 @@ Low/base/high ASSUMPTIONS, not observations:
 Service/need fit within F2 = 25% / 35% / 45%.
 Distinct qualified sites reachable in the first 12 months = 150 / 300 / 500; assumed win rate = 10% / 15% / 20%.
 Acquisition capacity = 20 / 40 / 60 sites; onboarding capacity = 18 / 36 / 50 sites over the same horizon.
-Optional annual price scenario = $2,000 / $3,000 / $4,000 per site, not willingness-to-pay evidence.
-Show three numbered estimates: population → TAM; trade/industry filters → SAM; competitive assumptions plus reach/capacity → SOM. Show formulas, low/base/high counts, optional annualized value and the bottleneck.
+Assumed annual price scenario = $2,000 / $3,000 / $4,000 per site, not willingness-to-pay evidence.
+Show three numbered estimates: population → TAM; trade/industry filters → SAM; competitive assumptions plus reach/capacity → SOM. Show formulas, low/base/high counts, potential annual revenue and the bottleneck. End with a boss-ready SOM dollar TL;DR and table of guesstimated populations | potential economics | reasoning for TAM, SAM and SOM.
 No browsing in this synthetic path. Identify which census, trade, academic or filing documents a real run would require, without pretending to have read them.
-Compare plausible segment boundaries and recommend a provisional focus. Produce the Segment Selection Brief and stop for my choice.
+Compare plausible segment boundaries and recommend a provisional focus. Produce the Segment Selection Brief. Finish with a plain-English SOM dollar takeaway and population / potential economics / reasoning table; reuse price evidence or clearly label pricing what-ifs. State the base and range, capture horizon, annual basis and bottleneck. Stop for my choice.
 [PASTE THE STEP 1 HANDOFF]
 ```
 
-**Inspect:** The reuse/gap audit, units, source labels, filter waterfall and SOM capacity bound. In this fictional fixture: TAM 20,000 sites; SAM 2,000 / 2,800 / 3,600; SOM 15 / 36 / 50 over the first 12 months. The base case is onboarding-limited at 36, even though the assumed reachable wins are 45. Optional SOM value is an endpoint annualized scenario, not first-year recognized revenue or validated pricing.
+**Inspect:** The reuse/gap audit, units, source labels, filter waterfall and SOM capacity bound. In this fictional fixture: TAM 20,000 sites; SAM 2,000 / 2,800 / 3,600; SOM 15 / 36 / 50 over the first 12 months. The base case is onboarding-limited at 36, even though the assumed reachable wins are 45. The final executive readout must show base SOM 36 sites × assumed $3,000/site/year = $108,000 annual revenue potential, with a $30,000–$200,000 range. Inspect the final population/economics/reasoning table. This is an endpoint annualized scenario, not first-year recognized revenue, profit or validated pricing.
 
 **Ask the room:** “Would multiplying another mid-size percentage help, or would we count the same filter twice? Would more leads help if we can onboard only 36 sites?”
 
@@ -140,7 +140,7 @@ Mode: Context dump. Reuse this actual Market Intel and its source IDs. Keep the 
 Audit reusable population, industry and competitive inputs before searching. Fill only material gaps from original census/statistical, trade/industry, academic or filing documents when browsing is available and permitted. Cite the actual table/page and reference period, not merely the publisher's homepage.
 Estimate population-led TAM, industry-filtered SAM and competition/reach/capacity-constrained SOM with explicit low/base/high assumptions. State the counting/buying unit, geography and capture horizon; flag missing ones instead of silently choosing them.
 Keep source facts separate from derived estimates, guessed prices and unresolved inputs. Where a bounded range is unjustified, use UNKNOWN or a symbolic expression.
-Produce the Segment Selection Brief and stop for my choice.
+Produce the Segment Selection Brief. Finish with a plain-English SOM dollar takeaway and population / potential economics / reasoning table; reuse price evidence or clearly label pricing what-ifs. State the base and range, capture horizon, annual basis and bottleneck. Stop for my choice.
 [PASTE THE ACTUAL SOURCE PACK AND MARKET INTEL HANDOFF]
 ```
 

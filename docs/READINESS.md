@@ -1,6 +1,6 @@
 # Readiness
 
-Status as of October 3, 2026, two days before the show.
+Status as of October 4, 2026, one day before the show.
 
 ## What is ready
 
@@ -10,6 +10,10 @@ Status as of October 3, 2026, two days before the show.
 - The industry research behind the case file is saved in `research/manufacturing-pdm/`, with raw fetches kept locally.
 - The Hall of Shame cases have checked sources and dates. See `notebook/hall-of-shame-sources.md`.
 - Original lab materials are licensed CC BY-NC-SA 4.0.
+
+- Segment v0.4.0 requires a final SOM dollar takeaway and population / potential economics / reasoning table, with labeled pricing assumptions and revenue limits.
+- Codex and Claude `dlab` v0.1.1 kits have `.plugin` and `.zip` downloads. See [Codex setup](CODEX-PLUGIN.md) and [Claude setup](PLUGIN.md).
+- Twenty local regression tests pass and eighteen use-case definitions validate. Codex installation was checked in an isolated temporary CLI configuration; desktop discovery and the revised skills’ behavior still need rehearsal.
 
 ## Verification boundaries
 

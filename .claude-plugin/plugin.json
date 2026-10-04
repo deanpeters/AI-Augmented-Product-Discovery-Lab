@@ -1,0 +1,22 @@
+{
+  "name": "dlab",
+  "description": "AI-Augmented Product Discovery Lab: ten discovery skills (Market Intel, Segment, Persona, Opportunity Solution Tree, Value vs. Differentiation 2x2, Positioning, Solution Hypothesis, Storyboard, Minimum Viable Narrative, Prototyping). Build the right thing before building it right.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Dean Peters"
+  },
+  "homepage": "https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab",
+  "repository": "https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-discovery",
+    "product-management",
+    "opportunity-solution-tree",
+    "positioning",
+    "hypothesis",
+    "storyboard",
+    "prototyping",
+    "evidence"
+  ],
+  "skills": "./skills/"
+}

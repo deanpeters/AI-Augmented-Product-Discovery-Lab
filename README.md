@@ -32,6 +32,8 @@ The value-versus-differentiation 2x2 is a solution bake-off: compare several OST
 
 ## Use a skill or a prompt
 
+Install all ten skills as the `dlab` plugin: [Codex setup and downloads](docs/CODEX-PLUGIN.md) or [Claude setup and downloads](docs/PLUGIN.md). Both kits provide `.plugin` and `.zip` archives in `dist/`; prompts remain usable without installation.
+
 Every skill has Guided, Context dump and Best guess entry modes. Guided capture reuses context and asks one question at a time, with up to five numbered questions and two clarifications. The visible work ends with a named artifact, evidence labels, a small handoff and a human gate.
 
 Every skill folder bundles:
@@ -55,6 +57,8 @@ The prompt equivalent embeds all four resources. Attendees can copy its single l
 | 08 | Storyboard | [Skill](skills/dlab-step08-storyboard/SKILL.md) | [Prompt](prompts/08-storyboard.md) | Storyboard |
 | 09 | Minimum Viable Narrative | [Skill](skills/dlab-step09-minimum-viable-narrative/SKILL.md) | [Prompt](prompts/09-minimum-viable-narrative.md) | Minimum Viable Narrative |
 | 10 | Prototyping | [Skill](skills/dlab-step10-prototyping/SKILL.md) | [Prompt](prompts/10-prototyping.md) | Prototype Experiment Brief |
+
+Segment ends with a boss-ready commercial readout: estimated TAM/SAM/SOM populations, potential dollars and the reasoning behind them. Price hypotheses stay labeled; SOM annual revenue potential is distinguished from earned revenue, customer savings and profit.
 
 ## Evidence and decisions
 

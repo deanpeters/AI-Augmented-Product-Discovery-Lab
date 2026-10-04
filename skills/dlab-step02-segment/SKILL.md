@@ -1,20 +1,20 @@
 ---
 name: dlab-step02-segment
-description: "Use existing market intel and targeted source research to estimate population-led TAM, industry-filtered SAM and competition-constrained SOM, then select a bounded segment."
+description: "Turn market intel into a bounded segment choice, estimated TAM/SAM/SOM populations and potential dollars, ending with a boss-ready commercial readout and assumption-backed economics table."
 metadata:
   author: "Dean Peters"
-  version: "0.3.0"
+  version: "0.4.0"
   type: "interactive"
   theme: "product-discovery"
   phase: "2"
   status: "draft; behavioral evaluation not run for revised chain"
-  intent: "Reuse market intel, fill material source gaps and make explicit TAM/SAM/SOM estimates before a human selects the target segment."
+  intent: "Reuse market intel, fill material source gaps and make explicit TAM/SAM/SOM population and dollar estimates, ending with a boss-ready commercial readout before a human selects the target segment."
   audience: "Product Managers; founders; product teams"
   operating-level: "product-team; initiative"
   argument-hint: "Market Intel handoff or source pack; desired outcome; geography; counting unit; service constraints; SOM horizon and capacity, where known."
   best-for: "Turning population, industry/trade and competitive evidence into transparent market-sizing scenarios and a segment choice."
   evidence-required: "Reuse supplied population, industry and competitive facts first; research gaps from census, trade, academic and filing documents when permitted and available."
-  produces: "Segment Selection Brief; source reuse/gap audit; TAM/SAM/SOM counts and optional value scenarios; assumptions and sensitivity; human choice; persona handoff"
+  produces: "Segment Selection Brief; source reuse/gap audit; TAM/SAM/SOM counts and potential economics; executive TL;DR and population/economics/reasoning table; assumptions and sensitivity; human choice; persona handoff"
   estimated-time: "15-30 minutes for a working session; planning estimate, not demo timing"
   group-size: "1-8; planning guidance"
   depends-on: "none; standalone entry supported"
@@ -28,7 +28,7 @@ metadata:
   capture-modes: "Guided; Context dump; Best guess"
   question-budget: "Five numbered context questions; at most two labeled clarifications"
   output-file: "02-segment.md"
-  default-prompt: "Use $dlab-step02-segment to reuse my market intel, fill material source gaps, show separate population-led TAM, industry-filtered SAM and competition/capacity-constrained SOM estimates, then stop for my segment choice."
+  default-prompt: "Use $dlab-step02-segment to reuse my market intel, fill material source gaps, show separate population-led TAM, industry-filtered SAM and competition/capacity-constrained SOM estimates, end with a plain-English SOM dollar takeaway and population/economics/reasoning table, then stop for my segment choice."
 ---
 
 # Segment
@@ -43,7 +43,7 @@ Reuse the market intel already supplied. If material inputs are missing, find th
 
 Input: Market Intel handoff or source pack, desired outcome and any candidate segments, geography, counting unit, service constraints, SOM horizon and go-to-market capacity. Reuse supplied values instead of interviewing the person again. Standalone entry is allowed with equivalent context.
 
-Example invocation: `Use $dlab-step02-segment with this Market Intel brief. Estimate TAM/SAM/SOM, show the sources and assumptions, then stop for my segment choice.`
+Example invocation: `Use $dlab-step02-segment with this Market Intel brief. Estimate TAM/SAM/SOM, show the sources and assumptions, end with a plain-English SOM dollar takeaway and population/economics/reasoning table, then stop for my segment choice.`
 
 ## How to work together
 
@@ -67,7 +67,7 @@ Synthetic scenarios, personas and examples generate hypotheses. They never becom
 2. What population unit, geography and reference period are we sizing?
 3. Which industry, need and service constraints narrow that population?
 4. What competitive position, route to market and capacity bound SOM, over what horizon?
-5. Which assumptions or segment tradeoffs could change your choice?
+5. Which price/economic assumptions or segment tradeoffs could change your choice?
 
 Reuse the supplied Market Intel, including its sources and any answers. Ask only a material missing part, one subject per turn. Unknown prices or counts are not a reason to repeat the outcome. Best guess may propose bounded assumptions; Guided can clarify the important ones within its question budget.
 
@@ -79,8 +79,9 @@ Reuse the supplied Market Intel, including its sources and any answers. Ask only
 4. **Show TAM: population.** Estimate the broad relevant population for the job/outcome, within the stated scope. Prefer an eligible population count or a defensible conversion from a count. General national population or total industry output is not automatically demand. Show the arithmetic and any assumed need/incidence filter separately. Produce count-based TAM even when price is unknown.
 5. **Show SAM: trade/industry service filters.** Use industry/trade evidence to narrow TAM by relevant subsector, size, geography, workflow need, regulation, compatibility and service capability. Prefer a directly observed intersection table over multiplied marginal percentages. Conditional shares must use the correct denominator; do not multiply overlapping filters twice. An academic or trade survey's sample is not automatically the industry population. Explain selection/coverage bias.
 6. **Show SOM: competitive opportunity plus reach and capacity.** Identify the alternatives, incumbent coverage, switching friction, procurement cycles, distribution and credible advantage. Use competitive facts to motivate reachable targets and win-rate assumptions, not to assert a free share. Over a named horizon, estimate obtainable units as the minimum of SAM units, distinct qualified units reachable × assumed win rate, acquisition capacity and onboarding/service capacity, where those inputs are available. Explain dependencies and timing. With missing capacity or win evidence, give a conditional scenario or symbolic formula; do not turn “1% of the market” into a forecast. Competitor revenue or customer counts are not market share without a matched denominator, unit, geography and period.
-7. **Compare scenarios and candidates.** Show low/base/high or another bounded scenario set with assumptions and source labels on every input. Keep real sourced inputs separate from fictional teaching fixtures and speculation. Check comparable units, consistent periods and SOM ≤ SAM ≤ TAM. Optional annual value = units × relevant annual spend or assumed price per same unit; call an assumed price a pricing scenario, not willingness-to-pay evidence. Annualized value at the SOM endpoint is not automatically revenue recognized during the horizon. Identify the assumption that most changes the segment ranking.
+7. **Compare scenarios and candidates.** Show low/base/high or another bounded scenario set with assumptions and source labels on every input. Keep real sourced inputs separate from fictional teaching fixtures and speculation. Check comparable units, consistent periods and SOM ≤ SAM ≤ TAM. Required potential annual revenue = obtainable billable units × assumed annual realized price per same unit; use comparable annual price scenarios for TAM/SAM. Relevant customer spend is a separate spending ceiling, not automatically our revenue; call an assumed price a pricing scenario, not willingness-to-pay evidence. Annualized value at the SOM endpoint is not automatically revenue recognized during the horizon. Identify the assumption that most changes the segment ranking. Translate the counts into potential dollars; do not leave pricing and economics as an optional appendix.
 8. **Recommend without selecting.** Compare two or three candidate segments on need, stakes, access, buying path and obtainable scale; the largest TAM does not automatically win. Recommend a bounded segment with inclusions, exclusions, uncertainty and disconfirming evidence. Wait for the human choice, then carry its size scenarios, source/assumption trail and actual boundary into Persona. No researched customer or product validation is implied.
+9. **End with a boss-ready commercial readout.** After the detail and handoff, write a short executive TL;DR answering what the obtainable opportunity could be worth, for whom and over what horizon. Follow it with the required population/economics/reasoning table below, then one recommended next decision and its biggest risk. The final takeaway must not be only counts, formulas or a source-acquisition plan.
 
 ## Source routes: inspect these document types
 
@@ -104,6 +105,24 @@ Speculation is allowed and useful when labeled. For each estimated input, explai
 
 If no evidence supports even a bounded numerical range, show UNKNOWN or a symbolic formula. An explicitly fictional worked example can illustrate the math, but its values never become defaults for the user's market. Keep currency, per-unit price, annual basis and geography consistent when reporting value; do not multiply a population count by total sector revenue.
 
+## Required final commercial readout
+
+A Product Manager must be able to give the ending to their boss without translating the analysis. In two or three sentences, state the recommended segment, base SOM population, potential annual revenue, low/high range, currency and capture horizon. State the assumption or bottleneck that most changes that potential, and whether it warrants the next discovery investment. A commercial recommendation is not a recorded human approval.
+
+Finish with this table; all three tiers need estimated populations, potential economics and reasoning:
+
+| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (source/assumption IDs, price basis, filters or capture constraint) |
+|---|---|---|---|
+| TAM | Broad relevant population | Annual revenue opportunity at stated assumed per-unit price | Population basis and eligible-need assumptions |
+| SAM | Serviceable population | Annual revenue opportunity at stated assumed per-unit price | Matched industry/service filters |
+| SOM over [capture horizon] | Obtainable billable units | Potential annual revenue at capture-horizon endpoint | Reach, competitive win assumptions, acquisition/onboarding cap and price basis |
+
+Reuse any price/spend evidence in the intel. If price is missing, propose a clearly labeled low/base/high pricing hypothesis from relevant comparators, buyer budget, value context or an explicit planning assumption; explain the choice and that willingness to pay is untested. In Context dump or Best guess, an explicit what-if is useful and does not require a second interview. An assumed price is allowed; a fabricated observed price or unsupported source is not. Do not silently substitute this skill's worked-example prices as market facts.
+
+When even a useful price range has no basis, show the conditional amount (for example, 36 sites × assumed $3,000/site/year = $108,000 annual revenue potential), explicitly label the price as an illustrative what-if rather than a market estimate, and say what would anchor it. If the population also lacks a numerical basis, retain UNKNOWN/symbolic amounts in the same table and name the decisive missing input; never invent a credible-looking population to satisfy the table. Do not stop with UNKNOWN when supplied counts and an openly stated price hypothesis can answer a useful conditional dollar question.
+
+Keep paying accounts versus sites consistent with the pricing model. Include currency and recurring versus one-time basis. Annual revenue potential at the SOM endpoint is not automatically first-year recognized revenue, customer savings, profit or total sector revenue. Show profit or margin only with explicit cost assumptions; otherwise state that costs are not yet modeled. Make dollars legible and rounded for the reader; retain exact arithmetic in the detailed tables. Label estimates in the readout itself, not just in a distant caveat.
+
 ## Output: Segment Selection Brief
 
 - Decision, outcome, counting unit, geography, reference period and SOM horizon
@@ -112,12 +131,13 @@ If no evidence supports even a bounded numerical range, show UNKNOWN or a symbol
 - Population-led TAM calculation and assumptions
 - Trade/industry SAM filter waterfall, with overlap checks
 - Competition, reach, win-rate and capacity basis for SOM
-- Low/base/high TAM/SAM/SOM counts; optional annual value scenarios clearly separated
+- Low/base/high TAM/SAM/SOM counts and potential dollars, with price and paying-unit assumptions
 - Candidate-segment comparison, sensitivity and evidence that could reverse the ranking
 - Recommended boundary, inclusions/exclusions and human selection record
 - Claim ledger: statement / evidence label / source or assumption basis / date / limitation
+- Final executive TL;DR and population / potential economics / reasoning table; recommended next decision and biggest risk
 
-Close with the six common fields plus the actual selected segment boundary, counted unit, geography, TAM/SAM/SOM scenario summary, SOM horizon, source/assumption references and largest unresolved sizing assumption. Persona needs the human and operating context, not just a big market number.
+Before the final commercial readout, provide the six common fields plus the actual selected segment boundary, counted unit, geography, TAM/SAM/SOM scenario summary, SOM horizon, source/assumption references and largest unresolved sizing assumption. Persona needs the human and operating context, not just a big market number.
 
 ```text
 Target:
@@ -136,7 +156,7 @@ Save to a user-named folder when requested and available; otherwise provide copy
 
 ## Common failure and repair
 
-Do not count firms as plants, treat an association sample as a census, multiply overlapping filters, substitute total industry revenue for addressable spending, or assume an obtainable share because incumbents are present. Repair with a consistent denominator, a sourced filter waterfall, competition-aware capacity bounds and visibly labeled scenarios. Keep the segment choice with the human.
+Do not count firms as plants, treat an association sample as a census, multiply overlapping filters, substitute total industry revenue for addressable spending, or assume an obtainable share because incumbents are present. Repair with a consistent denominator, a sourced filter waterfall, competition-aware capacity bounds and visibly labeled scenarios. A counts-only or technical-only brief also fails: repair it with a plain-English SOM dollar takeaway and the final population/economics/reasoning table. Keep the segment choice with the human.
 
 ## Assets and Examples
 

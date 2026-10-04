@@ -25,6 +25,10 @@
     {
       "id": "useful-gate",
       "rule": "Still gives a provisional bounded segment discussion and evidence task with a human gate; sizing alone does not establish need or validate demand."
+    },
+    {
+      "id": "commercial-ending-with-gaps",
+      "rule": "Still ends with a plain-English commercial implication and the required population/potential-economics/reasoning table. With no numerical population or capture basis, uses UNKNOWN/symbolic dollar amounts, explains the decisive missing inputs and gives a next decision. Does not manufacture market figures to fill the table."
     }
   ]
 }

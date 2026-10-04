@@ -40,7 +40,7 @@ sequenceDiagram
 | Suggested transition | Useful context to preserve when available |
 |---|---|
 | Market Intel → Segment | Market scope, alternatives, candidate segment dimensions, source register and gaps; available population/unit/year, industry intersections and competitive disclosures |
-| Segment → Persona | Actual selected segment and boundaries; counted/buying unit, geography, TAM/SAM/SOM scenarios, SOM horizon and source/assumption trail; persona role remains provisional |
+| Segment → Persona | Actual selected segment and boundaries; counted/buying unit, geography, TAM/SAM/SOM population and dollar scenarios, price basis, SOM horizon and source/assumption trail; persona role remains provisional |
 | Persona → Opportunity Solution Tree | Actual situational persona, jobs, pains, gains, workaround and evidence |
 | Tree → 2x2 | Solution portfolio with IDs, descriptions, opportunity links and candidate experiments; no winner required |
 | 2x2 → Positioning | Candidate/competitor bake-off, common comparator, separate axis evidence, shortlist and actual human choice if made |

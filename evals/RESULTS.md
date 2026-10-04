@@ -37,3 +37,22 @@ October 4, 2026: Added cases 16 (current Context dump predictive-maintenance dem
 Current local verification: `./scripts/test-library.sh` passes 18 regression tests, 17 case definitions, ten skill/prompt pairs, asset/link checks and kickoff/demo-fixture consistency. This is mechanical verification; cases 16 and 17 have not been run through a model.
 
 Case 16 refined for the intentional HiPPO request → evolved predictive-intervention outcome arc. Behavioral execution remains NOT RUN; no margin improvement or observed prevention is claimed.
+
+
+## Segment commercial readout revision: October 4, 2026
+
+Segment skill v0.4.0 and its self-contained prompt now require a final executive
+TL;DR and TAM/SAM/SOM population / potential economics / reasoning table.
+Pricing evidence is reused; absent evidence permits explicit pricing hypotheses
+or illustrative what-ifs, never fabricated observed willingness to pay. The
+worked example ends with 36 sites and $108,000 annual revenue potential at the
+12-month endpoint ($30,000–$200,000 scenarios), not recognized year-one revenue
+or profit. Template, examples, demo launches and presenter wording are aligned.
+
+Case 10 now requires the commercial ending, Case 11 checks honest dollar gaps,
+and new Case 18 tests missing-price what-ifs and the boss-ready ending. All 18
+case definitions validate. All 20 local regression tests pass, including
+recomputed final executive-table arithmetic, prompt parity and package checks.
+Both Codex and Claude distribution bundles were refreshed from the canonical
+skills. These are mechanical checks: new/revised behavioral cases are NOT RUN;
+no cloud model calls or live rehearsal were performed for this revision.

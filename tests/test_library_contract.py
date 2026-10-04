@@ -114,7 +114,7 @@ class LibraryContractTests(unittest.TestCase):
         from decimal import Decimal
         text = (ROOT / 'skills/dlab-step02-segment/examples/worked-example.md').read_text()
         scenarios = text.split('## Scenario inputs and results', 1)[1]
-        counts, values = scenarios.split('Optional annualized price scenarios', 1)
+        counts, values = scenarios.split('Potential annualized price scenarios', 1)
 
         def row(section, label):
             line = next(line for line in section.splitlines()
@@ -145,6 +145,18 @@ class LibraryContractTests(unittest.TestCase):
         for total, available, obtainable in zip(population, sam, som):
             self.assertLessEqual(obtainable, available)
             self.assertLessEqual(available, total)
+        # The boss-facing ending must agree with the detailed arithmetic.
+        executive = text.split('## Executive TL;DR: what is the potential in dollars?', 1)[1]
+        for label, units in [('TAM', population), ('SAM', sam),
+                             ('SOM, first 12 months', som)]:
+            line = next(line for line in executive.splitlines()
+                        if line.startswith('| '+label+' |'))
+            cells = line.split('|')
+            counts = [Decimal(n.strip().replace(',', '')) for n in cells[2].split('/')]
+            dollars = [Decimal(n.strip().replace(',', '').replace('$', ''))
+                       for n in cells[3].split('/')]
+            self.assertEqual(counts, units)
+            self.assertEqual(dollars, [n * p for n, p in zip(units, price)])
 
     def test_missing_template_rejects_library(self):
         with tempfile.TemporaryDirectory() as tmp:

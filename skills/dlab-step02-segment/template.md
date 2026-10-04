@@ -18,7 +18,7 @@ Lab adaptation, not an authoritative Productside canvas. Sizing is an estimate, 
 | Industry/service filters | | | |
 | Competitive alternatives and coverage | | | |
 | Reach, win assumptions and delivery capacity | | | |
-| Optional price or relevant spend | | | |
+| Assumed annual realized price / relevant spend | | | |
 
 ## 2. Source register and limitations
 
@@ -64,7 +64,7 @@ Prefer observed intersections to multiplied marginal shares. Keep serviceability
 | Competitive win rate | | | | |
 | Acquisition capacity | | | | |
 | Onboarding/service capacity | | | | |
-| Optional annual price/spend per same unit | | | | |
+| Annual realized price per paying unit; evidence or pricing hypothesis | | | | |
 
 ## 7. TAM/SAM/SOM results
 
@@ -74,7 +74,7 @@ Prefer observed intersections to multiplied marginal shares. Keep serviceability
 | SAM | | | | | |
 | SOM over stated horizon | | | | | |
 
-Optional annual value scenario: units × price/relevant spend for the same unit and currency. Assumed prices are not verified willingness to pay. SOM endpoint annualized value is not automatically recognized revenue during the horizon.
+Required potential annual revenue scenario: billable units × assumed annual realized price for the same unit and currency. Relevant customer spending is a separate ceiling, not automatically our revenue. Assumed prices are not verified willingness to pay. SOM endpoint annualized value is not automatically recognized revenue during the horizon.
 
 Check SOM ≤ SAM ≤ TAM, matching units/periods, filter overlap, and price versus total industry revenue. Explain which input changes the recommendation most; do not present a range as a statistical confidence interval without a basis.
 
@@ -107,3 +107,22 @@ Biggest unanswered question:
 ```
 
 Also carry the actual segment boundary, counted/buying unit, geography, size scenarios, SOM horizon, source/assumption IDs and largest uncertainty. No customer, demand or human approval is invented.
+
+
+## 11. Executive TL;DR: what is the potential in dollars?
+
+[Two or three boss-ready sentences: recommended segment; base SOM population and capture horizon; potential annual revenue and low/high range in stated currency; key price/capacity assumption; why the next discovery investment is or is not warranted. ESTIMATE / BEST GUESS, not a validated forecast.]
+
+| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (source/assumption IDs, price basis, filters or capture constraint) |
+|---|---|---|---|
+| TAM | | | |
+| SAM | | | |
+| SOM over [capture horizon] | | | |
+
+- Price evidence or labeled pricing hypothesis / what-if, and why it is useful:
+- Costs/margin: not modeled unless explicit cost assumptions supplied.
+- Potential annual revenue at the SOM endpoint is not automatically revenue earned during the capture horizon, customer savings or profit.
+- Recommended next decision (not human approval):
+- Biggest risk to the dollar potential and the cheapest evidence that could change the decision:
+
+Missing evidence does not remove this ending. Use explicit conditional dollars when useful; retain UNKNOWN/symbolic populations when no numerical basis exists. Never present an illustrative price as observed willingness to pay.

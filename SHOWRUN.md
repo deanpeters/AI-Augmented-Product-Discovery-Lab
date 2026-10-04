@@ -38,7 +38,7 @@ Market Intel → Segment → Persona → Opportunity Solution Tree → Value Pro
 | Motion | Question / teaching purpose | Live output |
 |---|---|---|
 | 01 Market Intel | Build an evidence-aware view of the market before narrowing to a segment. Market intel discovers the landscape; segment selection is the next, separate decision. | Market Intelligence Brief |
-| 02 Segment | Reuse market intel; population → TAM, trade/industry → SAM, competition plus reach/capacity → SOM. Label source facts and speculative assumptions before choosing the segment. | Segment Selection Brief |
+| 02 Segment | Reuse market intel; population → TAM, trade/industry → SAM, competition plus reach/capacity → SOM. End with a boss-ready SOM dollar takeaway and population/economics/reasoning table. Label price assumptions and distinguish annual revenue potential from earned revenue and profit before choosing the segment. | Segment Selection Brief |
 | 03 Persona | Select the working persona first, then explore their pains, gains and jobs-to-be-done, pick the top of each and frame the problem. Keep this within one motion so the opportunity tree starts from human needs rather than features. | Situational Persona |
 | 04 Opportunity Solution Tree | Place opportunities in the Opportunity Solution Tree. Connect Outcome → Opportunities → Solutions → Experiments and offer a solution portfolio for comparison without requiring a winner first. | Opportunity Solution Tree |
 | 05 Value Prop vs. Differentiation 2x2 | Bake off solution candidates, competitor offerings and the status quo against one audience, outcome and shared baseline. Both axes need separate evidence. | Value Prop vs. Differentiation 2x2 |

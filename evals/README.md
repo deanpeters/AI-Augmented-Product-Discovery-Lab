@@ -1,6 +1,6 @@
 # Keep the discovery motions honest
 
-Twelve synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
+Eighteen synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
 
 | Case | Failure it should catch |
 |---|---|
@@ -16,6 +16,12 @@ Twelve synthetic use cases, with pass rules written before the run. They test th
 | [10 Segment sizing](cases/10-segment-sizing.json) | Incorrect arithmetic, duplicate filters, capacity-free SOM or fictional pricing treated as WTP |
 | [11 Segment source gaps](cases/11-segment-source-gaps.json) | Existing intel ignored, source leads become fake findings, missing evidence filled by invention |
 | [12 Denominator traps](cases/12-segment-denominator-traps.json) | Firms/sites mixed, trade samples overgeneralized, overlap and free-share capture |
+| [13 OST portfolio and competitors share an honest comparison frame](cases/13-solution-bakeoff.json) | See the case’s prewritten failure criteria; behavioral run remains separate from local checks |
+| [14 Direct notes work without a tree or formal handoff](cases/14-standalone-2x2.json) | See the case’s prewritten failure criteria; behavioral run remains separate from local checks |
+| [15 A cheap pleasant reaction cannot test adoption](cases/15-brutal-truth-over-cheap-theatre.json) | See the case’s prewritten failure criteria; behavioral run remains separate from local checks |
+| [16 Current ten-motion demo in Context dump mode](cases/16-predictive-maintenance-demo.json) | See the case’s prewritten failure criteria; behavioral run remains separate from local checks |
+| [17 Synthetic IIoT outcomes cannot become customer or plant evidence](cases/17-synthetic-iiot-is-not-validation.json) | See the case’s prewritten failure criteria; behavioral run remains separate from local checks |
+| [18 Boss-ready Segment economics](cases/18-segment-boss-ready-economics.json) | Counts-only ending, optional dollars, missing price prevents useful what-ifs, revenue potential mistaken for profit or earned revenue |
 
 **The corrected ten-motion chain has not been behaviorally re-run. Prior eleven-motion passes do not apply.**
 
@@ -59,7 +65,7 @@ The runner requires an authenticated Claude CLI whose `claude --help` supports `
 python3 scripts/run-evals.py run 02-guided-reuse --engine claude --variant both --review
 ```
 
-For all twelve cases, including the full chain:
+For all eighteen cases, including the full chain:
 
 ```bash
 python3 scripts/run-evals.py run all --engine claude --variant both --review

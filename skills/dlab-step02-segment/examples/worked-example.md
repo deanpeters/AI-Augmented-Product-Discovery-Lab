@@ -67,7 +67,7 @@ All capacities and qualified cohorts use the same site unit and 12-month horizon
 | SAM | 2,000 | 2,800 | 3,600 | ESTIMATE / BEST GUESS from fictional inputs |
 | SOM, first 12 months | 15 | 36 | 50 | ESTIMATE / BEST GUESS from fictional inputs |
 
-Optional annualized price scenarios, not observed market revenue:
+Potential annualized price scenarios, not observed market revenue:
 
 | Tier | Low annualized USD | Base annualized USD | High annualized USD |
 |---|---|---|---|
@@ -108,3 +108,16 @@ Desired outcome: clearer next-investigation choices; baseline and target UNKNOWN
 Biggest unanswered question: does report uncertainty materially affect the decision, and can we reach and serve relevant practitioners/sites?
 
 Carry with the handoff: counted unit is billable sites, firm-to-site buying conversion UNKNOWN; fictional national scope and teaching reference year; first-12-month SOM; TAM 20,000, SAM 2,000/2,800/3,600, SOM 15/36/50; source IDs F1–F3 and assumptions A1–A4. No segment approval is recorded, and the persona is not a real interviewed customer.
+
+
+## Executive TL;DR: what is the potential in dollars?
+
+**ESTIMATE / BEST GUESS, entirely fictional:** For the mid-sized discrete-manufacturing teaching segment, our base scenario is **36 billable sites obtained within 12 months**, worth about **$108,000 in annual revenue potential at that endpoint**, with a **$30,000–$200,000** low/high range. That is a bounded initial opportunity, not an $8.4 million near-term sales forecast: onboarding capacity limits capture and the assumed $3,000/site/year price has no willingness-to-pay evidence. This supports a small discovery test, not a production commitment; margins and first-year earned revenue are not yet modeled.
+
+| Tier | Guesstimated populations (low / base / high; billable sites) | Potential economics (low / base / high; USD per year) | Reasoning |
+|---|---|---|---|
+| TAM | 20,000 / 20,000 / 20,000 | $40,000,000 / $60,000,000 / $80,000,000 | F1 fictional relevant population × A4 assumed $2,000 / $3,000 / $4,000 per site/year; not all industry revenue or proven demand |
+| SAM | 2,000 / 2,800 / 3,600 | $4,000,000 / $8,400,000 / $14,400,000 | F2 joint industry/size intersection × A1 service-fit assumption × A4 price; no duplicate filters |
+| SOM, first 12 months | 15 / 36 / 50 | $30,000 / $108,000 / $200,000 | A2 reach/win assumptions capped by A3 acquisition/onboarding; captured sites × A4 price, annualized at endpoint, not first-year recognized revenue |
+
+**Recommended next decision:** Test the provisional need and pricing with accessible maintenance managers, and check whether serving 36 sites is realistic before funding a build. No human selection recorded. **Biggest dollar risk:** customers may not pay the assumed price, and onboarding or procurement may shrink capture. All numbers are synthetic; none establish market size or demand.
