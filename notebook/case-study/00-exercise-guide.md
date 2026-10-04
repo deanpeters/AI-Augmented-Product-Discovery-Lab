@@ -13,6 +13,13 @@ Evidence labels used throughout: **ACTUAL DATA** (stated in a source we read), *
 
 ---
 
+> **Play in 10 minutes**
+> 1. Create a project, Gem, agent or notebook and paste `project-instructions.md` in as its instructions.
+> 2. Upload documents 00 to 03.
+> 3. Say: **"Play the HiPPO request."**
+
+---
+
 ## 1. Purpose of This Guide
 
 This guide gives you a realistic business scenario grounded in real industry research: AI predictive maintenance for mid-sized US manufacturing plants. It is your chance to step into a product team's shoes and apply AI-assisted discovery workflows to a decision that matters before anyone builds anything.
@@ -29,11 +36,11 @@ You are part of a cross-functional product and business team at an industrial so
 
 Manufacturing maintenance is under pressure. Skilled maintenance technicians are scarce and the workforce is projected to grow while hiring stays hard. Most plants still run a large share of their maintenance reactively. Equipment data lives in several places: sensors, maintenance records, technician knowledge, spreadsheets. And a long list of vendors now sells predictive maintenance, mostly to large enterprises.
 
-The request that landed on your desk was simple:
+A senior leader, the highest-paid person in the room, just walked in with a solution:
 
-> **"Build an AI predictive-maintenance dashboard."**
+> **"Build an AI-enhanced maintenance dashboard for managers at mid-sized manufacturers."**
 
-That sentence is a solution, not a problem. Your task is to explore where and how your company could win, whether a real, frequent, costly problem sits behind that request, and what the cheapest honest test would be. You will use generative AI to research the space, shape the opportunity, generate synthetic examples that are clearly labeled as synthetic, and build a proof-of-concept artifact your team can react to.
+You are not going to say no. You are going to explore the idea through discovery and see what holds up. That sentence is a solution, not a problem. Your task is to explore where and how your company could win, whether a real, frequent, costly problem sits behind that request, and what the cheapest honest test would be. You will use generative AI to research the space, shape the opportunity, generate synthetic examples that are clearly labeled as synthetic, and build a proof-of-concept artifact your team can react to.
 
 > Think of yourselves as an internal venture team. You have real industry data, real competitors and a real open question. Your job is to figure out whether to build, and what, before anyone writes a line of code.
 
@@ -45,9 +52,9 @@ That sentence is a solution, not a problem. Your task is to explore where and ho
 
 **To the Product and Business Team**
 
-Our company has deep experience selling software that helps manufacturers run their operations. Maintenance is the next place customers are asking us about, and they are asking for something intelligent, predictive and easy to act on.
+I have seen enough. Customers are asking for maintenance help, competitors are shipping AI, and I want us in this market this year. Build me an AI-enhanced maintenance dashboard for managers at mid-sized manufacturers. Predictive, proactive, impressive in a demo.
 
-This is not a build problem. It is a decision problem. We could assemble a dashboard in weeks. What we do not have is a clear, evidence-backed answer to a simpler question: what is actually stopping a maintenance manager from making a clear call on what to investigate next, and is that something we can solve better than what they already use?
+I also know I have been wrong before. So before we commit the team, show me what holds up: who it is really for, what problem it solves, what we could do that is different from what they do today, and the smallest test that tells us whether I am right.
 
 > "Use this case to think like a product team driving discovery. We are not evaluating a feature list. We are deciding whether the evidence earns the next investment."
 
@@ -79,6 +86,7 @@ Your team is accountable for making progress toward at least one of the followin
 
 | Outcome | Description |
 |---|---|
+| **Decrease downtime** | Help plants cut unplanned stops by acting before a failure instead of after it. The cost of downtime for mid-sized US plants is UNKNOWN. Measure it with real plants and do not assume a number. |
 | **Win a defined segment** | Establish a credible first wedge with a bounded group of mid-sized discrete plants where we can be clearly better than the status quo. Plant counts are real (see section 6). Value per plant is UNKNOWN. |
 | **Improve the decision** | Make maintenance managers' next-investigation calls clearer and more defensible. Baseline and target are UNKNOWN and must be measured with real plants, not assumed. |
 | **Build a differentiated, evidence-backed offering** | Find a position that incumbents (maintenance software, predictive platforms, sensor bundles) do not already own, and prove it with the smallest test that returns a real signal to pivot, punt or pursue. |
@@ -181,7 +189,7 @@ Important: these are role-based hypotheses built from published labor data and s
 
 | Pains | Goals | Behaviors | In Their Own Words |
 |---|---|---|---|
-| Reports or signals may disagree and their source and age may be unclear (hypothesis) | A call they can defend to production and the next shift | Leans on technician judgment and maintenance history (hypothesis; supported by interviews in one peer-reviewed study) | **UNKNOWN. No interviews.** What was the last time two reports disagreed? Who decided? What did you need before you could act? |
+| A flood of early-warning signals with no clear priority, and reports that may disagree (hypothesis; vendors name alert overload) | A call they can defend, made early enough to act | Leans on technician judgment and maintenance history (hypothesis; supported by interviews in one peer-reviewed study) | **UNKNOWN. No interviews.** What was the last time two reports disagreed? Who decided? What did you need before you could act? |
 | Limited time and people to act (31 percent cite staffing, vendor-sponsored survey) | Less time reconciling sources | Discounts a tool quickly after it errs (lab and expert studies; not shown for maintenance managers) | |
 | Undocumented knowledge when experienced people leave | Knowledge that stays when people leave | | |
 
@@ -264,6 +272,9 @@ The goal is not a finished product. The goal is something a maintenance manager,
 *"Now I understand what you mean." "That part feels real." "That part worries me." "Here is what I would need to see next."*
 
 That feedback is the win.
+
+> **Where the demo landed (one possible finding, not the answer)**
+> In the live demo, the chain moved from the dashboard request to something different: **intervention by prediction instead of intervention by exception**. That means acting before a failure instead of reacting to an alarm or a breakdown. Whether that is delightful, hard to copy and margin-enhancing is a hypothesis. Incumbents already sell prediction, pricing is quote-only and willingness to pay is UNKNOWN. Run your own version and compare.
 
 > **Curiosity Prompt**
 > What assumptions about your customers or your own products are you bringing into this case study? How might you test them together as a team, using AI, before investing further?
