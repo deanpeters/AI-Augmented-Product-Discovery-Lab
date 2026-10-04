@@ -15,6 +15,8 @@ The exact sequence: Market Intel → Segment → Persona → Opportunity Solutio
 | 09 | Minimum Viable Narrative | [Skill](skills/dlab-step09-minimum-viable-narrative/SKILL.md) | [Prompt](prompts/09-minimum-viable-narrative.md) | Minimum Viable Narrative |
 | 10 | Prototyping | [Skill](skills/dlab-step10-prototyping/SKILL.md) | [Prompt](prompts/10-prototyping.md) | Prototype Experiment Brief |
 
+For copy-ready case context and instructions to run an attached prompt file or the matching skill, use the [ten-motion kickoff messages](examples/kickoff-prompts.md).
+
 Use the [complete presenter script](examples/monday-demo-script.md) for what to say, what to send, Guided replies, decisions and recovery. Start with [QUICKSTART](QUICKSTART.md) for an attendee's first invocation.
 
 Audience: Product Managers, founders and product teams. Outcome: see a decision improve before committing to a build. The manufacturing teaching scenario is SYNTHETIC until actual evidence is supplied.

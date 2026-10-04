@@ -4,7 +4,7 @@
 
 **10 discovery skills. 10 paste-ready prompt equivalents. Same play, two ways in.**
 
-For Product Managers, founders and product teams deciding what deserves to be built. Start with [QUICKSTART](QUICKSTART.md), choose a motion from the [demo launchpad](DEMO.md), or rehearse with the [Monday interaction script](examples/monday-demo-script.md).
+For Product Managers, founders and product teams deciding what deserves to be built. Use the [case-study kickoff messages](examples/kickoff-prompts.md) to launch an attached prompt or installed skill. Start with [QUICKSTART](QUICKSTART.md), choose a motion from the [demo launchpad](DEMO.md), or rehearse with the [Monday interaction script](examples/monday-demo-script.md).
 
 Because AI can help you build the wrong thing really fucking fast.
 

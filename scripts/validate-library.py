@@ -54,7 +54,8 @@ for item in catalog:
 # Exclude Git internals and ignored local work; inspect distributable text only.
 files = [p for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.parts
          and p.suffix in {'.md', '.py', '.json', '.yml', '.sh'}
-         and not any(x in p.relative_to(ROOT).parts for x in ('runs', 'rehearsal', '__pycache__'))]
+         and not any(x in p.relative_to(ROOT).parts for x in ('runs', 'rehearsal', '__pycache__'))
+         and p.relative_to(ROOT).parts[0] not in ('sources', 'private', '.venv')]
 secret_patterns = [r'gh[pousr]_[A-Za-z0-9]{30,}', r'AKIA[A-Z0-9]{16}',
                    r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',
                    r'sk-(?:proj-)?[A-Za-z0-9_-]{40,}']

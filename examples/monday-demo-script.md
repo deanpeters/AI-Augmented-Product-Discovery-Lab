@@ -14,6 +14,8 @@ The [SHOWRUN](../SHOWRUN.md) plans approximately 60 minutes of active content wi
 
 Each skill bundles a template and worked/weak examples. Open Persona's assets before the show so you can demonstrate the package as well as the conversation. Current fallback seeds link to synthetic worked examples; they are not successful rehearsal receipts.
 
+For an attached prompt-file workflow or an installed-skill invocation, use the [case-study kickoff messages](kickoff-prompts.md). They supply copy-ready context for every motion.
+
 ## How to send each message
 
 **Skill path:** use each `Read skills/...` message in an assistant with workspace file access. Open its template and examples when needed. Cloning does not install skills; an installed tool may use its supported skill invocation instead.

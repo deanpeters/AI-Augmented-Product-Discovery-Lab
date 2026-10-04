@@ -55,6 +55,23 @@ class LibraryContractTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertIn('prompts/03-persona.md', result.stderr)
 
+    def test_ignored_research_links_do_not_hide_broken_library_links(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'lab'
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns(
+                '.git', 'runs', '__pycache__', 'sources', 'private', '.venv'))
+            research = copy / 'sources/raw-page.md'
+            research.parent.mkdir()
+            research.write_text('[Website navigation](/unavailable-navigation)')
+            command = [sys.executable, str(copy / 'scripts/validate-library.py')]
+            valid = subprocess.run(command, capture_output=True, text=True)
+            self.assertEqual(valid.returncode, 0, valid.stdout + valid.stderr)
+            public_doc = copy / 'docs/broken-reference.md'
+            public_doc.write_text('[Missing lab asset](missing-lab-asset.md)')
+            invalid = subprocess.run(command, capture_output=True, text=True)
+            self.assertNotEqual(invalid.returncode, 0)
+            self.assertIn('missing-lab-asset.md', invalid.stdout + invalid.stderr)
+
     def test_segment_example_counts_and_annual_values_match_its_inputs(self):
         from decimal import Decimal
         text = (ROOT / 'skills/dlab-step02-segment/examples/worked-example.md').read_text()
