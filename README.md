@@ -6,8 +6,6 @@
 
 For tonight’s presentation, [follow along in Mural](https://app.mural.co/t/280group7393/m/280group7393/1791057974634/e0bb91c76aacd5ae0937ea78dd233998a3d5cfc2).
 
-Presentation materials: [slides as PDF](slides/Build-the-Right-Thing.pdf) · [slide outline](slides/Build-the-Right-Thing-slide-outline.md).
-
 For Product Managers, founders and product teams deciding what deserves to be built. **Taking this home? Start with the [attendee guide](docs/ATTENDEE-GUIDE.md).** Use the [case-study kickoff messages](examples/kickoff-prompts.md) to launch an attached prompt or installed skill. Start with [QUICKSTART](QUICKSTART.md), choose a motion from the [demo launchpad](DEMO.md), or rehearse with the [Monday interaction script](examples/monday-demo-script.md).
 
 Because AI can help you build the wrong thing really fucking fast.
