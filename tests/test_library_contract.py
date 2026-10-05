@@ -116,12 +116,18 @@ class LibraryContractTests(unittest.TestCase):
         self.assertIn('Just enough signal to satisfy decision rule', diagram)
         self.assertIn('3–6 human action–response pairs', diagram)
         self.assertTrue((ROOT / 'assets/discovery-path.svg').is_file())
-        for file in ('README.md', 'docs/ATTENDEE-GUIDE.md'):
+        for file in ('docs/ATTENDEE-GUIDE.md',):
             text = (ROOT / file).read_text()
             self.assertIn('```mermaid\n' + diagram + '```', text)
             self.assertIn('A suggested learning path. Start where your decision is.', text)
             self.assertIn('not an eleventh motion', text)
             self.assertIn('![Ten discovery motions in three phases,', text)
+        readme = (ROOT / 'README.md').read_text()
+        self.assertNotIn('```mermaid', readme)
+        self.assertIn('](assets/productside/build-the-right-thing-process-infographic.png)', readme)
+        self.assertIn('(docs/ATTENDEE-GUIDE.md#choose-your-starting-point)', readme)
+        image = ROOT / 'assets/productside/build-the-right-thing-process-infographic.png'
+        self.assertEqual(image.read_bytes()[:8], b'\x89PNG\r\n\x1a\n')
 
     def test_asset_edit_invalidates_prompt_parity(self):
         with tempfile.TemporaryDirectory() as tmp:
