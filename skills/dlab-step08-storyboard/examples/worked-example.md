@@ -68,6 +68,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the actor's changed action follow from information or only from our story assumptions?
 
+## Why this example takes this turn
+
+**We changed this because…** We made the handover pressure visible and showed the person using context, then helping someone else.
+
+**We’re still guessing about…** Whether that pressure and helpful outcome resemble real work.
+
+**Next, we need to find out…** Test the story and its competing explanation before visual polish; a good arc earns a conversation.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 **Solution/target:** SYNTHETIC report comparison for a maintenance manager. Hypothesis: source context helps explain an investigation choice.

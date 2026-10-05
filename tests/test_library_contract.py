@@ -82,6 +82,47 @@ class LibraryContractTests(unittest.TestCase):
             self.assertEqual(prompt.count('````'), 2)
             self.assertIn(packet, prompt)
 
+    def test_standalone_entry_guides_and_optional_metadata_travel_with_prompts(self):
+        catalog = json.loads((ROOT / 'docs/catalog.json').read_text())
+        for index, item in enumerate(catalog):
+            skill = ROOT / 'skills' / item['name'] / 'SKILL.md'
+            fields, body = parse_frontmatter(skill)
+            meta = fields['metadata']
+            self.assertEqual(meta['depends-on'], 'none; standalone entry supported')
+            self.assertEqual(meta['discovery-phase'],
+                             ['Understand the situation', 'Explore and position',
+                              'Make the idea testable'][0 if index < 3 else 1 if index < 6 else 2])
+            for key in ('input-artifacts', 'output-artifacts',
+                        'optional-upstream', 'optional-downstream'):
+                self.assertTrue(meta[key].strip())
+            entry = body.split('## Start here', 1)[1].split('## How to work together', 1)[0]
+            for heading in ('Use this when…', 'What to bring:',
+                            'What you can substitute or guess:', 'What you’ll get:',
+                            'What it won’t prove:'):
+                self.assertIn(heading, entry)
+            self.assertIn(item['artifact'], entry)
+            self.assertIn('You don’t need it to start.', entry)
+            prompt = (ROOT / item['prompt']).read_text()
+            self.assertIn(entry, prompt)
+
+    def test_process_visual_preserves_ten_motions_and_optional_routes(self):
+        diagram = (ROOT / 'assets/discovery-path.mmd').read_text()
+        nodes = re.findall(r'([A-Z]+)\["(\d{2}) · ([^"\n]+)"\]', diagram)
+        self.assertEqual([number for _, number, _ in nodes],
+                         [f'{number:02d}' for number in range(1, 11)])
+        for node in ('MI', 'SEG', 'PER', 'OST', 'STORY'):
+            self.assertRegex(diagram, r'DEC -->\|[^\n]+\| ' + node + r'\n')
+        self.assertEqual(diagram.count('-.->|'), 9)
+        self.assertIn('Just enough signal to satisfy decision rule', diagram)
+        self.assertIn('3–6 human action–response pairs', diagram)
+        self.assertTrue((ROOT / 'assets/discovery-path.svg').is_file())
+        for file in ('README.md', 'docs/ATTENDEE-GUIDE.md'):
+            text = (ROOT / file).read_text()
+            self.assertIn('```mermaid\n' + diagram + '```', text)
+            self.assertIn('A suggested learning path. Start where your decision is.', text)
+            self.assertIn('not an eleventh motion', text)
+            self.assertIn('![Ten discovery motions in three phases,', text)
+
     def test_asset_edit_invalidates_prompt_parity(self):
         with tempfile.TemporaryDirectory() as tmp:
             copy = Path(tmp) / 'lab'

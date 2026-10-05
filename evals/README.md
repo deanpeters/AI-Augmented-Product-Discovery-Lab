@@ -1,6 +1,6 @@
 # Keep the discovery motions honest
 
-Eighteen synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
+Twenty-three synthetic use cases, with pass rules written before the run. They test the skills and equivalent prompts, not customer demand or the real manufacturing domain. The pattern is inspired by ADLC's use-case tests; this lab keeps JSON cases, one runner and one short review protocol.
 
 | Case | Failure it should catch |
 |---|---|
@@ -132,3 +132,5 @@ Case 01 retains the older report-comparison route as a regression case. It is no
 The standalone, denominator, hostile-source, cheap-test and narrative-continuity cases remain useful across contexts. Different case narratives do not change the lab chain. Local regression checks additionally cover the 20 launch blocks, paired prompt/skill context, invocation names and demo-case route.
 
 Case 16 also tests the intentional HiPPO-to-outcome arc: explore the requested dashboard rather than reflexively refuse or blindly implement it; allow the desired proposition to evolve from intervention by exception toward intervention by prediction. Delight, hard-to-copy value and customer/provider margins remain hypotheses. A changed outcome is not inherently a chain failure.
+
+[Case 23: independent entry and transfer](cases/23-independent-entry-and-transfer.json) tests starting with partial notes, retaining a branching OST and earning a next test without inventing demand or investment approval. Behavioral status: NOT RUN.

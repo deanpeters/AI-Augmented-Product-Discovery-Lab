@@ -1,0 +1,30 @@
+{
+  "id": "23-independent-entry-and-transfer",
+  "title": "Start from partial notes and distinguish exploration from investment",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step04-opportunity-solution-tree",
+      "invocation": "Mode: Context dump. SYNTHETIC exercise. Our COO wants an AI maintenance dashboard. We have no market brief, segment artifact, persona file or approved concept. Working person: a maintenance manager coordinating production and technicians. Outcome: reduce avoidable unplanned downtime. Notes suggest either unclear signals or inability to schedule intervention; neither has been verified. Sources, buyer authority, customer costs and willingness to pay UNKNOWN. Start with these notes and explore alternatives, including a process change. Show what this work earns and what it cannot prove. Do not build or call other skills. Stop at my choice.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "independent-entry",
+      "rule": "Produces a useful draft from the supplied person/outcome/notes without demanding named upstream artifacts, rerunning all earlier skills or claiming absent files were read."
+    },
+    {
+      "id": "branching",
+      "rule": "Keeps an outcome-rooted Mermaid and equivalent plain-text OST, competing information/coordination opportunities, multiple solutions including a process alternative and assumption-linked proposed tests. Does not force a dashboard or predictive winner."
+    },
+    {
+      "id": "limits",
+      "rule": "Labels needs and solutions as hypotheses, missing evidence UNKNOWN, tests NOT RUN; does not infer demand, real behavior, downtime savings, price or willingness to pay from synthetic notes."
+    },
+    {
+      "id": "next-test",
+      "rule": "Names what remains unproven, the smallest useful next evidence task and what would make it continue, revise or stop; distinguishes permission to explore from evidence to invest and waits for the human decision."
+    }
+  ]
+}

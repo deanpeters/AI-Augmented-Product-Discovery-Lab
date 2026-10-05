@@ -23,3 +23,13 @@ The October 4 workshop canvases inform field selection, not chain order. Market 
 Aim for about 200 words of summary prose, allowing the required artifacts and portable prompts the space they need. Concision cannot justify invented evidence, deleted alternatives, a flattened loop or false approval. Shorten explanation; preserve the decision-bearing content.
 
 OST, the value/differentiation bake-off and positioning embed the customer payoff/budget test: changed work → customer outcome → economic lever → budget/renewal choice, with separate provider delivery economics and rival-relative/compounding-advantage proof gaps. The axes and ten-motion sequence remain unchanged. See [Earn the customer's budget](CUSTOMER-VALUE-AND-DIFFERENTIATION.md). This supporting document is bundled in both kits; the prompt itself contains the operational guidance.
+
+## Frontmatter audit, October 5, 2026
+
+The shared format keeps `name` and `description` at the top level and catalog fields in a string-valued `metadata` map. Descriptions say when to use the play, what to bring, what it produces and its main limit. Detailed instructions live in the body’s **Start here** section.
+
+[OpenAI’s skill guidance](https://developers.openai.com/plugins/build/skills) puts selection cues in the description and procedures in the body. [Claude’s frontmatter reference](https://code.claude.com/docs/en/skills) supports `metadata` for custom catalog data but does not act on its contents. The [Agent Skills specification](https://agentskills.io/specification) supports this map. We keep the common fields instead of adding client-specific tool, model or invocation controls.
+
+`phase` remains the motion number for existing tooling. `discovery-phase` names the teaching group. `input-artifacts` and `output-artifacts` describe useful context and results; `optional-upstream` and `optional-downstream` suggest nearby plays. `depends-on` remains “none; standalone entry supported.” These catalog fields are not runtime dependencies or proof that an earlier artifact exists.
+
+Every entry guide explains use, minimum useful context, substitutions, output/decision and what the result cannot prove. Worked examples explain why the author made an illustrative turn, what is still guessed and the real evidence needed next. Regenerate prompts and both kits after changing any of these resources.

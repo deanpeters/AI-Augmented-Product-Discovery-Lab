@@ -64,6 +64,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: What actual practitioner observations support revising, stopping or another test?
 
+## Why this example takes this turn
+
+**We changed this because…** We chose a low-fidelity task rather than increasing fidelity just because building is easy.
+
+**We’re still guessing about…** Whether information or coordination limits action and whether relevant participants can be recruited.
+
+**Next, we need to find out…** Get real task observations and decision histories; with no run, the next step is learning, not claiming success.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 **Target/hypothesis:** SYNTHETIC maintenance manager; source context might clarify investigation reasoning. **Brutal truth:** authority/scheduling may matter more.

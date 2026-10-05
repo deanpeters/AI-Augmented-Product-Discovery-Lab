@@ -110,6 +110,16 @@ Biggest unanswered question: does report uncertainty materially affect the decis
 Carry with the handoff: counted unit is billable sites, firm-to-site buying conversion UNKNOWN; fictional national scope and teaching reference year; first-12-month SOM; TAM 20,000, SAM 2,000/2,800/3,600, SOM 15/36/50; source IDs F1–F3 and assumptions A1–A4. No segment approval is recorded, and the persona is not a real interviewed customer.
 
 
+## Why this example takes this turn
+
+**We changed this because…** We narrowed a broad population to sites we might serve and reach, so the dollar story reflects limits as well as possibility.
+
+**We’re still guessing about…** Every population, filter, price and capture input in this arithmetic example.
+
+**Next, we need to find out…** Check customer need, pricing and onboarding capacity; the table earns questions, not a sales forecast.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Executive TL;DR: what is the potential in dollars?
 
 **ESTIMATE / BEST GUESS, entirely fictional:** For the mid-sized discrete-manufacturing teaching segment, our base scenario is **36 billable sites obtained within 12 months**, worth about **$108,000 in annual revenue potential at that endpoint**, with a **$30,000–$200,000** low/high range. That is a bounded initial opportunity, not an $8.4 million near-term sales forecast: onboarding capacity limits capture and the assumed $3,000/site/year price has no willingness-to-pay evidence. This supports a small discovery test, not a production commitment; margins and first-year earned revenue are not yet modeled.

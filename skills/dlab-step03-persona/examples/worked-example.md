@@ -86,6 +86,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Do report conflicts actually change this person's decisions or is coordination the obstacle?
 
+## Why this example takes this turn
+
+**We changed this because…** We started with a working person, then explored their jobs, pains and gains before framing the problem.
+
+**We’re still guessing about…** Whether information uncertainty or permission and scheduling is the real barrier; feelings remain UNKNOWN.
+
+**Next, we need to find out…** Examine a recent real decision before treating the problem frame as established.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 **Snapshot:** SYNTHETIC maintenance manager at a mid-sized plant before shift handover; assumed workaround: technician discussion and log review.

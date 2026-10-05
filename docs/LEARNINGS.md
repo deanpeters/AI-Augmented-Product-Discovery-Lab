@@ -15,7 +15,7 @@ Written October 3, 2026, two days before the show. A record of decisions, findin
 
 - **The shape of a canvas matters, the text does not.** The first canvas slides copied Productside canvases to the letter and were unreadable in a large room. We kept each canvas's shape and cut the text to a few big words (about 16 point minimum, 18 to 26 point for main content). The detail lives in the skills, prompts, mural and speaker notes.
 - **Adapt canvases to the chain without fuss.** The canvases are structural references. Order, axes and wording bend to the ten-motion chain. Only flag a mismatch if it changes what the audience sees or breaks an evidence rule.
-- **The MVN is five beats, not six.** Setup, Encounter, an action and response loop of about 3 to 6 exchanges, and Resolution. "New Action" was an artifact of flattening the loop.
+- **The MVN has four sections, with an internal loop.** Setup, Encounter, an action and response loop of about 3 to 6 exchanges, and Resolution. "New Action" was an artifact of flattening the loop.
 - **The 2x2 is a bake-off.** Every solution from the Opportunity Solution Tree, the competitors and today's workaround go on one value-versus-difference map.
 - **The Segment shows TAM, SAM and SOM as three circles,** from population, trade and industry data, and competition plus reach and capacity. No numbers on the slide.
 - **The storyboard arc:** who has the problem, what the problem is, the oh crap moment, the solution arrives, the solution aha moment, sharing the love.
@@ -48,7 +48,7 @@ The full set is in `research/manufacturing-pdm/` and in the case file. The findi
 - **Verify the headline numbers against the raw file.** The Census counts, DOE, NIST and Siemens figures, the Autodesk 8-K and the BLS pull were spot-checked after the agents reported.
 - **Save research once.** Reports and raw files are stored so nobody pays tokens for the same work twice.
 - **Conflicting evidence is a finding.** Showing the spread beat averaging it.
-- **Productside canvases and the branding guide are included with permission.** Confirm Productside's permission covers redistribution before the repository goes public.
+- **Productside canvases and the branding guide are included with permission.** Dean confirmed permission to share the supplied canvases and brand assets; their ownership remains separate from the lab license.
 
 ## Still open
 
@@ -57,3 +57,18 @@ The full set is in `research/manufacturing-pdm/` and in the case file. The findi
 - Open the deck once in PowerPoint on the presenting machine. It was only rendered in LibreOffice here.
 - Relay.app and Jacob Bank X posts: confirm wording in a browser. HP and Humane own announcements: optional.
 - Interviews with real maintenance managers and planners. That is the next step for the case study, not more desk research.
+
+## Teaching lessons: preparation notes and session feedback
+
+Preparation feedback from Dean: corporate wording gets in the way; standalone entry should be obvious; outputs need a concise decision readout; synthetic learning must not masquerade as customer truth. The entry guides, routes and transfer exercise address those observations.
+
+Session observations are still unanswered. This is not a completed retrospective.
+
+| Question | What we know |
+|---|---|
+| Which instruction confused attendees? | UNKNOWN; attendee feedback not supplied |
+| Where did the live transitions or timing break? | UNKNOWN; session observations not supplied |
+| Which motion could attendees use independently? | UNKNOWN; independent-use observations not supplied |
+| What did Dean want to change after teaching it? | UNKNOWN; post-session observations not supplied |
+
+When actual notes arrive, record the observation, the specific instruction/example changed and how we will check whether it helps. Do not fill these gaps with imagined feedback.

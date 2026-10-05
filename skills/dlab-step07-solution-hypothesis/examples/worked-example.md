@@ -71,6 +71,16 @@ What is inferred: a possible discovery direction, not validated demand.
 Desired outcome: clearer next-investigation decisions; baseline and target UNKNOWN.
 Biggest unanswered question: Does the hypothesized mechanism change reasoning or does another constraint dominate?
 
+## Why this example takes this turn
+
+**We changed this because…** We turned a benefit claim into a comparison task and a recent-decision conversation so the idea can lose.
+
+**We’re still guessing about…** Whether source uncertainty affects action more than permission or scheduling; recruitment is not arranged.
+
+**Next, we need to find out…** Run the proposed tests and inspect what happened; writing a rule earns a test plan, not a positive result.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 **Context:** SYNTHETIC maintenance manager cannot readily defend a choice from conflicting reports; provisional positioning offers source-context comparison.

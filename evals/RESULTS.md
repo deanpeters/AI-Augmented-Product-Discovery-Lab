@@ -99,3 +99,9 @@ OST, value/differentiation and positioning skills are v0.4.0. Each embeds custom
 Cases 21–22 cover positive/negative customer scenarios, provider contribution vs. profit, rival parity and failed learning-rights assumptions. Behavioral execution remains NOT RUN. A local regression recomputes all F2 scenario results and break-even from the example's input table; these fictional inputs are not validated market economics. No source essay instructions authorize external actions or claim evidence. No model calls, customer experiments or deck edits were performed.
 
 Final local verification: 25 regression tests pass; 22 behavioral-case definitions validate. Ten prompt equivalents match their skill assets; Codex (77 files) and Claude (66 files) v0.1.4 kits match canonical content. The new value-loop Mermaid diagram rendered locally. Behavioral execution for Cases 21–22 remains NOT RUN. `dist/` contains only the four current v0.1.4 archives.
+
+## Independent-use revision: October 5, 2026
+
+All ten skills now have plain-language entry guides, selection descriptions and optional upstream/downstream metadata. Matching prompts embed the guides and reasoning annotations. README and attendee guide share an editable Mermaid flow and rendered lab diagram; the chain guide offers three routes. The attendee exercise checks whether uncertainty changed, and synthetic-learning notes identify real evidence needed next. Session feedback remains UNKNOWN.
+
+Local verification: 27 regression tests pass; 23 use-case definitions validate; metadata, prompt parity, local links, example arithmetic and both client archives pass. Both kit versions are 0.1.5. Case 23 covers independent entry from partial notes and exploration versus investment. These are mechanical checks. New/revised behavioral cases and full rehearsal were not run for this change; no model calls were made. The diagram renders locally. The separate Productside infographic is awaiting its source file.

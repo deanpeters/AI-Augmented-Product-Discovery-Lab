@@ -79,6 +79,16 @@ Biggest unanswered question: Which barrier dominates actual decisions?
 
 If this example is carried forward, include Setup, Encounter, all four transaction rows, their continuations, loop exit, Resolution and the test rule above. Do not replace them with a title.
 
+## Why this example takes this turn
+
+**We changed this because…** We expanded solution use into four connected transactions so a response leads to the next human action.
+
+**We’re still guessing about…** Whether people understand the context and use it to reason; the resolution remains fictional.
+
+**Next, we need to find out…** Review or test the loop at low fidelity; a portable prompt describes the test and does not authorize a build.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 **Hypothesis/audience:** SYNTHETIC source context may help maintenance practitioners explain an investigation; coordination may dominate.

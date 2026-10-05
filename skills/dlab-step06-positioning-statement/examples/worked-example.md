@@ -48,6 +48,16 @@ If managers already understand warnings but cannot secure a feasible interventio
 
 Carry the actual statement, target, S2 mechanism, B0 and rival distinction, customer/provider cost assumptions and falsifiers. A hypothesis should test whether earlier context changes feasible intervention and net value—not merely whether people like the display. Standalone notes work without this artifact.
 
+## Why this example takes this turn
+
+**We changed this because…** We positioned a proposed customer payoff rather than an AI feature list.
+
+**We’re still guessing about…** Whether earlier intervention is feasible, valuable enough to fund and better than the closest rival.
+
+**Next, we need to find out…** Test the promise against actual buyer conditions and costs before using it as a proven sales claim.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 - **For:** maintenance managers coordinating with production.

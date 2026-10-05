@@ -1,0 +1,45 @@
+---
+config:
+  theme: neutral
+  flowchart:
+    htmlLabels: false
+    wrappingWidth: 600
+    rankSpacing: 100
+    subGraphTitleMargin:
+      top: 12
+      bottom: 36
+---
+flowchart TB
+    subgraph P1["1. Problem and person"]
+        MI["01 · Market Intel"]
+        SEG["02 · Segment"]
+        PER["03 · Persona"]
+        MI -.->|"Market notes, alternatives and gaps"| SEG
+        SEG -.->|"Who we’re focusing on and what we’re guessing"| PER
+    end
+    subgraph P2["2. Play and win"]
+        OST["04 · Opportunity Solution Tree"]
+        VP["05 · Value Prop vs. Differentiation"]
+        POS["06 · Positioning Statement"]
+        OST -.->|"Ideas worth comparing and what we still don’t know"| VP
+        VP -.->|"Customer payoff and reason to choose"| POS
+    end
+    subgraph P3["3. Test and learn"]
+        HYP["07 · Solution Hypothesis"]
+        STORY["08 · Storyboard"]
+        MVN["09 · Minimum Viable Narrative"]
+        PROTO["10 · Prototyping"]
+        HYP -.->|"Expected change, risky assumptions and test rule"| STORY
+        STORY -.->|"Six story beats"| MVN
+        MVN -.->|"3–6 human action–response pairs and builder prompt"| PROTO
+    end
+    PER -.->|"Person, job, pains, gains and framed problem"| OST
+    POS -.->|"Target, promise and alternative"| HYP
+    PROTO --> DEC{"What does the evidence earn?"}
+    DEC -->|"Revise the experience"| STORY
+    DEC -->|"Revisit the need or solution"| OST
+    DEC -->|"Revisit the person and problem"| PER
+    DEC -->|"Revisit who we focus on"| SEG
+    DEC -->|"Revisit the market"| MI
+    DEC -->|"Just enough signal to satisfy decision rule"| NEXT["Try the next small investment"]
+    DEC -->|"Too little value or evidence"| STOP["Pause or stop"]

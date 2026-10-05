@@ -1,15 +1,16 @@
 # Readiness
 
-Status as of October 4, 2026, one day before the show.
+Status as of October 5, 2026. This records kit checks, not a completed session or rehearsal.
 
 ## Attendee distribution
 
-The public repository ships **v0.1.4** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
+The public repository ships **v0.1.5** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
 
+- Plain-language entry guides, optional handoffs, three alternate routes and a bring-your-own-problem exercise. Session feedback remains unanswered.
 - Ten canonical skills with matching self-contained prompts, templates and worked/weak examples; the chain and standalone modes are preserved.
 - Segment's final commercial table; actual OST branching diagrams; customer-payoff, budget/renewal and two-sided economics in OST, value/differentiation and positioning.
 - [Customer-value documentation](CUSTOMER-VALUE-AND-DIFFERENTIATION.md), included in both kits.
-- Twenty-five local regression tests pass; twenty-two behavioral-case definitions validate. Prompt parity, local links, example arithmetic and both archive contents pass.
+- Twenty-seven local regression tests pass; twenty-three behavioral-case definitions validate. Prompt parity, local links, example arithmetic and both archive contents pass.
 - Supplied Productside canvases and repository/Mural QR assets are distributed with Dean's confirmed sharing permission. Original lab materials retain CC BY-NC-SA 4.0.
 
 ## Presenter materials
@@ -24,7 +25,7 @@ Local checks validate metadata, bundled assets, catalog order, prompt parity, lo
 
 The earlier committed deck has a rendering/schema-check record; that is not certification of separate local deck edits or a completed show rehearsal.
 
-## Before Monday
+## Before presenting
 
 1. Run a full rehearsal in the real tools. See [REHEARSAL](REHEARSAL.md). Save prompts, outputs, small handoffs, timings and what broke.
 2. Pre-run Market Intel with real sources and keep URLs and dates. Promote the best rehearsal outputs into `fallbacks/`.

@@ -86,6 +86,16 @@ Compare S2 with S3 and S5 before choosing. Start with recent downtime/decision r
 
 No human choice recorded. Customer WTP, cost inputs, recurring value and provider acquisition/fixed costs remain UNKNOWN. Synthetic IIoT can challenge scenarios, not establish causal downtime prevention or real prediction accuracy.
 
+## Why this example takes this turn
+
+**We changed this because…** We compared predictive context with huddles, a checklist and rivals rather than awarding AI the winning quadrant.
+
+**We’re still guessing about…** Realized customer net benefit, buyer authority, price, delivery cost and rival-relative advantage.
+
+**Next, we need to find out…** Obtain real loss, cost and buyer evidence; the downside case makes further scrutiny worthwhile, not a purchase inevitable.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 S2 could replace reactive warning-reconciliation with earlier, explainable intervention, protecting plant contribution—but “AI” is not the reason to buy. The illustrative base gives the customer $4,000 first-year net benefit ($7,000 recurring); downside loses $11,000 in year one. Our illustrative recurring delivery contribution is $2,700, before acquisition/fixed costs and with only $700 after first-year onboarding. Proposed payer/budget: plant leader funding planned-maintenance improvement; authority and willingness to pay UNKNOWN. Compare S2 with cheap S3 huddles and S5 checklist, plus the closest actual rival: no buy-ours advantage or moat is proven. Renewal needs repeated realized net value, not alerts delivered. Next decision: obtain real loss/realization/cost evidence and buyer requirements before pricing or increasing fidelity. All figures and mechanisms are SYNTHETIC what-ifs; no selection or approval recorded.

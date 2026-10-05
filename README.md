@@ -10,15 +10,69 @@ Because AI can help you build the wrong thing really fucking fast.
 
 ## The discovery path
 
+![Ten discovery motions in three phases, with optional context between motions and paths back to market, segment, persona, opportunity tree or storyboard after testing.](assets/discovery-path.svg)
+
+**A suggested learning path. Start where your decision is.**
+
+The three phases ask: What problem are we solving, and for whom? Where do we play, where do we win? What must be true, how do we learn?
+
+Start wherever you need help. Bring what you have. Dashed arrows show useful context you can carry forward, not required handoffs. Each motion ends with your choice: continue, revise, find evidence or stop.
+
+Before testing, decide what would make you continue, change direction or stop. The final diamond is the decision inside Prototyping, not an eleventh motion. Meeting a test rule earns only the next small investment that rule covers. Enough to try something isn’t the same as enough to fund it.
+
+<details>
+<summary>Edit the flow in Mermaid</summary>
+
 ```mermaid
+---
+config:
+  theme: neutral
+  flowchart:
+    htmlLabels: false
+    wrappingWidth: 600
+    rankSpacing: 100
+    subGraphTitleMargin:
+      top: 12
+      bottom: 36
+---
 flowchart TB
-    A["Understand the situation<br/>01 Market Intel<br/>02 Segment<br/>03 Persona"]
-    B["Explore and position<br/>04 Opportunity Solution Tree<br/>05 Value Prop vs. Differentiation 2x2<br/>06 Positioning Statement"]
-    C["Make the proposition testable<br/>07 Solution Hypothesis<br/>08 Storyboard<br/>09 Minimum Viable Narrative<br/>10 Prototyping"]
-    A --> B
-    B --> C
-    C -. "New evidence: revisit earlier work" .-> A
+    subgraph P1["1. Problem and person"]
+        MI["01 · Market Intel"]
+        SEG["02 · Segment"]
+        PER["03 · Persona"]
+        MI -.->|"Market notes, alternatives and gaps"| SEG
+        SEG -.->|"Who we’re focusing on and what we’re guessing"| PER
+    end
+    subgraph P2["2. Play and win"]
+        OST["04 · Opportunity Solution Tree"]
+        VP["05 · Value Prop vs. Differentiation"]
+        POS["06 · Positioning Statement"]
+        OST -.->|"Ideas worth comparing and what we still don’t know"| VP
+        VP -.->|"Customer payoff and reason to choose"| POS
+    end
+    subgraph P3["3. Test and learn"]
+        HYP["07 · Solution Hypothesis"]
+        STORY["08 · Storyboard"]
+        MVN["09 · Minimum Viable Narrative"]
+        PROTO["10 · Prototyping"]
+        HYP -.->|"Expected change, risky assumptions and test rule"| STORY
+        STORY -.->|"Six story beats"| MVN
+        MVN -.->|"3–6 human action–response pairs and builder prompt"| PROTO
+    end
+    PER -.->|"Person, job, pains, gains and framed problem"| OST
+    POS -.->|"Target, promise and alternative"| HYP
+    PROTO --> DEC{"What does the evidence earn?"}
+    DEC -->|"Revise the experience"| STORY
+    DEC -->|"Revisit the need or solution"| OST
+    DEC -->|"Revisit the person and problem"| PER
+    DEC -->|"Revisit who we focus on"| SEG
+    DEC -->|"Revisit the market"| MI
+    DEC -->|"Just enough signal to satisfy decision rule"| NEXT["Try the next small investment"]
+    DEC -->|"Too little value or evidence"| STOP["Pause or stop"]
 ```
+
+</details>
+
 
 Market Intel → Segment → Persona → Opportunity Solution Tree → Value Prop vs. Differentiation 2x2 → Positioning Statement → Solution Hypothesis → Storyboard → Minimum Viable Narrative → Prototyping.
 
@@ -100,7 +154,7 @@ Share the [repository and Mural QR codes](assets/qr/README.md) during the worksh
 
 ## Repository and reuse
 
-The repository is public; the current attendee distribution is v0.1.4. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
+The repository is public; the current attendee distribution is v0.1.5. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
 
 ```text
 skills/       10 skills with templates and worked/weak examples

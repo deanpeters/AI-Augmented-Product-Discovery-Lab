@@ -119,6 +119,16 @@ Proposed payer/budget: plant leader's maintenance improvement investment, UNKNOW
 
 Target/outcome above; carry all six candidate IDs/descriptions with their parent opportunity IDs, test IDs and F1 evidence limits. Treat the dashboard request as input to explore, not authorization or proof that its predictive version should win. Competitor offerings/status quo can join the next comparison without needing this tree as a formal prerequisite.
 
+## Why this example takes this turn
+
+**We changed this because…** We translated “build a dashboard” into an outcome, then branched into different needs, solution options and tests.
+
+**We’re still guessing about…** Prediction feasibility, the dominant obstacle and whether intervention would protect customer margin.
+
+**Next, we need to find out…** Compare branches and test assumptions; a synthetic tree earns a test, not commitment to S2 or any other candidate.
+
+This is an illustrative choice, not an evidence-backed decision or a recorded human approval. The examples need not share a selected solution or price. When using actual earlier work, preserve its choices and explain any change.
+
 ## Final readout
 
 For a maintenance manager, the goal is less avoidable unplanned downtime, not a dashboard shipped. Compare S2 predictive signal context (O1), S3 intervention huddles (O2) and S5 evidence checklist (O3), keeping S1/S4/S6 available. These branches test different explanations: inadequate warning, blocked coordination and uncertain reasoning. Customer payoff would be less warning-reconciliation and fewer recoverable lost productive hours, protecting contribution after intervention/adoption costs. Proposed budget owner is the plant leader; authority, WTP and provider delivery economics UNKNOWN. A process alternative may be better and cheaper. Investigate a recent scheduling conflict, failure timeline and buyer requirements before increasing fidelity. Everything here is a SYNTHETIC hypothesis; baseline, access and operational benefit are UNKNOWN. Synthetic IIoT can expose scenario weaknesses but cannot prove real prediction accuracy, downtime savings or margin improvement. Decide which branch/test to pursue, revise or stop; human selection and decider are not recorded.
