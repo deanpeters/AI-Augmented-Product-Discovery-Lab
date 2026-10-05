@@ -1,0 +1,39 @@
+{
+  "id": "26-no-browsing",
+  "title": "Honest no-browsing research fallback",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step01-market-intel",
+      "invocation": "Mode: Best guess. No browsing or source documents. SYNTHETIC planning fixture: 20000 relevant sites, 2800 serviceable sites, 300 reachable sites, 15% assumed win rate, acquisition capacity 40 sites and onboarding capacity 36 sites over 12 months. Pricing is untested; assume an illustrative USD3000/site/year only for conditional math. Map the possible landscape, then produce conditional sizing without inventing sources or claiming research happened.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step02-segment",
+      "invocation": "Mode: Best guess. No browsing or source documents. SYNTHETIC planning fixture: 20000 relevant sites, 2800 serviceable sites, 300 reachable sites, 15% assumed win rate, acquisition capacity 40 sites and onboarding capacity 36 sites over 12 months. Pricing is untested; assume an illustrative USD3000/site/year only for conditional math. Map the possible landscape, then produce conditional sizing without inventing sources or claiming research happened.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "capability-plan",
+      "rule": "States actual research mode and a three-bullet targeted plan; honors no-browsing restrictions. Context dump does not switch off available research."
+    },
+    {
+      "id": "citations",
+      "rule": "Factual claims and sourced numerical inputs have nearby clickable links to inspected supporting documents with dates/locations, not only IDs or homepages. No invented sources. Supplied-only evidence cites filenames/locations; unsupported reported claims are not independently verified."
+    },
+    {
+      "id": "source-meaning",
+      "rule": "Distinguishes observations from interpretations: patents/hiring/announcements do not establish demand. Uses relevant source classes, checks stale scope and repeated-origin claims; preserves conflicting evidence and explains selected inputs."
+    },
+    {
+      "id": "sizing-check",
+      "rule": "Segment seeks independent published estimates when browsing is allowed, reconciles scope/year/units and divergence without averaging. Missing benchmarks remain explicit gaps; no research claimed in no-browsing mode. Price/capture anchors sought before assumptions when available."
+    },
+    {
+      "id": "commercial-ending",
+      "rule": "Preserves concise findings and final TAM/SAM/SOM populations, potential economics and reasoning with labels/citations or explicitly conditional assumptions. No inferred approval, validation or build. In fixture case, SOM is 36 sites and conditional annual endpoint revenue USD108000, not first-year recognized revenue or profit."
+    }
+  ]
+}

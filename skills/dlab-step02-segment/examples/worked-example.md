@@ -8,6 +8,10 @@ Lab adaptation. Date: 2026-10-03. Status: DRAFT. Decider: not recorded.
 
 Choose a provisional segment for investigating clearer maintenance investigation decisions. Scenario scope: one fictional national manufacturing population, reference period “teaching year.” Count billable establishments/sites, not people, firms or customer logos. We assume a per-site offer only to illustrate annual value; multi-site procurement and whether one firm buys for several sites are UNKNOWN. SOM horizon: first 12 months. Currency: fictional USD pricing scenario.
 
+## Research mode and independent cross-check
+
+Explicit fictional teaching fixture; no browsing run. Published category estimates, observed prices and comparable capture evidence: UNKNOWN. Prices below are illustrative assumptions. Independent reconciliation is NOT COMPLETED; arithmetic demonstrates a conditional model, not a sourced market estimate. A real run must inspect population tables and commercial anchors, seek independent published estimates and explain differences in category/year/unit before treating these numbers as investment evidence. No fictional URLs are supplied as receipts.
+
 ## Reuse before research
 
 The fictional Market Intel handoff already contains F1–F3. Reuse them rather than repeat the market sweep. Reach, win assumptions, delivery capacity and price are missing, so A1–A4 are explicitly introduced as planning assumptions.

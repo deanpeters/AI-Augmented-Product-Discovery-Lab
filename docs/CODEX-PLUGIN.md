@@ -2,8 +2,8 @@
 
 The Codex plugin is named `dlab`. It packages the same ten canonical skills,
 including each template and worked/weak example. The downloadable
-[.plugin bundle](../dist/dlab-codex-0.1.7.plugin) and identical
-[.zip bundle](../dist/dlab-codex-0.1.7.zip) also include all ten prompt
+[.plugin bundle](../dist/dlab-codex-0.1.8.plugin) and identical
+[.zip bundle](../dist/dlab-codex-0.1.8.zip) also include all ten prompt
 equivalents, customer-value guidance and the optional supplied Productside canvas references. See the [attendee guide](ATTENDEE-GUIDE.md) for direct downloads and a prompt-upload fallback.
 
 ## Install from a local checkout
@@ -90,5 +90,5 @@ a portable root manifest plus a Codex compatibility manifest and repo marketplac
 
 Verified October 4, 2026: an unpacked bundle installed and was enabled through
 the local Codex CLI marketplace in an isolated temporary configuration. Its
-cache contained all ten skills with templates and examples. That installation receipt predates the current customer-value revision; it is not a behavioral pass for v0.1.7. Current local checks pass 29 regression tests and 23 use-case definitions. No model calls were made. Desktop discovery and
+cache contained all ten skills with templates and examples. That installation receipt predates the current customer-value revision; it is not a behavioral pass for v0.1.8. Current local checks pass 29 regression tests and 26 use-case definitions. No model calls were made. Desktop discovery and
 behavioral skill execution were not exercised by this packaging check.

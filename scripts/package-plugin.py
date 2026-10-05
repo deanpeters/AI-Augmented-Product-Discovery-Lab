@@ -18,7 +18,7 @@ def package_files(root):
     if (entry["name"], entry["version"]) != (manifest["name"], manifest["version"]):
         raise ValueError("Claude marketplace identity/version does not match its plugin")
     paths = [".claude-plugin/plugin.json", "LICENSE", "docs/CHAIN.md",
-             "docs/SKILL-SPEC.md", "docs/PROVENANCE.md",
+             "docs/SKILL-SPEC.md", "docs/SEARCHING-PHILOSOPHY.md", "docs/PROVENANCE.md",
              "docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md"]
     for folder in ("skills", "prompts", "reference", "assets/productside/canvases"):
         for path in sorted((root / folder).rglob("*")):

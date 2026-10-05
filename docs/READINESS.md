@@ -4,13 +4,14 @@ Status as of October 5, 2026. This records kit checks, not a completed session o
 
 ## Attendee distribution
 
-The public repository ships **v0.1.7** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
+The public repository ships **v0.1.8** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
 
 - Plain-language entry guides, optional handoffs, three alternate routes and a bring-your-own-problem exercise. Session feedback remains unanswered.
 - Ten canonical skills with matching self-contained prompts, templates and worked/weak examples; the chain and standalone modes are preserved.
 - Segment's final commercial table; actual OST branching diagrams; customer-payoff, budget/renewal and two-sided economics in OST, value/differentiation and positioning.
+- [Search philosophy](SEARCHING-PHILOSOPHY.md), embedded source/citation instructions in Steps 1 and 2, and independent sizing reconciliation; included in both kits.
 - [Customer-value documentation](CUSTOMER-VALUE-AND-DIFFERENTIATION.md), included in both kits.
-- Twenty-eight local regression tests pass; twenty-three behavioral-case definitions validate. Prompt parity, local links, example arithmetic and both archive contents pass.
+- Twenty-nine local regression tests pass; twenty-six behavioral-case definitions validate. Prompt parity, local links, example arithmetic and both archive contents pass.
 - Supplied Productside canvases and repository/Mural QR assets are distributed with Dean's confirmed sharing permission. Original lab materials retain CC BY-NC-SA 4.0.
 
 ## Presenter materials

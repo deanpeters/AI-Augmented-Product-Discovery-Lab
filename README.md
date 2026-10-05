@@ -30,6 +30,8 @@ The value-versus-differentiation 2x2 is a solution bake-off: compare several OST
 
 [Productside canvas references](assets/productside/canvases/README.md) are included with Dean's confirmed permission to share. Skills and prompts preserve their useful fields and add evidence labels; the visual files are optional.
 
+[How we search](docs/SEARCHING-PHILOSOPHY.md): census, industry research, public filings, patents, hiring, procurement and actual offerings, with clickable receipts beside factual claims. Market Intel investigates the landscape; Segment researches sizing gaps and independently challenges the population and dollar model.
+
 ## Use a skill or a prompt
 
 Install all ten skills as the `dlab` plugin: [Codex setup and downloads](docs/CODEX-PLUGIN.md) or [Claude setup and downloads](docs/PLUGIN.md). Both kits provide `.plugin` and `.zip` archives in `dist/`; prompts remain usable without installation.
@@ -98,7 +100,7 @@ Share the [repository and Mural QR codes](assets/qr/README.md) during the worksh
 
 ## Repository and reuse
 
-The repository is public; the current attendee distribution is v0.1.7. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
+The repository is public; the current attendee distribution is v0.1.8. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
 
 ```text
 skills/       10 skills with templates and worked/weak examples

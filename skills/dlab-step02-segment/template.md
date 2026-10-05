@@ -10,6 +10,15 @@ Lab adaptation, not an authoritative Productside canvas. Sizing is an estimate, 
 - Geography / reference year / currency if relevant:
 - SOM horizon:
 
+## Research mode and three-bullet search plan
+
+- Capability / mode: live browsing, supplied documents only, or no source access.
+- What decision-changing questions we will search:
+- Source routes and geographic coverage:
+- How we will check claims, dates and independent corroboration:
+
+For each factual claim or sourced numerical input, attach a clickable supporting document citation, publisher/date and relevant table/page. Source IDs supplement links; supplied-only documents use filename/location. Guesses have a method/rationale, not invented citations.
+
 ## 1. Reuse the market intel before researching
 
 | Input | Already supplied source/value | Reuse / conflict / stale / missing | Gap to fill and next source route |
@@ -78,6 +87,19 @@ Required potential annual revenue scenario: billable units × assumed annual rea
 
 Check SOM ≤ SAM ≤ TAM, matching units/periods, filter overlap, and price versus total industry revenue. Explain which input changes the recommendation most; do not present a range as a statistical confidence interval without a basis.
 
+## Independent bottom-up / published-estimate reconciliation
+
+| Method / inspected source with clickable citation and date | Comparable value or scope mismatch | Divergence | Explanation / model implication |
+|---|---|---|---|
+| Bottom-up model | | | |
+| Independent published estimate 1 or UNKNOWN | | | |
+| Independent published estimate 2 or UNKNOWN | | | |
+
+- Independence, scope/year/unit/currency checks:
+- Actual price/capture anchors inspected, or why none are usable:
+- Conflicting values: which enters the model and why:
+- Largest unresolved check / what needs refreshing:
+
 ## 8. Compare candidate segments and decide
 
 | Candidate boundary | Need and stakes | Access/buying path | Sizing basis and confidence | Key tradeoff / disconfirming evidence |
@@ -113,7 +135,7 @@ Also carry the actual segment boundary, counted/buying unit, geography, size sce
 
 [Two or three boss-ready sentences: recommended segment; base SOM population and capture horizon; potential annual revenue and low/high range in stated currency; key price/capacity assumption; why the next discovery investment is or is not warranted. ESTIMATE / BEST GUESS, not a validated forecast.]
 
-| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (source/assumption IDs, price basis, filters or capture constraint) |
+| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (clickable source citations/dates or assumption IDs, price basis, filters or capture constraint) |
 |---|---|---|---|
 | TAM | | | |
 | SAM | | | |

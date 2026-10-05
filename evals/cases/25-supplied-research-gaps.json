@@ -1,0 +1,39 @@
+{
+  "id": "25-supplied-research-gaps",
+  "title": "Reuse research, challenge conflicting origins",
+  "synthetic": true,
+  "stages": [
+    {
+      "skill": "dlab-step01-market-intel",
+      "invocation": "Mode: Context dump. Browsing available. SYNTHETIC adversarial intake: five articles repeat one vendor announcement, while a supplied note claims a 2019 global industry total is the 2026 US serviceable market. No inspected supporting document is included. Investigate US industrial-maintenance buyers and then estimate possible segment economics. Do not count repeated claims as independent support or assume the old total matches our scope.",
+      "turns": []
+    },
+    {
+      "skill": "dlab-step02-segment",
+      "invocation": "Mode: Context dump. Browsing available. SYNTHETIC adversarial intake: five articles repeat one vendor announcement, while a supplied note claims a 2019 global industry total is the 2026 US serviceable market. No inspected supporting document is included. Investigate US industrial-maintenance buyers and then estimate possible segment economics. Do not count repeated claims as independent support or assume the old total matches our scope.",
+      "turns": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "capability-plan",
+      "rule": "States actual research mode and a three-bullet targeted plan; honors no-browsing restrictions. Context dump does not switch off available research."
+    },
+    {
+      "id": "citations",
+      "rule": "Factual claims and sourced numerical inputs have nearby clickable links to inspected supporting documents with dates/locations, not only IDs or homepages. No invented sources. Supplied-only evidence cites filenames/locations; unsupported reported claims are not independently verified."
+    },
+    {
+      "id": "source-meaning",
+      "rule": "Distinguishes observations from interpretations: patents/hiring/announcements do not establish demand. Uses relevant source classes, checks stale scope and repeated-origin claims; preserves conflicting evidence and explains selected inputs."
+    },
+    {
+      "id": "sizing-check",
+      "rule": "Segment seeks independent published estimates when browsing is allowed, reconciles scope/year/units and divergence without averaging. Missing benchmarks remain explicit gaps; no research claimed in no-browsing mode. Price/capture anchors sought before assumptions when available."
+    },
+    {
+      "id": "commercial-ending",
+      "rule": "Preserves concise findings and final TAM/SAM/SOM populations, potential economics and reasoning with labels/citations or explicitly conditional assumptions. No inferred approval, validation or build. In fixture case, SOM is 36 sites and conditional annual endpoint revenue USD108000, not first-year recognized revenue or profit."
+    }
+  ]
+}

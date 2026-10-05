@@ -84,3 +84,7 @@ bash scripts/refresh-library.sh
 ```
 
 Metadata and assets follow [the skill contract](SKILL-SPEC.md). Asset edits are included in prompt parity and behavioral receipt staleness checks.
+
+## Research in the first two motions
+
+Market Intel and Segment embed the source routes, research capability check, three-bullet plan and clickable claim-level citation contract. Segment also seeks independent published estimates and reconciles them with its bottom-up model. These instructions travel in the exported prompts; [How we search](SEARCHING-PHILOSOPHY.md) explains the philosophy and investigator hats. Earlier artifacts remain optional; ordinary public research needs no extra approval turn.

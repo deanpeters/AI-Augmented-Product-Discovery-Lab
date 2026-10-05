@@ -39,3 +39,7 @@ Every entry guide explains use, minimum useful context, substitutions, output/de
 `operating-level` names where the decision sits, such as product strategy or customer discovery. `audience` names relevant roles. `best-for` gives a few practical reasons to use the play; `scenarios` describes situations readers recognize. `combine-with` suggests optional companion plays, including useful returns to earlier motions. It does not require those plays to run.
 
 `source-basis` explains the framework or authored adaptation behind the play. `sources` contains a short semicolon-separated set of direct reference URLs. These are framework and provenance references, not evidence for a customer, market or synthetic case. The prompt exporter includes these reader fields outside the copy-ready instruction block, so uploading the file preserves the selection guidance without changing the play’s workflow. Changes to these fields invalidate prompt parity.
+
+## Research in the first two motions
+
+Market Intel and Segment embed the source routes, research capability check, three-bullet plan and clickable claim-level citation contract. Segment also seeks independent published estimates and reconciles them with its bottom-up model. These instructions travel in the exported prompts; [How we search](SEARCHING-PHILOSOPHY.md) explains the philosophy and investigator hats. Earlier artifacts remain optional; ordinary public research needs no extra approval turn.

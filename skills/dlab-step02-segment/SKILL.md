@@ -2,7 +2,7 @@
 name: dlab-step02-segment
 description: "Use for “how big could this be?” Turn a possible segment and notes into a Segment Selection Brief with TAM/SAM/SOM populations and potential dollars; estimates are not sales forecasts."
 author: "Dean Peters"
-version: "0.4.2"
+version: "0.5.0"
 type: "interactive"
 theme: "product-discovery"
 phase: "2"
@@ -24,7 +24,7 @@ optional-downstream: "dlab-step03-persona; return to any useful motion"
 depends-on: "none; standalone entry supported"
 combine-with: "dlab-step01-market-intel; dlab-step03-persona; dlab-step05-value-prop-differentiation; optional companions, not prerequisites"
 source-basis: "Dean Peters’ TAM/SAM/SOM calculator; lab population, industry-fit and reachable-capture sizing, with labeled price assumptions"
-sources: "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/tam-sam-som-calculator/SKILL.md; https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/PROVENANCE.md"
+sources: "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/tam-sam-som-calculator/SKILL.md; https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/intelligence-collection-disciplines/SKILL.md; https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/SEARCHING-PHILOSOPHY.md"
 template: "template.md"
 worked-example: "examples/worked-example.md"
 weak-example: "examples/weak-example.md"
@@ -70,6 +70,39 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Simulated failures can reveal scenario gaps, timing problems and possible signals; they cannot establish real prediction accuracy, customer behavior, savings, demand or willingness to pay. Synthetic quotes are invented language, not interview evidence. Name the real records, observations or customer conversations needed next. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Research and clickable citations
+
+Research is part of this motion when browsing is available, including Context dump and Best guess. Context supplies the question and existing evidence; it does not turn research off. Honor an explicit no-browsing request. State the capability and research mode before work: live browsing, supplied documents only, or no source access. Do not claim searches or document reads you did not perform. Best guess permits labeled estimates, not skipping accessible evidence.
+
+Show a three-bullet search plan: the decision-changing questions; the source types and geographic coverage; how you will check claims and separate observations from interpretations. Continue unless the user redirects; do not add a permission ritual for ordinary public research. Ask the user for scope or private context, not publicly discoverable facts. Reuse credible supplied research before filling missing, stale or conflicting evidence. Collect receipts before synthesizing a story.
+
+### Where to look and what it can tell us
+
+Use the routes relevant to the decision; not every investigation needs every source type. These are source classes, not citations proving this run's claims.
+
+| Source route | Look for | Keep the limit attached |
+|---|---|---|
+| Census and government statistics: Census business/establishment tables, NAICS; BLS employment/wages; Eurostat/NACE or the national equivalent | Populations, firm/site counts, industry intersections, buyer-role and labor-cost context | Match geography, counting unit, classification and reference year. Employment or wages are not customer counts or willingness to pay. |
+| Industry and trade research: original association surveys, sector studies, named analyst reports | Needs, adoption, buying constraints, industry structure and spending benchmarks | Inspect methods, coverage and sponsorship. Members and survey respondents are not the whole market. |
+| Public filings: annual reports, 10-K/20-F, investor disclosures and earnings calls | Revenue, customer counts, risks, segment performance, capital allocation and competitive reach | A company's claim is a disclosure, not independent proof; reconcile periods and definitions. A claimed TAM is not our denominator. |
+| Patents and academic research: patent offices, published applications, papers and funded-project records | Technical approaches, prior art, emerging capabilities and competing research | Filing is evidence of a technical claim or intent, not launch, adoption, technical success or a proven moat. Check status, dates and what was actually claimed. |
+| Help-wanted pages and hiring patterns: company career pages and dated job postings | Skills, capabilities and operating problems companies are investing in | A posting supports hiring intent. Strategy is inference; reposts, evergreen listings and duplicated jobs do not establish headcount growth. |
+| Procurement, contracts and channels: public tenders, award records, partner materials | Buying requirements, actual awards, purchasing routes and spending commitments | Tender, budget, award and recognized revenue are different. A partner listing alone does not establish sales. |
+| Actual product offerings, documentation and public pricing | What is sold now, service constraints, pricing units and named commercial comparators | List price is not realized price, customer willingness to pay or evidence that all advertised capabilities work. |
+| Customer accounts, practitioner communities and legacy workarounds | Buyer language, recurring problems, alternatives and reasons to keep the status quo | Vendor case studies and self-selected reviews have bias. Preserve sponsorship; anecdotes do not establish prevalence. |
+
+### Citation contract: show the receipts
+
+Every meaningful externally verifiable factual claim and every sourced numerical input needs a nearby clickable Markdown citation: a descriptive document/table title linked in Markdown to its direct supporting URL. Attach publisher, publication/reference date and page, table or row where relevant. Cite the actual inspected document, not a search-result snippet, program homepage or generic company site. A source ID may help the ledger, but never replaces the clickable citation in the finding, calculation input or final readout. One citation can support a clearly grouped set of claims only when the document supports each one.
+
+Open and inspect sources before claiming they support a statement. Follow a secondary report to its original source where possible. If the original is inaccessible, cite the inspected secondary source, identify its reported attribution and label the underlying claim as unverified/inferred; do not pretend to have read the original. Never invent URLs, report titles, page numbers or paywalled contents. For a supplied document with no public URL, cite its filename and location, state that no public link is available and do not invent one. User statements remain user-reported; synthetic fixtures remain synthetic.
+
+Use ACTUAL DATA for the observation actually supported, INFERRED for the interpretation with its supporting citations, ESTIMATE / BEST GUESS for assumptions with a named method or rationale, and UNKNOWN for unfilled evidence. Derived numbers inherit material input uncertainty. Keep these labels and citations in the concise ending, not only in an appendix.
+
+Five sites repeating one announcement are one underlying source. Check independence before increasing confidence. State whether a conclusion rests on one channel, independent corroboration or unresolved conflict; source count alone never earns an investment decision. Announcements remain intent until filings, spending, procurement, contracts, hiring or actual offerings corroborate the relevant part. Show conflicting values, choose the one carried forward and explain why; do not silently average them. Check vintage and stale scope, identify what needs refreshing, and state what evidence would change the call.
+
+Without browsing, use inspected supplied documents and disclose the coverage limit. With no supporting documents, provide a provisional map/model, labeled assumptions and a targeted acquisition plan. Do not invent citations or promote remembered figures to sourced ACTUAL DATA. A failed search is a gap in this investigation, not proof that evidence or demand does not exist.
+
 ## Guided questions
 
 1. What decision and desired outcome should this segment choice support?
@@ -89,7 +122,7 @@ Reuse the supplied Market Intel, including its sources and any answers. Ask only
 5. **Show SAM: trade/industry service filters.** Use industry/trade evidence to narrow TAM by relevant subsector, size, geography, workflow need, regulation, compatibility and service capability. Prefer a directly observed intersection table over multiplied marginal percentages. Conditional shares must use the correct denominator; do not multiply overlapping filters twice. An academic or trade survey's sample is not automatically the industry population. Explain selection/coverage bias.
 6. **Show SOM: competitive opportunity plus reach and capacity.** Identify the alternatives, incumbent coverage, switching friction, procurement cycles, distribution and credible advantage. Use competitive facts to motivate reachable targets and win-rate assumptions, not to assert a free share. Over a named horizon, estimate obtainable units as the minimum of SAM units, distinct qualified units reachable × assumed win rate, acquisition capacity and onboarding/service capacity, where those inputs are available. Explain dependencies and timing. With missing capacity or win evidence, give a conditional scenario or symbolic formula; do not turn “1% of the market” into a forecast. Competitor revenue or customer counts are not market share without a matched denominator, unit, geography and period.
 7. **Compare scenarios and candidates.** Show low/base/high or another bounded scenario set with assumptions and source labels on every input. Keep real sourced inputs separate from fictional teaching fixtures and speculation. Check comparable units, consistent periods and SOM ≤ SAM ≤ TAM. Required potential annual revenue = obtainable billable units × assumed annual realized price per same unit; use comparable annual price scenarios for TAM/SAM. Relevant customer spend is a separate spending ceiling, not automatically our revenue; call an assumed price a pricing scenario, not willingness-to-pay evidence. Annualized value at the SOM endpoint is not automatically revenue recognized during the horizon. Identify the assumption that most changes the segment ranking. Translate the counts into potential dollars; do not leave pricing and economics as an optional appendix.
-8. **Recommend without selecting.** Compare two or three candidate segments on need, stakes, access, buying path and obtainable scale; the largest TAM does not automatically win. Recommend a bounded segment with inclusions, exclusions, uncertainty and disconfirming evidence. Wait for the human choice, then carry its size scenarios, source/assumption trail and actual boundary into Persona. No researched customer or product validation is implied.
+8. **Cross-check, then recommend without selecting.** Run the independent sizing reconciliation above before making the commercial recommendation. Compare two or three candidate segments on need, stakes, access, buying path and obtainable scale; the largest TAM does not automatically win. Recommend a bounded segment with inclusions, exclusions, uncertainty and disconfirming evidence. Wait for the human choice, then carry its size scenarios, source/assumption trail and actual boundary into Persona. No researched customer or product validation is implied.
 9. **End with a boss-ready commercial readout.** After the detail and handoff, write a short executive TL;DR answering what the obtainable opportunity could be worth, for whom and over what horizon. Follow it with the required population/economics/reasoning table below, then one recommended next decision and its biggest risk. The final takeaway must not be only counts, formulas or a source-acquisition plan.
 
 ## Source routes: inspect these document types
@@ -108,6 +141,14 @@ Verified starting points, not citations supporting this run's numbers:
 
 For other countries, use the relevant statistical agency and filings jurisdiction. A program homepage is a research route; cite the actual retrieved table/report for a numerical input. Sources may inform more than one tier: this mapping is a teaching motion, not a rigid source taxonomy.
 
+## Independent sizing cross-check
+
+After building population and dollar estimates bottom-up, seek two independent published estimates or benchmarks for the relevant category when accessible. Trace their original sources: two articles quoting one report count once. Compare bottom-up economics with the published figures, matching geography, reference year, currency, category, pricing basis and counted/billable unit. Broader industry revenue is context, not an addressable-market estimate. Inspect methods and sponsorship; a competitor's market slide is a claim.
+
+Show a compact reconciliation table: method/source with clickable citation and date | comparable value or scope mismatch | divergence | explanation and model implication. If only one or no suitable independent source is found, say so and name the unresolved check; do not invent a second witness or block a provisional model. Investigate a roughly threefold or larger disagreement as a warning, not a universal pass/fail cutoff. Never average conflicting estimates to create false agreement. Identify the soft input or category mismatch, revise what the evidence warrants and state whether the model is still too uncertain for investment.
+
+Before assuming price or capture, search named comparable offerings, published prices, procurement/award records and filings for customer/revenue benchmarks. Show what was inspected and whether it actually matches the pricing unit and period. Revenue divided by customer count is at most a rough comparable when scope and timing match, never automatic market share or realized contract price. If no usable anchor is found, retain a clearly labeled pricing/capture scenario with rationale and the evidence needed next.
+
 ## Estimation rules
 
 Speculation is allowed and useful when labeled. For each estimated input, explain the rationale, denominator, range and what could change it. Derived estimates inherit their weakest material assumptions; multiplication does not convert them to ACTUAL DATA. Do not manufacture precision, independent corroboration or customer truth.
@@ -120,7 +161,7 @@ A Product Manager must be able to give the ending to their boss without translat
 
 Finish with this table; all three tiers need estimated populations, potential economics and reasoning:
 
-| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (source/assumption IDs, price basis, filters or capture constraint) |
+| Tier | Guesstimated populations (low / base / high; counted and paying unit) | Potential economics (low / base / high; currency and annual basis) | Reasoning (clickable source citations/dates or assumption IDs, price basis, filters or capture constraint) |
 |---|---|---|---|
 | TAM | Broad relevant population | Annual revenue opportunity at stated assumed per-unit price | Population basis and eligible-need assumptions |
 | SAM | Serviceable population | Annual revenue opportunity at stated assumed per-unit price | Matched industry/service filters |

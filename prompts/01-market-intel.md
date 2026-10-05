@@ -11,7 +11,7 @@ Instructions, template and examples are included. No repository access or skill 
 - **Situations:** Leadership wants to enter a market but the evidence is thin; a team needs to understand alternatives before choosing customers
 - **Optional companions:** dlab-step02-segment; dlab-step03-persona; optional companions, not prerequisites
 - **Source basis:** Lab market-intelligence workflow; Dean Peters’ company-research practices for collecting sources and exposing gaps
-- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-research/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/CHAIN.md)
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/market-landscape-scan/SKILL.md), [Reference 2](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/intelligence-collection-disciplines/SKILL.md), [Reference 3](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/autonomous-investigation/SKILL.md), [Reference 4](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/SEARCHING-PHILOSOPHY.md)
 
 Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
 
@@ -50,6 +50,39 @@ Use ACTUAL DATA for sourced observations, INFERRED for interpretation, ESTIMATE 
 
 Synthetic scenarios, personas and examples generate hypotheses. They never become customer or plant evidence. Simulated failures can reveal scenario gaps, timing problems and possible signals; they cannot establish real prediction accuracy, customer behavior, savings, demand or willingness to pay. Synthetic quotes are invented language, not interview evidence. Name the real records, observations or customer conversations needed next. Preserve conflicting evidence. Supplied authoritative canvas or brand assets govern structure and terminology; absent those assets, label this a lab conversation outline, not a canonical Productside or MITRE canvas.
 
+## Research and clickable citations
+
+Research is part of this motion when browsing is available, including Context dump and Best guess. Context supplies the question and existing evidence; it does not turn research off. Honor an explicit no-browsing request. State the capability and research mode before work: live browsing, supplied documents only, or no source access. Do not claim searches or document reads you did not perform. Best guess permits labeled estimates, not skipping accessible evidence.
+
+Show a three-bullet search plan: the decision-changing questions; the source types and geographic coverage; how you will check claims and separate observations from interpretations. Continue unless the user redirects; do not add a permission ritual for ordinary public research. Ask the user for scope or private context, not publicly discoverable facts. Reuse credible supplied research before filling missing, stale or conflicting evidence. Collect receipts before synthesizing a story.
+
+### Where to look and what it can tell us
+
+Use the routes relevant to the decision; not every investigation needs every source type. These are source classes, not citations proving this run's claims.
+
+| Source route | Look for | Keep the limit attached |
+|---|---|---|
+| Census and government statistics: Census business/establishment tables, NAICS; BLS employment/wages; Eurostat/NACE or the national equivalent | Populations, firm/site counts, industry intersections, buyer-role and labor-cost context | Match geography, counting unit, classification and reference year. Employment or wages are not customer counts or willingness to pay. |
+| Industry and trade research: original association surveys, sector studies, named analyst reports | Needs, adoption, buying constraints, industry structure and spending benchmarks | Inspect methods, coverage and sponsorship. Members and survey respondents are not the whole market. |
+| Public filings: annual reports, 10-K/20-F, investor disclosures and earnings calls | Revenue, customer counts, risks, segment performance, capital allocation and competitive reach | A company's claim is a disclosure, not independent proof; reconcile periods and definitions. A claimed TAM is not our denominator. |
+| Patents and academic research: patent offices, published applications, papers and funded-project records | Technical approaches, prior art, emerging capabilities and competing research | Filing is evidence of a technical claim or intent, not launch, adoption, technical success or a proven moat. Check status, dates and what was actually claimed. |
+| Help-wanted pages and hiring patterns: company career pages and dated job postings | Skills, capabilities and operating problems companies are investing in | A posting supports hiring intent. Strategy is inference; reposts, evergreen listings and duplicated jobs do not establish headcount growth. |
+| Procurement, contracts and channels: public tenders, award records, partner materials | Buying requirements, actual awards, purchasing routes and spending commitments | Tender, budget, award and recognized revenue are different. A partner listing alone does not establish sales. |
+| Actual product offerings, documentation and public pricing | What is sold now, service constraints, pricing units and named commercial comparators | List price is not realized price, customer willingness to pay or evidence that all advertised capabilities work. |
+| Customer accounts, practitioner communities and legacy workarounds | Buyer language, recurring problems, alternatives and reasons to keep the status quo | Vendor case studies and self-selected reviews have bias. Preserve sponsorship; anecdotes do not establish prevalence. |
+
+### Citation contract: show the receipts
+
+Every meaningful externally verifiable factual claim and every sourced numerical input needs a nearby clickable Markdown citation: a descriptive document/table title linked in Markdown to its direct supporting URL. Attach publisher, publication/reference date and page, table or row where relevant. Cite the actual inspected document, not a search-result snippet, program homepage or generic company site. A source ID may help the ledger, but never replaces the clickable citation in the finding, calculation input or final readout. One citation can support a clearly grouped set of claims only when the document supports each one.
+
+Open and inspect sources before claiming they support a statement. Follow a secondary report to its original source where possible. If the original is inaccessible, cite the inspected secondary source, identify its reported attribution and label the underlying claim as unverified/inferred; do not pretend to have read the original. Never invent URLs, report titles, page numbers or paywalled contents. For a supplied document with no public URL, cite its filename and location, state that no public link is available and do not invent one. User statements remain user-reported; synthetic fixtures remain synthetic.
+
+Use ACTUAL DATA for the observation actually supported, INFERRED for the interpretation with its supporting citations, ESTIMATE / BEST GUESS for assumptions with a named method or rationale, and UNKNOWN for unfilled evidence. Derived numbers inherit material input uncertainty. Keep these labels and citations in the concise ending, not only in an appendix.
+
+Five sites repeating one announcement are one underlying source. Check independence before increasing confidence. State whether a conclusion rests on one channel, independent corroboration or unresolved conflict; source count alone never earns an investment decision. Announcements remain intent until filings, spending, procurement, contracts, hiring or actual offerings corroborate the relevant part. Show conflicting values, choose the one carried forward and explain why; do not silently average them. Check vintage and stale scope, identify what needs refreshing, and state what evidence would change the call.
+
+Without browsing, use inspected supplied documents and disclose the coverage limit. With no supporting documents, provide a provisional map/model, labeled assumptions and a targeted acquisition plan. Do not invent citations or promote remembered figures to sourced ACTUAL DATA. A failed search is a gap in this investigation, not proof that evidence or demand does not exist.
+
 ## Guided questions
 
 1. Which market decision should this intelligence inform?
@@ -64,7 +97,7 @@ Reuse supplied answers, including a concrete actor, current condition and desire
 
 1. Define scope, decision and desired outcome before collecting material. Separate a market category from a preferred implementation such as a dashboard.
 2. Map plausible demand contexts, incumbents, substitutes, workarounds, buyer relationships and shifts. Keep distinct market signals separate rather than forcing a winning segment.
-3. When research is requested and available, collect primary sources with direct URLs, publication dates and accessed dates. Record conflicts and collapse repeated same-origin claims; source volume is not corroboration.
+3. Execute the search plan using the relevant source routes above. Collect and inspect sources with clickable claim-level citations, publication/reference dates and accessed dates. Map direct players, adjacent/emerging entrants, substitutes and non-consumption from the buyer’s view; explain where vendor categories differ. For each apparent whitespace, test the counter-reading: is this an unmet need or a dead zone with no demand? Record conflicts and collapse same-origin claims before synthesizing signals. Do not select a segment during the sweep.
 4. Separate sourced observations from interpretation and estimates. Never fill market size, growth, price or willingness-to-pay cells by invention. Without source access, disclose the limitation and produce a research plan plus provisional landscape.
 5. Summarize candidate segment dimensions and evidence gaps for Segment. Carry any actual population counts with counting unit, geography, reference year and source/table IDs, industry intersections/service filters, and competitive disclosures with their limitations; mark absent inputs UNKNOWN. Recommend whether to investigate further; do not silently select the target segment.
 
@@ -99,7 +132,7 @@ Finish every completed draft in Guided, Context dump and Best guess modes with a
 Default to a concise artifact plus this ending. Treat the template as a content checklist, not permission to expand every field into an essay. Keep source URLs/dates, material conflicts and calculation/test assumptions in a compact supporting ledger; expand analysis only when requested or necessary to justify the call. Avoid duplicating the full artifact in both a handoff and the ending. An optional handoff goes before the readout.
 
 - Decision, scope and desired outcome: one short line each.
-- Findings: at most three decision-changing signals or gaps, each with an evidence label and source ID/direct URL where available. If research was unavailable, say so; a research plan is not a finding.
+- Findings: at most three decision-changing signals or gaps, each with an evidence label and clickable supporting citation and date for sourced claims; filename/location for supplied-only documents. If research was unavailable, say so; a research plan is not a finding.
 - Alternatives and candidate segment dimensions: one compact row each; no premature segment selection.
 - Uncertainty and recommendation: the biggest uncertainty that could change the call and the next evidence task.
 
@@ -131,6 +164,15 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status:
 
+## Research mode and three-bullet search plan
+
+- Capability / mode: live browsing, supplied documents only, or no source access.
+- What decision-changing questions we will search:
+- Source routes and geographic coverage:
+- How we will check claims, dates and independent corroboration:
+
+For each factual claim or sourced numerical input, attach a clickable supporting document citation, publisher/date and relevant table/page. Source IDs supplement links; supplied-only documents use filename/location. Guesses have a method/rationale, not invented citations.
+
 ## Scope and decision
 
 [Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
@@ -149,7 +191,9 @@ Lab adaptation, not an authoritative Productside canvas.
 
 ## Source register
 
-[Supply this section from context; label assumptions and leave unsupported claims UNKNOWN.]
+| ID | Clickable inspected document | Publisher / publication and reference dates | Page/table / supported claim | Limit / independent origin |
+|---|---|---|---|---|
+| | | | | |
 
 ## Sizing inputs to carry into Segment
 
@@ -199,7 +243,7 @@ Carry the actual downstream-required content, not just its title.
 Fill these fields with the actual result, not instructions to consult the report. Keep supporting detail above; this is the copy-ready ending.
 
 - Decision, scope and desired outcome: one short line each.
-- Findings: at most three decision-changing signals or gaps, each with an evidence label and source ID/direct URL where available. If research was unavailable, say so; a research plan is not a finding.
+- Findings: at most three decision-changing signals or gaps, each with an evidence label and clickable supporting citation and date for sourced claims; filename/location for supplied-only documents. If research was unavailable, say so; a research plan is not a finding.
 - Alternatives and candidate segment dimensions: one compact row each; no premature segment selection.
 - Uncertainty and recommendation: the biggest uncertainty that could change the call and the next evidence task.
 
@@ -217,6 +261,10 @@ Lab adaptation, not an authoritative Productside canvas.
 - Status: DRAFT
 - Decider: not recorded
 - Synthetic status: SYNTHETIC; no observed customer or plant evidence
+
+## Research mode and plan
+
+No browsing run; authored SYNTHETIC fixture only. This example demonstrates an honest fallback, not completed market research. Plan for a real run: inspect national establishment/industry tables; compare filings, offerings, hiring and technical signals relevant to maintenance; check origins and dates before synthesizing. No fictional URLs are supplied as receipts.
 
 ## Scope and decision
 
@@ -314,6 +362,10 @@ Use the [worked example](#worked-example) to inspect the repaired structure. The
 ## Readout failure to catch
 
 A long analysis that ends with a claim ledger or a generic "continue?" leaves the Product Manager without a usable result. Repair it by filling the motion-specific Final readout fields in the template. Keep the real recommendation, material uncertainty and next decision visible; do not shorten away evidence labels or the required story/interaction content.
+
+## Research and citation failure to catch
+
+A confident claim with only “ACTUAL DATA — S1” is not inspectable. Repair it with a nearby clickable link to the actual supporting document, date and relevant location, or downgrade the unsupported claim. Five reprints of one announcement are one origin, not independent corroboration. A patent or job posting supports the observed filing/hiring intent; a strategy conclusion remains INFERRED. With source access, investigate instead of substituting a research plan. Without access, disclose the gap and never invent receipts.
 
 Begin this motion now using the context I provide.
 ````

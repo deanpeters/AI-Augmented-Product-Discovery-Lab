@@ -8,6 +8,10 @@ Lab adaptation, not an authoritative Productside canvas.
 - Decider: not recorded
 - Synthetic status: SYNTHETIC; no observed customer or plant evidence
 
+## Research mode and plan
+
+No browsing run; authored SYNTHETIC fixture only. This example demonstrates an honest fallback, not completed market research. Plan for a real run: inspect national establishment/industry tables; compare filings, offerings, hiring and technical signals relevant to maintenance; check origins and dates before synthesizing. No fictional URLs are supplied as receipts.
+
 ## Scope and decision
 
 Manufacturing maintenance decisions; geography and time horizon UNKNOWN. Teaching sweep, not live market research.

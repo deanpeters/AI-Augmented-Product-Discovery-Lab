@@ -94,14 +94,14 @@ The prompt includes the skill instructions, template and worked/weak examples. Y
 
 Use the guide for your client:
 
-| Client | Setup | Current v0.1.7 download |
+| Client | Setup | Current v0.1.8 download |
 |---|---|---|
-| Claude | [Claude setup](PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.7.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.7.plugin) |
-| Codex | [Codex setup](CODEX-PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.7.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.7.plugin) |
+| Claude | [Claude setup](PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.8.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.8.plugin) |
+| Codex | [Codex setup](CODEX-PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.8.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.8.plugin) |
 
 Both kits contain the same canonical skills, prompts, examples and customer-value guidance, with client-specific packaging. Within each client, `.zip` and `.plugin` contain identical bytes. Keep the ZIP intact for upload where supported. Codex's documented marketplace install uses the repository, not an archive upload. Follow your client's guide; an extension alone does not make a kit installable in every assistant.
 
-If an installed skill still gives an old result, confirm you have **v0.1.7** and start a new session after updating through your client's plugin manager. OST, the 2x2 and Positioning should show skill version **0.4.2**. Uploading the current prompt is a quick fallback that bypasses an old installed skill. Do not delete your client configuration to troubleshoot a cache.
+If an installed skill still gives an old result, confirm you have **v0.1.8** and start a new session after updating through your client's plugin manager. OST, the 2x2 and Positioning should show skill version **0.4.2**. Uploading the current prompt is a quick fallback that bypasses an old installed skill. Do not delete your client configuration to troubleshoot a cache.
 
 ## What to expect at the end
 
@@ -143,3 +143,7 @@ Use the [case-study kickoff companion](../examples/kickoff-prompts.md), [chain g
 Downloading/building the kit makes no model calls. Running a skill or prompt in a hosted assistant uses that assistant's normal allowance. The optional Claude behavioral runner consumes cloud inference; it is separate from local checks.
 
 Original lab materials use [CC BY-NC-SA 4.0](../LICENSE). Productside canvases and brand assets are included with Dean's confirmed sharing permission and retain their separate ownership; see [provenance](PROVENANCE.md).
+
+## Follow the receipts
+
+Read [How we search](SEARCHING-PHILOSOPHY.md) for the source routes and investigator hats. Steps 1 and 2 research when browsing is available, reuse supplied evidence and put clickable citations beside factual claims and sizing inputs. Context dump and Best guess retain this research duty. With no source access, the output is explicitly provisional. Current Market Intel skill: v0.3.0; Segment: v0.5.0.

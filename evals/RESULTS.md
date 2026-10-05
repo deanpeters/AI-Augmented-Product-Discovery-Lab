@@ -111,3 +111,9 @@ Local verification: 27 regression tests pass; 23 use-case definitions validate; 
 All ten skill metadata maps now use motion-specific operating levels, audiences, practical uses, recognizable situations, optional companion plays and readable source attribution. New `sources` values provide direct framework/reference URLs. The skill procedures and ten-motion sequence are unchanged. Prompts include these fields in a short reader section outside the instruction block; metadata edits now invalidate prompt parity.
 
 Local verification: 28 regression tests pass; 23 use-case definitions validate; prompt parity, metadata, local links and both client archives pass. Referenced public Product Manager skill files were checked against live GitHub source files. Both kits are v0.1.6; old v0.1.5 archives are removed. No model calls or new behavioral runs were made for this metadata release.
+
+## Research and citation restoration: October 5, 2026
+
+Market Intel v0.3.0 and Segment v0.5.0 now research by default with available browsing, show a three-bullet plan, name census/industry/filing/patent/hiring/procurement/product/customer source routes and require nearby clickable citations for factual claims and sourced inputs. Segment seeks independent published benchmarks and reconciles differences with its bottom-up model. Templates, synthetic fallback examples and weak-example repairs match. The new search philosophy is included in both v0.1.8 client kits.
+
+Cases 24–26 cover available live research, supplied claims with stale scope and repeated origins, and no-browsing conditional sizing. These are runnable behavioral-case definitions, not completed model runs. Local regression, case-reference, parity, packaging and link checks are run for this release. No external model API calls, live research evaluation, or customer validation was performed. Synthetic example dollar arithmetic remains illustrative.

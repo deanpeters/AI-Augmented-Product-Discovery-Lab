@@ -25,3 +25,9 @@ See the [worked example](worked-example.md) for a complete, explicitly fictional
 > TAM is 20,000 sites, SAM is 2,800 and SOM is 36. See the denominator checks, source register and formulas. Price is optional. Next: Persona.
 
 This does not answer the boss's question: what could our obtainable opportunity be worth? Keep the detail, but finish with a short executive readout and a population / potential economics / reasoning table. In the fictional worked example, 36 sites × assumed $3,000/site/year gives $108,000 annual revenue potential at the 12-month endpoint, with $30,000–$200,000 across the stated scenarios. Explain the onboarding constraint and untested price; this is not first-year revenue or profit. If price evidence is absent, use a clearly labeled pricing hypothesis or conditional what-if instead of making the commercial ending optional.
+
+## Research and citation failure to catch
+
+A confident claim with only “ACTUAL DATA — S1” is not inspectable. Repair it with a nearby clickable link to the actual supporting document, date and relevant location, or downgrade the unsupported claim. Five reprints of one announcement are one origin, not independent corroboration. A patent or job posting supports the observed filing/hiring intent; a strategy conclusion remains INFERRED. With source access, investigate instead of substituting a research plan. Without access, disclose the gap and never invent receipts.
+
+A model that agrees with its own arithmetic has not passed an independent check. Seek independent published category estimates, reconcile their scope with the bottom-up model and explain conflicting values. Missing cross-checks stay UNKNOWN; a guessed price remains a labeled what-if in the final dollar table.

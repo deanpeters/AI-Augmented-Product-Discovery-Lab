@@ -134,3 +134,7 @@ The standalone, denominator, hostile-source, cheap-test and narrative-continuity
 Case 16 also tests the intentional HiPPO-to-outcome arc: explore the requested dashboard rather than reflexively refuse or blindly implement it; allow the desired proposition to evolve from intervention by exception toward intervention by prediction. Delight, hard-to-copy value and customer/provider margins remain hypotheses. A changed outcome is not inherently a chain failure.
 
 [Case 23: independent entry and transfer](cases/23-independent-entry-and-transfer.json) tests starting with partial notes, retaining a branching OST and earning a next test without inventing demand or investment approval. Behavioral status: NOT RUN.
+
+## Research and citation checks
+
+Cases `24-live-research`, `25-supplied-research-gaps` and `26-no-browsing` exercise Steps 1 and 2. Use both `--variant skill` and `--variant prompt`. Example: `python3 scripts/run-evals.py prepare 25-supplied-research-gaps --variant prompt` prints the facilitator packet for a fresh assistant session. Preparation and validation make no model calls and are not behavioral passes. Live cases need an assistant with browsing; the no-browsing case must honor its restriction. Check actual inspected citations and source independence, not just plausible wording.
