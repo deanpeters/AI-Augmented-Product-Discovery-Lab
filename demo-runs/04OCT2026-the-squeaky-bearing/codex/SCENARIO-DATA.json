@@ -1,0 +1,111 @@
+{
+  "status": "SYNTHETIC demonstration fixture; no observed customer or plant data",
+  "run": "04OCT2026-the-squeaky-bearing",
+  "concept": "Before the Bang",
+  "actor": {
+    "name": "Jordan",
+    "role": "Maintenance manager",
+    "plant": "Fictional 180-person US fabricated-metal site"
+  },
+  "prototype_hypothesis": "Surface the highest-risk equipment so managers can intervene before failure.",
+  "assets": [
+    {
+      "id": "FC-17",
+      "name": "Bottleneck conveyor drive bearing",
+      "proposed_priority": "Investigate first, conditional on verification",
+      "consequence": "Blocks the fictional production line if unavailable",
+      "readings": [
+        {
+          "shift": "four shifts ago",
+          "vibration_mm_s": 2.8
+        },
+        {
+          "shift": "three shifts ago",
+          "vibration_mm_s": 3.9
+        },
+        {
+          "shift": "two shifts ago",
+          "vibration_mm_s": 5.2
+        },
+        {
+          "shift": "current shift",
+          "vibration_mm_s": 6.1
+        }
+      ],
+      "measurement_note": "Invented values under fictional comparable operating load; not calibrated thresholds or engineering recommendations",
+      "temperature": "Normal in fixture; not proof of healthy bearing",
+      "inspection_note": "Previous-shift note reports no issue; source older than current readings",
+      "suspected_causes": [
+        "Developing bearing deterioration",
+        "Measurement or load-context issue"
+      ],
+      "failure_timing": "UNKNOWN",
+      "next_verification": "Fresh qualified inspection and measurement-context check before choosing intervention",
+      "verification_choices": [
+        "Fictional deterioration confirmed",
+        "Fictional deterioration not confirmed; measurement context needs review"
+      ],
+      "available_window": "14:00 changeover, fictional and subject to human approval",
+      "constraints": [
+        "Qualified technician availability must be confirmed",
+        "Correct spare and access procedure must be confirmed"
+      ]
+    },
+    {
+      "id": "P-04",
+      "name": "Rinse pump",
+      "proposed_priority": "Verify sensor validity; priority remains conditional",
+      "consequence": "Fictional standby pump exists, availability unverified",
+      "temperature": "High alert on a questionable sensor",
+      "sensor_note": "Suspected loose attachment, not a confirmed false alarm",
+      "failure_timing": "UNKNOWN",
+      "next_verification": "Check signal validity and actual operating condition"
+    },
+    {
+      "id": "C-02",
+      "name": "Air compressor",
+      "proposed_priority": "Get current evidence; stale status cannot certify operation",
+      "consequence": "Shared supply, consequence potentially high",
+      "signal_note": "Old severe alarm with no fresh confirmation",
+      "failure_timing": "UNKNOWN",
+      "next_verification": "Obtain current qualified evidence; retain uncertainty and escalation option"
+    }
+  ],
+  "intervention_status": "NOT STARTED; prototype should show PLANNED after recorded decision",
+  "epilogue": {
+    "label": "FICTIONAL STORY OUTCOME, not an observed result or model validation",
+    "story": "After human-approved access and completion checks, the team replaces the confirmed worn bearing during the planned window; in the fictional story, an unplanned conveyor stop is averted. Jordan shares the rationale with the next shift."
+  },
+  "transactions": [
+    {
+      "number": 1,
+      "human_action": "Compare the three cases and choose what to investigate first.",
+      "system_response": "Show FC-17 Conveyor as the first proposed investigation: persistent comparable vibration trend plus bottleneck consequence, despite normal temperature. P-04 Pump has a loud warning but uncertain sensor validity; C-02 Compressor has stale evidence requiring fresh verification. Explain rank and evidence gaps, not a precise failure probability.",
+      "continuation": "Jordan must inspect the conveyor evidence rather than equate the loudest alert with highest risk."
+    },
+    {
+      "number": 2,
+      "human_action": "Open FC-17 evidence and challenge the normal temperature and reassuring inspection note.",
+      "system_response": "Return timestamped synthetic readings, comparable-load context, the older note and contradictory normal temperature. Distinguish possible bearing deterioration from measurement/load issues. Offer a specific verification question and expose that remaining useful life is UNKNOWN.",
+      "continuation": "Jordan needs a fresh condition check before committing to intervention."
+    },
+    {
+      "number": 3,
+      "human_action": "Request verification and enter the fictional technician finding: deterioration confirmed, not a load-only or sensor issue. Allow an alternate unconfirmed finding.",
+      "system_response": "Rebuild the case from the entered finding. Confirmed path: show stronger support for planned bearing intervention and still-unknown failure timing. Unconfirmed path: reduce confidence, propose measurement review/fresh evidence and allow deferral with owner/revisit trigger. Preserve the original evidence and correction.",
+      "continuation": "Jordan chooses whether an intervention is justified, then needs to find a workable action window. On the unconfirmed path, Jordan exits to a verification follow-up rather than fake repair."
+    },
+    {
+      "number": 4,
+      "human_action": "For the confirmed path, enter the available production window and technician/part constraints; challenge an unavailable-window variant.",
+      "system_response": "Relate the proposed action to the entered access context: fictional 14:00 changeover, qualified technician available and correct spare awaiting human confirmation. If blocked, show the unresolved constraint and alternatives for authorised review; never assume permission or say it is safe to run until an invented deadline.",
+      "continuation": "Jordan must agree the owner/window with production, or escalate/replan; prediction by itself is insufficient."
+    },
+    {
+      "number": 5,
+      "human_action": "Choose and record the justified early-action plan, or document deferral/escalation and its reason; share the decision card with the next shift.",
+      "system_response": "Return a copyable case summary: evidence, contradictions, new finding, chosen action, human approval status, owner, window, outstanding checks and revisit condition. Mark the intervention PLANNED until a person records completion. Offer an explicitly separate fictional story epilogue, not an observed operational result.",
+      "continuation": "The loop exits with a traceable human decision and a clear next action. Another shift can reconstruct it without restarting the argument."
+    }
+  ]
+}
