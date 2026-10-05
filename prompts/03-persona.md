@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-team; customer discovery
+- **Audience:** Product Managers; Design; Product Operations
+- **Best for:** Understanding a person in a situation; surfacing jobs, pains and gains; framing their problem
+- **Situations:** The team says “our users” but means several different people; a stakeholder describes a feature without explaining whose work improves
+- **Optional companions:** dlab-step02-segment; dlab-step04-opportunity-solution-tree; dlab-step08-storyboard; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ proto-persona and jobs-to-be-done skills; supplied Productside persona and problem-framing canvases; situational rather than decorative biography
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/proto-persona/SKILL.md), [Reference 2](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/jobs-to-be-done/SKILL.md), [Reference 3](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/reference/supplied-canvases.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Persona
 

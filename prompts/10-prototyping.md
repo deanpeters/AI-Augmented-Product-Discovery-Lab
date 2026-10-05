@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-team; discovery experiment
+- **Audience:** Product Managers; Design; Engineering; founders
+- **Best for:** Choosing the smallest brutal-truth test; avoiding unnecessary fidelity; deciding what actual evidence earns next
+- **Situations:** The team wants to build because AI makes it easy; a nice demo is being mistaken for adoption, customer savings or demand
+- **Optional companions:** dlab-step07-solution-hypothesis; dlab-step09-minimum-viable-narrative; dlab-step04-opportunity-solution-tree; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ Proof of Life probe guidance; lab tiny acts of discovery and fidelity rules; simulated results remain hypotheses
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe-advisor/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/LEARNINGS.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Prototyping
 

@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-team; experience exploration
+- **Audience:** Product Managers; Design; Engineering
+- **Best for:** Showing a person’s problem and pressure point; making the proposed experience understandable; critiquing before building
+- **Situations:** A concept sounds useful but nobody can picture the experience; a proposed storyboard makes the dashboard the hero instead of the person
+- **Optional companions:** dlab-step03-persona; dlab-step07-solution-hypothesis; dlab-step09-minimum-viable-narrative; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ storyboard skill and supplied Productside storyboard canvas; lab six-frame arc from the person’s problem through shared success
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/storyboard/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/reference/supplied-canvases.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Storyboard
 

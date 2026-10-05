@@ -30,9 +30,9 @@ Maintainers can rebuild the bundle from a local clone:
 python3 scripts/package-plugin.py
 ```
 
-Upload the [dlab-claude-0.1.5.plugin bundle](../dist/dlab-claude-0.1.5.plugin) or the identical [dlab-claude-0.1.5.zip bundle](../dist/dlab-claude-0.1.5.zip). It contains the manifest, the ten skills with their templates and examples, all ten prompt equivalents, customer-value guidance, optional supplied canvas references, the license and a README.
+Upload the [dlab-claude-0.1.6.plugin bundle](../dist/dlab-claude-0.1.6.plugin) or the identical [dlab-claude-0.1.6.zip bundle](../dist/dlab-claude-0.1.6.zip). It contains the manifest, the ten skills with their templates and examples, all ten prompt equivalents, customer-value guidance, optional supplied canvas references, the license and a README.
 
-If an older installed skill is still appearing, update the plugin through your client's plugin manager and open a new session. Current kit: **v0.1.5**; OST, value/differentiation and positioning skill metadata: **v0.4.1**. The [attendee guide](ATTENDEE-GUIDE.md) provides direct downloads and a prompt-upload fallback.
+If an older installed skill is still appearing, update the plugin through your client's plugin manager and open a new session. Current kit: **v0.1.6**; OST, value/differentiation and positioning skill metadata: **v0.4.2**. The [attendee guide](ATTENDEE-GUIDE.md) provides direct downloads and a prompt-upload fallback.
 
 ## What you get
 

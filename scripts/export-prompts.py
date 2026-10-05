@@ -3,7 +3,7 @@
 import argparse
 import json
 from pathlib import Path
-from library_assets import portable_skill
+from library_assets import parse_frontmatter, portable_skill
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,11 +17,22 @@ def main():
     for item in catalog:
         source = ROOT / 'skills' / item['name'] / 'SKILL.md'
         target = ROOT / item['prompt']
+        fields, _ = parse_frontmatter(source)
+        metadata = fields['metadata']
+        reader_fields = (('Operating level', 'operating-level'), ('Audience', 'audience'),
+                         ('Best for', 'best-for'), ('Situations', 'scenarios'),
+                         ('Optional companions', 'combine-with'), ('Source basis', 'source-basis'))
+        reader_notes = '## About this play\n\n' + ''.join(
+            f'- **{label}:** {metadata[key]}\n' for label, key in reader_fields)
+        urls = metadata['sources'].split('; ')
+        reader_notes += '- **Sources:** ' + ', '.join(
+            f'[Reference {index}]({url})' for index, url in enumerate(urls, 1)) + '\n\n'
+        reader_notes += 'Framework references explain this play; they are not customer or market evidence. Companion skills are optional.\n\n'
         expected = (
             f"<!-- Generated from skills/{item['name']}/SKILL.md and its bundled assets. Edit canonical sources, then run scripts/export-prompts.py. -->\n\n"
             'Copy everything inside the block into your AI chat. Add your context below it.\n'
             'Instructions, template and examples are included. No repository access or skill installation is needed.\n\n'
-            '````text\n' + portable_skill(source) + '\n\nBegin this motion now using the context I provide.\n````\n'
+            + reader_notes + '````text\n' + portable_skill(source) + '\n\nBegin this motion now using the context I provide.\n````\n'
         )
         if args.check:
             if not target.exists() or target.read_text() != expected:

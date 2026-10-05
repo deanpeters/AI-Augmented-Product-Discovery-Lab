@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-strategy; customer-segment choice
+- **Audience:** Product Managers; Product Leaders; founders
+- **Best for:** Choosing a customer group; estimating reachable demand; explaining potential dollars
+- **Situations:** A boss asks what the SOM could be worth; several customer groups look promising but sales reach and onboarding capacity differ
+- **Optional companions:** dlab-step01-market-intel; dlab-step03-persona; dlab-step05-value-prop-differentiation; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ TAM/SAM/SOM calculator; lab population, industry-fit and reachable-capture sizing, with labeled price assumptions
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/tam-sam-som-calculator/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/PROVENANCE.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Segment
 

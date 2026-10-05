@@ -33,10 +33,14 @@ for item in catalog:
             errors.append(f'{item["name"]}: invalid description')
         required = {'author', 'version', 'intent', 'type', 'theme', 'phase', 'status',
                     'audience', 'best-for', 'evidence-required', 'produces', 'depends-on',
-                    'combine-with', 'source-basis', 'template', 'worked-example', 'weak-example'}
+                    'combine-with', 'source-basis', 'sources', 'operating-level', 'scenarios',
+                    'template', 'worked-example', 'weak-example'}
         metadata = fields['metadata']
         if not required.issubset(metadata) or not all(isinstance(v, str) and v.strip() for v in metadata.values()):
             errors.append(f'{item["name"]}: incomplete rich metadata')
+        urls = metadata.get('sources', '').split('; ')
+        if not urls or any(not re.fullmatch(r'https://[^\s]+', url) for url in urls):
+            errors.append(f'{item["name"]}: sources must be direct HTTPS references')
         if metadata.get('phase') != str(item['step']):
             errors.append(f'{item["name"]}: phase disagrees with catalog')
         for resource in resource_paths(path):

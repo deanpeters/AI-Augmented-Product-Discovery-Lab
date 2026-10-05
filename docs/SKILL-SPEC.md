@@ -33,3 +33,9 @@ The shared format keeps `name` and `description` at the top level and catalog fi
 `phase` remains the motion number for existing tooling. `discovery-phase` names the teaching group. `input-artifacts` and `output-artifacts` describe useful context and results; `optional-upstream` and `optional-downstream` suggest nearby plays. `depends-on` remains “none; standalone entry supported.” These catalog fields are not runtime dependencies or proof that an earlier artifact exists.
 
 Every entry guide explains use, minimum useful context, substitutions, output/decision and what the result cannot prove. Worked examples explain why the author made an illustrative turn, what is still guessed and the real evidence needed next. Regenerate prompts and both kits after changing any of these resources.
+
+## Helping readers choose a play
+
+`operating-level` names where the decision sits, such as product strategy or customer discovery. `audience` names relevant roles. `best-for` gives a few practical reasons to use the play; `scenarios` describes situations readers recognize. `combine-with` suggests optional companion plays, including useful returns to earlier motions. It does not require those plays to run.
+
+`source-basis` explains the framework or authored adaptation behind the play. `sources` contains a short semicolon-separated set of direct reference URLs. These are framework and provenance references, not evidence for a customer, market or synthetic case. The prompt exporter includes these reader fields outside the copy-ready instruction block, so uploading the file preserves the selection guidance without changing the play’s workflow. Changes to these fields invalidate prompt parity.

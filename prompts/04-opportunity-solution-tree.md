@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-team; opportunity exploration
+- **Audience:** Product Managers; Product Leaders; Design; Engineering
+- **Best for:** Exploring a stakeholder request; separating needs from solutions; finding competing options and cheap tests
+- **Situations:** Leadership asks for an AI dashboard before naming the outcome; the team has one favorite solution and needs credible alternatives
+- **Optional companions:** dlab-step03-persona; dlab-step05-value-prop-differentiation; dlab-step07-solution-hypothesis; optional companions, not prerequisites
+- **Source basis:** Teresa Torres’ Opportunity Solution Tree, through Dean Peters’ OST skill; lab customer-payoff and budget tests; outcome → opportunities → solutions → experiments
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/opportunity-solution-tree/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Opportunity Solution Tree
 

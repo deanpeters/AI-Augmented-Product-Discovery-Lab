@@ -129,6 +129,20 @@ class LibraryContractTests(unittest.TestCase):
         image = ROOT / 'assets/productside/build-the-right-thing-process-infographic.png'
         self.assertEqual(image.read_bytes()[:8], b'\x89PNG\r\n\x1a\n')
 
+    def test_reader_metadata_edit_invalidates_prompt_parity(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'lab'
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns('.git', 'runs', '__pycache__'))
+            skill = copy / 'skills/dlab-step03-persona/SKILL.md'
+            text = skill.read_text()
+            text = re.sub(r'^  best-for: .*$',
+                          '  best-for: "A newly clarified reason to use this play"', text, count=1, flags=re.M)
+            skill.write_text(text)
+            result = subprocess.run([sys.executable, str(copy / 'scripts/export-prompts.py'), '--check'],
+                                    capture_output=True, text=True)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn('prompts/03-persona.md', result.stderr)
+
     def test_asset_edit_invalidates_prompt_parity(self):
         with tempfile.TemporaryDirectory() as tmp:
             copy = Path(tmp) / 'lab'

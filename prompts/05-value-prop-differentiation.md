@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-strategy; concept comparison
+- **Audience:** Product Managers; Product Leaders; founders; product marketing
+- **Best for:** Comparing solutions and rivals; explaining customer payoff; testing why customers would choose and pay
+- **Situations:** Several ideas address the same need and need a bake-off; the team claims an AI moat but cannot explain the customer’s net benefit
+- **Optional companions:** dlab-step04-opportunity-solution-tree; dlab-step06-positioning-statement; dlab-step02-segment; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ value-versus-differentiation lab matrix and customer-budget essay; supplied Productside competitive matrix; separate customer value, meaningful difference and provider economics
+- **Sources:** [Reference 1](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/reference/supplied-canvases.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Value Prop vs. Differentiation 2x2
 

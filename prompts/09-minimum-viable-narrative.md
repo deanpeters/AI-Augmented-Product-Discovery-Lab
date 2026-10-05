@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-team; prototype story
+- **Audience:** Product Managers; Design; prototype builders
+- **Best for:** Describing the smallest story worth testing; preserving human action–response transactions; preparing a portable builder prompt
+- **Situations:** A builder needs a clear story rather than a UI specification; a draft flattens several user/system exchanges into one click and a happy ending
+- **Optional companions:** dlab-step08-storyboard; dlab-step07-solution-hypothesis; dlab-step10-prototyping; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ loop-preserving Minimum Viable Narrative; supplied Productside MVN worksheet; Setup, Encounter, 3–6 internal transactions and Resolution
+- **Sources:** [Reference 1](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/reference/supplied-canvases.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/assets/productside/canvases/aipm.minimum-viable-narrative.pdf)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Minimum Viable Narrative
 

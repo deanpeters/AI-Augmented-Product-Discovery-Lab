@@ -105,3 +105,9 @@ Final local verification: 25 regression tests pass; 22 behavioral-case definitio
 All ten skills now have plain-language entry guides, selection descriptions and optional upstream/downstream metadata. Matching prompts embed the guides and reasoning annotations. README and attendee guide share an editable Mermaid flow and rendered lab diagram; the chain guide offers three routes. The attendee exercise checks whether uncertainty changed, and synthetic-learning notes identify real evidence needed next. Session feedback remains UNKNOWN.
 
 Local verification: 27 regression tests pass; 23 use-case definitions validate; metadata, prompt parity, local links, example arithmetic and both client archives pass. Both kit versions are 0.1.5. Case 23 covers independent entry from partial notes and exploration versus investment. These are mechanical checks. New/revised behavioral cases and full rehearsal were not run for this change; no model calls were made. The diagram renders locally. The separate Productside infographic was awaiting its source file at this check; Dean subsequently supplied it for the README.
+
+## Reader metadata refinement: October 5, 2026
+
+All ten skill metadata maps now use motion-specific operating levels, audiences, practical uses, recognizable situations, optional companion plays and readable source attribution. New `sources` values provide direct framework/reference URLs. The skill procedures and ten-motion sequence are unchanged. Prompts include these fields in a short reader section outside the instruction block; metadata edits now invalidate prompt parity.
+
+Local verification: 28 regression tests pass; 23 use-case definitions validate; prompt parity, metadata, local links and both client archives pass. Referenced public Product Manager skill files were checked against live GitHub source files. Both kits are v0.1.6; old v0.1.5 archives are removed. No model calls or new behavioral runs were made for this metadata release.

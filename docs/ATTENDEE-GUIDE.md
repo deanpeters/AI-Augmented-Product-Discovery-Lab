@@ -94,14 +94,14 @@ The prompt includes the skill instructions, template and worked/weak examples. Y
 
 Use the guide for your client:
 
-| Client | Setup | Current v0.1.5 download |
+| Client | Setup | Current v0.1.6 download |
 |---|---|---|
-| Claude | [Claude setup](PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.5.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.5.plugin) |
-| Codex | [Codex setup](CODEX-PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.5.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.5.plugin) |
+| Claude | [Claude setup](PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.6.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-claude-0.1.6.plugin) |
+| Codex | [Codex setup](CODEX-PLUGIN.md) | [ZIP](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.6.zip) / [.plugin](https://raw.githubusercontent.com/deanpeters/AI-Augmented-Product-Discovery-Lab/main/dist/dlab-codex-0.1.6.plugin) |
 
 Both kits contain the same canonical skills, prompts, examples and customer-value guidance, with client-specific packaging. Within each client, `.zip` and `.plugin` contain identical bytes. Keep the ZIP intact for upload where supported. Codex's documented marketplace install uses the repository, not an archive upload. Follow your client's guide; an extension alone does not make a kit installable in every assistant.
 
-If an installed skill still gives an old result, confirm you have **v0.1.5** and start a new session after updating through your client's plugin manager. OST, the 2x2 and Positioning should show skill version **0.4.1**. Uploading the current prompt is a quick fallback that bypasses an old installed skill. Do not delete your client configuration to troubleshoot a cache.
+If an installed skill still gives an old result, confirm you have **v0.1.6** and start a new session after updating through your client's plugin manager. OST, the 2x2 and Positioning should show skill version **0.4.2**. Uploading the current prompt is a quick fallback that bypasses an old installed skill. Do not delete your client configuration to troubleshoot a cache.
 
 ## What to expect at the end
 

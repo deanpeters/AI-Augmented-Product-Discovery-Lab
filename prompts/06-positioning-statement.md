@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-strategy; product positioning
+- **Audience:** Product Managers; Product Leaders; product marketing; founders
+- **Best for:** Naming a clear target and promise; comparing against the main alternative; writing a claim customers can challenge
+- **Situations:** A product pitch is a feature list; the team cannot explain why customers would switch from a familiar workaround
+- **Optional companions:** dlab-step05-value-prop-differentiation; dlab-step03-persona; dlab-step07-solution-hypothesis; optional companions, not prerequisites
+- **Source basis:** Geoffrey Moore-style positioning through Dean Peters’ positioning skill; supplied Productside positioning canvas; lab customer-payoff and renewal reasoning
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/positioning-statement/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/CUSTOMER-VALUE-AND-DIFFERENTIATION.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Positioning Statement
 

@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-team; experiment planning
+- **Audience:** Product Managers; Design; Engineering; Product Operations
+- **Best for:** Turning a concept into an if/then hypothesis; finding the riskiest assumption; deciding what result would change our minds
+- **Situations:** The team has a persuasive concept but no way to disprove it; a sponsor wants success measures before the test is designed
+- **Optional companions:** dlab-step06-positioning-statement; dlab-step04-opportunity-solution-tree; dlab-step10-prototyping; optional companions, not prerequisites
+- **Source basis:** Dean Peters’ epic-hypothesis skill and supplied Productside Solution Hypothesis canvas; lab tiny tests, observable measures and prewritten decision rules
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-hypothesis/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/reference/supplied-canvases.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Solution Hypothesis
 

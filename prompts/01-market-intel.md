@@ -3,6 +3,18 @@
 Copy everything inside the block into your AI chat. Add your context below it.
 Instructions, template and examples are included. No repository access or skill installation is needed.
 
+## About this play
+
+- **Operating level:** product-strategy; market exploration
+- **Audience:** Product Managers; Product Leaders; founders
+- **Best for:** Understanding market shifts; mapping alternatives; choosing where to investigate
+- **Situations:** Leadership wants to enter a market but the evidence is thin; a team needs to understand alternatives before choosing customers
+- **Optional companions:** dlab-step02-segment; dlab-step03-persona; optional companions, not prerequisites
+- **Source basis:** Lab market-intelligence workflow; Dean Peters’ company-research practices for collecting sources and exposing gaps
+- **Sources:** [Reference 1](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-research/SKILL.md), [Reference 2](https://github.com/deanpeters/AI-Augmented-Product-Discovery-Lab/blob/main/docs/CHAIN.md)
+
+Framework references explain this play; they are not customer or market evidence. Companion skills are optional.
+
 ````text
 # Market Intel
 
