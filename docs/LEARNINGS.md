@@ -4,7 +4,7 @@ Written October 3, 2026, two days before the show. A record of decisions, findin
 
 ## What exists now
 
-- **The deck:** `slides/Build-the-Right-Thing.pptx`, 21 native, editable slides in the Productside style, built by `slides/build-deck.js`. A PDF export (`slides/Build-the-Right-Thing.pdf`) is the fallback if the brand fonts are missing on the presenting machine.
+- **The shared deck:** [PDF](../slides/Build-the-Right-Thing.pdf) and [slide outline](../slides/Build-the-Right-Thing-slide-outline.md). The editable PowerPoint and build script are kept outside the repository, following Dean’s October 5 sharing decision.
 - **NotebookLM source docs for the presentation:** `notebook/01-context.md` and `notebook/02-presentation-outline.md`. Sources for the Hall of Shame cases are in `notebook/hall-of-shame-sources.md`.
 - **An industry case file for the attendee notebook:** `notebook/case-study/`, with an exercise guide (`00`), industry and market (`01`), customer, problem and opportunity (`02`), a source register (`03`) and `project-instructions.md` (7,407 characters, for ChatGPT Projects, Gemini Gems, Copilot Agents and NotebookLM).
 - **The research behind the case file:** `research/manufacturing-pdm/`, five sourced reports plus scripts and the prompts used. Raw fetches are in the gitignored `sources/pdm-research-raw/`.

@@ -16,7 +16,7 @@ Brief frame → live motion → audience reaction → synthesis → next questio
 
 ## The deck
 
-`slides/Build-the-Right-Thing.pptx` is a native, editable 21-slide deck in the Productside style. Rebuild it with `slides/build-deck.js` (needs `pptxgenjs`). `slides/Build-the-Right-Thing.pdf` is the fallback if the brand fonts are missing on the presenting machine. Readability rule: canvas shapes stay, text stays minimal (about 16 point minimum), detail lives in the speaker notes.
+The shared presentation materials are the [PDF](slides/Build-the-Right-Thing.pdf) and [slide outline](slides/Build-the-Right-Thing-slide-outline.md). Editable PowerPoint and build sources are kept outside the repository. Readability rule: canvas shapes stay, text stays minimal (about 16 point minimum), detail lives in the speaker notes.
 
 | Slides | Content |
 |---|---|

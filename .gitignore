@@ -9,3 +9,8 @@ runs/
 rehearsal/
 private/
 sources/
+
+# Share only the slide outline and PDF; presenter source stays local.
+/slides/*
+!/slides/Build-the-Right-Thing-slide-outline.md
+!/slides/Build-the-Right-Thing.pdf
