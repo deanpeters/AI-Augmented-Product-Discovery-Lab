@@ -7,7 +7,7 @@ import re
 import zipfile
 from pathlib import Path
 
-from library_assets import RESOURCES
+from library_assets import RESOURCES, codex_skill_bytes
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT / 'plugins/codex.plugin'
@@ -73,7 +73,7 @@ def package_files(root):
         path = root / name
         if path.is_symlink() or not path.resolve().is_relative_to(root.resolve()):
             raise ValueError(f'Package asset must stay inside the checkout: {name}')
-        files[name] = path.read_bytes()
+        files[name] = codex_skill_bytes(path) if name.endswith('/SKILL.md') else path.read_bytes()
     return files
 
 

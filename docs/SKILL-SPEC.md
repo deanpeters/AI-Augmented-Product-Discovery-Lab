@@ -4,9 +4,9 @@ The canonical sequence is Market Intel → Segment → Persona → Opportunity S
 
 Every skill bundles `SKILL.md`, `template.md`, `examples/worked-example.md` and `examples/weak-example.md`. The worked example fills the actual artifact sections with labeled fictional content; the weak example identifies and repairs a motion-specific failure.
 
-Frontmatter keeps `name` and `description` at the top level and rich discovery fields in a supported `metadata` map of string values. This preserves author, version, intent, phase, audience, use cases, inputs, outputs, timing guidance, standalone entry, chaining, provenance and resource paths without adding unsupported top-level keys. These fields are adapted from the recent ADLC and Precedents libraries; their content and licenses are not copied. Original lab materials use CC BY-NC-SA 4.0; Productside references retain separate ownership and sharing permission.
+Repository frontmatter puts each discovery field at the top level so GitHub displays it in a separate row. The Codex archive builder nests custom fields under `metadata` for the native kit. This preserves author, version, intent, phase, audience, use cases, inputs, outputs, timing guidance, standalone entry, chaining, provenance and resource paths. These fields are adapted from the recent ADLC and Precedents libraries; their content and licenses are not copied. Original lab materials use CC BY-NC-SA 4.0; Productside references retain separate ownership and sharing permission.
 
-The validator reads this deliberately small YAML subset: JSON-quoted description and metadata values, plain skill name, two-space metadata indentation. There is no new YAML dependency.
+The validator reads this deliberately small YAML subset: JSON-quoted field values and a plain skill name. It also reads the nested metadata in Codex kits. There is no new YAML dependency.
 
 Each body has three capture modes, up to five numbered questions and two clarifications, visible numbered work, an editable named artifact, claim-level evidence states and a human gate. Synthetic examples never become customer truth. Supplied context is reused.
 
@@ -26,9 +26,9 @@ OST, the value/differentiation bake-off and positioning embed the customer payof
 
 ## Frontmatter audit, October 5, 2026
 
-The shared format keeps `name` and `description` at the top level and catalog fields in a string-valued `metadata` map. Descriptions say when to use the play, what to bring, what it produces and its main limit. Detailed instructions live in the body’s **Start here** section.
+The repository uses separate top-level catalog fields for readable GitHub rows. The Codex kit converts these into a string-valued `metadata` map; values and instructions stay the same. Descriptions say when to use the play, what to bring, what it produces and its main limit. Detailed instructions live in the body’s **Start here** section.
 
-[OpenAI’s skill guidance](https://developers.openai.com/plugins/build/skills) puts selection cues in the description and procedures in the body. [Claude’s frontmatter reference](https://code.claude.com/docs/en/skills) supports `metadata` for custom catalog data but does not act on its contents. The [Agent Skills specification](https://agentskills.io/specification) supports this map. We keep the common fields instead of adding client-specific tool, model or invocation controls.
+[OpenAI’s skill guidance](https://developers.openai.com/plugins/build/skills) puts selection cues in the description and procedures in the body. [Claude’s frontmatter reference](https://code.claude.com/docs/en/skills) supports `metadata` for custom catalog data but does not act on its contents. The [Agent Skills specification](https://agentskills.io/specification) supports this map. Custom catalog fields help readers choose a play; they do not add tool, model or invocation controls.
 
 `phase` remains the motion number for existing tooling. `discovery-phase` names the teaching group. `input-artifacts` and `output-artifacts` describe useful context and results; `optional-upstream` and `optional-downstream` suggest nearby plays. `depends-on` remains “none; standalone entry supported.” These catalog fields are not runtime dependencies or proof that an earlier artifact exists.
 

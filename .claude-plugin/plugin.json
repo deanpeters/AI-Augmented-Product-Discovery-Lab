@@ -1,7 +1,7 @@
 {
   "name": "dlab",
   "description": "AI-Augmented Product Discovery Lab: ten discovery skills (Market Intel, Segment, Persona, Opportunity Solution Tree, Value vs. Differentiation 2x2, Positioning, Solution Hypothesis, Storyboard, Minimum Viable Narrative, Prototyping). Build the right thing before building it right.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": {
     "name": "Dean Peters"
   },

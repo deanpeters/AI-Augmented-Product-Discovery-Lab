@@ -24,6 +24,9 @@ for item in catalog:
         errors.append(f'Missing {path}')
         continue
     try:
+        front = path.read_text().split('---', 2)[1]
+        if '\nmetadata:' in front or any(line.startswith('  ') for line in front.splitlines()):
+            errors.append(f'{item["name"]}: repository fields must have separate top-level rows')
         fields, body = parse_frontmatter(path)
         if set(fields) != {'name', 'description', 'metadata'}:
             errors.append(f'{item["name"]}: unsupported metadata')

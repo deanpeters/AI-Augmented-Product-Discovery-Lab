@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from library_assets import parse_frontmatter, portable_skill, resource_paths
+from library_assets import parse_frontmatter, portable_skill, resource_paths, codex_skill_bytes
 
 EXPECTED = [
     'Market Intel', 'Segment', 'Persona', 'Opportunity Solution Tree',
@@ -20,6 +20,18 @@ EXPECTED = [
 
 
 class LibraryContractTests(unittest.TestCase):
+    def test_github_rows_and_codex_metadata_preserve_same_content(self):
+        for skill in (ROOT / 'skills').glob('*/SKILL.md'):
+            front = skill.read_text().split('---', 2)[1]
+            self.assertNotIn('metadata:', front)
+            self.assertIn('\naudience: ', front)
+            self.assertIn('\noperating-level: ', front)
+            with tempfile.TemporaryDirectory() as directory:
+                packaged = Path(directory) / 'SKILL.md'
+                packaged.write_bytes(codex_skill_bytes(skill))
+                self.assertEqual(parse_frontmatter(skill), parse_frontmatter(packaged))
+                self.assertIn('\nmetadata:\n  ', packaged.read_text())
+
     def test_exact_chain_and_full_case_order(self):
         catalog = json.loads((ROOT / 'docs/catalog.json').read_text())
         self.assertEqual([item['title'] for item in catalog], EXPECTED)
@@ -135,8 +147,8 @@ class LibraryContractTests(unittest.TestCase):
             shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns('.git', 'runs', '__pycache__'))
             skill = copy / 'skills/dlab-step03-persona/SKILL.md'
             text = skill.read_text()
-            text = re.sub(r'^  best-for: .*$',
-                          '  best-for: "A newly clarified reason to use this play"', text, count=1, flags=re.M)
+            text = re.sub(r'^best-for: .*$',
+                          'best-for: "A newly clarified reason to use this play"', text, count=1, flags=re.M)
             skill.write_text(text)
             result = subprocess.run([sys.executable, str(copy / 'scripts/export-prompts.py'), '--check'],
                                     capture_output=True, text=True)

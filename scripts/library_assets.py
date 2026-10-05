@@ -23,6 +23,10 @@ def parse_frontmatter(path):
             in_metadata = False
             key, value = line.split(': ', 1)
             fields[key] = value if key == 'name' else json.loads(value)
+    # Normalize catalog fields for existing consumers; repository YAML stays flat.
+    metadata.update({key: value for key, value in fields.items()
+                     if key not in ('name', 'description')})
+    fields = {key: fields[key] for key in ('name', 'description')}
     fields['metadata'] = metadata
     return fields, body.strip()
 
@@ -48,3 +52,15 @@ def portable_skill(skill):
     for old, new in replacements.items():
         text = text.replace(old, new)
     return text
+
+
+def codex_skill_bytes(path):
+    """Keep the native kit format compatible while GitHub gets readable rows."""
+    fields, _ = parse_frontmatter(path)
+    body = Path(path).read_text()[4:].split('\n---\n', 1)[1]
+    lines = ['---', 'name: ' + fields['name'],
+             'description: ' + json.dumps(fields['description'], ensure_ascii=False),
+             'metadata:']
+    lines.extend('  ' + key + ': ' + json.dumps(value, ensure_ascii=False)
+                 for key, value in fields['metadata'].items())
+    return ('\n'.join(lines) + '\n---\n' + body).encode()

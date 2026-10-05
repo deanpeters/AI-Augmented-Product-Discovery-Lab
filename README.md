@@ -98,7 +98,7 @@ Share the [repository and Mural QR codes](assets/qr/README.md) during the worksh
 
 ## Repository and reuse
 
-The repository is public; the current attendee distribution is v0.1.6. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
+The repository is public; the current attendee distribution is v0.1.7. No autonomous discovery operator is implemented. There is no agent-strategy canvas in the demo or chain.
 
 ```text
 skills/       10 skills with templates and worked/weak examples

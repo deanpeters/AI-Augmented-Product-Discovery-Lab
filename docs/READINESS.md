@@ -4,7 +4,7 @@ Status as of October 5, 2026. This records kit checks, not a completed session o
 
 ## Attendee distribution
 
-The public repository ships **v0.1.6** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
+The public repository ships **v0.1.7** for Claude and Codex. Start with the [attendee guide](ATTENDEE-GUIDE.md); no-install prompt uploads/pasting remain the easiest route. `dist/` holds only the four current client-specific `.zip`/`.plugin` files. The `plugins/codex.plugin` compatibility copy matches the current Codex kit.
 
 - Plain-language entry guides, optional handoffs, three alternate routes and a bring-your-own-problem exercise. Session feedback remains unanswered.
 - Ten canonical skills with matching self-contained prompts, templates and worked/weak examples; the chain and standalone modes are preserved.
